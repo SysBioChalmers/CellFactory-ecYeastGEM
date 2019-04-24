@@ -87,5 +87,4 @@ Contributions are always welcome! Please read the [contributions guideline](http
 * [Feiran Li](https://www.sysbio.se/people/feiran-li) 
 ([@feiranl](https://github.com/feiranl)), Chalmers University of Technology, Sweden
 * [Hongzhong Lu](https://www.sysbio.se/people/hongzhong-lu) ([@hongzhonglu](https://github.com/hongzhonglu)), Chalmers University of Technology, Sweden
-* [Yao Lu](hhttps://www.sysbio.se/people/yao-lu) 
-([@Yaolu](https://github.com/yaolu)), Chalmers University of Technology, Sweden
+* [Yao Lu](hhttps://www.sysbio.se/people/yao-lu), Chalmers University of Technology, Sweden
