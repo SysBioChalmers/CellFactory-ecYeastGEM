@@ -83,8 +83,8 @@ Contributions are always welcome! Please read the [contributions guideline](http
   
 ## Contributors
 
-* [Eduard J. Kerkhoven](https://www.sysbio.se/people/eduard-kerkhoven/) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Sweden
-* [Feiran Li](https://www.sysbio.se/people/feiran-li) 
-([@feiranl](https://github.com/feiranl)), Chalmers University of Technology, Sweden
-* [Hongzhong Lu](https://www.sysbio.se/people/hongzhong-lu) ([@hongzhonglu](https://github.com/hongzhonglu)), Chalmers University of Technology, Sweden
-* [Yao Lu](hhttps://www.sysbio.se/people/yao-lu), Chalmers University of Technology, Sweden
+* [Eduard J. Kerkhoven](https://www.sysbio.se/people/eduard-kerkhoven/) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Gothenburg Sweden
+* [Feiran Li](https://www.sysbio.se/people/feiran-li) ([@feiranl](https://github.com/feiranl)), Chalmers University of Technology, Gothenburg Sweden
+* [Hongzhong Lu](https://www.sysbio.se/people/hongzhong-lu) ([@hongzhonglu](https://github.com/hongzhonglu)), Chalmers University of Technology, Gothenburg Sweden
+* [Ivan Domenzain](https://github.com/IVANDOMENZAIN) ([@IVANDOMENZAIN](https://github.com/IVANDOMENZAIN)), Chalmers University of Technology, Gothenburg Sweden
+* [Yao Lu](hhttps://www.sysbio.se/people/yao-lu), Chalmers University of Technology, Gothenburg Sweden
