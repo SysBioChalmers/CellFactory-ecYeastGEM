@@ -2684,12 +2684,6 @@ model.metComps(4163)=1;
 model.metComps(4164)=1;
 model.metComps(4165)=1;
 model.metComps(4166)=3;
-model=changeRxnBounds(model,'r_1714_REV',1000,'u');
-model=changeRxnBounds(model,'r_2111',0.1,'l');
-model=changeObjective(model,'newRxn26');
-FBAsolution=optimizeCbModel(model)
-cd ../../result_ecYeast/ecModels
-save ecRosmarinic_acid.mat model
 
 
 
