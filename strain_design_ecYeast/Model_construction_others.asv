@@ -2799,59 +2799,14 @@ model = addReaction(model,'newRxn11','metaboliteList',{'prot_pool','prot_P07023'
 model = addReaction(model,'newRxn12','metaboliteList',{'prot_pool','prot_A0A0L0LT01'},'stoichCoeffList',[-MW3 1],'reversible',false);
 model = addReaction(model,'newRxn13','metaboliteList',{'prot_pool','prot_P0A9Q7'},'stoichCoeffList',[-MW4 1],'reversible',false);
 model = addReaction(model,'newRxn14','metaboliteList',{'prot_pool','prot_Q9SK82'},'stoichCoeffList',[-MW5 1],'reversible',false);
-model = addReaction(model,'newRxn15','metaboliteList',{'s_4395','s_4401'},'stoichCoeffList',[-1 1],'reversible',false);
-model = addReaction(model,'newRxn16','metaboliteList',{'s_4399'},'stoichCoeffList',[-1],'reversible',false);
-model = addReaction(model,'newRxn17','metaboliteList',{'s_4396','s_4402'},'stoichCoeffList',[-1 1],'reversible',false);
-model = addReaction(model,'newRxn18','metaboliteList',{'s_4402'},'stoichCoeffList',[-1],'reversible',false)
 model = removeGenes(model,'YNL316C'); % delete PHA2
 model = removeGenes(model,'YLR044C'); % delete PDC1
 model = removeGenes(model,'YKL211C'); % delete TRP3
 model=changeGeneAssociation(model,'newRxn1','AAS');
 model=changeGeneAssociation(model,'newRxn2','TyrAM53I/A354V');
-model=changeGeneAssociation(model,'newRxn3','xfp');
-model=changeGeneAssociation(model,'newRxn4','ADH');
-model=changeGeneAssociation(model,'newRxn5','UGT85A1');
-model.geneShortNames(1125)={'AAS'};
-model.geneShortNames(1126)={'TyrAM53I/A354V'};
-model.geneShortNames(1127)={'xfp'};
-model.geneShortNames(1128)={'ADH'};
-model.geneShortNames(1129)={'UGT85A1'};
-model.enzymes(964)={'Q06086'};
-model.enzymes(965)={'P07023'};
-model.enzymes(966)={'A0A0L0LT01'};
-model.enzymes(967)={'P0A9Q7'};
-model.enzymes(968)={'Q9SK82'};
-model.enzGenes(964)={'AAS'};
-model.enzGenes(965)={'TyrAM53I/A354V'};
-model.enzGenes(966)={'xfp'};
-model.enzGenes(967)={'ADH'};
-model.enzGenes(968)={'UGT85A1'};
-model.metComps(4147)=1;
-model.metComps(4148)=1;
-model.metComps(4149)=1;
-model.metComps(4150)=1;
-model.metComps(4151)=1;
-model.metComps(4152)=1;
-model.metComps(4153)=1;
-model.metComps(4154)=1;
-model.metComps(4155)=1;
-model.metComps(4156)=1;
-model.metComps(4157)=3;
-model.metComps(4158)=3;
-model.metComps(4159)=3;
-model.metComps(4160)=3;
-model=changeRxnBounds(model,'r_1714_REV',1000,'u');
-model=changeRxnBounds(model,'r_2111',0.1,'l');
-model=changeObjective(model,'newRxn7'); % For tyrosol production
-cd ../../strain_design_ecYeast
-c_sourceID = 'D-glucose exchange (reversible)';
-model = lychangeMedia_batch(model,c_sourceID,'YEP');
-FBAsolution=optimizeCbModel(model)
-cd ../result_ecYeast/ecModels
-save ecTyrosol.mat model
-model=changeObjective(model,'newRxn9'); % For salidroside production
-FBAsolution=optimizeCbModel(model)
-save ecSalidroside.mat model
+model=changeGeneAssociation(model,'newRxn3','ARO7G141S');
+model=changeGeneAssociation(model,'newRxn4','aroL');
+model=changeGeneAssociation(model,'newRxn5','XYL1');
 
 
 
