@@ -3105,44 +3105,26 @@ model=changeGeneAssociation(model,'newRxn3','mvaE');
 model=changeGeneAssociation(model,'newRxn4','mvaS');
 model=changeGeneAssociation(model,'newRxn5','CYP725A4 ');
 model=changeGeneAssociation(model,'newRxn6','TAT');
-model.geneShortNames(1128)={'TASY'};
-model.geneShortNames(1129)={'crtE'};
-model.geneShortNames(1130)={'mvaE'};
-model.geneShortNames(1131)={'mvaS'};
-model.geneShortNames(1132)={'CYP725A4'};
-model.geneShortNames(1133)={'TAT'};
-model.enzymes(964)={'Q2PRN4'};
-model.enzymes(965)={'Q1L6K3'};
-model.enzymes(966)={'Q9FD70'};
-model.enzymes(967)={'Q9FD71'};
-model.enzymes(968)={'Q6WG30'};
-model.enzymes(969)={'Q9M6F0'};
-model.enzGenes(964)={'TASY'};
-model.enzGenes(965)={'crtE'};
-model.enzGenes(966)={'mvaE'};
-model.enzGenes(967)={'mvaS'};
-model.enzGenes(968)={'CYP725A4'};
-model.enzGenes(969)={'TAT'};
+model.geneShortNames(1128)={'bAS'};
+model.geneShortNames(1129)={'uni25647'};
+model.geneShortNames(1130)={'CYP72A63'};
+model.geneShortNames(1128)={'bAS'};
+model.geneShortNames(1129)={'uni25647'};
+model.geneShortNames(1130)={'CYP72A63'};
+
+model.enzymes(964)={'Q9MB42'};
+model.enzymes(965)={'A0A218KSA8'};
+model.enzymes(966)={'H1A981'};
+model.enzGenes(964)={'bAS'};
+model.enzGenes(965)={'uni25647'};
+model.enzGenes(966)={'CYP72A63'};
 model.metComps(4147)=1;
 model.metComps(4148)=1;
 model.metComps(4149)=1;
 model.metComps(4150)=1;
 model.metComps(4151)=1;
 model.metComps(4152)=1;
-model.metComps(4153)=1;
-model.metComps(4154)=1;
-model.metComps(4155)=1;
-model.metComps(4156)=3;
-model=changeRxnBounds(model,'r_1714_REV',1000,'u');
-model=changeRxnBounds(model,'r_2111',0.1,'l');
-model=changeObjective(model,'newRxn8');
-model=changeRxnBounds(model,'r_1710_REV',1,'u'); % add galactose
-cd ../../strain_design_ecYeast
-c_sourceID = 'D-glucose exchange (reversible)';
-model = lychangeMedia_batch(model,c_sourceID,'YEP');
-FBAsolution=optimizeCbModel(model)
-cd ../result_ecYeast/ecModels
-save ecTaxadien_5alpha_yl_acetate.mat model
+model.metComps(4153)=3;
 
 
 

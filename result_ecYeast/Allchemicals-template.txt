@@ -386,7 +386,7 @@ L-ornithine 	r_1987				1	0	Inf
 ¦Â-ionone	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c]	YJL167W	0	0	1000	P08524	2.2	40.4829	2.5.1.1						
 ¦Â-ionone	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c]	YHR190W	0	0	1000	P29704	0.825	51.7193	2.5.1.21						
 ¦Â-ionone	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c]	YLR450W	0	0	1000	P12684	92.5526	115.691	1.1.1.34						
-¦Â-ionone	r_0373No1	farnesyltranstransferase (No1)	farnesyl diphosphate[c] + isopentenyl diphosphate[c] => geranylgeranyl diphosphate[c] + diphosphate[c]	YPL069C	0	0	1000	Q12051	6.6								
+¦Â-ionone	r_0373No1	farnesyltranstransferase (No1)	farnesyl diphosphate[c] + isopentenyl diphosphate[c] => geranylgeranyl diphosphate[c] + diphosphate[c]	YPL069C	0	0	1000	Q12051	6.6	38.6511	2.5.1.29						
 																	
 Xanthone	Xanthone_1	benzoic acid exchange	 => benzoic acid[e]		0	0	1000					0.1			YEP	glucose	
 Xanthone	Xanthone_2	benzoic acid transport	benzoic acid[e] => benzoic acid[c]		0	0	1000										
@@ -714,6 +714,50 @@ Salidroside	Salidroside_10	Ammonia transport	Ammonia[c] => Ammonia[e]		0	0	1000
 Salidroside	Salidroside_11	Ammonia exchange	Ammonia[e] =>		0	0	1000										
 Salidroside	Salidroside_12	acetyl phosphate transport	acetyl phosphate[c] => acetyl phosphate[e]		0	0	1000										
 Salidroside	Salidroside_13	acetyl phosphate exchange	acetyl phosphate[e] =>		0	0	1000										
+																	
+Miltiradiene	r_0373No1	farnesyltranstransferase (No1)	farnesyl diphosphate[c] + isopentenyl diphosphate[c] => geranylgeranyl diphosphate[c] + diphosphate[c]	YPL069C	0	0	1000	Q12051	6.6	38.6511	2.5.1.29	0.1			YEP	glucose	
+Miltiradiene	r_0355No1	dimethylallyltranstransferase (No1)	isopentenyl diphosphate[c] + prenyl diphosphate(3-)[c] => diphosphate[c] + geranyl diphosphate[c]	YJL167W	0	0	1000	P08524	2.2	40.4829	2.5.1.1						
+Miltiradiene	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c]	YJL167W	0	0	1000	P08524	2.2	40.4829	2.5.1.1						
+Miltiradiene	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c]	YLR450W	0	0	1000	P12684	92.5526	115.691	1.1.1.34						
+Miltiradiene	Miltiradiene_1	labdadienyl/copalyl diphosphate synthase	geranylgeranyl diphosphate[c] => Copalyl diphosphate[c]	CPS	0	0	1000	B8PQ84		90.483	5.5.1.12						
+Miltiradiene	Miltiradiene_2	kaurene synthase	Copalyl diphosphate[c] => diphosphate[c] + Miltiradiene[c]	KSL	0	0	1000	C8XPS0		68.37	4.2.3.131						
+Miltiradiene	Miltiradiene_3	Miltiradiene transport	Miltiradiene[c] => Miltiradiene[e]		0	0	1000										
+Miltiradiene	Miltiradiene_4	Miltiradiene exchange	Miltiradiene[e] => 		1	0	1000										
+																	
+Caffeic acid	Caffeic acid_1	coumarate 3-hydroxylase	p-coumaric acid[c] => caffeic acid[c]	C3H	0	0	1000	O22203		57.927	1.14.13.-	0.1			YEP	Glucose	YDR380W,YLR134W
+Caffeic acid	Caffeic acid_2	tyrosine ammonia-lyase	L-tyrosine[c] => ammonium[c] + p-coumaric acid[c]	TAL	0	0	1000	A0A1M4NET9	27.7	55.539	4.3.1.23						
+Caffeic acid	Caffeic acid_3	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L	0	0	1000	P32449ly	0.082809792	39.7487	2.5.1.54						
+Caffeic acid	Caffeic acid_4	chorismate mutase	chorismate[c] => prephenate[c]	ARO7G141S	0	0	1000	P32178ly	0.1338606	29.7468	5.4.99.5						
+Caffeic acid	Caffeic acid_5	caffeic acid transpory	caffeic acid[c] => caffeic acid[e]														
+Caffeic acid	Caffeic acid_6	caffeic acid exchange	caffeic acid[e] =>														
+																	
+Valencene	Valencene_1	valencene synthase	farnesyl diphosphate[c] => valencene[c] + diphosphate[c]	VS	0	0	1000	S4SC87	0.0032	69.219	4.2.3.73	0.1			YEP	Glucose	YPL069C,YDR284C,YDR503C
+Valencene	Valencene_2	valencene transport	valencene[c] => valencene[e]		0	0	1000										
+Valencene	Valencene_3	valencene exchange	valencene[e] =>		1	0	1000										
+Valencene	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c]	YLR450W	0	0	1000	P12684	92.5526	115.691	1.1.1.34						
+Valencene	r_0904No1	phosphomevalonate kinase (No1)	(R)-5-phosphomevalonic acid[c] + ATP[c] => (R)-5-diphosphomevalonic acid[c] + ADP[c]	YMR220W	0	0	1000	P24521	6.8	50.4544	2.7.4.2						
+Valencene	r_0103No1	acetyl-CoA C-acetyltransferase (No1)	2 acetyl-CoA[c] => acetoacetyl-CoA[c] + coenzyme A[c]	YPL028W	0	0	1000	P41338	1800	41.7282	2.3.1.9						
+Valencene	r_0104No1	acetyl-CoA C-acetyltransferase (No1)	2 acetyl-CoA[m] => acetoacetyl-CoA[m] + coenzyme A[m]	YPL028W	0	0	1000	P41338	1800	41.7282	2.3.1.9						
+Valencene	r_0103_REVNo1	acetyl-CoA C-acetyltransferase (reversible) (No1)	acetoacetyl-CoA[c] + coenzyme A[c] => 2 acetyl-CoA[c]	YPL028W	0	0	1000	P41338	10000000	41.7282	2.3.1.9						
+Valencene	r_0104_REVNo1	acetyl-CoA C-acetyltransferase (reversible) (No1)	acetoacetyl-CoA[m] + coenzyme A[m] => 2 acetyl-CoA[m]	YPL028W	0	0	1000	P41338	10000000	41.7282	2.3.1.9						
+Valencene	r_0735No1	mevalonate kinase (atp) (No1)	(R)-mevalonate[c] + ATP[c] => (R)-5-phosphomevalonic acid[c] + ADP[c] + H+[c]	YMR208W	0	0	1000	P07277	43.8001	48.459	2.7.1.36						
+Valencene	r_0736No1	mevalonate kinase (ctp) (No1)	(R)-mevalonate[c] + CTP[c] => (R)-5-phosphomevalonic acid[c] + CDP[c] + H+[c]	YMR208W	0	0	1000	P07277	43.8001	48.459	2.7.1.36						
+Valencene	r_0737No1	mevalonate kinase (gtp) (No1)	(R)-mevalonate[c] + GTP[c] => (R)-5-phosphomevalonic acid[c] + GDP[c] + H+[c]	YMR208W	0	0	1000	P07277	43.8001	48.459	2.7.1.36						
+Valencene	r_0738No1	mevalonate kinase (UTP) (No1)	(R)-mevalonate[c] + UTP[c] => (R)-5-phosphomevalonic acid[c] + H+[c] + UDP[c]	YMR208W	0	0	1000	P07277	43.8001	48.459	2.7.1.36						
+Valencene	r_0559No1	hydroxymethylglutaryl CoA synthase (No1)	acetoacetyl-CoA[c] + acetyl-CoA[c] + H2O[c] => 3-hydroxy-3-methylglutaryl-CoA[c] + coenzyme A[c] + H+[c]	YML126C	0	0	1000	P54839	0.83	55.0128	2.3.3.10						
+Valencene	r_0560No1	hydroxymethylglutaryl CoA synthase (No1)	acetoacetyl-CoA[m] + acetyl-CoA[m] + H2O[m] => 3-hydroxy-3-methylglutaryl-CoA[m] + coenzyme A[m] + H+[m]	YML126C	0	0	1000	P54839	0.83	55.0128	2.3.3.10						
+Valencene	r_0739No1	mevalonate pyrophoshate decarboxylase (No1)	(R)-5-diphosphomevalonic acid[c] + ATP[c] => ADP[c] + carbon dioxide[c] + isopentenyl diphosphate[c] + phosphate[c]	YNR043W	0	0	1000	P32377	9.8	44.1154	4.1.1.33						
+Valencene	r_0355No1	dimethylallyltranstransferase (No1)	isopentenyl diphosphate[c] + prenyl diphosphate(3-)[c] => diphosphate[c] + geranyl diphosphate[c]	YJL167W	0	0	1000	P08524	2.2	40.4829	2.5.1.1						
+Valencene	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c]	YJL167W	0	0	1000	P08524	2.2	40.4829	2.5.1.1						
+Valencene	r_0667No1	isopentenyl-diphosphate D-isomerase (No1)	isopentenyl diphosphate[c] => prenyl diphosphate(3-)[c]	YPL117C	0	0	1000	P15496	59800	33.3511	5.3.3.2						
+Valencene	r_0667_REVNo1	isopentenyl-diphosphate D-isomerase (reversible) (No1)	prenyl diphosphate(3-)[c] => isopentenyl diphosphate[c]	YPL117C	0	0	1000	P15496	0.1212	33.3511	5.3.3.2						
+Valencene	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c]	YHR190W	0	0	1000	P29704	0.825	51.7193	2.5.1.21						
+																	
+Glycyrrhetinic acid	Glycyrrhetinic acid_1	¦Â-amyrin synthase	(S)-2,3-epoxysqualene[c] => ¦Â-Amyrin[c]	bAS	0	0	1000	Q9MB42	0.77	87.516	5.4.99.39	0.1			YEP	Glucose	
+Glycyrrhetinic acid	Glycyrrhetinic acid_2	Beta-amyrin 11-oxidase	¦Â-Amyrin[c] + 2 oxygen[c] => 11-Oxo-beta-amyrin[c] + 3 H2O[c]	uni25647	0	0	1000	A0A218KSA8		56.456	1.14.14.152						
+Glycyrrhetinic acid	Glycyrrhetinic acid_3	11-oxo-beta-amyrin 30-oxidase	11-Oxo-beta-amyrin[c] + 3 oxygen[c] => Glycyrrhetinic acid[c] + 4 H2O[c]	CYP72A63	0	0	1000	H1A981		59.454	1.14.14.115						
+Glycyrrhetinic acid	Glycyrrhetinic acid_4	Glycyrrhetinic acid transport	Glycyrrhetinic acid[c] => Glycyrrhetinic acid[e]		0	0	1000										
+Glycyrrhetinic acid	Glycyrrhetinic acid_5	Glycyrrhetinic acid exchange	Glycyrrhetinic acid[e] =>		1	0	1000										
 																	
 Ergosterol												0.1			Min	glucose	
 Glycine												0.1			Min	glucose	

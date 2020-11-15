@@ -100,7 +100,7 @@ metList    = strrep(metList,' ','_');
 metList    = [metList,'Growth'];
 Rows       = ['WT_yields';model.genes];
 ResultsTable = cell2table(resultsMat,'VariableNames',metList,'RowNames',Rows);
-writetable(ResultsTable,['../../result_ecYeast/' filename],'WriteVariableNames',true,'WriteRowNames',true,'Delimiter','\t')
+writetable(ResultsTable,['../../result_ecYeast/results_Findtargets' filename],'WriteVariableNames',true,'WriteRowNames',true,'Delimiter','\t')
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
