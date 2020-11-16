@@ -759,6 +759,40 @@ Glycyrrhetinic acid	Glycyrrhetinic acid_3	11-oxo-beta-amyrin 30-oxidase	11-Oxo-b
 Glycyrrhetinic acid	Glycyrrhetinic acid_4	Glycyrrhetinic acid transport	Glycyrrhetinic acid[c] => Glycyrrhetinic acid[e]		0	0	1000										
 Glycyrrhetinic acid	Glycyrrhetinic acid_5	Glycyrrhetinic acid exchange	Glycyrrhetinic acid[e] =>		1	0	1000										
 																	
+Taxa-4(20),11(12)-dien-6alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_1	Taxadiene synthase	geranylgeranyl diphosphate[c] => diphosphate[c] + taxadiene[c]	TASY 	0	0	1000	Q2PRN4	0.16	97.962	4.2.3.17	0.1			YEP	Glucose	
+Taxa-4(20),11(12)-dien-6alpha-yl acetate	r_0904No1	phosphomevalonate kinase (No1)	(R)-5-phosphomevalonic acid[c] + ATP[c] => (R)-5-diphosphomevalonic acid[c] + ADP[c] 		0	0	1000		6.8	50.4544	2.7.4.2						
+Taxa-4(20),11(12)-dien-7alpha-yl acetate	r_0735No1	mevalonate kinase (atp) (No1)	(R)-mevalonate[c] + ATP[c] => (R)-5-phosphomevalonic acid[c] + ADP[c] + H+[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
+Taxa-4(20),11(12)-dien-8alpha-yl acetate	r_0736No1	mevalonate kinase (ctp) (No1)	(R)-mevalonate[c] + CTP[c] => (R)-5-phosphomevalonic acid[c] + CDP[c] + H+[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
+Taxa-4(20),11(12)-dien-9alpha-yl acetate	r_0737No1	mevalonate kinase (gtp) (No1)	(R)-mevalonate[c] + GTP[c] => (R)-5-phosphomevalonic acid[c] + GDP[c] + H+[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
+Taxa-4(20),11(12)-dien-10alpha-yl acetate	r_0738No1	mevalonate kinase (UTP) (No1)	(R)-mevalonate[c] + UTP[c] => (R)-5-phosphomevalonic acid[c] + H+[c] + UDP[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
+Taxa-4(20),11(12)-dien-11alpha-yl acetate	r_0739No1	mevalonate pyrophoshate decarboxylase (No1)	(R)-5-diphosphomevalonic acid[c] + ATP[c] => ADP[c] + carbon dioxide[c] + isopentenyl diphosphate[c] + phosphate[c] 		0	0	1000		9.8	44.1154	4.1.1.33						
+Taxa-4(20),11(12)-dien-12alpha-yl acetate	r_0355No1	dimethylallyltranstransferase (No1)	isopentenyl diphosphate[c] + prenyl diphosphate(3-)[c] => diphosphate[c] + geranyl diphosphate[c] 		0	0	1000		2.2	40.4829	2.5.1.1						
+Taxa-4(20),11(12)-dien-13alpha-yl acetate	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c] 		0	0	1000		2.2	40.4829	2.5.1.1						
+Taxa-4(20),11(12)-dien-14alpha-yl acetate	r_0667No1	isopentenyl-diphosphate D-isomerase (No1)	isopentenyl diphosphate[c] => prenyl diphosphate(3-)[c] 		0	0	1000		59800	33.3511	5.3.3.2						
+Taxa-4(20),11(12)-dien-15alpha-yl acetate	r_0667_REVNo1	isopentenyl-diphosphate D-isomerase (reversible) (No1)	prenyl diphosphate(3-)[c] => isopentenyl diphosphate[c] 		0	0	1000		0.1212	33.3511	5.3.3.2						
+Taxa-4(20),11(12)-dien-16alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_2	geranylgeranyl diphosphate synthase	farnesyl diphosphate[c] + isopentenyl diphosphate[c] => diphosphate[c] + geranylgeranyl diphosphate[c]	crtE 	0	0	1000	Q1L6K3	8.4	42.153	2.5.1.29						
+Taxa-4(20),11(12)-dien-17alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_3	Acetyl-CoA acetyltransferase	acetyl-CoA[c] => coenzyme A[c] + acetoacetyl-CoA[c]	mvaE 	0	0	1000	Q9FD70		86.497	2.3.1.9						
+Taxa-4(20),11(12)-dien-18alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_4	Hydroxymethylglutaryl-CoA synthase	acetyl-CoA[c] + acetoacetyl-CoA[c] + H2O[c] => 3-hydroxy-3-methylglutaryl-CoA[c] + coenzyme A[c]	mvaS 	0	0	1000	Q9FD71	7.025166667	42.151	2.3.3.10						
+Taxa-4(20),11(12)-dien-19alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_5	Taxadiene 5-alpha hydroxylase	taxadiene[c] + oxygen[c] => Taxa-4(20),11-dien-5alpha-ol[c] + H2O[c]	CYP725A4 	0	0	1000	Q6WG30		56.558	1.14.99.37						
+Taxa-4(20),11(12)-dien-20alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_6	Taxadien-5-alpha-ol O-acetyltransferase	Taxa-4(20),11-dien-5alpha-ol[c] + acetyl-CoA[c] => Taxa-4(20),11(12)-dien-5alpha-yl acetate[c] + coenzyme A[c]	TAT 	0	0	1000	Q9M6F0	29.59	49.08	2.3.1.162						
+Taxa-4(20),11(12)-dien-21alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_7	Taxa-4(20),11(12)-dien-5alpha-yl acetate transport	Taxa-4(20),11(12)-dien-5alpha-yl acetate[c] => Taxa-4(20),11(12)-dien-6alpha-yl acetate[e]		0	0	1000										
+Taxa-4(20),11(12)-dien-22alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_8	Taxa-4(20),11(12)-dien-6alpha-yl acetate exchange	Taxa-4(20),11(12)-dien-6alpha-yl acetate[e] =>		1	0	1000										
+																	
+Vitamin A	Vitamin A_1	geranylgeranyl diphosphate synthase	farnesyl diphosphate[c] + isopentenyl diphosphate[c] => diphosphate[c] + geranylgeranyl diphosphate[c]	crtE 	0	0	1000	Q1L6K3	8.4	42.153	2.5.1.29	0.1			Min	xylose	YPL061W
+Vitamin A	Vitamin A_2	Bifunctional lycopene cyclase/phytoene synthase	2 geranylgeranyl diphosphate[c] => 2 diphosphate[c] + phytoene[c]	crtYB 	0	0	1000	Q7Z859	0.0834552	74.736	2.5.1.32						
+Vitamin A	Vitamin A_3	Phytoene desaturase	phytoene[c] => neurosporene[c]	crtI 	0	0	1000	Q7Z858	0.000314486	65.066	1.3.99.28						
+Vitamin A	Vitamin A_4	Phytoene desaturase	neurosporene[c] + oxygen[c] => 2 H2O[c] + lycopene[c]	crtI 	0	0	1000	Q7Z858	0.000314486	65.066	1.3.99.28						
+Vitamin A	Vitamin A_5	Bifunctional lycopene cyclase/phytoene synthase	lycopene[c] => ¦Â-carotene[c]	crtYB 	0	0	1000	Q7Z859	0.4434336	74.736	5.5.1.19						
+Vitamin A	Vitamin A_6	Beta-carotene 15,15'-dioxygenase	¦Â-carotene[c] + oxygen[c] => 2 Retinal[c]	blh 	0	0	1000	Q4PNI0	0.037	31.037	1.13.11.63						
+Vitamin A	Vitamin A_7	retinol dehydrogenase	Retinal[c] + NADH[c] + H+[c] => Retinol[c] + NAD[c]	ADH 	0	0	1000	P00330		36.8487	1.1.1.1						
+Vitamin A	Vitamin A_8	xylose reductase	D-xylose[c] + H+[c] + NADH[c] => xylitol[c] + NAD[c]	XYL1 	0	0	1000	P31867	27.5	35.923	1.1.1.307						
+Vitamin A	Vitamin A_9	xylose reductase	D-xylose[c] + H+[c] + NADPH[c] => xylitol[c] + NADP(+)[c]	XYL1 	0	0	1000	P31867	27.5	35.923	1.1.1.307						
+Vitamin A	Vitamin A_10	xylulose reductase	xylitol[c] + NAD[c] => D-xylulose[c] + H+[c] + NADH[c]	XYL2 	0	0	1000	P22144	30.33	38.521	1.1.1.9						
+Vitamin A	Vitamin A_11	xylulokinase	ATP[c] + D-xylulose[c] => ADP[c] + D-xylulose 5-phosphate[c] + H+[c] 	XYL3 	0	0	1000	Q9P938	1.144819177	69.397	2.7.1.17						
+Vitamin A	Vitamin A_12	Vitamin A formation	Retinal[c] + Retinol[c] => Vitamin A[c]		0	0	1000										
+Vitamin A	Vitamin A_13	Vitamin A transport	Vitamin A[c] => Vitamin A[e]		0	0	1000										
+Vitamin A	Vitamin A_14	Vitamin A exchange	Vitamin A[e] =>		1	0	1000										
+																	
 Ergosterol												0.1			Min	glucose	
 Glycine												0.1			Min	glucose	
 Alanine												0.1			Min	glucose	
