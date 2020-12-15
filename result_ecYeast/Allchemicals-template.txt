@@ -1,20 +1,20 @@
 Chemicals	rxns	rxnNames	formulas	grRules	c	lb	ub	proteins	kcats	MWs	EC_number	¦Ì	qO2	ATP	Medium	Carbon source	deletion
-Lactic acid	Lactic acid_1	L-lactate dehydrogenase	pyruvate[c] + NADH[c] + H+[c] => (S)-lactate[c] + NAD[c]	LDHA 	0	0	1000	P19858	7.0146	36.598	1.1.1.27	0.29			YEP	glucose	YDL022W,YML054C,YLR044C,YOL086C,YPL061W
+Lactic acid	Lactic acid_1	L-lactate dehydrogenase	pyruvate[c] + NADH[c] + H+[c] => (S)-lactate[c] + NAD[c]	LDHA 	0	0	1000	P19858	7.0146	36.598	1.1.1.27	0.29			YEP	glucose	"YDL022W,YML054C,YLR044C,YOL086C,YPL061W"
 Lactic acid	Lactic acid_2	acetaldehyde dehydrogenase	acetaldehyde[c] + coenzyme A[c] + NAD[c] => acetyl-CoA[c] + NADH[c] + H+[c]	EutE 	0	0	1000	P77445	15.7	49.022	1.2.1.10						
 Lactic acid	Lactic acid_3	L-lactate transport	(S)-lactate[c] => (S)-lactate[e]		0	0	1000										
 Lactic acid	Lactic acid_4	L-lactate exchange	(S)-lactate[e] =>		1	0	1000										
 																	
-Malate	r_0958No1	pyruvate carboxylase (No1)	pmet_r_0958[c] => ADP[c] + H+[c] + oxaloacetate[c] + phosphate[c]	YBR218C	0	0	1000	P32327	0.52	130.166		0.1			Min	glucose	YLR044C,YLR134W,YGR087C,YDL078C
+Malate	r_0958No1	pyruvate carboxylase (No1)	pmet_r_0958[c] => ADP[c] + H+[c] + oxaloacetate[c] + phosphate[c]	YBR218C	0	0	1000	P32327	0.52	130.166		0.1			Min	glucose	"YLR044C,YLR134W,YGR087C,YDL078C"
 Malate	r_0958No2	pyruvate carboxylase (No2)	pmet_r_0958[c] => ADP[c] + H+[c] + oxaloacetate[c] + phosphate[c]	YGL062W	0	0	1000	P11154	0.52	130.098							
-Malate	r_0714_REVNo1	malate dehydrogenase, cytoplasmic (reversible) (No1)	H+[c] + NADH[c] + oxaloacetate[c] => (S)-malate[c] + NAD[c]	YOL126C	0	0	1000	P22133	20.70467083	40.7305							
+Malate	r_0714_REVNo1	"malate dehydrogenase, cytoplasmic (reversible) (No1)"	H+[c] + NADH[c] + oxaloacetate[c] => (S)-malate[c] + NAD[c]	YOL126C	0	0	1000	P22133	20.70467083	40.7305							
 Malate	r_1901_REV	L-malate transport (reversible)	(S)-malate[c] => (S)-malate[e]	mae1 	0	0	1000	P50537		49.304	2.A.16.2.1						
 			 														
-cis,cis-muconic acid	cis,cis-muconic acid_1	dehydroshikimate dehydratase	3-dehydroshikimate[c] => 3,4-Dihydroxybenzoate[c] + H2O[c]	Pa_5_5120 	0	0	1000	3DSD	121.44	40.48	4.2.1.118	0.1			YEP	glucose	YDR035W,YBR249C,YNL241C
-cis,cis-muconic acid	cis,cis-muconic acid_2	protocatechuic acid decarboxylase	3,4-Dihydroxybenzoate[c] + H+[c] => carbon dioxide[c] + Catechol[c]	ECL_01944 	0	0	1000	A0A0H3CJN8	90	53.541	4.1.1.63						
-cis,cis-muconic acid	cis,cis-muconic acid_3	catechol 1,2-dioxygenase	Catechol[c] + oxygen[c] => 2 H+[c] + cis,cis-muconate[c]	HQD2 	0	0	1000	P86029	157.7333333	33.8	1.13.11.1						
-cis,cis-muconic acid	cis,cis-muconic acid_4	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.082809792	39.7487	2.5.1.54						
-cis,cis-muconic acid	cis,cis-muconic acid_5	cis,cis-muconic acid transport	cis,cis-muconate[c] => cis,cis-muconate[e]		0	0	1000										
-cis,cis-muconic acid	cis,cis-muconic acid_6	cis,cis-muconic acid exchange	cis,cis-muconate[e] =>		1	0	1000										
+"cis,cis-muconic acid"	"cis,cis-muconic acid_1"	dehydroshikimate dehydratase	"3-dehydroshikimate[c] => 3,4-Dihydroxybenzoate[c] + H2O[c]"	Pa_5_5120 	0	0	1000	3DSD	121.44	40.48	4.2.1.118	0.1			YEP	glucose	"YDR035W,YBR249C,YNL241C"
+"cis,cis-muconic acid"	"cis,cis-muconic acid_2"	protocatechuic acid decarboxylase	"3,4-Dihydroxybenzoate[c] + H+[c] => carbon dioxide[c] + Catechol[c]"	ECL_01944 	0	0	1000	A0A0H3CJN8	90	53.541	4.1.1.63						
+"cis,cis-muconic acid"	"cis,cis-muconic acid_3"	"catechol 1,2-dioxygenase"	"Catechol[c] + oxygen[c] => 2 H+[c] + cis,cis-muconate[c]"	HQD2 	0	0	1000	P86029	157.7333333	33.8	1.13.11.1						
+"cis,cis-muconic acid"	"cis,cis-muconic acid_4"	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.082809792	39.7487	2.5.1.54						
+"cis,cis-muconic acid"	"cis,cis-muconic acid_5"	"cis,cis-muconic acid transport"	"cis,cis-muconate[c] => cis,cis-muconate[e]"		0	0	1000										
+"cis,cis-muconic acid"	"cis,cis-muconic acid_6"	"cis,cis-muconic acid exchange"	"cis,cis-muconate[e] =>"		1	0	1000										
 																	
 Resveratrol	Resveratrol_1	tyrosine ammonia-lyase	L-tyrosine[c] => ammonium[c] + trans-4-coumarate[c]	Haur_4629	0	0	1000	A9B0P2	0.076	56.397	4.3.1.23	0.15			Min	glucose	
 Resveratrol	Resveratrol_2	4-coumaryl-CoA ligase	trans-4-coumarate[c] + ATP[c] + coenzyme A[c] => AMP[c] + diphosphate[c] + 4-coumaroyl-CoA[c]	4CL1	0	0	1000	Q42524	12.719375	61.053	6.2.1.12						
@@ -77,14 +77,14 @@ Trans-cinnamate	Trans-cinnamate_1	phenylalanine ammonia-lyase	L-phenylalanine[c]
 Trans-cinnamate	Trans-cinnamate_2	cinnamate transport	cinnamate[c] => cinnamate[e]		0	0	1000										
 Trans-cinnamate	Trans-cinnamate_3	cinnamate exchange	cinnamate[e] =>		1	0	1000										
 																	
-p-coumaric acid	p-coumaric acid_1	tyrosine ammonia-lyase	L-tyrosine[c] => ammonium[c] + p-coumaric acid[c]	TAL 	0	0	1000	A5FKY3	0.023	56.649	4.3.1.23	0.1			YEP	glucose	YBR249C,YPR060C,YDR380W,YLR134W
+p-coumaric acid	p-coumaric acid_1	tyrosine ammonia-lyase	L-tyrosine[c] => ammonium[c] + p-coumaric acid[c]	TAL 	0	0	1000	A5FKY3	0.023	56.649	4.3.1.23	0.1			YEP	glucose	"YBR249C,YPR060C,YDR380W,YLR134W"
 p-coumaric acid	p-coumaric acid_2	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.215305458	39.7487	2.5.1.54						
 p-coumaric acid	p-coumaric acid_3	chorismate mutase	chorismate[c] => prephenate[c]	ARO7G141S 	0	0	1000	P32178ly	0.1338606	29.7468	5.4.99.5						
 p-coumaric acid	p-coumaric acid_4	shikimate kinase	ATP[c] + shikimate[c] => 3-phosphoshikimic acid[c] + ADP[c] + H+[c]	aroL 	0	0	1000	P0A6E1	31.91833333	19.151	2.7.1.71						
 p-coumaric acid	p-coumaric acid_5	p-coumaric acid transport	p-coumaric acid[c] => p-coumaric acid[e]		0	0	1000										
 p-coumaric acid	p-coumaric acid_6	p-coumaric acid exchange	p-coumaric acid[e] =>		1	0	1000										
 																	
-p-coumaric acid	p-coumaric acid_1	tyrosine ammonia-lyase	L-tyrosine[c] => ammonium[c] + p-coumaric acid[c]	TAL 	0	0	1000	A5FKY3	0.023	56.649	4.3.1.23	0.11			Min	xylose	YBR249C,YPR060C,YDR380W,YLR134W
+p-coumaric acid	p-coumaric acid_1	tyrosine ammonia-lyase	L-tyrosine[c] => ammonium[c] + p-coumaric acid[c]	TAL 	0	0	1000	A5FKY3	0.023	56.649	4.3.1.23	0.11			Min	xylose	"YBR249C,YPR060C,YDR380W,YLR134W"
 p-coumaric acid	p-coumaric acid_2	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.215305458	39.7487	2.5.1.54						
 p-coumaric acid	p-coumaric acid_3	chorismate mutase	chorismate[c] => prephenate[c]	ARO7G141S 	0	0	1000	P32178ly	0.1338606	29.7468	5.4.99.5						
 p-coumaric acid	p-coumaric acid_4	shikimate kinase	ATP[c] + shikimate[c] => 3-phosphoshikimic acid[c] + ADP[c] + H+[c]	aroL 	0	0	1000	P0A6E1	31.91833333	19.151	2.7.1.71						
@@ -95,8 +95,8 @@ p-coumaric acid	p-coumaric acid_8	xylose reductase	D-xylose[c] + H+[c] + NADPH[c
 p-coumaric acid	p-coumaric acid_9	xylulose reductase	xylitol[c] + NAD[c] => D-xylulose[c] + H+[c] + NADH[c]		0	0	1000	P22144	30.33	38.521	1.1.1.9						
 p-coumaric acid	p-coumaric acid_10	xylulokinase	ATP[c] + D-xylulose[c] => ADP[c] + D-xylulose 5-phosphate[c] + H+[c]		0	0	1000	Q9P938	1.144819177	69.397	2.7.1.17						
 																	
-Artemisinic acid	Artemisinic acid_1	amorphadiene synthase	farnesyl diphosphate[c] => diphosphate[c] + amorpha-4,11-diene[c]	ADS 	0	0	1000	Q9AR04	0.186	63.933	4.2.3.24	0.1			YEP	glucose	
-Artemisinic acid	Artemisinic acid_2	Amorpha-4,11-diene 12-monooxygenase	2 H+[c] + amorpha-4,11-diene[c] + 3 oxygen[c] + 3 NADPH[c] => 4 H2O[c] + 3 NADP(+)[c] + artemisinic acid[c]	CYP71AV1 	0	0	1000	Q1PS23	7.74	55.725	1.14.14.114						
+Artemisinic acid	Artemisinic acid_1	amorphadiene synthase	"farnesyl diphosphate[c] => diphosphate[c] + amorpha-4,11-diene[c]"	ADS 	0	0	1000	Q9AR04	0.186	63.933	4.2.3.24	0.1			YEP	glucose	
+Artemisinic acid	Artemisinic acid_2	"Amorpha-4,11-diene 12-monooxygenase"	"2 H+[c] + amorpha-4,11-diene[c] + 3 oxygen[c] + 3 NADPH[c] => 4 H2O[c] + 3 NADP(+)[c] + artemisinic acid[c]"	CYP71AV1 	0	0	1000	Q1PS23	7.74	55.725	1.14.14.114						
 Artemisinic acid	Artemisinic acid_3	artemisinic acid transport	artemisinic acid[c] => artemisinic acid[e]		0	0	1000										
 Artemisinic acid	Artemisinic acid_4	artemisinic acid exchange	artemisinic acid[e] =>		1	0	1000										
 Artemisinic acid	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c]	YLR450W	0	0	1000	P12684	92.5526	115.691	1.1.1.34						
@@ -128,7 +128,7 @@ Limonene	Limonene_5	limonene transport	Limonene[c] => Limonene[e]		0	0	1000
 Limonene	Limonene_6	limonene exchange	Limonene[e] =>		1	0	1000										
 Limonene	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c]	YJL167W	0	0	1000	P08524	0.55	40.4829							
 																	
-4-hydroxymandelic	4-hydroxymandelic_1	hydroxymandelate synthase	3-(4-hydroxyphenyl)pyruvate[c] + oxygen[c] => carbon dioxide[c] + 4-hydroxymandelic[c]	hmaS 	0	0	1000	Q5J1Q8	3.7	36.597	1.13.11.46	0.1			Min	glucose	YNL316C,YER090W,YDR380W,YLR134W,YGL202W,YBR249C
+4-hydroxymandelic	4-hydroxymandelic_1	hydroxymandelate synthase	3-(4-hydroxyphenyl)pyruvate[c] + oxygen[c] => carbon dioxide[c] + 4-hydroxymandelic[c]	hmaS 	0	0	1000	Q5J1Q8	3.7	36.597	1.13.11.46	0.1			Min	glucose	"YNL316C,YER090W,YDR380W,YLR134W,YGL202W,YBR249C"
 4-hydroxymandelic	4-hydroxymandelic_2	hydroxymandelate synthase	keto-phenylpyruvate[c] + oxygen[c] => carbon dioxide[c] + mandelic[c] + H+[c]	hmaS 	0	0	1000	Q5J1Q8	0.88	36.597	1.13.11.46						
 4-hydroxymandelic	4-hydroxymandelic_3	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.215305458	39.7487	2.5.1.54						
 4-hydroxymandelic	4-hydroxymandelic_4	4-hydroxymandelic transport	4-hydroxymandelic[c] => 4-hydroxymandelic[e]		0	0	1000										
@@ -140,7 +140,7 @@ Limonene	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopen
 4-hydroxymandelic	r_0997No1	shikimate dehydrogenase	ATP[c] + shikimate[c] => 3-phosphoshikimic acid[c] + ADP[c] + H+[c]	YDR127W	0	0	1000	P08566	120	174.753							
 4-hydroxymandelic	r_1903_REV				0	0	1										
 																	
-mandelic	mandelic_1	hydroxymandelate synthase	3-(4-hydroxyphenyl)pyruvate[c] + oxygen[c] => carbon dioxide[c] + 4-hydroxymandelic[c]	hmaS 	0	0	1000	Q5J1Q8	3.7	36.597	1.13.11.46	0.1			Min	glucose	YBR166C,YER090W,YDR380W,YLR134W,YGL202W,YBR249C
+mandelic	mandelic_1	hydroxymandelate synthase	3-(4-hydroxyphenyl)pyruvate[c] + oxygen[c] => carbon dioxide[c] + 4-hydroxymandelic[c]	hmaS 	0	0	1000	Q5J1Q8	3.7	36.597	1.13.11.46	0.1			Min	glucose	"YBR166C,YER090W,YDR380W,YLR134W,YGL202W,YBR249C"
 mandelic	mandelic_2	hydroxymandelate synthase	keto-phenylpyruvate[c] + oxygen[c] => carbon dioxide[c] + mandelic[c] + H+[c]	hmaS 	0	0	1000	Q5J1Q8	0.88	36.597	1.13.11.46						
 mandelic	mandelic_3	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.215305458	39.7487	2.5.1.54						
 mandelic	mandelic_4	4-hydroxymandelic transport	4-hydroxymandelic[c] => 4-hydroxymandelic[e]		0	0	1000										
@@ -152,13 +152,13 @@ mandelic	mandelic_9	anthranilate exchange	 => anthranilate[e]		0	0	1
 mandelic	r_0997No1	shikimate dehydrogenase	ATP[c] + shikimate[c] => 3-phosphoshikimic acid[c] + ADP[c] + H+[c]	YDR127W	0	0	1000	P08566	120	174.753							
 mandelic	r_1913_REV				0	0	1										
 																	
-Oleanolic acid	Oleanolic acid_1	Beta-amyrin synthase	(S)-2,3-epoxysqualene[c] => ¦Â-amyrin[c]	GgbAS1 	0	0	1000	Q9MB42	0.77	87.516	5.4.99.39	0.1			YEP	glucose	YBR020W
+Oleanolic acid	Oleanolic acid_1	Beta-amyrin synthase	"(S)-2,3-epoxysqualene[c] => ¦Â-amyrin[c]"	GgbAS1 	0	0	1000	Q9MB42	0.77	87.516	5.4.99.39	0.1			YEP	glucose	YBR020W
 Oleanolic acid	Oleanolic acid_2	Beta-amyrin 28-monooxygenase	2 H+[c] + ¦Â-amyrin[c] + 3 oxygen[c] + 3 NADPH[c] => 4 H2O[c] + Oleanolic acid[c] + 3 NADP(+)[c]	CYP716A12 	0	0	1000	Q2MJ20		54.713	1.14.13.201						
 Oleanolic acid	Oleanolic acid_3	oleanolic acid transport	Oleanolic acid[c] => Oleanolic acid[e]		0	0	1000										
 Oleanolic acid	Oleanolic acid_4	oleanolic acid exchange	Oleanolic acid[e] =>		1	0	1000										
 Oleanolic acid	r_0558No2	hydroxymethylglutaryl CoA reductase (No2)	pmet_r_0558[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c]	YML075C	0	0	1000	P12683	92.4996								
-Oleanolic acid	r_1010No1	squalene epoxidase (NAD) (No1)	H+[er] + NADH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NAD[er]	YGR175C	0	0	1000	P32476	0.152								
-Oleanolic acid	r_1011No1	squalene epoxidase (NADP) (No1)	H+[er] + NADPH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NADP(+)[er]	YGR175C	0	0	1000	P32476	0.152								
+Oleanolic acid	r_1010No1	squalene epoxidase (NAD) (No1)	"H+[er] + NADH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NAD[er]"	YGR175C	0	0	1000	P32476	0.152								
+Oleanolic acid	r_1011No1	squalene epoxidase (NADP) (No1)	"H+[er] + NADPH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NADP(+)[er]"	YGR175C	0	0	1000	P32476	0.152								
 Oleanolic acid	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c]	YHR190W	0	0	1000	P29704	3.3								
 																	
 Fumaric acid	Fumaric acid_1	malate dehydrogenase	H+[c] + NADH[c] + oxaloacetate[c] => (S)-malate[c] + NAD[c]	RoMDH 	0	0	1000	D6R7B7	24.026625	35.595	1.1.1.37	0.1			Min	glucose	block r_0714_REVNo1 (Mdh2p is known to be subject to glucose catabolite inactivation)
@@ -167,18 +167,18 @@ Fumaric acid	r_0958No2	pyruvate carboxylase (No2)	pmet_r_0958[c] => ADP[c] + H+[
 Fumaric acid	r_1798				1	0	Inf										
 Fumaric acid	r_0714_REVNo1				0	0	0										
 																	
-Pyruvate	Pyruvate_1	NADH oxidase	oxygen[c] + 3 H+[c] + NADH[c] => 2 H2O[c] + NAD[c]	noxE	0	0	1000	A2RIB7	57.4246	48.872	1.6.99.3	0.2			YEP	glucose	YLR044C,YLR134W,YGR087C
+Pyruvate	Pyruvate_1	NADH oxidase	oxygen[c] + 3 H+[c] + NADH[c] => 2 H2O[c] + NAD[c]	noxE	0	0	1000	A2RIB7	57.4246	48.872	1.6.99.3	0.2			YEP	glucose	"YLR044C,YLR134W,YGR087C"
 Pyruvate	Pyruvate_2	transhydrogenase	NADP(+)[c] + NADH[c] => NADPH[c] + NAD[c]	udhA	0	0	1000	P27306	167.9	51.56	1.6.1.1						
 Pyruvate	Pyruvate_2_REV	transhydrogenase	NADPH[c] + NAD[c] => NADP(+)[c] + NADH[c]	udhA	0	0	1000	P27306	9.1304	51.56	1.6.1.1						
 Pyruvate	r_2033				1	0	Inf										
 																	
-Adipic acid	Adipic acid_1	dehydroshikimate dehydratase	3-dehydroshikimate[c] => 3,4-Dihydroxybenzoate[c] + H2O[c]	Pa_5_5120 	0	0	1000	3DSD	121.44	40.48	4.2.1.118	0.1			YEP	glucose	YDR035W,YBR249C,YNL241C
-Adipic acid	Adipic acid_2	protocatechuic acid decarboxylase	3,4-Dihydroxybenzoate[c] + H+[c] => carbon dioxide[c] + Catechol[c]	ECL_01944 	0	0	1000	A0A0H3CJN8	90	53.541	4.1.1.63						
-Adipic acid	Adipic acid_3	catechol 1,2-dioxygenase	Catechol[c] + oxygen[c] => 2 H+[c] + cis,cis-muconate[c]	HQD2 	0	0	1000	P86029	157.7333333	33.8	1.13.11.1						
+Adipic acid	Adipic acid_1	dehydroshikimate dehydratase	"3-dehydroshikimate[c] => 3,4-Dihydroxybenzoate[c] + H2O[c]"	Pa_5_5120 	0	0	1000	3DSD	121.44	40.48	4.2.1.118	0.1			YEP	glucose	"YDR035W,YBR249C,YNL241C"
+Adipic acid	Adipic acid_2	protocatechuic acid decarboxylase	"3,4-Dihydroxybenzoate[c] + H+[c] => carbon dioxide[c] + Catechol[c]"	ECL_01944 	0	0	1000	A0A0H3CJN8	90	53.541	4.1.1.63						
+Adipic acid	Adipic acid_3	"catechol 1,2-dioxygenase"	"Catechol[c] + oxygen[c] => 2 H+[c] + cis,cis-muconate[c]"	HQD2 	0	0	1000	P86029	157.7333333	33.8	1.13.11.1						
 Adipic acid	Adipic acid_4	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.082809792	39.7487	2.5.1.54						
-Adipic acid	Adipic acid_5	cis,cis-muconic acid transport	cis,cis-muconate[c] => cis,cis-muconate[e]		0	0	1000										
-Adipic acid	Adipic acid_6	cis,cis-muconic acid exchange	cis,cis-muconate[e] =>		0	0	1000										
-Adipic acid	Adipic acid_7	enoate reductase	cis,cis-muconate[c] + NADH[c] + 3 H+[c] => Adipic acid[c] + NAD[c]	ERBC	0	0	1000	G2TQU6	8.376025	72.835	1.3.1.31	0.1			YEP	glucose	
+Adipic acid	Adipic acid_5	"cis,cis-muconic acid transport"	"cis,cis-muconate[c] => cis,cis-muconate[e]"		0	0	1000										
+Adipic acid	Adipic acid_6	"cis,cis-muconic acid exchange"	"cis,cis-muconate[e] =>"		0	0	1000										
+Adipic acid	Adipic acid_7	enoate reductase	"cis,cis-muconate[c] + NADH[c] + 3 H+[c] => Adipic acid[c] + NAD[c]"	ERBC	0	0	1000	G2TQU6	8.376025	72.835	1.3.1.31	0.1					
 Adipic acid	Adipic acid_8	adipic acid transport	Adipic acid[c] => Adipic acid[e]		0	0	1000										
 Adipic acid	Adipic acid_9	adipic acid exchange	Adipic acid[e] =>		1	0	1000										
 Adipic acid	r_2189_REV				0	0	1										
@@ -186,33 +186,33 @@ Adipic acid	r_1757_REV				0	0	1
 Adipic acid	r_2038_REV				0	0	1										
 Adipic acid	r_1807_REV				0	0	1										
 																	
-Isobutanol	r_0016No1	2-aceto-2-hydroxybutanoate synthase (No1)	pmet_r_0016[m] + 1.72533e-05 prot_P25605 => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2			0.1			YEP	glucose	YPL061W,YHR208W
+Isobutanol	r_0016No1	2-aceto-2-hydroxybutanoate synthase (No1)	pmet_r_0016[m] + 1.72533e-05 prot_P25605 => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2			0.1			YEP	glucose	"YPL061W,YHR208W"
 Isobutanol	r_0016No2	2-aceto-2-hydroxybutanoate synthase (No2)	pmet_r_0016[m] => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2								
 Isobutanol	r_0097No1	acetolactate synthase (No1)	3.45066e-05 prot_P25605 + pmet_r_0097[m] => 2-acetyllactic acid[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	16.1								
 Isobutanol	r_0097No2	acetolactate synthase (No2)	pmet_r_0097[m] => 2-acetyllactic acid[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	16.1								
-Isobutanol	r_0352No1	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate) (No1)	(R)-2,3-dihydroxy-3-methylbutanoate[m] => 3-methyl-2-oxobutanoate[m] + H2O[m]	YJR016C	0	0	1000	P39522	50								
-Isobutanol	r_0353No1	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate) (No1)	(2R,3R)-2,3-dihydroxy-3-methylpentanoate[m] => (S)-3-methyl-2-oxopentanoate[m] + H2O[m]	YJR016C	0	0	1000	P39522	50								
-Isobutanol	r_0096No1	acetohydroxy acid isomeroreductase (No1)	2-acetyllactic acid[m] + H+[m] + NADPH[m] => (R)-2,3-dihydroxy-3-methylbutanoate[m] + NADP(+)[m]	YLR355C	0	0	1000	P06168	36.6								
-Isobutanol	r_0669No1	ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate) (No1)	(S)-2-acetyl-2-hydroxybutanoate[m] + H+[m] + NADPH[m] => (2R,3R)-2,3-dihydroxy-3-methylpentanoate[m] + NADP(+)[m]	YLR355C	0	0	1000	P06168	1.96								
+Isobutanol	r_0352No1	"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate) (No1)"	"(R)-2,3-dihydroxy-3-methylbutanoate[m] => 3-methyl-2-oxobutanoate[m] + H2O[m]"	YJR016C	0	0	1000	P39522	50								
+Isobutanol	r_0353No1	"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate) (No1)"	"(2R,3R)-2,3-dihydroxy-3-methylpentanoate[m] => (S)-3-methyl-2-oxopentanoate[m] + H2O[m]"	YJR016C	0	0	1000	P39522	50								
+Isobutanol	r_0096No1	acetohydroxy acid isomeroreductase (No1)	"2-acetyllactic acid[m] + H+[m] + NADPH[m] => (R)-2,3-dihydroxy-3-methylbutanoate[m] + NADP(+)[m]"	YLR355C	0	0	1000	P06168	36.6								
+Isobutanol	r_0669No1	ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate) (No1)	"(S)-2-acetyl-2-hydroxybutanoate[m] + H+[m] + NADPH[m] => (2R,3R)-2,3-dihydroxy-3-methylpentanoate[m] + NADP(+)[m]"	YLR355C	0	0	1000	P06168	1.96								
 Isobutanol	r_0854No1	phenylpyruvate decarboxylase (No1)	H+[c] + keto-phenylpyruvate[c] => carbon dioxide[c] + phenylacetaldehyde[c]	YDR380W	0	0	1000	Q06408	1140								
 Isobutanol	r_0163No1	alcohol dehydrogenase (ethanol to acetaldehyde) (No1)	ethanol[c] + NAD[c] => acetaldehyde[c] + H+[c] + NADH[c]	YMR303C	0	0	1000	P00331	286								
 Isobutanol	r_1866				1	0	Inf										
 																	
-3-Methyl-1-Butanol	r_0016No1	2-aceto-2-hydroxybutanoate synthase (No1)	pmet_r_0016[m] + 1.72533e-05 prot_P25605 => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2			0.1			YEP	glucose	YPL061W,YHR208W
+3-Methyl-1-Butanol	r_0016No1	2-aceto-2-hydroxybutanoate synthase (No1)	pmet_r_0016[m] + 1.72533e-05 prot_P25605 => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2			0.1			YEP	glucose	"YPL061W,YHR208W"
 3-Methyl-1-Butanol	r_0016No2	2-aceto-2-hydroxybutanoate synthase (No2)	pmet_r_0016[m] => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2								
 3-Methyl-1-Butanol	r_0097No1	acetolactate synthase (No1)	3.45066e-05 prot_P25605 + pmet_r_0097[m] => 2-acetyllactic acid[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	16.1								
 3-Methyl-1-Butanol	r_0097No2	acetolactate synthase (No2)	pmet_r_0097[m] => 2-acetyllactic acid[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	16.1								
-3-Methyl-1-Butanol	r_0352No1	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate) (No1)	(R)-2,3-dihydroxy-3-methylbutanoate[m] => 3-methyl-2-oxobutanoate[m] + H2O[m]	YJR016C	0	0	1000	P39522	50								
-3-Methyl-1-Butanol	r_0353No1	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate) (No1)	(2R,3R)-2,3-dihydroxy-3-methylpentanoate[m] => (S)-3-methyl-2-oxopentanoate[m] + H2O[m]	YJR016C	0	0	1000	P39522	50								
-3-Methyl-1-Butanol	r_0096No1	acetohydroxy acid isomeroreductase (No1)	2-acetyllactic acid[m] + H+[m] + NADPH[m] => (R)-2,3-dihydroxy-3-methylbutanoate[m] + NADP(+)[m]	YLR355C	0	0	1000	P06168	36.6								
-3-Methyl-1-Butanol	r_0669No1	ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate) (No1)	(S)-2-acetyl-2-hydroxybutanoate[m] + H+[m] + NADPH[m] => (2R,3R)-2,3-dihydroxy-3-methylpentanoate[m] + NADP(+)[m]	YLR355C	0	0	1000	P06168	1.96								
+3-Methyl-1-Butanol	r_0352No1	"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate) (No1)"	"(R)-2,3-dihydroxy-3-methylbutanoate[m] => 3-methyl-2-oxobutanoate[m] + H2O[m]"	YJR016C	0	0	1000	P39522	50								
+3-Methyl-1-Butanol	r_0353No1	"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate) (No1)"	"(2R,3R)-2,3-dihydroxy-3-methylpentanoate[m] => (S)-3-methyl-2-oxopentanoate[m] + H2O[m]"	YJR016C	0	0	1000	P39522	50								
+3-Methyl-1-Butanol	r_0096No1	acetohydroxy acid isomeroreductase (No1)	"2-acetyllactic acid[m] + H+[m] + NADPH[m] => (R)-2,3-dihydroxy-3-methylbutanoate[m] + NADP(+)[m]"	YLR355C	0	0	1000	P06168	36.6								
+3-Methyl-1-Butanol	r_0669No1	ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate) (No1)	"(S)-2-acetyl-2-hydroxybutanoate[m] + H+[m] + NADPH[m] => (2R,3R)-2,3-dihydroxy-3-methylpentanoate[m] + NADP(+)[m]"	YLR355C	0	0	1000	P06168	1.96								
 3-Methyl-1-Butanol	r_0854No1	phenylpyruvate decarboxylase (No1)	H+[c] + keto-phenylpyruvate[c] => carbon dioxide[c] + phenylacetaldehyde[c]	YDR380W	0	0	1000	Q06408	1140								
 3-Methyl-1-Butanol	r_0163No1	alcohol dehydrogenase (ethanol to acetaldehyde) (No1)	ethanol[c] + NAD[c] => acetaldehyde[c] + H+[c] + NADH[c]	YMR303C	0	0	1000	P00331	286								
 3-Methyl-1-Butanol	r_0024No1	2-isopropylmalate synthase (No1)	pmet_r_0024[c] => 2-isopropylmalate[c] + coenzyme A[c] + H+[c]	YNL104C	0	0	1000	P06208	27.58								
 3-Methyl-1-Butanol	r_0025No1	2-isopropylmalate synthase (No1)	3-methyl-2-oxobutanoate[m] + acetyl-CoA[m] + H2O[m] => 2-isopropylmalate[m] + coenzyme A[m] + H+[m]	YNL104C	0	0	1000	P06208	27.58								
 3-Methyl-1-Butanol	r_1598				1	0	Inf										
 																	
-Naringenin	Naringenin_1	Phenylalanine ammonia-lyase	L-phenylalanine[c] => ammonium[c] + cinnamate[c]	PAL1 	0	0	1000	P35510	1.8	78.726	4.3.1.24	0.2			Min	glucose	YDR035W,YBR249C,YDR380W,YLR134W,YGR087C
+Naringenin	Naringenin_1	Phenylalanine ammonia-lyase	L-phenylalanine[c] => ammonium[c] + cinnamate[c]	PAL1 	0	0	1000	P35510	1.8	78.726	4.3.1.24	0.2			Min	glucose	"YDR035W,YBR249C,YDR380W,YLR134W,YGR087C"
 Naringenin	Naringenin_2	Cinnamate-4-hydroxylase	H+[c] + oxygen[c] + cinnamate[c] + NADPH[c] => H2O[c] + NADP(+)[c] + trans-4-coumarate[c]	C4H 	0	0	1000	P92994	1.72	57.792	1.14.13.11						
 Naringenin	Naringenin_3	Chalcone isomerase	H+[c] + naringenin chalcone[c] => naringenin[c]	CHI1 	0	0	1000	Q8VZW3		23.332	5.5.1.6						
 Naringenin	Naringenin_4	Chalcone synthase	2 H+[c] + 4-coumaroyl-CoA[c] + 3 malonyl-CoA[c] => 4 coenzyme A[c] + 3 carbon dioxide[c] + naringenin chalcone[c]	CHS3 	0	0	1000	P13114	0.001	43.116	2.3.1.74						
@@ -234,7 +234,7 @@ Catechin	Catechin_9	leucoanthocyanidin reductase	leucocyanidin[c] + NADPH[c] + H
 Catechin	Catechin_10	catechin transport	catechin[c] => catechin[e]		0	0	1000										
 Catechin	Catechin_11	catechin exchange	catechin[e] =>		1	0	1000										
 																	
-Amorphadiene	Amorphadiene_1	amorphadiene synthase	farnesyl diphosphate[c] => amorphadiene[c] + diphosphate[c]	ADS 	0	0	1000	Q9AR04	0.518	63.933	4.2.3.24	0.1			Min	glucose	YBR020W,YBR018C,YBR019C
+Amorphadiene	Amorphadiene_1	amorphadiene synthase	farnesyl diphosphate[c] => amorphadiene[c] + diphosphate[c]	ADS 	0	0	1000	Q9AR04	0.518	63.933	4.2.3.24	0.1			Min	glucose	"YBR020W,YBR018C,YBR019C"
 Amorphadiene	Amorphadiene_2	amorphadiene transport	amorphadiene[c] => amorphadiene[e]		0	0	1000										
 Amorphadiene	Amorphadiene_3	amorphadiene exchange	amorphadiene[e] =>		1	0	1000										
 Amorphadiene	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c]	YLR450W	0	0	1000	P12684	92.5526	115.691	1.1.1.34						
@@ -257,13 +257,13 @@ Amorphadiene	r_0667_REVNo1	isopentenyl-diphosphate D-isomerase (reversible) (No1
 Amorphadiene	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c]	YHR190W	0	0	1000	P29704	0.825	51.7193	2.5.1.21						
 Amorphadiene	r_1710_REV				0	0	1										
 																	
-Protopanaxadiol	Protopanaxadiol_1	dammarenediol-II synthase	(S)-2,3-epoxysqualene[c] + H2O[c] => Dammarenediol II[c]	DDS 	0	0	1000	Q08IT1		88.343	4.2.1.125	0.1			Min	glucose	
+Protopanaxadiol	Protopanaxadiol_1	dammarenediol-II synthase	"(S)-2,3-epoxysqualene[c] + H2O[c] => Dammarenediol II[c]"	DDS 	0	0	1000	Q08IT1		88.343	4.2.1.125	0.1			Min	glucose	
 Protopanaxadiol	Protopanaxadiol_2	protopanaxadiol synthase	H+[c] + oxygen[c] + Dammarenediol II[c] + NADPH[c] => protopanaxadiol[c] + H2O[c] + NADP(+)[c]	PPDS 	0	0	1000	H2DH16		55.356	1.14.14.120						
 Protopanaxadiol	Protopanaxadiol_3	protopanaxadiol transport	protopanaxadiol[c] => protopanaxadiol[e]		0	0	1000										
 Protopanaxadiol	Protopanaxadiol_4	protopanaxadiol exchange	protopanaxadiol[e] =>		1	0	1000										
 Protopanaxadiol	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c]	YLR450W	0	0	1000	P12684	92.5526	115.691	1.1.1.34						
-Protopanaxadiol	r_1010No1	squalene epoxidase (NAD) (No1)	H+[er] + NADH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NAD[er]	YGR175C	0	0	1000	P32476	0.152	55.1254	1.14.14.17						
-Protopanaxadiol	r_1011No1	squalene epoxidase (NADP) (No1)	H+[er] + NADPH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NADP(+)[er]	YGR175C	0	0	1000	P32476	0.152	55.1254	1.14.14.17						
+Protopanaxadiol	r_1010No1	squalene epoxidase (NAD) (No1)	"H+[er] + NADH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NAD[er]"	YGR175C	0	0	1000	P32476	0.152	55.1254	1.14.14.17						
+Protopanaxadiol	r_1011No1	squalene epoxidase (NADP) (No1)	"H+[er] + NADPH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NADP(+)[er]"	YGR175C	0	0	1000	P32476	0.152	55.1254	1.14.14.17						
 Protopanaxadiol	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c]	YHR190W	0	0	1000	P29704	3.3	51.7193	2.5.1.21						
 Protopanaxadiol	r_0355No1	dimethylallyltranstransferase (No1)	isopentenyl diphosphate[c] + prenyl diphosphate(3-)[c] => diphosphate[c] + geranyl diphosphate[c]	YJL167W	0	0	1000	P08524	2.2	40.4829	2.5.1.1						
 Protopanaxadiol	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c]	YJL167W	0	0	1000	P08524	2.2	40.4829	2.5.1.1						
@@ -288,18 +288,18 @@ Patchoulol	r_0355No1	dimethylallyltranstransferase (No1)	isopentenyl diphosphate
 Patchoulol	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c]	YJL167W	0	0	1000	P08524	2.2	40.4829	2.5.1.1						
 Patchoulol	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c]	YHR190W	0	0	1000	P29704	0.825	51.7193	2.5.1.21						
 																	
-Lupeol	Lupeol_1	lupeol synthase	(S)-2,3-epoxysqualene[c] => lupeol[c]	LUP 	0	0	1000	A0A3B1EU92		86.705	5.4.99.41	0.1			Min	glucose	
+Lupeol	Lupeol_1	lupeol synthase	"(S)-2,3-epoxysqualene[c] => lupeol[c]"	LUP 	0	0	1000	A0A3B1EU92		86.705	5.4.99.41	0.1			Min	glucose	
 Lupeol	Lupeol_2	lupeol transport	lupeol[c] => lupeol[e]		0	0	1000										
 Lupeol	Lupeol_3	lupeol exchange	lupeol[e] =>		1	0	1000										
 Lupeol	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c]	YLR450W	0	0	1000	P12684	92.5526	115.691	1.1.1.34						
 Lupeol	r_0559No1	hydroxymethylglutaryl CoA synthase (No1)	acetoacetyl-CoA[c] + acetyl-CoA[c] + H2O[c] => 3-hydroxy-3-methylglutaryl-CoA[c] + coenzyme A[c] + H+[c]	YML126C	0	0	1000	P54839	0.83	55.0128	2.3.3.10						
 Lupeol	r_0560No1	hydroxymethylglutaryl CoA synthase (No1)	acetoacetyl-CoA[m] + acetyl-CoA[m] + H2O[m] => 3-hydroxy-3-methylglutaryl-CoA[m] + coenzyme A[m] + H+[m]	YML126C	0	0	1000	P54839	0.83	55.0128	2.3.3.10						
-Lupeol	r_0698No1	lanosterol synthase (No1)	(S)-2,3-epoxysqualene[c] => lanosterol[c]	YHR072W	0	0	1000	P38604	2.0382	83.4594	5.4.99.7						
+Lupeol	r_0698No1	lanosterol synthase (No1)	"(S)-2,3-epoxysqualene[c] => lanosterol[c]"	YHR072W	0	0	1000	P38604	2.0382	83.4594	5.4.99.7						
 Lupeol	r_1710_REV				0	0	1										
 																	
-¦Â-Amyrin	¦Â-Amyrin_1	¦Â-amyrin synthase	(S)-2,3-epoxysqualene[c] => ¦Â-Amyrin[c]	bAS 	0	0	1000	Q9MB42	0.77	87.516	5.4.99.39	0.1			YEP	glucose	
-¦Â-Amyrin	¦Â-Amyrin_2	squalene epoxidase (NAD) (No1)	H+[er] + NADH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NAD[er]	CaERG1 	0	0	1000	Q92206		55.298	1.14.14.17						
-¦Â-Amyrin	¦Â-Amyrin_3	squalene epoxidase (NADP) (No1)	H+[er] + NADPH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NADP(+)[er]	CaERG1 	0	0	1000	Q92206		55.298	1.14.14.17						
+¦Â-Amyrin	¦Â-Amyrin_1	¦Â-amyrin synthase	"(S)-2,3-epoxysqualene[c] => ¦Â-Amyrin[c]"	bAS 	0	0	1000	Q9MB42	0.77	87.516	5.4.99.39	0.1			YEP	glucose	
+¦Â-Amyrin	¦Â-Amyrin_2	squalene epoxidase (NAD) (No1)	"H+[er] + NADH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NAD[er]"	CaERG1 	0	0	1000	Q92206		55.298	1.14.14.17						
+¦Â-Amyrin	¦Â-Amyrin_3	squalene epoxidase (NADP) (No1)	"H+[er] + NADPH[er] + oxygen[er] + squalene[er] => (S)-2,3-epoxysqualene[er] + H2O[er] + NADP(+)[er]"	CaERG1 	0	0	1000	Q92206		55.298	1.14.14.17						
 ¦Â-Amyrin	¦Â-Amyrin_4	pyrophosphate isomerase	isopentenyl diphosphate[c] => prenyl diphosphate(3-)[c]	EcIDI 	0	0	1000	Q46822		20.508	5.3.3.2						
 ¦Â-Amyrin	¦Â-Amyrin_5	pyrophosphate isomerase	prenyl diphosphate(3-)[c] => isopentenyl diphosphate[c]	EcIDI 	0	0	1000	Q46822		20.508	5.3.3.2						
 ¦Â-Amyrin	¦Â-Amyrin_6	¦Â-Amyrin transport	¦Â-Amyrin[c] => ¦Â-Amyrin[e]		0	0	1000										
@@ -315,7 +315,7 @@ Astaxanthin	Astaxanthin_4	Phytoene desaturase	neurosporene[c] + oxygen[c] => 2 H
 Astaxanthin	Astaxanthin_5	Bifunctional lycopene cyclase/phytoene synthase	lycopene[c] => ¦Â-carotene[c]	crtYB 	0	0	1000	Q7Z859	0.4434336	74.736	5.5.1.19						
 Astaxanthin	Astaxanthin_6	¦Â-carotene transport	¦Â-carotene[c] => ¦Â-carotene[e]		0	0	1000										
 Astaxanthin	Astaxanthin_7	¦Â-carotene exchange	¦Â-carotene[e] =>		0	0	1000										
-Astaxanthin	Astaxanthin_8	¦Â-carotenoid ketolase	¦Â-carotene[c] + oxygen[c] => echinenone[c] + H2O[c]	bkt 	0	0	1000	Q39982		35.989	1.14.99.63	0.1			YEP	glucose	
+Astaxanthin	Astaxanthin_8	¦Â-carotenoid ketolase	¦Â-carotene[c] + oxygen[c] => echinenone[c] + H2O[c]	bkt 	0	0	1000	Q39982		35.989	1.14.99.63	0.1					
 Astaxanthin	Astaxanthin_9	¦Â-carotenoid ketolase	echinenone[c] + oxygen[c] => canthaxanthin[c] + H2O[c]	bkt 	0	0	1000	Q39982		35.989	1.14.99.63						
 Astaxanthin	Astaxanthin_10	¦Â-carotenoid hydroxylase	H+[c] + NADH[c] + canthaxanthin[c] + oxygen[c] => H2O[c] + phoenicoxanthin[c] + NAD[c]	crtZ 	0	0	1000	A0A0K0P8J8		32.017	1.14.15.24						
 Astaxanthin	Astaxanthin_11	¦Â-carotenoid hydroxylase	H+[c] + NADH[c] + phoenicoxanthin[c] + oxygen[c] => H2O[c] + astaxanthin[c] + NAD[c]	crtZ 	0	0	1000	A0A0K0P8J8		32.017	1.14.15.24						
@@ -323,7 +323,7 @@ Astaxanthin	Astaxanthin_12	astaxanthin transport	astaxanthin[c] => astaxanthin[e
 Astaxanthin	Astaxanthin_13	astaxanthin exchange	astaxanthin[e] =>	 	1	0	1000										
 Astaxanthin	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c]	YLR450W	0	0	1000	P12684	92.5526	115.691	1.1.1.34						
 																	
-Farnesene	Farnesene_1	farnesene synthase	farnesyl diphosphate[c] => alpha-Farnesene[c] + diphosphate[c]	AFS 	0	0	1000	Q84LB2	0.0613	66.183	4.2.3.46	0.043			Min	glucose	YDR503C,YDR284C,YOR375C
+Farnesene	Farnesene_1	farnesene synthase	farnesyl diphosphate[c] => alpha-Farnesene[c] + diphosphate[c]	AFS 	0	0	1000	Q84LB2	0.0613	66.183	4.2.3.46	0.043			Min	glucose	"YDR503C,YDR284C,YOR375C"
 Farnesene	Farnesene_2	farnesene transport	alpha-Farnesene[c] => alpha-Farnesene[e]		0	0	1000										
 Farnesene	Farnesene_3	farnesene exchange	alpha-Farnesene[e] =>		1	0	1000										
 Farnesene	Farnesene_4	santalene synthase	farnesyl diphosphate[c] => Santalene[c] + diphosphate[c]	SAS 	0	0	1000	E5LLI1	0.075	63.937	4.2.3.82						
@@ -335,7 +335,7 @@ Farnesene	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isope
 Farnesene	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c]	YHR190W	0	0	1000	P29704	0.825	51.7193	2.5.1.21						
 Farnesene	r_0470No1	glutamate dehydrogenase (NAD) (No1)	H2O[c] + L-glutamate[c] + NAD[c] => 2-oxoglutarate[c] + ammonium[c] + H+[c] + NADH[c]	YDL215C	0	0	1000	P33327	47.9999	124.331	1.4.1.2						
 																	
-Santalene	Santalene_1	farnesene synthase	farnesyl diphosphate[c] => alpha-Farnesene[c] + diphosphate[c]	AFS 	0	0	1000	Q84LB2	0.0613	66.183	4.2.3.46	0.05			Min	glucose	YDR503C,YDR284C,YOR375C
+Santalene	Santalene_1	farnesene synthase	farnesyl diphosphate[c] => alpha-Farnesene[c] + diphosphate[c]	AFS 	0	0	1000	Q84LB2	0.0613	66.183	4.2.3.46	0.05			Min	glucose	"YDR503C,YDR284C,YOR375C"
 Santalene	Santalene_2	farnesene transport	alpha-Farnesene[c] => alpha-Farnesene[e]		0	0	1000										
 Santalene	Santalene_3	farnesene exchange	alpha-Farnesene[e] =>		0	0	1000										
 Santalene	Santalene_4	santalene synthase	farnesyl diphosphate[c] => Santalene[c] + diphosphate[c]	SAS 	0	0	1000	E5LLI1	0.075	63.937	4.2.3.82						
@@ -362,8 +362,8 @@ L-ornithine 	r_0471No2	glutamate dehydrogenase (NADP) (No2)	pmet_r_0471[c] => H2
 L-ornithine 	r_0816No1	ornithine carbamoyltransferase (No1)	carbamoyl phosphate[c] + ornithine[c] => H+[c] + L-citrulline[c] + phosphate[c]	YJL088W	0	0	1000	P05150	41								
 L-ornithine 	r_1987				1	0	Inf										
 																	
-(S)-reticuline	(S)-reticuline_1	tyrosine hydroxylase	oxygen[c] + 2 L-tyrosine[c] => 2 3,4-Dihydroxy-L-phenylalanine(L-DOPA)[c]	CYP76AD1 	0	0	1000	I3PFJ5		56.212	1.14.18.1	0.1			YEP	glucose	
-(S)-reticuline	(S)-reticuline_2	L-3,4-dihydroxyphenylalanine decarboxylase	3,4-Dihydroxy-L-phenylalanine(L-DOPA)[c] + H+[c] => carbon dioxide[c] + dopamine[c]	DODC 	0	0	1000	Q88JU5	1.8	51.444	4.1.1.28						
+(S)-reticuline	(S)-reticuline_1	tyrosine hydroxylase	"oxygen[c] + 2 L-tyrosine[c] => 2 3,4-Dihydroxy-L-phenylalanine(L-DOPA)[c]"	CYP76AD1 	0	0	1000	I3PFJ5		56.212	1.14.18.1	0.1			YEP	glucose	
+(S)-reticuline	(S)-reticuline_2	"L-3,4-dihydroxyphenylalanine decarboxylase"	"3,4-Dihydroxy-L-phenylalanine(L-DOPA)[c] + H+[c] => carbon dioxide[c] + dopamine[c]"	DODC 	0	0	1000	Q88JU5	1.8	51.444	4.1.1.28						
 (S)-reticuline	(S)-reticuline_3	4-hydroxyphenylpyruvate decarboxylase (update)	3-(4-hydroxyphenyl)pyruvate[c] + H+[c] => carbon dioxide[c] + (4-hydroxyphenyl)acetaldehyde[c]	YDR380W 	0	0	1000	Q06408	11	71.384	4.1.1.80						
 (S)-reticuline	(S)-reticuline_4	norcoclaurine synthase	dopamine[c] + (4-hydroxyphenyl)acetaldehyde[c] => H2O[c] + (S)-norcoclaurine[c]	NCS 	0	0	1000	B6E2Z2	5.8	26.001	4.2.1.78						
 (S)-reticuline	(S)-reticuline_5	6-O-methyltransferase	(S)-norcoclaurine[c] + S-adenosyl-L-methionine[c] => S-adenosyl-L-homocysteine[c] + (S)-Coclaurine[c]	6OMT 	0	0	1000	Q6WUC1	0.08	38.511	2.1.1.128						
@@ -373,7 +373,7 @@ L-ornithine 	r_1987				1	0	Inf
 (S)-reticuline	(S)-reticuline_9	(S)-Reticuline transport	(S)-Reticuline[c] => (S)-Reticuline[e]		0	0	1000										
 (S)-reticuline	(S)-reticuline_10	(S)-Reticuline exchange	(S)-Reticuline[e] =>		1	0	1000										
 																	
-¦Â-ionone	¦Â-ionone_1	Bifunctional lycopene cyclase/phytoene synthase	2 geranylgeranyl diphosphate[c] => 2 diphosphate[c] + phytoene[c]	crtYB 	0	0	1000	Q7Z859	0.0834552	74.736	2.5.1.32	0.106			YEP	glucose	YDR284C,YDR503C
+¦Â-ionone	¦Â-ionone_1	Bifunctional lycopene cyclase/phytoene synthase	2 geranylgeranyl diphosphate[c] => 2 diphosphate[c] + phytoene[c]	crtYB 	0	0	1000	Q7Z859	0.0834552	74.736	2.5.1.32	0.106			YEP	glucose	"YDR284C,YDR503C"
 ¦Â-ionone	¦Â-ionone_2	Phytoene desaturase	phytoene[c] => neurosporene[c]	crtI 	0	0	1000	Q7Z858	0.000314486	65.066	1.3.99.28						
 ¦Â-ionone	¦Â-ionone_3	Phytoene desaturase	neurosporene[c] + oxygen[c] => 2 H2O[c] + lycopene[c]	crtI 	0	0	1000	Q7Z858	0.000314486	65.066	1.3.99.28						
 ¦Â-ionone	¦Â-ionone_4	Bifunctional lycopene cyclase/phytoene synthase	lycopene[c] => ¦Â-carotene[c]	crtYB 	0	0	1000	Q7Z859	0.4434336	74.736	5.5.1.19						
@@ -391,99 +391,99 @@ L-ornithine 	r_1987				1	0	Inf
 Xanthone	Xanthone_1	benzoic acid exchange	 => benzoic acid[e]		0	0	1000					0.1			YEP	glucose	
 Xanthone	Xanthone_2	benzoic acid transport	benzoic acid[e] => benzoic acid[c]		0	0	1000										
 Xanthone	Xanthone_3	benzoate:CoA ligase	benzoic acid[c] + coenzyme A[c] + ATP[c] => diphosphate[c] + AMP[c] + benzoyl-CoA[c]	BZL 	0	0	1000	Q53005	8	58.93	6.2.1.25						
-Xanthone	Xanthone_4	benzophenone synthase	3 malonyl-CoA[c] + benzoyl-CoA[c] => 4 coenzyme A[c] + 3 carbon dioxide[c] + 2,4,6-Trihydroxybenzophenone[c]	BPS 	0	0	1000	A4ZYX5	0.055	43.039	2.3.1.220						
-Xanthone	Xanthone_5	xanthone synthase	2 H+[c] + 2,4,6-Trihydroxybenzophenone[c] + 2 oxygen[c] + 2 NADPH[c] => 2 H2O[c] + 2 NADP(+)[c] + 1,3,5-trihydroxyxanthone[c]	TXS 	0	0	1000	A0A161I263		57.849							
-Xanthone	Xanthone_6	xanthone transport	1,3,5-trihydroxyxanthone[c] => 1,3,5-trihydroxyxanthone[e]		0	0	1000										
-Xanthone	Xanthone_7	xanthone exchange	1,3,5-trihydroxyxanthone[e] =>		1	0	1000										
+Xanthone	Xanthone_4	benzophenone synthase	"3 malonyl-CoA[c] + benzoyl-CoA[c] => 4 coenzyme A[c] + 3 carbon dioxide[c] + 2,4,6-Trihydroxybenzophenone[c]"	BPS 	0	0	1000	A4ZYX5	0.055	43.039	2.3.1.220						
+Xanthone	Xanthone_5	xanthone synthase	"2 H+[c] + 2,4,6-Trihydroxybenzophenone[c] + 2 oxygen[c] + 2 NADPH[c] => 2 H2O[c] + 2 NADP(+)[c] + 1,3,5-trihydroxyxanthone[c]"	TXS 	0	0	1000	A0A161I263		57.849							
+Xanthone	Xanthone_6	xanthone transport	"1,3,5-trihydroxyxanthone[c] => 1,3,5-trihydroxyxanthone[e]"		0	0	1000										
+Xanthone	Xanthone_7	xanthone exchange	"1,3,5-trihydroxyxanthone[e] =>"		1	0	1000										
 Xanthone	r_0355No1	dimethylallyltranstransferase (No1)	isopentenyl diphosphate[c] + prenyl diphosphate(3-)[c] => diphosphate[c] + geranyl diphosphate[c]	YJL167W	0	0	1000	P08524	0.55	40.4829	2.5.1.1						
 Xanthone	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c]	YJL167W	0	0	1000	P08524	0.55	40.4829	2.5.1.1						
 																	
-tyrosine	tyrosine_1	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c] 	ARO4K229L 	0	0	1000	P32449ly	0.082809792	39.7487	2.5.1.54	0.089			YEP	glucose	YDR035W,YBR249C,YDR380W,Zwf1
+tyrosine	tyrosine_1	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c] 	ARO4K229L 	0	0	1000	P32449ly	0.082809792	39.7487	2.5.1.54	0.089			YEP	glucose	"YDR035W,YBR249C,YDR380W,Zwf1"
 tyrosine	tyrosine_2	tyrosine ammonia-lyase	L-tyrosine[c] => ammonium[c] + trans-4-coumarate[c]	TAL 	0	0	1000	Q3IWB0	0.9	54.914	4.3.1.23						
 tyrosine	tyrosine_3	cyclohexadienyl dehydrogenase	prephenate[c] + NAD[c] => 3-(4-hydroxyphenyl)pyruvate[c] + carbon dioxide[c] + NADH[c]	TyrC 	0	0	1000	Q04983		32.051	1.3.1.12						
 																	
-triacylglycerol	triacylglycerol_1	triacylglycerols transport	triglyceride backbone[c] => triacylglycerol[e]		0	0	1000					0.1			Min	glucose	YMR313C,YKR089C,YOR081C,YPL147W
+triacylglycerol	triacylglycerol_1	triacylglycerols transport	triglyceride backbone[c] => triacylglycerol[e]		0	0	1000					0.1			Min	glucose	"YMR313C,YKR089C,YOR081C,YPL147W"
 triacylglycerol	triacylglycerol_2	triacylglycerols exchange	triacylglycerol[e] =>		1	0	1000										
-triacylglycerol	r_0109No1	acetyl-CoA carboxylase, reaction (No1)	acetyl-CoA[c] + ATP[c] + bicarbonate[c] + 6.17284e-10 prot_P48445 => ADP[c] + H+[c] + malonyl-CoA[c] + phosphate[c]	YNR016C	0	0	1000	Q00955	65.3426								
-triacylglycerol	r_2344No1	PA phosphatase (1-16:0, 2-16:1), ER membrane (No1)	H2O[erm] + phosphatidate (1-16:0, 2-16:1)[erm] => phosphate[erm] + diglyceride (1-16:0, 2-16:1)[erm]	YMR165C	0	0	1000	P32567	23.1467								
-triacylglycerol	r_2345No1	PA phosphatase (1-16:0, 2-18:1), ER membrane (No1)	H2O[erm] + phosphatidate (1-16:0, 2-18:1)[erm] => phosphate[erm] + diglyceride (1-16:0, 2-18:1)[erm]	YMR165C	0	0	1000	P32567	23.1467								
-triacylglycerol	r_2346No1	PA phosphatase (1-16:1, 2-16:1), ER membrane (No1)	H2O[erm] + phosphatidate (1-16:1, 2-16:1)[erm] => phosphate[erm] + diglyceride (1-16:1, 2-16:1)[erm]	YMR165C	0	0	1000	P32567	23.1467								
-triacylglycerol	r_2347No1	PA phosphatase (1-16:1, 2-18:1), ER membrane (No1)	H2O[erm] + phosphatidate (1-16:1, 2-18:1)[erm] => phosphate[erm] + diglyceride (1-16:1, 2-18:1)[erm]	YMR165C	0	0	1000	P32567	23.1467								
-triacylglycerol	r_2348No1	PA phosphatase (1-18:0, 2-16:1), ER membrane (No1)	H2O[erm] + phosphatidate (1-18:0, 2-16:1)[erm] => phosphate[erm] + diglyceride (1-18:0, 2-16:1)[erm]	YMR165C	0	0	1000	P32567	23.1467								
-triacylglycerol	r_2349No1	PA phosphatase (1-18:0, 2-18:1), ER membrane (No1)	H2O[erm] + phosphatidate (1-18:0, 2-18:1)[erm] => phosphate[erm] + diglyceride (1-18:0, 2-18:1)[erm]	YMR165C	0	0	1000	P32567	23.1467								
-triacylglycerol	r_2350No1	PA phosphatase (1-18:1, 2-16:1), ER membrane (No1)	H2O[erm] + phosphatidate (1-18:1, 2-16:1)[erm] => phosphate[erm] + diglyceride (1-18:1, 2-16:1)[erm]	YMR165C	0	0	1000	P32567	23.1467								
-triacylglycerol	r_2351No1	PA phosphatase (1-18:1, 2-18:1), ER membrane (No1)	H2O[erm] + phosphatidate (1-18:1, 2-18:1)[erm] => phosphate[erm] + diglyceride (1-18:1, 2-18:1)[erm]	YMR165C	0	0	1000	P32567	23.1467								
+triacylglycerol	r_0109No1	"acetyl-CoA carboxylase, reaction (No1)"	acetyl-CoA[c] + ATP[c] + bicarbonate[c] + 6.17284e-10 prot_P48445 => ADP[c] + H+[c] + malonyl-CoA[c] + phosphate[c]	YNR016C	0	0	1000	Q00955	65.3426								
+triacylglycerol	r_2344No1	"PA phosphatase (1-16:0, 2-16:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-16:0, 2-16:1)[erm] => phosphate[erm] + diglyceride (1-16:0, 2-16:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
+triacylglycerol	r_2345No1	"PA phosphatase (1-16:0, 2-18:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-16:0, 2-18:1)[erm] => phosphate[erm] + diglyceride (1-16:0, 2-18:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
+triacylglycerol	r_2346No1	"PA phosphatase (1-16:1, 2-16:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-16:1, 2-16:1)[erm] => phosphate[erm] + diglyceride (1-16:1, 2-16:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
+triacylglycerol	r_2347No1	"PA phosphatase (1-16:1, 2-18:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-16:1, 2-18:1)[erm] => phosphate[erm] + diglyceride (1-16:1, 2-18:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
+triacylglycerol	r_2348No1	"PA phosphatase (1-18:0, 2-16:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-18:0, 2-16:1)[erm] => phosphate[erm] + diglyceride (1-18:0, 2-16:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
+triacylglycerol	r_2349No1	"PA phosphatase (1-18:0, 2-18:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-18:0, 2-18:1)[erm] => phosphate[erm] + diglyceride (1-18:0, 2-18:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
+triacylglycerol	r_2350No1	"PA phosphatase (1-18:1, 2-16:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-18:1, 2-16:1)[erm] => phosphate[erm] + diglyceride (1-18:1, 2-16:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
+triacylglycerol	r_2351No1	"PA phosphatase (1-18:1, 2-18:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-18:1, 2-18:1)[erm] => phosphate[erm] + diglyceride (1-18:1, 2-18:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
 																	
 ARA	ARA_1	Delta9-desaturase	H+[erm] + stearoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + oleoyl-CoA[erm]	D9D 	0	0	1000	D5KSD1		50.809	1.14.19.1	0.1			Min	glucose	
 ARA	ARA_2	Delta12-desaturase	H+[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + linoleoyl-CoA[erm]	D12D 	0	0	1000	Q9Y8H5		46.001	1.14.19.6						
-ARA	ARA_3	Omega-3 desaturase	linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm]	FAD3 	0	0	1000	D5KSD6		47.718	1.14.19.-						
-ARA	ARA_4	Delta6-desaturase 	linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z)-octadecatrienoyl-CoA[erm]	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
-ARA	ARA_5	Delta6-desaturase 	(9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm]	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
-ARA	ARA_6	Delta6-elongase	(6Z,9Z,12Z)-octadecatrienoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z)-eicosatrienoyl-CoA[erm]	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
-ARA	ARA_7	Delta6-elongase	(6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm]	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
-ARA	ARA_8	Delta-5 desaturase	(8Z,11Z,14Z)-eicosatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm]	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
-ARA	ARA_9	Delta-5 desaturase	(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm]	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
-ARA	ARA_10	ARA-CoA transport	(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm] => (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p]		0	0	1000										
-ARA	ARA_11	peroxisomal acyl-CoA thioesterase	(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p]	YJR019C	0	0	1000	P41903			3.1.2.2						
-ARA	ARA_12	ARA transport	(5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p] => ARA[e]		0	0	1000										
+ARA	ARA_3	Omega-3 desaturase	"linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm]"	FAD3 	0	0	1000	D5KSD6		47.718	1.14.19.-						
+ARA	ARA_4	Delta6-desaturase 	"linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z)-octadecatrienoyl-CoA[erm]"	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
+ARA	ARA_5	Delta6-desaturase 	"(9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm]"	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
+ARA	ARA_6	Delta6-elongase	"(6Z,9Z,12Z)-octadecatrienoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z)-eicosatrienoyl-CoA[erm]"	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
+ARA	ARA_7	Delta6-elongase	"(6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm]"	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
+ARA	ARA_8	Delta-5 desaturase	"(8Z,11Z,14Z)-eicosatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm]"	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
+ARA	ARA_9	Delta-5 desaturase	"(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm]"	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
+ARA	ARA_10	ARA-CoA transport	"(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm] => (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p]"		0	0	1000										
+ARA	ARA_11	peroxisomal acyl-CoA thioesterase	"(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p]"	YJR019C	0	0	1000	P41903			3.1.2.2						
+ARA	ARA_12	ARA transport	"(5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p] => ARA[e]"		0	0	1000										
 ARA	ARA_13	ARA exchange	ARA[e] =>		1	0	1000										
-ARA	ARA_14	EPA-CoA transport	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] => (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p]		0	0	1000										
-ARA	ARA_15	peroxisomal acyl-CoA thioesterase	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p]	YJR019C	0	0	1000	P41903			3.1.2.2						
-ARA	ARA_16	EPA transport	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p] => EPA[e]		0	0	1000										
+ARA	ARA_14	EPA-CoA transport	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] => (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p]"		0	0	1000										
+ARA	ARA_15	peroxisomal acyl-CoA thioesterase	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p]"	YJR019C	0	0	1000	P41903			3.1.2.2						
+ARA	ARA_16	EPA transport	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p] => EPA[e]"		0	0	1000										
 ARA	ARA_17	EPA exchange	EPA[e] =>		0	0	1000										
-ARA	ARA_18	Delta5-elongase	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm]		0	0	1000										
-ARA	ARA_19	Delta-4 desaturase	(7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm]		0	0	1000										
-ARA	ARA_20	EPA-CoA transport	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm] => (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p]		0	0	1000										
-ARA	ARA_21	peroxisomal acyl-CoA thioesterase	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p]	YJR019C	0	0	1000	P41903			3.1.2.2						
-ARA	ARA_22	EPA transport	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p] => DHA[e]		0	0	1000										
+ARA	ARA_18	Delta5-elongase	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm]"		0	0	1000										
+ARA	ARA_19	Delta-4 desaturase	"(7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm]"		0	0	1000										
+ARA	ARA_20	EPA-CoA transport	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm] => (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p]"		0	0	1000										
+ARA	ARA_21	peroxisomal acyl-CoA thioesterase	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p]"	YJR019C	0	0	1000	P41903			3.1.2.2						
+ARA	ARA_22	EPA transport	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p] => DHA[e]"		0	0	1000										
 ARA	ARA_23	EPA exchange	DHA[e] =>		0	0	1000										
 																	
 EPA	EPA_1	Delta9-desaturase	H+[erm] + stearoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + oleoyl-CoA[erm]	D9D 	0	0	1000	D5KSD1		50.809	1.14.19.1	0.1			Min	glucose	
 EPA	EPA_2	Delta12-desaturase	H+[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + linoleoyl-CoA[erm]	D12D 	0	0	1000	Q9Y8H5		46.001	1.14.19.6						
-EPA	EPA_3	Omega-3 desaturase	linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm]	FAD3 	0	0	1000	D5KSD6		47.718	1.14.19.-						
-EPA	EPA_4	Delta6-desaturase 	linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z)-octadecatrienoyl-CoA[erm]	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
-EPA	EPA_5	Delta6-desaturase 	(9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm]	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
-EPA	EPA_6	Delta6-elongase	(6Z,9Z,12Z)-octadecatrienoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z)-eicosatrienoyl-CoA[erm]	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
-EPA	EPA_7	Delta6-elongase	(6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm]	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
-EPA	EPA_8	Delta-5 desaturase	(8Z,11Z,14Z)-eicosatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm]	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
-EPA	EPA_9	Delta-5 desaturase	(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm]	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
-EPA	EPA_10	ARA-CoA transport	(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm] => (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p]		0	0	1000										
-EPA	EPA_11	peroxisomal acyl-CoA thioesterase	(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p]	YJR019C	0	0	1000	P41903			3.1.2.2						
-EPA	EPA_12	ARA transport	(5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p] => ARA[e]		0	0	1000										
+EPA	EPA_3	Omega-3 desaturase	"linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm]"	FAD3 	0	0	1000	D5KSD6		47.718	1.14.19.-						
+EPA	EPA_4	Delta6-desaturase 	"linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z)-octadecatrienoyl-CoA[erm]"	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
+EPA	EPA_5	Delta6-desaturase 	"(9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm]"	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
+EPA	EPA_6	Delta6-elongase	"(6Z,9Z,12Z)-octadecatrienoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z)-eicosatrienoyl-CoA[erm]"	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
+EPA	EPA_7	Delta6-elongase	"(6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm]"	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
+EPA	EPA_8	Delta-5 desaturase	"(8Z,11Z,14Z)-eicosatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm]"	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
+EPA	EPA_9	Delta-5 desaturase	"(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm]"	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
+EPA	EPA_10	ARA-CoA transport	"(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm] => (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p]"		0	0	1000										
+EPA	EPA_11	peroxisomal acyl-CoA thioesterase	"(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p]"	YJR019C	0	0	1000	P41903			3.1.2.2						
+EPA	EPA_12	ARA transport	"(5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p] => ARA[e]"		0	0	1000										
 EPA	EPA_13	ARA exchange	ARA[e] =>		0	0	1000										
-EPA	EPA_14	EPA-CoA transport	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] => (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p]		0	0	1000										
-EPA	EPA_15	peroxisomal acyl-CoA thioesterase	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p]	YJR019C	0	0	1000	P41903			3.1.2.2						
-EPA	EPA_16	EPA transport	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p] => EPA[e]		0	0	1000										
+EPA	EPA_14	EPA-CoA transport	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] => (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p]"		0	0	1000										
+EPA	EPA_15	peroxisomal acyl-CoA thioesterase	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p]"	YJR019C	0	0	1000	P41903			3.1.2.2						
+EPA	EPA_16	EPA transport	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p] => EPA[e]"		0	0	1000										
 EPA	EPA_17	EPA exchange	EPA[e] =>		1	0	1000										
-EPA	EPA_18	Delta5-elongase	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm]		0	0	1000										
-EPA	EPA_19	Delta-4 desaturase	(7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm]		0	0	1000										
-EPA	EPA_20	EPA-CoA transport	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm] => (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p]		0	0	1000										
-EPA	EPA_21	peroxisomal acyl-CoA thioesterase	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p]	YJR019C	0	0	1000	P41903			3.1.2.2						
-EPA	EPA_22	EPA transport	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p] => DHA[e]		0	0	1000										
+EPA	EPA_18	Delta5-elongase	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm]"		0	0	1000										
+EPA	EPA_19	Delta-4 desaturase	"(7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm]"		0	0	1000										
+EPA	EPA_20	EPA-CoA transport	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm] => (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p]"		0	0	1000										
+EPA	EPA_21	peroxisomal acyl-CoA thioesterase	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p]"	YJR019C	0	0	1000	P41903			3.1.2.2						
+EPA	EPA_22	EPA transport	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p] => DHA[e]"		0	0	1000										
 EPA	EPA_23	EPA exchange	DHA[e] =>		0	0	1000										
 																	
 DHA	DHA_1	Delta9-desaturase	H+[erm] + stearoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + oleoyl-CoA[erm]	D9D 	0	0	1000	D5KSD1		50.809	1.14.19.1	0.1			Min	glucose	
 DHA	DHA_2	Delta12-desaturase	H+[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + linoleoyl-CoA[erm]	D12D 	0	0	1000	Q9Y8H5		46.001	1.14.19.6						
-DHA	DHA_3	Omega-3 desaturase	linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm]	FAD3 	0	0	1000	D5KSD6		47.718	1.14.19.-						
-DHA	DHA_4	Delta6-desaturase 	linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z)-octadecatrienoyl-CoA[erm]	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
-DHA	DHA_5	Delta6-desaturase 	(9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm]	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
-DHA	DHA_6	Delta6-elongase	(6Z,9Z,12Z)-octadecatrienoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z)-eicosatrienoyl-CoA[erm]	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
-DHA	DHA_7	Delta6-elongase	(6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm]	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
-DHA	DHA_8	Delta-5 desaturase	(8Z,11Z,14Z)-eicosatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm]	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
-DHA	DHA_9	Delta-5 desaturase	(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm]	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
-DHA	DHA_10	ARA-CoA transport	(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm] => (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p]		0	0	1000										
-DHA	DHA_11	peroxisomal acyl-CoA thioesterase	(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p]	YJR019C	0	0	1000	P41903			3.1.2.2						
-DHA	DHA_12	ARA transport	(5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p] => ARA[e]		0	0	1000										
+DHA	DHA_3	Omega-3 desaturase	"linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm]"	FAD3 	0	0	1000	D5KSD6		47.718	1.14.19.-						
+DHA	DHA_4	Delta6-desaturase 	"linoleoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z)-octadecatrienoyl-CoA[erm]"	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
+DHA	DHA_5	Delta6-desaturase 	"(9Z,12Z,15Z)-Octadecatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm]"	D6D 	0	0	1000	A0A1Y5I9G7		51.674	1.14.19.3						
+DHA	DHA_6	Delta6-elongase	"(6Z,9Z,12Z)-octadecatrienoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z)-eicosatrienoyl-CoA[erm]"	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
+DHA	DHA_7	Delta6-elongase	"(6Z,9Z,12Z,15Z)-Octadecatetraenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm]"	D6E 	0	0	1000	D5KSD4		36.746	2.3.1.199						
+DHA	DHA_8	Delta-5 desaturase	"(8Z,11Z,14Z)-eicosatrienoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm]"	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
+DHA	DHA_9	Delta-5 desaturase	"(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm]"	D5D 	0	0	1000	HQ678517		59.89	1.14.19.44						
+DHA	DHA_10	ARA-CoA transport	"(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[erm] => (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p]"		0	0	1000										
+DHA	DHA_11	peroxisomal acyl-CoA thioesterase	"(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p]"	YJR019C	0	0	1000	P41903			3.1.2.2						
+DHA	DHA_12	ARA transport	"(5Z,8Z,11Z,14Z)-eicosatetraenoate (ARA)[p] => ARA[e]"		0	0	1000										
 DHA	DHA_13	ARA exchange	ARA[e] =>		0	0	1000										
-DHA	DHA_14	EPA-CoA transport	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] => (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p]		0	0	1000										
-DHA	DHA_15	peroxisomal acyl-CoA thioesterase	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p]	YJR019C	0	0	1000	P41903			3.1.2.2						
-DHA	DHA_16	EPA transport	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p] => EPA[e]		0	0	1000										
+DHA	DHA_14	EPA-CoA transport	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] => (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p]"		0	0	1000										
+DHA	DHA_15	peroxisomal acyl-CoA thioesterase	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p]"	YJR019C	0	0	1000	P41903			3.1.2.2						
+DHA	DHA_16	EPA transport	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (EPA)[p] => EPA[e]"		0	0	1000										
 DHA	DHA_17	EPA exchange	EPA[e] =>		0	0	1000										
-DHA	DHA_18	Delta5-elongase	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm]		0	0	1000										
-DHA	DHA_19	Delta-4 desaturase	(7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm]		0	0	1000										
-DHA	DHA_20	EPA-CoA transport	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm] => (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p]		0	0	1000										
-DHA	DHA_21	peroxisomal acyl-CoA thioesterase	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p]	YJR019C	0	0	1000	P41903			3.1.2.2						
-DHA	DHA_22	EPA transport	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p] => DHA[e]		0	0	1000										
+DHA	DHA_18	Delta5-elongase	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA[erm] + 2 NADPH[erm] + malonyl-CoA[erm] + 3 H+[erm] => coenzyme A[erm] + carbon dioxide[erm] + H2O[erm] + NADP(+)[erm] + (7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm]"		0	0	1000										
+DHA	DHA_19	Delta-4 desaturase	"(7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA[erm] + oleoyl-CoA[erm] + oxygen[erm] + NADH[erm] => 2 H2O[erm] + NAD[erm] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm]"		0	0	1000										
+DHA	DHA_20	EPA-CoA transport	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[erm] => (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p]"		0	0	1000										
+DHA	DHA_21	peroxisomal acyl-CoA thioesterase	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA[p] + H2O[p] => H+[p] + coenzyme A[p] + (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p]"	YJR019C	0	0	1000	P41903			3.1.2.2						
+DHA	DHA_22	EPA transport	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (DHA)[p] => DHA[e]"		0	0	1000										
 DHA	DHA_23	EPA exchange	DHA[e] =>		1	0	1000										
  																	
 n-butanol	n-butanol_1	Citramalate synthase	pyruvate[m] + acetyl-CoA[m] => (R)-Citramalate[m]	cimA 	0	0	1000	A0FDH8	18.6	47.186	2.3.1.182	0.1			YEP	glucose	YOL086C
@@ -507,7 +507,7 @@ n-butanol	r_1129 (update)	coenzyme A transport	coenzyme A[c] => coenzyme A[m]	LE
 n-butanol	r_4173No1	L-cysteine:sulfur-acceptor sulfurtransferase (No1)	(sulfur carrier)-H[m] + L-cysteine[m] => L-alanine[m] + (sulfur carrier)-SH[m]	YCL017C	0	0	1000	P25374	1.74								
 n-butanol	r_4173_REVNo1	L-cysteine:sulfur-acceptor sulfurtransferase (reversible) (No1)	L-alanine[m] + (sulfur carrier)-SH[m] => (sulfur carrier)-H[m] + L-cysteine[m]	YCL017C	0	0	1000	P25374	274.1995								
 																	
-2-phenylethanol	2-phenylethanol_1	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.215305458	39.7487	2.5.1.54	0.1			Min	glucose	YDR035W,YBR249C,YPR060C,YGL202W
+2-phenylethanol	2-phenylethanol_1	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.215305458	39.7487	2.5.1.54	0.1			Min	glucose	"YDR035W,YBR249C,YPR060C,YGL202W"
 2-phenylethanol	2-phenylethanol_2	chorismate mutase	chorismate[c] => prephenate[c]	ARO7T226I 	0	0	1000	P32178ly	0.0619725	29.7468	5.4.99.5						
 2-phenylethanol	2-phenylethanol_3	Shikimate kinase	shikimate[c] + ATP[c] => 3-phosphoshikimic acid[c] + H+[c] + ADP[c]	aroL 	0	0	1000	P0A6E1	130.8651667	19.151	2.7.1.71						
 2-phenylethanol	r_0279No1	chorismate synthase (No1)	5-O-(1-carboxyvinyl)-3-phosphoshikimic acid[c] => chorismate[c] + phosphate[c]	YGL148W	0	0	1000	P28777	1.74								
@@ -527,10 +527,10 @@ n-butanol	r_4173_REVNo1	L-cysteine:sulfur-acceptor sulfurtransferase (reversible
 2-phenylethanol	r_0939No1	prephenate dehydrogenase (NADP) (No1)	NADP(+)[c] + prephenate[c] => 3-(4-hydroxyphenyl)pyruvate[c] + carbon dioxide[c] + NADPH[c]	YDR380W	0	0	1000	Q06408	13.15								
 2-phenylethanol	r_1589				1	0	Inf										
 																	
-docosanol	docosanol_1	Fatty acyl-CoA reductase	docosanoyl-CoA[c] + 2 H+[c] + 2 NADPH[c] => docosanol[c] + coenzyme A[c] + 2 NADP(+)[c]	FAR1 	0	0	1000	Q39152		55.481	1.2.1.84	0.1			Min	glucose	YCR048W,YOR245C,YNR019W,YNR008W,YGL205W,YLR372W,YBR020W
+docosanol	docosanol_1	Fatty acyl-CoA reductase	docosanoyl-CoA[c] + 2 H+[c] + 2 NADPH[c] => docosanol[c] + coenzyme A[c] + 2 NADP(+)[c]	FAR1 	0	0	1000	Q39152		55.481	1.2.1.84	0.1			Min	glucose	"YCR048W,YOR245C,YNR019W,YNR008W,YGL205W,YLR372W,YBR020W"
 docosanol	docosanol_2	fatty acid synthase 	acetyl-CoA[c] + 21 H+[c] + 7 malonyl-CoA[c] + 14 NADPH[c] => 7 carbon dioxide[c] + 7 coenzyme A[c] + 7 H2O[c] + 14 NADP(+)[c] + palmitoyl-CoA[c]	FAS 	0	0	1000	K0V149	2.04404375	327.047	2.3.1.86						
 docosanol	docosanol_3	fatty acid synthase	acetyl-CoA[c] + 24 H+[c] + 8 malonyl-CoA[c] + 16 NADPH[c] => 8 carbon dioxide[c] + 8 coenzyme A[c] + 8 H2O[c] + 16 NADP(+)[c] + stearoyl-CoA[c]	FAS 	0	0	1000	K0V149	2.04404375	327.047	2.3.1.86						
-docosanol	docosanol_4	acyl carrier protein synthase	coenzyme A[c] + H2O[c] => adenosine 3',5'-bismonophosphate[c] + 2 H+[c] + pantetheine 4'-phosphate[c]	Acps 	0	0	1000	K0V045		14.161	2.7.8.7						
+docosanol	docosanol_4	acyl carrier protein synthase	"coenzyme A[c] + H2O[c] => adenosine 3',5'-bismonophosphate[c] + 2 H+[c] + pantetheine 4'-phosphate[c]"	Acps 	0	0	1000	K0V045		14.161	2.7.8.7						
 docosanol	docosanol_5	fatty acid elongase	malonyl-CoA[c] + palmitoyl-CoA[c] + H+[c] => coenzyme A[c] + stearoyl-CoA[c] + carbon dioxide[c]	FAS 	0	0	1000	K0V149	2.04404375	327.047	2.3.1.86						
 docosanol	docosanol_6	fatty acid elongase	malonyl-CoA[c] + stearoyl-CoA[c] + H+[c] => coenzyme A[c] + icosanoyl-CoA[c] + carbon dioxide[c]	FAS 	0	0	1000	K0V149	2.04404375	327.047	2.3.1.86						
 docosanol	docosanol_7	fatty acid elongase	malonyl-CoA[c] + icosanoyl-CoA[c] + H+[c] => coenzyme A[c] + docosanoyl-CoA[c] + carbon dioxide[c]	FAS 	0	0	1000	K0V149	2.04404375	327.047	2.3.1.86						
@@ -542,9 +542,9 @@ docosanol	r_2156No1	elongase II (3-oxooctadecanoyl-CoA) (No1)	malonyl-CoA[erm] +
 docosanol	r_2157No1	elongase II or III (3-oxoicosanoyl-CoA) (No1)	pmet_r_2157[erm] => carbon dioxide[erm] + coenzyme A[erm] + 3-oxoicosanoyl-CoA[erm]	YCR034W	0	0	1000	P25358	5.4								
 docosanol	r_2158No1	elongase II or III (3-oxodocosanoyl-CoA) (No1)	pmet_r_2158[erm] => carbon dioxide[erm] + coenzyme A[erm] + 3-oxodocosanoyl-CoA[erm]	YCR034W	0	0	1000	P25358	5.4								
 docosanol	r_2159No1	elongase II or III (3-oxotetracosanoyl-CoA) (No1)	pmet_r_2159[erm] => carbon dioxide[erm] + coenzyme A[erm] + 3-oxotetracosanoyl-CoA[erm]	YCR034W	0	0	1000	P25358	5.4								
-docosanol	r_0109No1	acetyl-CoA carboxylase, reaction (No1)	acetyl-CoA[c] + ATP[c] + bicarbonate[c] + 6.17284e-10 prot_P48445 => ADP[c] + H+[c] + malonyl-CoA[c] + phosphate[c]	YNR016C	0	0	1000	Q00955	65.3426								
+docosanol	r_0109No1	"acetyl-CoA carboxylase, reaction (No1)"	acetyl-CoA[c] + ATP[c] + bicarbonate[c] + 6.17284e-10 prot_P48445 => ADP[c] + H+[c] + malonyl-CoA[c] + phosphate[c]	YNR016C	0	0	1000	Q00955	65.3426								
 																	
-Itaconic acid	Itaconic acid_1	cis-aconitic acid decarboxylase	cis-aconitate[c] + H+[c] => carbon dioxide[c] + Itaconic acid[c]	CAD 	0	0	1000	B3IUN8	0.242756323	52.754	4.1.1.6	0.1			YEP	glucose	YJR078W,YJR019C
+Itaconic acid	Itaconic acid_1	cis-aconitic acid decarboxylase	cis-aconitate[c] + H+[c] => carbon dioxide[c] + Itaconic acid[c]	CAD 	0	0	1000	B3IUN8	0.242756323	52.754	4.1.1.6	0.1			YEP	glucose	"YJR078W,YJR019C"
 Itaconic acid	Itaconic acid_2	itaconic acid transport	Itaconic acid[c] => Itaconic acid[e]		0	0	1000										
 Itaconic acid	Itaconic acid_3	itaconic acid exchange	Itaconic acid[e] =>		1	0	1000										
 																	
@@ -610,15 +610,15 @@ L-phenylacetylcarbinol	L-phenylacetylcarbinol_14	Benzoic Acid exchange	Benzoic A
 5-hydroxypropanoate-asp	3-hydroxypropanoate-asp_5	aspartate 1-decarboxylase	H+[c] + L-aspartate[c] => beta-alanine[c] + carbon dioxide[c]	A7U8C7	0	0	1000	A7U8C7	7.03	61.24	4.1.1.11						
 5-hydroxypropanoate-malcoa	r_4572	beta-alanine:2-oxoglutarate aminotransferase	2-oxoglutarate[c] + beta-alanine[c] => L-glutamate[c] + 3-oxopropanoate[c]	YGR019Wly	0	0	1000	P17649ly	0.1324	52.946	2.6.1.19						
 																	
-FFA	FFA_1	FFAs Biosyntheis	decanoate[e] + laurate[e] + myristate[e] + palmitate[e] + palmitoleate[e] + stearate[e] + oleate[e] => Free fatty acid[e]		0	0	1000					0.03			Min	glucose	YGL205W,YOR317W,YMR246W,YMR110C,YDL078C
+FFA	FFA_1	FFAs Biosyntheis	decanoate[e] + laurate[e] + myristate[e] + palmitate[e] + palmitoleate[e] + stearate[e] + oleate[e] => Free fatty acid[e]		0	0	1000					0.03			Min	glucose	"YGL205W,YOR317W,YMR246W,YMR110C,YDL078C"
 FFA	FFA_2	FFAs exchange	Free fatty acid[e] =>		1	0	1000										
 FFA	FFA_3	malic enzyme	(S)-malate[m] + NAD[m] => carbon dioxide[m] + NADH[m] + pyruvate[m]	ME	0	0	1000				1.1.1.38						
 FFA	FFA_4	ATP:citrate lyase	ATP[c] + citrate[c] + coenzyme A[c] => acetyl-CoA[c] + ADP[c] + oxaloacetate[c] + phosphate[c]	ACL	0	0	1000	Q91V92	27.1383	120	2.3.3.8						
-FFA	FFA_5	fatty acid synthase (C16:0)	acetyl-CoA[c] + 21 H+[c] + 7 malonyl-CoA[c] + 14 NADPH[c] => 7 carbon dioxide[c] + 7 coenzyme A[c] + 7 H2O[c] + 14 NADP(+)[c] + palmitoyl-CoA[c]	FAS1,FAS2	0	0	1000	A0A2Z6EZ44,A0A2Z6EYW1	4.16	318.115,137.582							
-FFA	FFA_6	fatty acid synthase (C18:0)	acetyl-CoA[c] + 24 H+[c] + 8 malonyl-CoA[c] + 16 NADPH[c] => 8 carbon dioxide[c] + 8 coenzyme A[c] + 8 H2O[c] + 16 NADP(+)[c] + stearoyl-CoA[c]	FAS1,FAS2	0	0	1000	A0A2Z6EZ44,A0A2Z6EYW1	4.16	318.115,137.582							
-FFA	FFA_7	fatty acid synthase (C14:0)	acetyl-CoA[c] + 18 H+[c] + 6 malonyl-CoA[c] + 12 NADPH[c] => 6 carbon dioxide[c] + 6 coenzyme A[c] + 6 H2O[c] + 12 NADP(+)[c] + myristoyl-CoA[c]	FAS1,FAS2	0	0	1000	A0A2Z6EZ44,A0A2Z6EYW1	4.16	318.115,137.582							
-FFA	FFA_8	fatty acid synthase (C12:0)	acetyl-CoA[c] + 15 H+[c] + 5 malonyl-CoA[c] + 10 NADPH[c] => 5 carbon dioxide[c] + 5 coenzyme A[c] + 5 H2O[c] + 10 NADP(+)[c] + lauroyl-CoA[c]	FAS1,FAS2	0	0	1000	A0A2Z6EZ44,A0A2Z6EYW1	4.16	318.115,137.582							
-FFA	FFA_9	fatty acid synthase (C10:0)	acetyl-CoA[c] + 12 H+[c] + 4 malonyl-CoA[c] + 8 NADPH[c] => 4 carbon dioxide[c] + 4 coenzyme A[c] + 4 H2O[c] + 8 NADP(+)[c] + decanoyl-CoA[c]	FAS1,FAS2	0	0	1000	A0A2Z6EZ44,A0A2Z6EYW1	4.16	318.115,137.582							
+FFA	FFA_5	fatty acid synthase (C16:0)	acetyl-CoA[c] + 21 H+[c] + 7 malonyl-CoA[c] + 14 NADPH[c] => 7 carbon dioxide[c] + 7 coenzyme A[c] + 7 H2O[c] + 14 NADP(+)[c] + palmitoyl-CoA[c]	"FAS1,FAS2"	0	0	1000	"A0A2Z6EZ44,A0A2Z6EYW1"	4.16	"318.115,137.582"							
+FFA	FFA_6	fatty acid synthase (C18:0)	acetyl-CoA[c] + 24 H+[c] + 8 malonyl-CoA[c] + 16 NADPH[c] => 8 carbon dioxide[c] + 8 coenzyme A[c] + 8 H2O[c] + 16 NADP(+)[c] + stearoyl-CoA[c]	"FAS1,FAS2"	0	0	1000	"A0A2Z6EZ44,A0A2Z6EYW1"	4.16	"318.115,137.582"							
+FFA	FFA_7	fatty acid synthase (C14:0)	acetyl-CoA[c] + 18 H+[c] + 6 malonyl-CoA[c] + 12 NADPH[c] => 6 carbon dioxide[c] + 6 coenzyme A[c] + 6 H2O[c] + 12 NADP(+)[c] + myristoyl-CoA[c]	"FAS1,FAS2"	0	0	1000	"A0A2Z6EZ44,A0A2Z6EYW1"	4.16	"318.115,137.582"							
+FFA	FFA_8	fatty acid synthase (C12:0)	acetyl-CoA[c] + 15 H+[c] + 5 malonyl-CoA[c] + 10 NADPH[c] => 5 carbon dioxide[c] + 5 coenzyme A[c] + 5 H2O[c] + 10 NADP(+)[c] + lauroyl-CoA[c]	"FAS1,FAS2"	0	0	1000	"A0A2Z6EZ44,A0A2Z6EYW1"	4.16	"318.115,137.582"							
+FFA	FFA_9	fatty acid synthase (C10:0)	acetyl-CoA[c] + 12 H+[c] + 4 malonyl-CoA[c] + 8 NADPH[c] => 4 carbon dioxide[c] + 4 coenzyme A[c] + 4 H2O[c] + 8 NADP(+)[c] + decanoyl-CoA[c]	"FAS1,FAS2"	0	0	1000	"A0A2Z6EZ44,A0A2Z6EYW1"	4.16	"318.115,137.582"							
 FFA	FFA_10	thioesterase (C16:0)	palmitoyl-CoA[c] + H2O[c] => coenzyme A[c] + palmitate[c] + H+[c]	tesA	0	0	1000	P0ADA1	10.13	23.622	3.1.2.2						
 FFA	FFA_11	thioesterase (C18:0)	stearoyl-CoA[c] + H2O[c] => coenzyme A[c] + stearate[c] + H+[c]	tesA	0	0	1000	P0ADA1	10.13	23.622	3.1.2.2						
 FFA	FFA_12	thioesterase (C18:1)	oleoyl-CoA[c] + H2O[c] => coenzyme A[c] + oleate[c] + H+[c]	tesA	0	0	1000	P0ADA1	10.13	23.622	3.1.2.2						
@@ -627,13 +627,13 @@ FFA	FFA_14	thioesterase (C12:0)	lauroyl-CoA[c] + H2O[c] => coenzyme A[c] + laura
 FFA	FFA_15	thioesterase (C14:0)	myristoyl-CoA[c] + H2O[c] => coenzyme A[c] + myristate[c] + H+[c]	tesA	0	0	1000	P0ADA1	10.13	23.622	3.1.2.2						
 FFA	FFA_16	thioesterase (C16:1)	palmitoleoyl-CoA(4-)[c] + H2O[c] => coenzyme A[c] + palmitoleate[c] + H+[c]	tesA	0	0	1000	P0ADA1	10.13	23.622	3.1.2.2						
 																	
-Succinic acid	Succinic acid_1	Fumarate hydratase	fumarate[c] + H2O[c] => (S)-malate[c] 	FumC	0	0	1000	A0A024L3D9	1150	50.489	4.2.1.2	0.25			Min	glucose	YLR044C,YLR134W,YGR087C,YPL262W,YER065C,YNL117W
+Succinic acid	Succinic acid_1	Fumarate hydratase	fumarate[c] + H2O[c] => (S)-malate[c] 	FumC	0	0	1000	A0A024L3D9	1150	50.489	4.2.1.2	0.25			Min	glucose	"YLR044C,YLR134W,YGR087C,YPL262W,YER065C,YNL117W"
 Succinic acid	Succinic acid_2	Fumarate hydratase	(S)-malate[c] => fumarate[c] + H2O[c] 	FumC	0	0	1000	A0A024L3D9	11.2	50.489	4.2.1.2						
 Succinic acid	r_1671_REV				0	0	1										
 Succinic acid	r_2056				1	0	Inf										
 																	
-Nicotianamine	Nicotianamine_1	5,10-methylenetetrahydrofolate reductase (NADPH)	5,10-methylenetetrahydrofolate[c] + 2 H+[c] + NADPH[c] => 5-methyltetrahydrofolate[c] + NADP(+)[c]	MTHFR1	0	0	1000	Q9SE60	0.0353536	66.288	1.5.1.20	0.1			YEP	glucose	YGL125W
-Nicotianamine	Nicotianamine_2	5,10-methylenetetrahydrofolate reductase (NADPH)	5,10-methylenetetrahydrofolate[c] + 2 H+[c] + NADH[c] => 5-methyltetrahydrofolate[c] + NAD[c]	MTHFR1	0	0	1000	Q9SE60	0.0364584	66.288	1.5.1.20						
+Nicotianamine	Nicotianamine_1	"5,10-methylenetetrahydrofolate reductase (NADPH)"	"5,10-methylenetetrahydrofolate[c] + 2 H+[c] + NADPH[c] => 5-methyltetrahydrofolate[c] + NADP(+)[c]"	MTHFR1	0	0	1000	Q9SE60	0.0353536	66.288	1.5.1.20	0.1			YEP	glucose	YGL125W
+Nicotianamine	Nicotianamine_2	"5,10-methylenetetrahydrofolate reductase (NADPH)"	"5,10-methylenetetrahydrofolate[c] + 2 H+[c] + NADH[c] => 5-methyltetrahydrofolate[c] + NAD[c]"	MTHFR1	0	0	1000	Q9SE60	0.0364584	66.288	1.5.1.20						
 Nicotianamine	Nicotianamine_3	Nicotianamine synthase	3 S-adenosyl-L-methionine[c] => 3 H+[c] + Nicotianamine[c] + 3 5'-S-methyl-5'-thioadenosine [c]	NAS2	0	0	1000	Q9FKT9		35.679	2.5.1.43						
 Nicotianamine	Nicotianamine_4	nicotianamine transport	Nicotianamine[c] => Nicotianamine[e]		0	0	1000										
 Nicotianamine	Nicotianamine_5	nicotianamine exchaneg	Nicotianamine[e] =>		1	0	1000										
@@ -653,41 +653,41 @@ Psilocybin	Psilocybin_7	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D
 Psilocybin	Psilocybin_8	Psilocybin transport	psilocybin[c] => psilocybin[e]		0	0	1000										
 Psilocybin	Psilocybin_9	Psilocybin exchange	psilocybin[e] =>		1	0	1000										
 																	
-vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_1	dehydroshikimate dehydratase	3-dehydroshikimate[c] => 3,4-Dihydroxybenzoate[c] + H2O[c]	3DSD	0	0	1000	Q86ZM4	125.055	41.685	4.2.1.118	0.3			Min	glucose	YMR318C,YLR300W
-vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_2	O-methyltransferase	3,4-Dihydroxybenzoate[c] + 5-methyltetrahydrofolate[c] => THF[c] + Vanillate[c]	OMT 	0	0	1000	P21964	4.605673333	30.037	2.1.1.341						
-vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_3	aromatic carboxylic acid reductase	3,4-Dihydroxybenzoate[c] + NADPH[c] + ATP[c] + H+[c] => protocatechuic aldehyde[c] + AMP[c] + diphosphate[c] + NADP(+)[c]	ACAR 	0	0	1000	Q6RKB1	4.49211	128.346	1.2.1.30						
+vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_1	dehydroshikimate dehydratase	"3-dehydroshikimate[c] => 3,4-Dihydroxybenzoate[c] + H2O[c]"	3DSD	0	0	1000	Q86ZM4	125.055	41.685	4.2.1.118	0.3			Min	glucose	"YMR318C,YLR300W"
+vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_2	O-methyltransferase	"3,4-Dihydroxybenzoate[c] + 5-methyltetrahydrofolate[c] => THF[c] + Vanillate[c]"	OMT 	0	0	1000	P21964	4.605673333	30.037	2.1.1.341						
+vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_3	aromatic carboxylic acid reductase	"3,4-Dihydroxybenzoate[c] + NADPH[c] + ATP[c] + H+[c] => protocatechuic aldehyde[c] + AMP[c] + diphosphate[c] + NADP(+)[c]"	ACAR 	0	0	1000	Q6RKB1	4.49211	128.346	1.2.1.30						
 vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_4	aromatic carboxylic acid reductase	Vanillate[c] + NADH[c] + H+[c] => NAD[c] + H2O[c] + vanillin[c]	ACAR 	0	0	1000	Q6RKB1	4.49211	128.346	1.2.1.30						
 vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_5	O-methyltransferase	protocatechuic aldehyde[c] + 5-methyltetrahydrofolate[c] => THF[c] + vanillin[c]	OMT 	0	0	1000	P21964	4.605673333	30.037	2.1.1.341						
 vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_6	UDP-glycosyltransferase	UDP-D-glucose[c] + vanillin[c] => UDP[c] + H+[c] + vanillin-¦Â-glucoside[c]	UGT 	0	0	1000	Q9LVR1		52.992							
 vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_7	draw_prot_Q86ZM4	vanillin-¦Â-glucoside[c] => vanillin-¦Â-glucoside[e]		0	0	1000										
 vanillin-¦Â-glucoside	vanillin-¦Â-glucoside_8	draw_prot_P21964	vanillin-¦Â-glucoside[e] =>		1	0	1000										
 																	
-Betaxanthin	Betaxanthin_1	tyrosine hydroxylase	oxygen[c] + 2 L-tyrosine[c] => 2 3,4-Dihydroxy-L-phenylalanine(L-DOPA)[c]	CYP76AD5	0	0	1000	I3PFJ5		56.212	1.14.18.1	0.1			YEP	raffinose	YBR249C
-Betaxanthin	Betaxanthin_2	L-Dopa dioxygenase	3,4-Dihydroxy-L-phenylalanine(L-DOPA)[c] + oxygen[c] => 4-(L-Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde[c] + H+[c]	DOD	0	0	1000	B6F0W8	0.030171	30.171	1.13.11.29						
-Betaxanthin	Betaxanthin_3	spontaneous reaction	4-(L-Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde[c] + H+[c] => betalamic acid[c] + H2O[c]		0	0	1000										
+Betaxanthin	Betaxanthin_1	tyrosine hydroxylase	"oxygen[c] + 2 L-tyrosine[c] => 2 3,4-Dihydroxy-L-phenylalanine(L-DOPA)[c]"	CYP76AD5	0	0	1000	I3PFJ5		56.212	1.14.18.1	0.1			YEP	raffinose	YBR249C
+Betaxanthin	Betaxanthin_2	L-Dopa dioxygenase	"3,4-Dihydroxy-L-phenylalanine(L-DOPA)[c] + oxygen[c] => 4-(L-Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde[c] + H+[c]"	DOD	0	0	1000	B6F0W8	0.030171	30.171	1.13.11.29						
+Betaxanthin	Betaxanthin_3	spontaneous reaction	"4-(L-Alanin-3-yl)-2-hydroxy-cis,cis-muconate 6-semialdehyde[c] + H+[c] => betalamic acid[c] + H2O[c]"		0	0	1000										
 Betaxanthin	Betaxanthin_4	spontaneous reaction	betalamic acid[c] + L-tyrosine[c] => betaxanthin[c] + H2O[c]		0	0	1000										
 Betaxanthin	Betaxanthin_5	Betaxanthin transport	betaxanthin[c] => betaxanthin[e]		0	0	1000										
 Betaxanthin	Betaxanthin_6	Betaxanthin exchange	betaxanthin[e] =>		1	0	1000										
 Betaxanthin	Betaxanthin_7	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c] 	ARO4K229L	0	0	1000	P32449ly	0.082809792	39.7487	2.5.1.54						
 																	
-Rosmarinic acid	Rosmarinic acid_1	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.215305458	39.7487	2.5.1.54	0.1			Min	glucose	YBR249C,YPR060C,YDR380W,YLR134W
+Rosmarinic acid	Rosmarinic acid_1	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L 	0	0	1000	P32449ly	0.215305458	39.7487	2.5.1.54	0.1			Min	glucose	"YBR249C,YPR060C,YDR380W,YLR134W"
 Rosmarinic acid	Rosmarinic acid_2	chorismate mutase	chorismate[c] => prephenate[c]	ARO7G141S 	0	0	1000	P32178ly	0.1338606	29.7468	5.4.99.5						
 Rosmarinic acid	Rosmarinic acid_3	shikimate kinase	ATP[c] + shikimate[c] => 3-phosphoshikimic acid[c] + ADP[c] + H+[c]	aroL 	0	0	1000	P0A6E1	31.91833333	19.151	2.7.1.71						
 Rosmarinic acid	Rosmarinic acid_4	tyrosine ammonia-lyase	L-tyrosine[c] => ammonium[c] + p-coumaric acid[c]	TAL 	0	0	1000	A5FKY3	0.023	56.649	4.3.1.23						
 Rosmarinic acid	Rosmarinic acid_5	tyrosine transaminase (No1)	3-(4-hydroxyphenyl)pyruvate[c] + L-glutamate[c] => 2-oxoglutarate[c] + L-tyrosine[c]	TAT 	0	0	1000	Q8GUE9		45.179	2.6.1.5						
 Rosmarinic acid	Rosmarinic acid_6	tyrosine transaminase (reversible) (No1)	2-oxoglutarate[c] + L-tyrosine[c] => 3-(4-hydroxyphenyl)pyruvate[c] + L-glutamate[c]	TAT 	0	0	1000	Q8GUE9		45.179	2.6.1.5						
-Rosmarinic acid	Rosmarinic acid_7	4-hydroxyphenylacetate 3-hydroxylase complex B and C	p-coumaric acid[c] => caffeic acid[c]	hpaBC 	0	0	1000	Q57160,Q57501	4.3843	58.848,18.522	1.14.14.9						
+Rosmarinic acid	Rosmarinic acid_7	4-hydroxyphenylacetate 3-hydroxylase complex B and C	p-coumaric acid[c] => caffeic acid[c]	hpaBC 	0	0	1000	"Q57160,Q57501"	4.3843	"58.848,18.522"	1.14.14.9						
 Rosmarinic acid	Rosmarinic acid_8	Hydroxyphenylpyruvate reductase	3-(4-hydroxyphenyl)pyruvate[c] + NADPH[c] + H+[c] => 4-hydroxyphenyllactate[c] + NADP(+)[c]	HPPR 	0	0	1000	Q65CJ7	2.570976	34.128	1.1.1.237						
-Rosmarinic acid	Rosmarinic acid_9	4-hydroxyphenylacetate 3-hydroxylase complex B and C	4-hydroxyphenyllactate[c] + oxygen[c] + NADH[c] + H+[c] => NAD[c] + H2O[c] + 3,4-dihydroxyphenyllactate[c]	hpaBC 	0	0	1000	Q57160,Q57501	4.3843	58.848,18.522	1.14.14.9						
+Rosmarinic acid	Rosmarinic acid_9	4-hydroxyphenylacetate 3-hydroxylase complex B and C	"4-hydroxyphenyllactate[c] + oxygen[c] + NADH[c] + H+[c] => NAD[c] + H2O[c] + 3,4-dihydroxyphenyllactate[c]"	hpaBC 	0	0	1000	"Q57160,Q57501"	4.3843	"58.848,18.522"	1.14.14.9						
 Rosmarinic acid	Rosmarinic acid_10	4-coumaryl-CoA?ligase	trans-4-coumarate[c] + ATP[c] + coenzyme A[c] => AMP[c] + diphosphate[c] + 4-coumaroyl-CoA[c]	4CL1 	0	0	1000	Q42524	12.719375	61.053	6.2.1.12						
 Rosmarinic acid	Rosmarinic acid_11	4-coumaryl-CoA?ligase	caffeic acid[c] + ATP[c] + coenzyme A[c] => AMP[c] + diphosphate[c] + caffeoyl-CoA[c]	4CL1 	0	0	1000	Q42524	12.719375	61.053	6.2.1.12						
-Rosmarinic acid	Rosmarinic acid_12	Rosmarinate synthase	3,4-dihydroxyphenyllactate[c] + caffeoyl-CoA[c] => rosmarinate[c] + coenzyme A[c]	RAS 	0	0	1000	G0LD36	5.737921667	47.161	2.3.1.140						
+Rosmarinic acid	Rosmarinic acid_12	Rosmarinate synthase	"3,4-dihydroxyphenyllactate[c] + caffeoyl-CoA[c] => rosmarinate[c] + coenzyme A[c]"	RAS 	0	0	1000	G0LD36	5.737921667	47.161	2.3.1.140						
 Rosmarinic acid	Rosmarinic acid_13	Rosmarinate synthase	4-hydroxyphenyllactate[c] + 4-coumaroyl-CoA[c] => 4-coumaroyl-4'-hydroxyphenyllactic acid[c] + coenzyme A[c]	RAS 	0	0	1000	G0LD36	5.737921667	47.161	2.3.1.140						
 Rosmarinic acid	Rosmarinic acid_14	hydroxycinnamoyl-hydroxyphenyllactate 3- and 3¡ä-hydroxylases	4-coumaroyl-4'-hydroxyphenyllactic acid[c] + 2 NADH[c] => 2 NAD[c] + 2 H+[c] + rosmarinate[c]	CYP98A14 	0	0	1000										
 Rosmarinic acid	Rosmarinic acid_15	Rosmarinate transport	rosmarinate[c] => rosmarinate[e]		0	0	1000										
 Rosmarinic acid	Rosmarinic acid_16	Rosmarinate exchange	rosmarinate[e] =>		1	0	1000										
 																	
-Tyrosol	Tyrosol_1	tyrosine decarboxylase	L-tyrosine[c] + oxygen[c] + H2O[c] => 4-Hydroxyphenylacetaldehyde[c] + carbon dioxide[c] + Ammonia[c] + hydrogen peroxide[c]	AAS 	0	0	1000	Q06086		57.45	4.1.1.108	0.1			YEP	glucose	YNL316C,YLR044C,YKL211C
+Tyrosol	Tyrosol_1	tyrosine decarboxylase	L-tyrosine[c] + oxygen[c] + H2O[c] => 4-Hydroxyphenylacetaldehyde[c] + carbon dioxide[c] + Ammonia[c] + hydrogen peroxide[c]	AAS 	0	0	1000	Q06086		57.45	4.1.1.108	0.1			YEP	glucose	"YNL316C,YLR044C,YKL211C"
 Tyrosol	Tyrosol_2	chorismate mutase/prephenate dehydrogenase	prephenate[c] + NAD[c] => 3-(4-hydroxyphenyl)pyruvate[c] + carbon dioxide[c] + NADH[c] + H+[c]	TyrAM53I/A354V	0	0	1000	P07023	6.628779667	42.043	1.3.1.12						
 Tyrosol	Tyrosol_3	phosphoketolase	D-fructose 6-phosphate[c] + phosphate[c] => acetyl phosphate[c] + D-erythrose 4-phosphate[c] + H2O[c]	xfp 	0	0	1000	A0A0L0LT01	10.00945833	92.395	4.1.2.22						
 Tyrosol	Tyrosol_4	alcohol dehydrogenase	4-Hydroxyphenylacetaldehyde[c] + NADH[c] + H+[c] => Tyrosol[c] + NAD[c]	ADH 	0	0	1000	P0A9Q7		96.127	1.1.1.90						
@@ -701,7 +701,7 @@ Tyrosol	Tyrosol_11	Ammonia exchange	Ammonia[e] =>		0	0	1000
 Tyrosol	Tyrosol_12	acetyl phosphate transport	acetyl phosphate[c] => acetyl phosphate[e]		0	0	1000										
 Tyrosol	Tyrosol_13	acetyl phosphate exchange	acetyl phosphate[e] =>		0	0	1000										
 																	
-Salidroside	Salidroside_1	tyrosine decarboxylase	L-tyrosine[c] + oxygen[c] + H2O[c] => 4-Hydroxyphenylacetaldehyde[c] + carbon dioxide[c] + Ammonia[c] + hydrogen peroxide[c]	AAS 	0	0	1000	Q06086		57.45	4.1.1.108	0.1			YEP	glucose	YNL316C,YLR044C,YKL211C
+Salidroside	Salidroside_1	tyrosine decarboxylase	L-tyrosine[c] + oxygen[c] + H2O[c] => 4-Hydroxyphenylacetaldehyde[c] + carbon dioxide[c] + Ammonia[c] + hydrogen peroxide[c]	AAS 	0	0	1000	Q06086		57.45	4.1.1.108	0.1			YEP	glucose	"YNL316C,YLR044C,YKL211C"
 Salidroside	Salidroside_2	chorismate mutase/prephenate dehydrogenase	prephenate[c] + NAD[c] => 3-(4-hydroxyphenyl)pyruvate[c] + carbon dioxide[c] + NADH[c] + H+[c]	TyrAM53I/A354V	0	0	1000	P07023	6.628779667	42.043	1.3.1.12						
 Salidroside	Salidroside_3	phosphoketolase	D-fructose 6-phosphate[c] + phosphate[c] => acetyl phosphate[c] + D-erythrose 4-phosphate[c] + H2O[c]	xfp 	0	0	1000	A0A0L0LT01	10.00945833	92.395	4.1.2.22						
 Salidroside	Salidroside_4	alcohol dehydrogenase	4-Hydroxyphenylacetaldehyde[c] + NADH[c] + H+[c] => Tyrosol[c] + NAD[c]	ADH 	0	0	1000	P0A9Q7		96.127	1.1.1.90						
@@ -724,14 +724,14 @@ Miltiradiene	Miltiradiene_2	kaurene synthase	Copalyl diphosphate[c] => diphospha
 Miltiradiene	Miltiradiene_3	Miltiradiene transport	Miltiradiene[c] => Miltiradiene[e]		0	0	1000										
 Miltiradiene	Miltiradiene_4	Miltiradiene exchange	Miltiradiene[e] => 		1	0	1000										
 																	
-Caffeic acid	Caffeic acid_1	coumarate 3-hydroxylase	p-coumaric acid[c] => caffeic acid[c]	C3H	0	0	1000	O22203		57.927	1.14.13.-	0.1			YEP	Glucose	YDR380W,YLR134W
+Caffeic acid	Caffeic acid_1	coumarate 3-hydroxylase	p-coumaric acid[c] => caffeic acid[c]	C3H	0	0	1000	O22203		57.927	1.14.13.-	0.1			YEP	glucose	"YDR380W,YLR134W"
 Caffeic acid	Caffeic acid_2	tyrosine ammonia-lyase	L-tyrosine[c] => ammonium[c] + p-coumaric acid[c]	TAL	0	0	1000	A0A1M4NET9	27.7	55.539	4.3.1.23						
 Caffeic acid	Caffeic acid_3	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	D-erythrose 4-phosphate[c] + H2O[c] + phosphoenolpyruvate[c] => 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonic acid[c] + phosphate[c]	ARO4K229L	0	0	1000	P32449ly	0.082809792	39.7487	2.5.1.54						
 Caffeic acid	Caffeic acid_4	chorismate mutase	chorismate[c] => prephenate[c]	ARO7G141S	0	0	1000	P32178ly	0.1338606	29.7468	5.4.99.5						
 Caffeic acid	Caffeic acid_5	caffeic acid transpory	caffeic acid[c] => caffeic acid[e]														
 Caffeic acid	Caffeic acid_6	caffeic acid exchange	caffeic acid[e] =>														
 																	
-Valencene	Valencene_1	valencene synthase	farnesyl diphosphate[c] => valencene[c] + diphosphate[c]	VS	0	0	1000	S4SC87	0.0032	69.219	4.2.3.73	0.1			YEP	Glucose	YPL069C,YDR284C,YDR503C
+Valencene	Valencene_1	valencene synthase	farnesyl diphosphate[c] => valencene[c] + diphosphate[c]	VS	0	0	1000	S4SC87	0.0032	69.219	4.2.3.73	0.1			YEP	glucose	"YPL069C,YDR284C,YDR503C"
 Valencene	Valencene_2	valencene transport	valencene[c] => valencene[e]		0	0	1000										
 Valencene	Valencene_3	valencene exchange	valencene[e] =>		1	0	1000										
 Valencene	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c]	YLR450W	0	0	1000	P12684	92.5526	115.691	1.1.1.34						
@@ -753,37 +753,37 @@ Valencene	r_0667No1	isopentenyl-diphosphate D-isomerase (No1)	isopentenyl diphos
 Valencene	r_0667_REVNo1	isopentenyl-diphosphate D-isomerase (reversible) (No1)	prenyl diphosphate(3-)[c] => isopentenyl diphosphate[c]	YPL117C	0	0	1000	P15496	0.1212	33.3511	5.3.3.2						
 Valencene	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c]	YHR190W	0	0	1000	P29704	0.825	51.7193	2.5.1.21						
 																	
-Glycyrrhetinic acid	Glycyrrhetinic acid_1	¦Â-amyrin synthase	(S)-2,3-epoxysqualene[c] => ¦Â-Amyrin[c]	bAS	0	0	1000	Q9MB42	0.77	87.516	5.4.99.39	0.1			YEP	Glucose	
+Glycyrrhetinic acid	Glycyrrhetinic acid_1	¦Â-amyrin synthase	"(S)-2,3-epoxysqualene[c] => ¦Â-Amyrin[c]"	bAS	0	0	1000	Q9MB42	0.77	87.516	5.4.99.39	0.1			YEP	glucose	
 Glycyrrhetinic acid	Glycyrrhetinic acid_2	Beta-amyrin 11-oxidase	¦Â-Amyrin[c] + 2 oxygen[c] => 11-Oxo-beta-amyrin[c] + 3 H2O[c]	uni25647	0	0	1000	A0A218KSA8		56.456	1.14.14.152						
 Glycyrrhetinic acid	Glycyrrhetinic acid_3	11-oxo-beta-amyrin 30-oxidase	11-Oxo-beta-amyrin[c] + 3 oxygen[c] => Glycyrrhetinic acid[c] + 4 H2O[c]	CYP72A63	0	0	1000	H1A981		59.454	1.14.14.115						
 Glycyrrhetinic acid	Glycyrrhetinic acid_4	Glycyrrhetinic acid transport	Glycyrrhetinic acid[c] => Glycyrrhetinic acid[e]		0	0	1000										
 Glycyrrhetinic acid	Glycyrrhetinic acid_5	Glycyrrhetinic acid exchange	Glycyrrhetinic acid[e] =>		1	0	1000										
 																	
-Taxa-4(20),11(12)-dien-6alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_1	Taxadiene synthase	geranylgeranyl diphosphate[c] => diphosphate[c] + taxadiene[c]	TASY 	0	0	1000	Q2PRN4	0.16	97.962	4.2.3.17	0.1			YEP	Glucose	
-Taxa-4(20),11(12)-dien-6alpha-yl acetate	r_0904No1	phosphomevalonate kinase (No1)	(R)-5-phosphomevalonic acid[c] + ATP[c] => (R)-5-diphosphomevalonic acid[c] + ADP[c] 		0	0	1000		6.8	50.4544	2.7.4.2						
-Taxa-4(20),11(12)-dien-7alpha-yl acetate	r_0735No1	mevalonate kinase (atp) (No1)	(R)-mevalonate[c] + ATP[c] => (R)-5-phosphomevalonic acid[c] + ADP[c] + H+[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
-Taxa-4(20),11(12)-dien-8alpha-yl acetate	r_0736No1	mevalonate kinase (ctp) (No1)	(R)-mevalonate[c] + CTP[c] => (R)-5-phosphomevalonic acid[c] + CDP[c] + H+[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
-Taxa-4(20),11(12)-dien-9alpha-yl acetate	r_0737No1	mevalonate kinase (gtp) (No1)	(R)-mevalonate[c] + GTP[c] => (R)-5-phosphomevalonic acid[c] + GDP[c] + H+[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
-Taxa-4(20),11(12)-dien-10alpha-yl acetate	r_0738No1	mevalonate kinase (UTP) (No1)	(R)-mevalonate[c] + UTP[c] => (R)-5-phosphomevalonic acid[c] + H+[c] + UDP[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
-Taxa-4(20),11(12)-dien-11alpha-yl acetate	r_0739No1	mevalonate pyrophoshate decarboxylase (No1)	(R)-5-diphosphomevalonic acid[c] + ATP[c] => ADP[c] + carbon dioxide[c] + isopentenyl diphosphate[c] + phosphate[c] 		0	0	1000		9.8	44.1154	4.1.1.33						
-Taxa-4(20),11(12)-dien-12alpha-yl acetate	r_0355No1	dimethylallyltranstransferase (No1)	isopentenyl diphosphate[c] + prenyl diphosphate(3-)[c] => diphosphate[c] + geranyl diphosphate[c] 		0	0	1000		2.2	40.4829	2.5.1.1						
-Taxa-4(20),11(12)-dien-13alpha-yl acetate	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c] 		0	0	1000		2.2	40.4829	2.5.1.1						
-Taxa-4(20),11(12)-dien-14alpha-yl acetate	r_0667No1	isopentenyl-diphosphate D-isomerase (No1)	isopentenyl diphosphate[c] => prenyl diphosphate(3-)[c] 		0	0	1000		59800	33.3511	5.3.3.2						
-Taxa-4(20),11(12)-dien-15alpha-yl acetate	r_0667_REVNo1	isopentenyl-diphosphate D-isomerase (reversible) (No1)	prenyl diphosphate(3-)[c] => isopentenyl diphosphate[c] 		0	0	1000		0.1212	33.3511	5.3.3.2						
-Taxa-4(20),11(12)-dien-16alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_2	geranylgeranyl diphosphate synthase	farnesyl diphosphate[c] + isopentenyl diphosphate[c] => diphosphate[c] + geranylgeranyl diphosphate[c]	crtE 	0	0	1000	Q1L6K3	8.4	42.153	2.5.1.29						
-Taxa-4(20),11(12)-dien-17alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_3	Acetyl-CoA acetyltransferase	acetyl-CoA[c] => coenzyme A[c] + acetoacetyl-CoA[c]	mvaE 	0	0	1000	Q9FD70		86.497	2.3.1.9						
-Taxa-4(20),11(12)-dien-18alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_4	Hydroxymethylglutaryl-CoA synthase	acetyl-CoA[c] + acetoacetyl-CoA[c] + H2O[c] => 3-hydroxy-3-methylglutaryl-CoA[c] + coenzyme A[c]	mvaS 	0	0	1000	Q9FD71	7.025166667	42.151	2.3.3.10						
-Taxa-4(20),11(12)-dien-19alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_5	Taxadiene 5-alpha hydroxylase	taxadiene[c] + oxygen[c] => Taxa-4(20),11-dien-5alpha-ol[c] + H2O[c]	CYP725A4 	0	0	1000	Q6WG30		56.558	1.14.99.37						
-Taxa-4(20),11(12)-dien-20alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_6	Taxadien-5-alpha-ol O-acetyltransferase	Taxa-4(20),11-dien-5alpha-ol[c] + acetyl-CoA[c] => Taxa-4(20),11(12)-dien-5alpha-yl acetate[c] + coenzyme A[c]	TAT 	0	0	1000	Q9M6F0	29.59	49.08	2.3.1.162						
-Taxa-4(20),11(12)-dien-21alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_7	Taxa-4(20),11(12)-dien-5alpha-yl acetate transport	Taxa-4(20),11(12)-dien-5alpha-yl acetate[c] => Taxa-4(20),11(12)-dien-6alpha-yl acetate[e]		0	0	1000										
-Taxa-4(20),11(12)-dien-22alpha-yl acetate	Taxa-4(20),11(12)-dien-6alpha-yl acetate_8	Taxa-4(20),11(12)-dien-6alpha-yl acetate exchange	Taxa-4(20),11(12)-dien-6alpha-yl acetate[e] =>		1	0	1000										
+"Taxa-4(20),11(12)-dien-6alpha-yl acetate"	"Taxa-4(20),11(12)-dien-6alpha-yl acetate_1"	Taxadiene synthase	geranylgeranyl diphosphate[c] => diphosphate[c] + taxadiene[c]	TASY 	0	0	1000	Q2PRN4	0.16	97.962	4.2.3.17	0.1			YEP	glucose	
+"Taxa-4(20),11(12)-dien-6alpha-yl acetate"	r_0904No1	phosphomevalonate kinase (No1)	(R)-5-phosphomevalonic acid[c] + ATP[c] => (R)-5-diphosphomevalonic acid[c] + ADP[c] 		0	0	1000		6.8	50.4544	2.7.4.2						
+"Taxa-4(20),11(12)-dien-7alpha-yl acetate"	r_0735No1	mevalonate kinase (atp) (No1)	(R)-mevalonate[c] + ATP[c] => (R)-5-phosphomevalonic acid[c] + ADP[c] + H+[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
+"Taxa-4(20),11(12)-dien-8alpha-yl acetate"	r_0736No1	mevalonate kinase (ctp) (No1)	(R)-mevalonate[c] + CTP[c] => (R)-5-phosphomevalonic acid[c] + CDP[c] + H+[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
+"Taxa-4(20),11(12)-dien-9alpha-yl acetate"	r_0737No1	mevalonate kinase (gtp) (No1)	(R)-mevalonate[c] + GTP[c] => (R)-5-phosphomevalonic acid[c] + GDP[c] + H+[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
+"Taxa-4(20),11(12)-dien-10alpha-yl acetate"	r_0738No1	mevalonate kinase (UTP) (No1)	(R)-mevalonate[c] + UTP[c] => (R)-5-phosphomevalonic acid[c] + H+[c] + UDP[c] 		0	0	1000		43.8001	48.459	2.7.1.36						
+"Taxa-4(20),11(12)-dien-11alpha-yl acetate"	r_0739No1	mevalonate pyrophoshate decarboxylase (No1)	(R)-5-diphosphomevalonic acid[c] + ATP[c] => ADP[c] + carbon dioxide[c] + isopentenyl diphosphate[c] + phosphate[c] 		0	0	1000		9.8	44.1154	4.1.1.33						
+"Taxa-4(20),11(12)-dien-12alpha-yl acetate"	r_0355No1	dimethylallyltranstransferase (No1)	isopentenyl diphosphate[c] + prenyl diphosphate(3-)[c] => diphosphate[c] + geranyl diphosphate[c] 		0	0	1000		2.2	40.4829	2.5.1.1						
+"Taxa-4(20),11(12)-dien-13alpha-yl acetate"	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c] 		0	0	1000		2.2	40.4829	2.5.1.1						
+"Taxa-4(20),11(12)-dien-14alpha-yl acetate"	r_0667No1	isopentenyl-diphosphate D-isomerase (No1)	isopentenyl diphosphate[c] => prenyl diphosphate(3-)[c] 		0	0	1000		59800	33.3511	5.3.3.2						
+"Taxa-4(20),11(12)-dien-15alpha-yl acetate"	r_0667_REVNo1	isopentenyl-diphosphate D-isomerase (reversible) (No1)	prenyl diphosphate(3-)[c] => isopentenyl diphosphate[c] 		0	0	1000		0.1212	33.3511	5.3.3.2						
+"Taxa-4(20),11(12)-dien-16alpha-yl acetate"	"Taxa-4(20),11(12)-dien-6alpha-yl acetate_2"	geranylgeranyl diphosphate synthase	farnesyl diphosphate[c] + isopentenyl diphosphate[c] => diphosphate[c] + geranylgeranyl diphosphate[c]	crtE 	0	0	1000	Q1L6K3	8.4	42.153	2.5.1.29						
+"Taxa-4(20),11(12)-dien-17alpha-yl acetate"	"Taxa-4(20),11(12)-dien-6alpha-yl acetate_3"	Acetyl-CoA acetyltransferase	acetyl-CoA[c] => coenzyme A[c] + acetoacetyl-CoA[c]	mvaE 	0	0	1000	Q9FD70		86.497	2.3.1.9						
+"Taxa-4(20),11(12)-dien-18alpha-yl acetate"	"Taxa-4(20),11(12)-dien-6alpha-yl acetate_4"	Hydroxymethylglutaryl-CoA synthase	acetyl-CoA[c] + acetoacetyl-CoA[c] + H2O[c] => 3-hydroxy-3-methylglutaryl-CoA[c] + coenzyme A[c]	mvaS 	0	0	1000	Q9FD71	7.025166667	42.151	2.3.3.10						
+"Taxa-4(20),11(12)-dien-19alpha-yl acetate"	"Taxa-4(20),11(12)-dien-6alpha-yl acetate_5"	Taxadiene 5-alpha hydroxylase	"taxadiene[c] + oxygen[c] => Taxa-4(20),11-dien-5alpha-ol[c] + H2O[c]"	CYP725A4 	0	0	1000	Q6WG30		56.558	1.14.99.37						
+"Taxa-4(20),11(12)-dien-20alpha-yl acetate"	"Taxa-4(20),11(12)-dien-6alpha-yl acetate_6"	Taxadien-5-alpha-ol O-acetyltransferase	"Taxa-4(20),11-dien-5alpha-ol[c] + acetyl-CoA[c] => Taxa-4(20),11(12)-dien-5alpha-yl acetate[c] + coenzyme A[c]"	TAT 	0	0	1000	Q9M6F0	29.59	49.08	2.3.1.162						
+"Taxa-4(20),11(12)-dien-21alpha-yl acetate"	"Taxa-4(20),11(12)-dien-6alpha-yl acetate_7"	"Taxa-4(20),11(12)-dien-5alpha-yl acetate transport"	"Taxa-4(20),11(12)-dien-5alpha-yl acetate[c] => Taxa-4(20),11(12)-dien-6alpha-yl acetate[e]"		0	0	1000										
+"Taxa-4(20),11(12)-dien-22alpha-yl acetate"	"Taxa-4(20),11(12)-dien-6alpha-yl acetate_8"	"Taxa-4(20),11(12)-dien-6alpha-yl acetate exchange"	"Taxa-4(20),11(12)-dien-6alpha-yl acetate[e] =>"		1	0	1000										
 																	
 Vitamin A	Vitamin A_1	geranylgeranyl diphosphate synthase	farnesyl diphosphate[c] + isopentenyl diphosphate[c] => diphosphate[c] + geranylgeranyl diphosphate[c]	crtE 	0	0	1000	Q1L6K3	8.4	42.153	2.5.1.29	0.1			Min	xylose	YPL061W
 Vitamin A	Vitamin A_2	Bifunctional lycopene cyclase/phytoene synthase	2 geranylgeranyl diphosphate[c] => 2 diphosphate[c] + phytoene[c]	crtYB 	0	0	1000	Q7Z859	0.0834552	74.736	2.5.1.32						
 Vitamin A	Vitamin A_3	Phytoene desaturase	phytoene[c] => neurosporene[c]	crtI 	0	0	1000	Q7Z858	0.000314486	65.066	1.3.99.28						
 Vitamin A	Vitamin A_4	Phytoene desaturase	neurosporene[c] + oxygen[c] => 2 H2O[c] + lycopene[c]	crtI 	0	0	1000	Q7Z858	0.000314486	65.066	1.3.99.28						
 Vitamin A	Vitamin A_5	Bifunctional lycopene cyclase/phytoene synthase	lycopene[c] => ¦Â-carotene[c]	crtYB 	0	0	1000	Q7Z859	0.4434336	74.736	5.5.1.19						
-Vitamin A	Vitamin A_6	Beta-carotene 15,15'-dioxygenase	¦Â-carotene[c] + oxygen[c] => 2 Retinal[c]	blh 	0	0	1000	Q4PNI0	0.037	31.037	1.13.11.63						
+Vitamin A	Vitamin A_6	"Beta-carotene 15,15'-dioxygenase"	¦Â-carotene[c] + oxygen[c] => 2 Retinal[c]	blh 	0	0	1000	Q4PNI0	0.037	31.037	1.13.11.63						
 Vitamin A	Vitamin A_7	retinol dehydrogenase	Retinal[c] + NADH[c] + H+[c] => Retinol[c] + NAD[c]	ADH 	0	0	1000	P00330		36.8487	1.1.1.1						
 Vitamin A	Vitamin A_8	xylose reductase	D-xylose[c] + H+[c] + NADH[c] => xylitol[c] + NAD[c]	XYL1 	0	0	1000	P31867	27.5	35.923	1.1.1.307						
 Vitamin A	Vitamin A_9	xylose reductase	D-xylose[c] + H+[c] + NADPH[c] => xylitol[c] + NADP(+)[c]	XYL1 	0	0	1000	P31867	27.5	35.923	1.1.1.307						
@@ -826,7 +826,7 @@ Citrate												0.1			Min	glucose
 Oxoglutarate												0.1			Min	glucose	
 Acetaldehyde												0.1			Min	glucose	
 Acetate												0.1			Min	glucose	
-R,R-2,3-butanediol												0.1			Min	glucose	
+"R,R-2,3-butanediol"												0.1			Min	glucose	
 Citrulline												0.1			Min	glucose	
 Oleate												0.1			Min	glucose	
 Spermine												0.1			Min	glucose	
