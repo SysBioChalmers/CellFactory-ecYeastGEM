@@ -1,0 +1,7 @@
+rxnID	coefficient	Metabolite standard name	Metabolite_type	compartment
+MNXR111232	1	farnesyl diphosphate	reactant	cytoplasm
+MNXR111232	1	diphosphate	product	cytoplasm
+MNXR111232	1	amorphadiene	product	cytoplasm
+Amorphadiene transport	1	amorphadiene	reactant	cytoplasm
+Amorphadiene transport	1	amorphadiene	product	extracellular
+Amorphadiene exchange	1	amorphadiene	reactant	extracellular
