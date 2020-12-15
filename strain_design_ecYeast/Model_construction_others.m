@@ -3496,7 +3496,49 @@ FBAsolution=optimizeCbModel(model)
 cd ../result_ecYeast/ecModels
 save ecCinnamoyltropine.mat model
 
-
+% L-(+)-Ergothioneine
+cd ../../../ModelFiles/mat
+load('ecYeastGEM_batch.mat');
+model = ecModel_batch;
+Kcat1=0.0716*3600;
+MW1=99.025;
+MW2=39.033;
+model = addReaction(model,'newRxn1','metaboliteList',{'s_1006','s_1416','prot_Q7RX33','s_0794','s_4434','s_1413'},'stoichCoeffList',[-1 -3 -1/Kcat1 3 1 3],'reversible',false);
+model = addReaction(model,'newRxn2','metaboliteList',{'s_4434','s_0981','s_1275','prot_Q7RX33','s_0803','s_4435'},'stoichCoeffList',[-1 -1 -1 -1/Kcat1 1 1],'reversible',false);
+model = addReaction(model,'newRxn3','metaboliteList',{'s_4435','prot_A0R5M7','s_4436','s_1399','s_4395'},'stoichCoeffList',[-1 -1 1 1 1],'reversible',false);
+model = addReaction(model,'newRxn4','metaboliteList',{'s_4436','s_4437'},'stoichCoeffList',[-1 1],'reversible',false); 
+model = addReaction(model,'newRxn5','metaboliteList',{'s_4437'},'stoichCoeffList',[-1],'reversible',false); 
+model = addReaction(model,'newRxn6','metaboliteList',{'prot_pool','prot_Q7RX33'},'stoichCoeffList',[-MW1 1],'reversible',false);
+model = addReaction(model,'newRxn7','metaboliteList',{'prot_pool','prot_A0R5M7'},'stoichCoeffList',[-MW2 1],'reversible',false);
+model = addReaction(model,'newRxn8','metaboliteList',{'s_4395','s_4401'},'stoichCoeffList',[-1 1],'reversible',false); 
+model = addReaction(model,'newRxn9','metaboliteList',{'s_4401'},'stoichCoeffList',[-1],'reversible',false); 
+model=changeGeneAssociation(model,'newRxn1','Egt1');
+model=changeGeneAssociation(model,'newRxn2','Egt1');
+model=changeGeneAssociation(model,'newRxn3','Egr2');
+model.geneShortNames(1128)={'Egt1'};
+model.geneShortNames(1129)={'Egt2'};
+model.enzymes(964)={'Q7RX33'};
+model.enzymes(965)={'A0R5M7'};
+model.enzGenes(964)={'Egt1'};
+model.enzGenes(965)={'Egt2'};
+model.metComps(4147)=1;
+model.metComps(4148)=1;
+model.metComps(4149)=1;
+model.metComps(4150)=1;
+model.metComps(4151)=1;
+model.metComps(4152)=1;
+model.metComps(4153)=3;
+model.metComps(4154)=3;
+model=changeRxnBounds(model,'r_1714_REV',1000,'u');
+model=changeRxnBounds(model,'r_2111',0.1,'l');
+model=changeObjective(model,'newRxn5');
+model=changeRxnBounds(model,'r_1879_REV',1,'u'); % add arginine
+model=changeRxnBounds(model,'r_1893_REV',1,'u'); % add histidine
+model=changeRxnBounds(model,'r_1902_REV',1,'u'); % add methionine
+model=changeRxnBounds(model,'r_2028_REV',1,'u'); % add pyridoxine
+FBAsolution=optimizeCbModel(model)
+cd ../../result_ecYeast/ecModels
+save ecErgothioneine.mat model
 
 
 

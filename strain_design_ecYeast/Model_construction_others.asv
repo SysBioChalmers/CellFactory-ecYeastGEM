@@ -3489,13 +3489,56 @@ model=changeObjective(model,'newRxn13');
 model = removeGenes(model,'YMR170C'); % delete ALD2
 model = removeGenes(model,'YMR169C'); % delete ALD3
 model = removeGenes(model,'YOR374W'); % delete ALD4
-model = removeGenes(model,'YDR503C'); % delete ALD5
-
+model = removeGenes(model,'YER073W'); % delete ALD5
+model = removeGenes(model,'YMR110C'); % delete HFD1
+model = removeGenes(model,'YLR017W'); % delete MEU1
 FBAsolution=optimizeCbModel(model)
 cd ../result_ecYeast/ecModels
-save ecSqualene.mat model
+save ecCinnamoyltropine.mat model
 
-
+% L-(+)-Ergothioneine
+cd ../../../ModelFiles/mat
+load('ecYeastGEM_batch.mat');
+model = ecModel_batch;
+Kcat1=0.0716*3600;
+MW1=99.025;
+MW2=39.033;
+model = addReaction(model,'newRxn1','metaboliteList',{'s_1006','s_1416','prot_Q7RX33','s_0794','s_4434','s_1413'},'stoichCoeffList',[-1 -3 -1/Kcat1 3 1 3],'reversible',false);
+model = addReaction(model,'newRxn2','metaboliteList',{'s_4434','s_0981','s_1275','prot_Q7RX33','s_0803','s_4435'},'stoichCoeffList',[-1 -1 -1 -1/Kcat1 1 1],'reversible',false);
+model = addReaction(model,'newRxn3','metaboliteList',{'s_4435','prot_A0R5M7','s_4436','s_1399','s_4395'},'stoichCoeffList',[-1 -1 1 1 1],'reversible',false);
+model = addReaction(model,'newRxn4','metaboliteList',{'s_4436','s_4437'},'stoichCoeffList',[-1 1],'reversible',false); 
+model = addReaction(model,'newRxn5','metaboliteList',{'s_4437'},'stoichCoeffList',[-1],'reversible',false); 
+model = addReaction(model,'newRxn6','metaboliteList',{'prot_pool','prot_Q7RX33'},'stoichCoeffList',[-MW1 1],'reversible',false);
+model = addReaction(model,'newRxn7','metaboliteList',{'prot_pool','prot_A0R5M7'},'stoichCoeffList',[-MW2 1],'reversible',false);
+model=changeGeneAssociation(model,'newRxn1','VS');
+model=changeGeneAssociation(model,'newRxn2','HPO');
+model=changeGeneAssociation(model,'newRxn3','ZSD1');
+model.geneShortNames(1128)={'VS'};
+model.geneShortNames(1129)={'HPO'};
+model.geneShortNames(1130)={'ZSD1'};
+model.enzymes(964)={'S4SC87'};
+model.enzymes(965)={'A6YIH8'};
+model.enzymes(966)={'F1SWA0'};
+model.enzGenes(964)={'VS'};
+model.enzGenes(965)={'HPO'};
+model.enzGenes(966)={'ZSD1'};
+model.metComps(4147)=1;
+model.metComps(4148)=1;
+model.metComps(4149)=1;
+model.metComps(4150)=1;
+model.metComps(4151)=1;
+model.metComps(4152)=1;
+model.metComps(4153)=3;
+model=changeRxnBounds(model,'r_1714_REV',1000,'u');
+model=changeRxnBounds(model,'r_2111',0.1,'l');
+model=changeObjective(model,'newRxn5');
+model=changeRxnBounds(model,'r_1710_REV',1,'u'); % add galactose
+cd ../../strain_design_ecYeast
+c_sourceID = 'D-glucose exchange (reversible)';
+model = lychangeMedia_batch(model,c_sourceID,'YEP');
+FBAsolution=optimizeCbModel(model)
+cd ../result_ecYeast/ecModels
+save ecNootkatone.mat model
 
 
 
