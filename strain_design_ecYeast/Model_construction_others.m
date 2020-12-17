@@ -3540,9 +3540,101 @@ FBAsolution=optimizeCbModel(model)
 cd ../../result_ecYeast/ecModels
 save ecErgothioneine.mat model
 
+% S-adenosyl-L-methionine
+cd ../../../ModelFiles/mat
+load('ecYeastGEM_batch.mat');
+model = ecModel_batch;
+Kcat1=1.7660e-04*3600;
+model = addReaction(model,'r_0726No1','metaboliteList',{'pmet_r_0726','prot_P19358','s_0633','s_1322','s_1416'},'stoichCoeffList',[-1 -1/Kcat1 1 1 1],'reversible',false);
+model = addReaction(model,'newRxn1','metaboliteList',{'s_1416','s_1418'},'stoichCoeffList',[-1 1],'reversible',false); 
+model = removeGenes(model,'YOL052C'); % delete SPE2
+cd ../../strain_design_ecYeast
+c_sourceID = 'D-glucose exchange (reversible)';
+model = lychangeMedia_batch(model,c_sourceID,'YEP');
+model=changeRxnBounds(model,'r_1714_REV',1000,'u');
+model=changeRxnBounds(model,'r_2111',0.159,'l');
+model=changeObjective(model,'r_2043');
+FBAsolution=optimizeCbModel(model)
+cd ../result_ecYeast/ecModels
+save ecS-adenosyl-L-methionine.mat model
 
-
-
+% 2'-Fucosyllactose
+cd ../../../ModelFiles/mat
+load('ecYeastGEM_batch.mat');
+model = ecModel_batch;
+Kcat1=27.5*3600;
+MW1=35.923;
+Kcat2=30.33*3600;
+MW2=38.521;
+Kcat3=1.1448*3600;
+MW3=69.397;
+Kcat4=5*3600;
+MW4=41.674;
+Kcat5=1.5*3600;
+MW5=36.141;
+Kcat6=3.96*3600;
+MW6=34.942;
+model = addReaction(model,'newRxn1','metaboliteList',{'s_0578','s_0794','s_1203','prot_P31867','s_1566','s_1198'},'stoichCoeffList',[-1 -1 -1 -1/Kcat1 1 1],'reversible',false);
+model = addReaction(model,'newRxn2','metaboliteList',{'s_0578','s_0794','s_1212','prot_P31867','s_1566','s_1207'},'stoichCoeffList',[-1 -1 -1 -1/Kcat1 1 1],'reversible',false);
+model = addReaction(model,'newRxn3','metaboliteList',{'s_1566','s_1198','prot_P22144','s_0580','s_0794','s_1203'},'stoichCoeffList',[-1 -1 -1/Kcat2 1 1 1],'reversible',false);
+model = addReaction(model,'newRxn4','metaboliteList',{'s_0434','s_0580','prot_Q9P938','s_0394','s_0581','s_0794'},'stoichCoeffList',[-1 -1 -1/Kcat3 1 1 1],'reversible',false);
+model = addReaction(model,'newRxn5','metaboliteList',{'s_0743','prot_O85339','s_0803','s_4438'},'stoichCoeffList',[-1 -1/Kcat4 1 1],'reversible',false);
+model = addReaction(model,'newRxn6','metaboliteList',{'s_4438','s_1212','s_0794','prot_P32055','s_1207','s_4439'},'stoichCoeffList',[-1 -1 -1 -1/Kcat5 1 1],'reversible',false);
+model = addReaction(model,'newRxn7','metaboliteList',{'s_4439','s_0558','prot_A6M9C2','s_0739','s_4440'},'stoichCoeffList',[-1 -1 -1/Kcat6 1 1],'reversible',false);
+model = addReaction(model,'newRxn8','metaboliteList',{'s_4440','s_4441'},'stoichCoeffList',[-1 1],'reversible',false); 
+model = addReaction(model,'newRxn9','metaboliteList',{'s_4441'},'stoichCoeffList',[-1],'reversible',false); 
+model = addReaction(model,'newRxn10','metaboliteList',{'prot_pool','prot_P31867'},'stoichCoeffList',[-MW1 1],'reversible',false);
+model = addReaction(model,'newRxn11','metaboliteList',{'prot_pool','prot_P22144'},'stoichCoeffList',[-MW2 1],'reversible',false);
+model = addReaction(model,'newRxn12','metaboliteList',{'prot_pool','prot_Q9P938'},'stoichCoeffList',[-MW3 1],'reversible',false);
+model = addReaction(model,'newRxn13','metaboliteList',{'prot_pool','prot_O85339'},'stoichCoeffList',[-MW4 1],'reversible',false);
+model = addReaction(model,'newRxn14','metaboliteList',{'prot_pool','prot_P32055'},'stoichCoeffList',[-MW5 1],'reversible',false);
+model = addReaction(model,'newRxn15','metaboliteList',{'prot_pool','prot_A6M9C2'},'stoichCoeffList',[-MW6 1],'reversible',false);
+model = removeGenes(model,'YDL236W'); % delete PHO13
+model = removeGenes(model,'YPL061W'); % delete ALD6
+model=changeGeneAssociation(model,'newRxn1','XYL1');
+model=changeGeneAssociation(model,'newRxn2','XYL1');
+model=changeGeneAssociation(model,'newRxn3','XYL2');
+model=changeGeneAssociation(model,'newRxn4','XYL3');
+model=changeGeneAssociation(model,'newRxn5','Gmd');
+model=changeGeneAssociation(model,'newRxn6','WcaG');
+model=changeGeneAssociation(model,'newRxn7','WbgL');
+model.geneShortNames(1126)={'XYL1'};
+model.geneShortNames(1127)={'XYL2'};
+model.geneShortNames(1128)={'XYL3'};
+model.geneShortNames(1129)={'Gmd'};
+model.geneShortNames(1130)={'WcaG'};
+model.geneShortNames(1131)={'WbgL'};
+model.enzymes(964)={'P31867'};
+model.enzymes(965)={'P22144'};
+model.enzymes(966)={'Q9P938'};
+model.enzymes(967)={'O85339'};
+model.enzymes(968)={'P32055'};
+model.enzymes(969)={'A6M9C2'};
+model.enzGenes(964)={'XYL1'};
+model.enzGenes(965)={'XYL2'};
+model.enzGenes(966)={'XYL3'};
+model.enzGenes(967)={'Gmd'};
+model.enzGenes(968)={'WcaG'};
+model.enzGenes(969)={'WbgL'};
+model.metComps(4147)=1;
+model.metComps(4148)=1;
+model.metComps(4149)=1;
+model.metComps(4150)=1;
+model.metComps(4151)=1;
+model.metComps(4152)=1;
+model.metComps(4153)=1;
+model.metComps(4154)=1;
+model.metComps(4155)=1;
+model.metComps(4156)=3;
+cd ../../strain_design_ecYeast
+c_sourceID = 'D-xylose exchange (reversible)';
+model = lychangeMedia_batch(model,c_sourceID,'YEP');
+model=changeRxnBounds(model,'r_1710_REV',1,'u');
+model=changeRxnBounds(model,'r_2111',0.1,'l');
+model=changeObjective(model,'newRxn9');
+FBAsolution=optimizeCbModel(model)
+cd ../result_ecYeast/ecModels
+save ec2_Fucosyllactose.mat model
 
 
 
