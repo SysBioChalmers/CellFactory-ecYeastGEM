@@ -186,9 +186,9 @@ Adipic acid	r_1757_REV				0	0	1
 Adipic acid	r_2038_REV				0	0	1										
 Adipic acid	r_1807_REV				0	0	1										
 																	
-Isobutanol	r_0016No1	2-aceto-2-hydroxybutanoate synthase (No1)	pmet_r_0016[m] + 1.72533e-05 prot_P25605 => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2			0.1			YEP	glucose	"YPL061W,YHR208W"
+Isobutanol	r_0016No1	2-aceto-2-hydroxybutanoate synthase (No1)	pmet_r_0016[m] => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2			0.1			YEP	glucose	"YPL061W,YHR208W"
 Isobutanol	r_0016No2	2-aceto-2-hydroxybutanoate synthase (No2)	pmet_r_0016[m] => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2								
-Isobutanol	r_0097No1	acetolactate synthase (No1)	3.45066e-05 prot_P25605 + pmet_r_0097[m] => 2-acetyllactic acid[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	16.1								
+Isobutanol	r_0097No1	acetolactate synthase (No1)	pmet_r_0097[m] => 2-acetyllactic acid[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	16.1								
 Isobutanol	r_0097No2	acetolactate synthase (No2)	pmet_r_0097[m] => 2-acetyllactic acid[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	16.1								
 Isobutanol	r_0352No1	"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate) (No1)"	"(R)-2,3-dihydroxy-3-methylbutanoate[m] => 3-methyl-2-oxobutanoate[m] + H2O[m]"	YJR016C	0	0	1000	P39522	50								
 Isobutanol	r_0353No1	"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate) (No1)"	"(2R,3R)-2,3-dihydroxy-3-methylpentanoate[m] => (S)-3-methyl-2-oxopentanoate[m] + H2O[m]"	YJR016C	0	0	1000	P39522	50								
@@ -198,9 +198,9 @@ Isobutanol	r_0854No1	phenylpyruvate decarboxylase (No1)	H+[c] + keto-phenylpyruv
 Isobutanol	r_0163No1	alcohol dehydrogenase (ethanol to acetaldehyde) (No1)	ethanol[c] + NAD[c] => acetaldehyde[c] + H+[c] + NADH[c]	YMR303C	0	0	1000	P00331	286								
 Isobutanol	r_1866				1	0	Inf										
 																	
-3-Methyl-1-Butanol	r_0016No1	2-aceto-2-hydroxybutanoate synthase (No1)	pmet_r_0016[m] + 1.72533e-05 prot_P25605 => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2			0.1			YEP	glucose	"YPL061W,YHR208W"
+3-Methyl-1-Butanol	r_0016No1	2-aceto-2-hydroxybutanoate synthase (No1)	pmet_r_0016[m] => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2			0.1			YEP	glucose	"YPL061W,YHR208W"
 3-Methyl-1-Butanol	r_0016No2	2-aceto-2-hydroxybutanoate synthase (No2)	pmet_r_0016[m] => (S)-2-acetyl-2-hydroxybutanoate[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	32.2								
-3-Methyl-1-Butanol	r_0097No1	acetolactate synthase (No1)	3.45066e-05 prot_P25605 + pmet_r_0097[m] => 2-acetyllactic acid[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	16.1								
+3-Methyl-1-Butanol	r_0097No1	acetolactate synthase (No1)	pmet_r_0097[m] => 2-acetyllactic acid[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	16.1								
 3-Methyl-1-Butanol	r_0097No2	acetolactate synthase (No2)	pmet_r_0097[m] => 2-acetyllactic acid[m] + carbon dioxide[m]	YMR108W	0	0	1000	P07342	16.1								
 3-Methyl-1-Butanol	r_0352No1	"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate) (No1)"	"(R)-2,3-dihydroxy-3-methylbutanoate[m] => 3-methyl-2-oxobutanoate[m] + H2O[m]"	YJR016C	0	0	1000	P39522	50								
 3-Methyl-1-Butanol	r_0353No1	"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate) (No1)"	"(2R,3R)-2,3-dihydroxy-3-methylpentanoate[m] => (S)-3-methyl-2-oxopentanoate[m] + H2O[m]"	YJR016C	0	0	1000	P39522	50								
@@ -347,7 +347,7 @@ Santalene	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isope
 Santalene	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c]	YHR190W	0	0	1000	P29704	0.825	51.7193	2.5.1.21						
 Santalene	r_0470No1	glutamate dehydrogenase (NAD) (No1)	H2O[c] + L-glutamate[c] + NAD[c] => 2-oxoglutarate[c] + ammonium[c] + H+[c] + NADH[c]	YDL215C	0	0	1000	P33327	47.9999	124.331	1.4.1.2						
 								 									
-lactase	lactase_1	production of lactase	2.01 GTP[c] + 0.6516 L-alanine[c] + 0.2643 L-arginine[c] + 0.5013 L-asparagine[c] + 0.4921 L-aspartate[c] + 0.0547 L-cysteine[c] + 0.4375 L-glutamate[c] + 0.2552 L-glutamine[c] + 0.9114 L-glycine[c] + 0.1276 L-histidine[c] + 0.4466 L-isoleucine[c] + 0.8567 L-leucine[c] + 0.4192 L-lysine[c] + 0.0638 L-methionine[c] + 0.3645 L-phenylalanine[c] + 0.4921 L-proline[c] + 0.8567 L-serine[c] + 0.7109 L-threonine[c] + 0.1823 L-tryptophan[c] + 0.5377 L-tyrosine[c] + 0.5559 L-valine[c] => 2.01 GDP[c] + 2.01 phosphate[c] + lactase[c]		0	0	1000					0.18			YEP	glucose	
+lactase	lactase_1	production of lactase	2.01 GTP[c] + 0.6516 Ala-tRNA(Ala)[c] + 0.2643 Arg-tRNA(Arg)[c] + 0.5013 Asn-tRNA(Asn)[c] + 0.4921 Asp-tRNA(Asp)[c] + 0.0547 Cys-tRNA(Cys)[c] + 0.4375 Glu-tRNA(Glu)[c] + 0.2552 Gln-tRNA(Gln)[c] + 0.9114 Gly-tRNA(Gly)[c] + 0.1276 His-tRNA(His)[c] + 0.4466 Ile-tRNA(Ile)[c] + 0.8567 Leu-tRNA(Leu)[c] + 0.4192 Lys-tRNA(Lys)[c] + 0.0638 Met-tRNA(Met)[c] + 0.3645 Phe-tRNA(Phe)[c] + 0.4921 Pro-tRNA(Pro)[c] + 0.8567 Ser-tRNA(Ser)[c] + 0.7109 Thr-tRNA(Thr)[c] + 0.1823 Trp-tRNA(Trp)[c] + 0.5377 Tyr-tRNA(Tyr)[c] + 0.5559 Val-tRNA(Val)[c] => 2.01 GDP[c] + 2.01 phosphate[c] + lactase[c] + 0.6516 tRNA(Ala)[c] + 0.2643 tRNA(Arg)[c] + 0.5013 tRNA(Asn)[c] + 0.4921 tRNA(Asp)[c] + 0.0547 tRNA(Cys)[c] + 0.4375 tRNA(Glu)[c] + 0.2552 tRNA(Gln)[c] + 0.9114 tRNA(Gly)[c] + 0.1276 tRNA(His)[c] + 0.4466 tRNA(Ile)[c] + 0.8567 tRNA(Leu)[c] + 0.4192 tRNA(Lys)[c] + 0.0638 tRNA(Met)[c] + 0.3645 tRNA(Phe)[c] + 0.4921 tRNA(Pro)[c] + 0.8567 tRNA(Ser)[c] + 0.7109 tRNA(Thr)[c] + 0.1823 tRNA(Trp)[c] + 0.5377 tRNA(Tyr)[c] + 0.5559 tRNA(Val)[c]		0	0	1000					0.18			YEP	glucose	
 lactase	lactase_2	lactase transport	lactase[c] => lactase[e]		0	0	1000										
 lactase	lactase_3	lactase exchange	lactase[e] =>		1	0	1000										
 																	
@@ -404,7 +404,7 @@ tyrosine	tyrosine_3	cyclohexadienyl dehydrogenase	prephenate[c] + NAD[c] => 3-(4
 																	
 triacylglycerol	triacylglycerol_1	triacylglycerols transport	triglyceride backbone[c] => triacylglycerol[e]		0	0	1000					0.1			Min	glucose	"YMR313C,YKR089C,YOR081C,YPL147W"
 triacylglycerol	triacylglycerol_2	triacylglycerols exchange	triacylglycerol[e] =>		1	0	1000										
-triacylglycerol	r_0109No1	"acetyl-CoA carboxylase, reaction (No1)"	acetyl-CoA[c] + ATP[c] + bicarbonate[c] + 6.17284e-10 prot_P48445 => ADP[c] + H+[c] + malonyl-CoA[c] + phosphate[c]	YNR016C	0	0	1000	Q00955	65.3426								
+triacylglycerol	r_0109No1	"acetyl-CoA carboxylase, reaction (No1)"	acetyl-CoA[c] + ATP[c] + bicarbonate[c] => ADP[c] + H+[c] + malonyl-CoA[c] + phosphate[c]	YNR016C	0	0	1000	Q00955	65.3426								
 triacylglycerol	r_2344No1	"PA phosphatase (1-16:0, 2-16:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-16:0, 2-16:1)[erm] => phosphate[erm] + diglyceride (1-16:0, 2-16:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
 triacylglycerol	r_2345No1	"PA phosphatase (1-16:0, 2-18:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-16:0, 2-18:1)[erm] => phosphate[erm] + diglyceride (1-16:0, 2-18:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
 triacylglycerol	r_2346No1	"PA phosphatase (1-16:1, 2-16:1), ER membrane (No1)"	"H2O[erm] + phosphatidate (1-16:1, 2-16:1)[erm] => phosphate[erm] + diglyceride (1-16:1, 2-16:1)[erm]"	YMR165C	0	0	1000	P32567	23.1467								
@@ -542,7 +542,7 @@ docosanol	r_2156No1	elongase II (3-oxooctadecanoyl-CoA) (No1)	malonyl-CoA[erm] +
 docosanol	r_2157No1	elongase II or III (3-oxoicosanoyl-CoA) (No1)	pmet_r_2157[erm] => carbon dioxide[erm] + coenzyme A[erm] + 3-oxoicosanoyl-CoA[erm]	YCR034W	0	0	1000	P25358	5.4								
 docosanol	r_2158No1	elongase II or III (3-oxodocosanoyl-CoA) (No1)	pmet_r_2158[erm] => carbon dioxide[erm] + coenzyme A[erm] + 3-oxodocosanoyl-CoA[erm]	YCR034W	0	0	1000	P25358	5.4								
 docosanol	r_2159No1	elongase II or III (3-oxotetracosanoyl-CoA) (No1)	pmet_r_2159[erm] => carbon dioxide[erm] + coenzyme A[erm] + 3-oxotetracosanoyl-CoA[erm]	YCR034W	0	0	1000	P25358	5.4								
-docosanol	r_0109No1	"acetyl-CoA carboxylase, reaction (No1)"	acetyl-CoA[c] + ATP[c] + bicarbonate[c] + 6.17284e-10 prot_P48445 => ADP[c] + H+[c] + malonyl-CoA[c] + phosphate[c]	YNR016C	0	0	1000	Q00955	65.3426								
+docosanol	r_0109No1	"acetyl-CoA carboxylase, reaction (No1)"	acetyl-CoA[c] + ATP[c] + bicarbonate[c] => ADP[c] + H+[c] + malonyl-CoA[c] + phosphate[c]	YNR016C	0	0	1000	Q00955	65.3426								
 																	
 Itaconic acid	Itaconic acid_1	cis-aconitic acid decarboxylase	cis-aconitate[c] + H+[c] => carbon dioxide[c] + Itaconic acid[c]	CAD 	0	0	1000	B3IUN8	0.242756323	52.754	4.1.1.6	0.1			YEP	glucose	"YJR078W,YJR019C"
 Itaconic acid	Itaconic acid_2	itaconic acid transport	Itaconic acid[c] => Itaconic acid[e]		0	0	1000										
@@ -562,22 +562,40 @@ Ethylene	Ethylene_2	ethylene transport	Ethylene[c] => Ethylene[e]		0	0	1000
 Ethylene	Ethylene_3	ethylene exchange	Ethylene[e] =>		1	0	1000										
 Ethylene	r_1889_REV				0	0	1										
 																	
-Human Serum Albumin (HSA)	Human Serum Albumin (HSA)_1	production of HAS	0.8928 L-alanine[c] + 0.4032 L-arginine[c] + 0.2448 L-asparagine[c] + 0.5184 L-aspartate[c] + 0.504 L-cysteine[c] + 0.288 L-glutamate[c] + 0.8928 L-glutamine[c] + 0.1872 L-glycine[c] + 0.2304 L-histidine[c] + 0.1296 L-isoleucine[c] + 0.9216 L-leucine[c] + 0.864 L-lysine[c] + 0.1008 L-methionine[c] + 0.504 L-phenylalanine[c] + 0.3456 L-proline[c] + 0.4032 L-serine[c] + 0.4176 L-threonine[c] + 0.0288 L-tryptophan[c] + 0.2736 L-tyrosine[c] + 0.6192 L-valine[c] + 1.22 GTP[c] => HAS[c] + 1.22 GDP[c] + 1.22 phosphate[c]		0	0	1000					0.22	4.6		Min	glucose	
+Human Serum Albumin (HSA)	Human Serum Albumin (HSA)_1	production of HAS	"0.8928 Ala-tRNA(Ala)[c] + 0.4032 Arg-tRNA(Arg)[c] + 0.2448 Asn-tRNA(Asn)[c] + 0.5184 Asp-tRNA(Asp)[c] + 0.504 Cys-tRNA(Cys)[c] + 0.288 Glu-tRNA(Glu)[c] + 0.8928 Gln-tRNA(Gln)[c] +
+0.1872 Gly-tRNA(Gly)[c] + 0.2304 His-tRNA(His)[c] + 0.1296 Ile-tRNA(Ile)[c] + 0.9216 Leu-tRNA(Leu)[c] + 0.864 Lys-tRNA(Lys)[c] + 0.1008 Met-tRNA(Met)[c] + 0.504 Phe-tRNA(Phe)[c] +
+0.3456 Pro-tRNA(Pro)[c] + 0.4032 Ser-tRNA(Ser)[c] + 0.4176 Thr-tRNA(Thr)[c] + 0.0288 Trp-tRNA(Trp)[c] + 0.2736 Tyr-tRNA(Tyr)[c] + 0.6192 Val-tRNA(Val)[c] + 1.22 GTP[c] => HAS[c]
++ 1.22 GDP[c] + 1.22 phosphate[c] + 0.8928 tRNA(Ala)[c] + 0.4032 tRNA(Arg)[c] + 0.2448 tRNA(Asn)[c] + 0.5184 tRNA(Asp)[c] + 0.504 tRNA(Cys)[c] + 0.288 tRNA(Glu)[c] + 0.8928 tRNA(Gln)[c] + 0.1872 tRNA(Gly)[c] + 0.2304 tRNA(His)[c] + 0.1296 tRNA(Ile)[c] + 0.9216 tRNA(Leu)[c] + 0.864 tRNA(Lys)[c] + 0.1008 tRNA(Met)[c] + 0.504 tRNA(Phe)[c] +
+0.3456 tRNA(Pro)[c] + 0.4032 tRNA(Ser)[c] + 0.4176 tRNA(Thr)[c] + 0.0288 tRNA(Trp)[c] + 0.2736 tRNA(Tyr)[c] + 0.6192 tRNA(Val)[c]"		0	0	1000					0.22	4.6		Min	glucose	
 Human Serum Albumin (HSA)	Human Serum Albumin (HSA)_2	HSA transport	HAS[c] => HAS[e]		0	0	1000										
 Human Serum Albumin (HSA)	Human Serum Albumin (HSA)_3	HSA exchange	HAS[e] =>		1	0	1000										
 																	
-¦Á-Amylase	¦Á-Amylase_1	production of ¦Á-Amylase	0.7663 L-alanine[c] + 0.1825 L-arginine[c] + 0.4744 L-asparagine[c] + 0.7663 L-aspartate[c] + 0.1642 L-cysteine[c] + 0.2189 L-glutamate[c] + 0.3649 L-glutamine[c] + 0.7846 L-glycine[c] + 0.1277 L-histidine[c] + 0.5109 L-isoleucine[c] + 0.6751 L-leucine[c] + 0.3649 L-lysine[c] + 0.2007 L-methionine[c] + 0.2737 L-phenylalanine[c] + 0.4014 L-proline[c] + 0.6751 L-serine[c] + 0.7298 L-threonine[c] + 0.2189 L-tryptophan[c] + 0.6386 L-tyrosine[c] + 0.5656 L-valine[c] + GTP[c] => ¦Á-Amylase[c] + GDP[c] + phosphate[c]		0	0	1000					0.2			Min	glucose	
+¦Á-Amylase	¦Á-Amylase_1	production of ¦Á-Amylase	"0.7663 Ala-tRNA(Ala)[c] + 0.1825 Arg-tRNA(Arg)[c] + 0.4744 Asn-tRNA(Asn)[c] + 0.7663 Asp-tRNA(Asp)[c] + 0.1642 Cys-tRNA(Cys)[c] + 0.2189 Glu-tRNA(Glu)[c] + 0.3649 Gln-tRNA(Gln)[c] +
+0.7846 Gly-tRNA(Gly)[c] + 0.1277 His-tRNA(His)[c] + 0.5109 Ile-tRNA(Ile)[c] + 0.6751 Leu-tRNA(Leu)[c] + 0.3649 Lys-tRNA(Lys)[c] + 0.2007 Met-tRNA(Met)[c] + 0.2737 Phe-tRNA(Phe)[c] +
+0.4014 Pro-tRNA(Pro)[c] + 0.6751 Ser-tRNA(Ser)[c] + 0.7298 Thr-tRNA(Thr)[c] + 0.2189 Trp-tRNA(Trp)[c] + 0.6386 Tyr-tRNA(Tyr)[c] + 0.5656 Val-tRNA(Val)[c] + GTP[c] => ¦Á-Amylase[c]
++ GDP[c] + phosphate[c] + 0.7663 tRNA(Ala)[c] + 0.1825 tRNA(Arg)[c] + 0.4744 tRNA(Asn)[c] + 0.7663 tRNA(Asp)[c] + 0.1642 tRNA(Cys)[c] + 0.2189 tRNA(Glu)[c] + 0.3649 tRNA(Gln)[c] +
+0.7846 tRNA(Gly)[c] + 0.1277 tRNA(His)[c] + 0.5109 tRNA(Ile)[c] + 0.6751 tRNA(Leu)[c] + 0.3649 tRNA(Lys)[c] + 0.2007 tRNA(Met)[c] + 0.2737 tRNA(Phe)[c] +
+0.4014 tRNA(Pro)[c] + 0.6751 tRNA(Ser)[c] + 0.7298 tRNA(Thr)[c] + 0.2189 tRNA(Trp)[c] + 0.6386 tRNA(Tyr)[c] + 0.5656 tRNA(Val)[c]"		0	0	1000					0.2			Min	glucose	
 ¦Á-Amylase	¦Á-Amylase_2	¦Á-Amylase transport	¦Á-Amylase[c] => ¦Á-Amylase[e]		0	0	1000										
 ¦Á-Amylase	¦Á-Amylase_3	¦Á-Amylase exchange	¦Á-Amylase[e] =>		1	0	1000										
 																	
 Hemoglobin	Hemoglobin_1	heme o transport	heme o[m] => heme o[c]		0	0	1000					0.25			Min	glucose	
-Hemoglobin	Hemoglobin_2	production of globin	1.1532 L-alanine[c] + 0.1922 L-arginine[c] + 0.3203 L-asparagine[c] + 0.4805 L-aspartate[c] + 0.0961 L-cysteine[c] + 0.3844 L-glutamate[c] + 0.1281 L-glutamine[c] + 0.6407 L-glycine[c] + 0.6087 L-histidine[c] + 1.1532 L-leucine[c] + 0.7048 L-lysine[c] + 0.1602 L-methionine[c] + 0.4805 L-phenylalanine[c] + 0.4485 L-proline[c] + 0.5125 L-serine[c] + 0.5125 L-threonine[c] + 0.0961 L-tryptophan[c] + 0.1922 L-tyrosine[c] + 0.9931 L-valine[c] + 1.16 GTP[c] => globin[c] + 1.16 GDP[c] + 1.16 phosphate[c]		0	0	1000										
+Hemoglobin	Hemoglobin_2	production of globin	"1.1532 Ala-tRNA(Ala)[c] + 0.1922 Arg-tRNA(Arg)[c] + 0.3203 Asn-tRNA(Asn)[c] + 0.4805 Asp-tRNA(Asp)[c] + 0.0961 Cys-tRNA(Cys)[c] + 0.3844 Glu-tRNA(Glu)[c] + 0.1281 Gln-tRNA(Gln)[c] +
+0.6407 Gly-tRNA(Gly)[c] + 0.6087 His-tRNA(His)[c] + 1.1532 Leu-tRNA(Leu)[c] + 0.7048 Lys-tRNA(Lys)[c] + 0.1602 Met-tRNA(Met)[c] + 0.4805 Phe-tRNA(Phe)[c] +
+0.4485 Pro-tRNA(Pro)[c] + 0.5125 Ser-tRNA(Ser)[c] + 0.5125 Thr-tRNA(Thr)[c] + 0.0961 Trp-tRNA(Trp)[c] + 0.1922 Tyr-tRNA(Tyr)[c] + 0.9931 Val-tRNA(Val)[c] + 1.16 GTP[c] => globin[c]
++ 1.16 GDP[c] + 1.16 phosphate[c] + 1.1532 tRNA(Ala)[c] + 0.1922 tRNA(Arg)[c] + 0.3203 tRNA(Asn)[c] + 0.4805 tRNA(Asp)[c] + 0.0961 tRNA(Cys)[c] + 0.3844 tRNA(Glu)[c] + 0.1281 tRNA(Gln)[c] + 0.6407 tRNA(Gly)[c] + 0.6087 tRNA(His)[c] + 1.1532 tRNA(Leu)[c] + 0.7048 tRNA(Lys)[c] + 0.1602 tRNA(Met)[c] + 0.4805 tRNA(Phe)[c] +
+0.4485 tRNA(Pro)[c] + 0.5125 tRNA(Ser)[c] + 0.5125 tRNA(Thr)[c] + 0.0961 tRNA(Trp)[c] + 0.1922 tRNA(Tyr)[c] + 0.9931 tRNA(Val)[c]"		0	0	1000										
 Hemoglobin	Hemoglobin_3	production of hemoglobin	globin[c] + 4 heme o[c] => hemoglobin[c]		0	0	1000										
 Hemoglobin	Hemoglobin_4	hemoglobin transport	hemoglobin[c] => hemoglobin[e]		0	0	1000										
 Hemoglobin	Hemoglobin_5	hemoglobin exchange	hemoglobin[e] =>		1	0	1000										
 Hemoglobin	r_0557No1	hydroxymethylbilane synthase (No1)	H2O[c] + 4 porphobilinogen[c] => 4 ammonium[c] + preuroporphyrinogen[c] 	YDL205C	0	0	1000	P28789	0.125								
 																	
-Glucagon	Glucagon_1	production of glucagon	0.6223 L-alanine[c] + 0.7659 L-arginine[c] + 0.3829 L-asparagine[c] + 0.7659 L-aspartate[c] + 0.6223 L-glutamate[c] + 0.4787 L-glutamine[c] + 0.4308 L-glycine[c] + 0.1915 L-histidine[c] + 0.3829 L-isoleucine[c] + 0.5744 L-leucine[c] + 0.4787 L-lysine[c] + 0.2393 L-methionine[c] + 0.5265 L-phenylalanine[c] + 0.1436 L-proline[c] + 0.8137 L-serine[c] + 0.4308 L-threonine[c] + 0.1915 L-tryptophan[c] + 0.1915 L-tyrosine[c] + 0.3829 L-valine[c] + 0.36 GTP[c] => glucagon[c] + 0.36 GDP[c] + 0.36 phosphate[c]		0	0	1000					0.1			YEP	glucose	
+Glucagon	Glucagon_1	production of glucagon	"0.6223 Ala-tRNA(Ala)[c] + 0.7659 Arg-tRNA(Arg)[c] + 0.3829 Asn-tRNA(Asn)[c] + 0.7659 Asp-tRNA(Asp)[c] + 0.6223 Glu-tRNA(Glu)[c] + 0.4787 Gln-tRNA(Gln)[c] +
+0.4308 Gly-tRNA(Gly)[c] + 0.1915 His-tRNA(His)[c] + 0.3829 Ile-tRNA(Ile)[c] + 0.5744 Leu-tRNA(Leu)[c] + 0.4787 Lys-tRNA(Lys)[c] + 0.2393 Met-tRNA(Met)[c] + 0.5265 Phe-tRNA(Phe)[c] +
+0.1436 Pro-tRNA(Pro)[c] + 0.8137 Ser-tRNA(Ser)[c] + 0.4308 Thr-tRNA(Thr)[c] + 0.1915 Trp-tRNA(Trp)[c] + 0.1915 Tyr-tRNA(Tyr)[c] + 0.3829 Val-tRNA(Val)[c] + 0.36 GTP[c] => glucagon[c]
++ 0.36 GDP[c] + 0.36 phosphate[c] + 0.6223 tRNA(Ala)[c] + 0.7659 tRNA(Arg)[c] + 0.3829 tRNA(Asn)[c] + 0.7659 tRNA(Asp)[c] + 0.6223 tRNA(Glu)[c] + 0.4787 tRNA(Gln)[c] +
+0.4308 tRNA(Gly)[c] + 0.1915 tRNA(His)[c] + 0.3829 tRNA(Ile)[c] + 0.5744 tRNA(Leu)[c] + 0.4787 tRNA(Lys)[c] + 0.2393 tRNA(Met)[c] + 0.5265 tRNA(Phe)[c] +
+0.1436 tRNA(Pro)[c] + 0.8137 tRNA(Ser)[c] + 0.4308 tRNA(Thr)[c] + 0.1915 tRNA(Trp)[c] + 0.1915 tRNA(Tyr)[c] + 0.3829 tRNA(Val)[c]"		0	0	1000					0.1			YEP	glucose	
 Glucagon	Glucagon_2	glucagon transport	glucagon[c] => glucagon[e]		0	0	1000										
 Glucagon	Glucagon_3	glucagon exchange	glucagon[e] =>		1	0	1000										
 																	
@@ -792,6 +810,115 @@ Vitamin A	Vitamin A_11	xylulokinase	ATP[c] + D-xylulose[c] => ADP[c] + D-xylulos
 Vitamin A	Vitamin A_12	Vitamin A formation	Retinal[c] + Retinol[c] => Vitamin A[c]		0	0	1000										
 Vitamin A	Vitamin A_13	Vitamin A transport	Vitamin A[c] => Vitamin A[e]		0	0	1000										
 Vitamin A	Vitamin A_14	Vitamin A exchange	Vitamin A[e] =>		1	0	1000										
+																	
+nootkatone	nootkatone_1	valencene synthase	farnesyl diphosphate[c] => valencene[c] + diphosphate[c]	VS	0	0	1000	S4SC87	0.0032	69.219	4.2.3.73	0.1			YEP	glucose	
+nootkatone	r_0355No1	dimethylallyltranstransferase (No1)	isopentenyl diphosphate[c] + prenyl diphosphate(3-)[c] => diphosphate[c] + geranyl diphosphate[c] 		0	0	1000	P08524	2.2	40.4829	2.5.1.1						
+nootkatone	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c] 		0	0	1000	P08524	2.2	40.4829	2.5.1.1						
+nootkatone	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c] 		0	0	1000	P12684	92.5526	115.691	1.1.1.34						
+nootkatone	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c] 		0	0	1000	P29704	0.825	51.7193	2.5.1.21						
+nootkatone	nootkatone_2	Premnaspirodiene oxygenase	valencene[c] + 2 oxygen[c] => 3 H2O[c] + ¦Â-nootkatone[c]	HPO	0	0	1000	A6YIH8	15.9	56.788	1.14.14.151						
+nootkatone	nootkatone_3	Zerumbone synthase	¦Â-nootkatone[c] => (+)-nootkatone[c]	ZSD1	0	0	1000	F1SWA0	4.4	28.67	1.1.1.326						
+nootkatone	nootkatone_4	(+)-nootkatone transport	(+)-nootkatone[c] => (+)-nootkatone[e]		0	0	1000										
+nootkatone	nootkatone_5	(+)-nootkatone exchange	(+)-nootkatone[e] =>		1	0	1000										
+nootkatone	r_1710_REV				0	0	1										
+																	
+Squalene	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c] 		0	0	1000	P12684  	92.5526	115.691	1.1.1.34	0.1			YEP	ethanol	
+Squalene	r_0355No1	dimethylallyltranstransferase (No1)	isopentenyl diphosphate[c] + prenyl diphosphate(3-)[c] => diphosphate[c] + geranyl diphosphate[c] 		0	0	1000	P08524  	2.2	40.4829	2.5.1.1						
+Squalene	r_0462No1	geranyltranstransferase (No1)	geranyl diphosphate[c] + isopentenyl diphosphate[c] => farnesyl diphosphate[c] + diphosphate[c] 		0	0	1000	P08524  	2.2	40.4829	2.5.1.1						
+Squalene	r_1012No1	squalene synthase (No1)	2 farnesyl diphosphate[c] + H+[c] + NADPH[c] => 2 diphosphate[c] + NADP(+)[c] + squalene[c] 		0	0	1000	P29704  	3.3								
+Squalene	r_0904No1	phosphomevalonate kinase (No1)	(R)-5-phosphomevalonic acid[c] + ATP[c] => (R)-5-diphosphomevalonic acid[c] + ADP[c] 		0	0	1000	P24521  	6.8	50.4544	2.7.4.2						
+Squalene	r_0103No1	acetyl-CoA C-acetyltransferase (No1)	2 acetyl-CoA[c] => acetoacetyl-CoA[c] + coenzyme A[c] 		0	0	1000	P41338  	1800	41.7282	2.3.1.9						
+Squalene	r_0104No1	acetyl-CoA C-acetyltransferase (No1)	2 acetyl-CoA[m] => acetoacetyl-CoA[m] + coenzyme A[m] 		0	0	1000	P41338  	1800	41.7282	2.3.1.9						
+Squalene	r_0103_REVNo1	acetyl-CoA C-acetyltransferase (reversible) (No1)	acetoacetyl-CoA[c] + coenzyme A[c] => 2 acetyl-CoA[c] 		0	0	1000	pP41338  	10000000	41.7282	2.3.1.9						
+Squalene	r_0104_REVNo1	acetyl-CoA C-acetyltransferase (reversible) (No1)	acetoacetyl-CoA[m] + coenzyme A[m] => 2 acetyl-CoA[m] 		0	0	1000	pP41338  	10000000	41.7282	2.3.1.9						
+Squalene	r_0735No1	mevalonate kinase (atp) (No1)	(R)-mevalonate[c] + ATP[c] => (R)-5-phosphomevalonic acid[c] + ADP[c] + H+[c] 		0	0	1000	P07277  	43.8001	48.459	2.7.1.36						
+Squalene	r_0736No1	mevalonate kinase (ctp) (No1)	(R)-mevalonate[c] + CTP[c] => (R)-5-phosphomevalonic acid[c] + CDP[c] + H+[c] 		0	0	1000	P07278	43.8001	48.459	2.7.1.36						
+Squalene	r_0737No1	mevalonate kinase (gtp) (No1)	(R)-mevalonate[c] + GTP[c] => (R)-5-phosphomevalonic acid[c] + GDP[c] + H+[c] 		0	0	1000	P07279	43.8001	48.459	2.7.1.36						
+Squalene	r_0738No1	mevalonate kinase (UTP) (No1)	(R)-mevalonate[c] + UTP[c] => (R)-5-phosphomevalonic acid[c] + H+[c] + UDP[c] 		0	0	1000	P07280	43.8001	48.459	2.7.1.36						
+Squalene	r_0559No1	hydroxymethylglutaryl CoA synthase (No1)	acetoacetyl-CoA[c] + acetyl-CoA[c] + H2O[c] => 3-hydroxy-3-methylglutaryl-CoA[c] + coenzyme A[c] + H+[c] 		0	0	1000	P54839  	0.83	55.0128	2.3.3.10						
+Squalene	r_0560No1	hydroxymethylglutaryl CoA synthase (No1)	acetoacetyl-CoA[m] + acetyl-CoA[m] + H2O[m] => 3-hydroxy-3-methylglutaryl-CoA[m] + coenzyme A[m] + H+[m] 		0	0	1000	P54839  	0.83	55.0128	2.3.3.10						
+Squalene	r_0739No1	mevalonate pyrophoshate decarboxylase (No1)	(R)-5-diphosphomevalonic acid[c] + ATP[c] => ADP[c] + carbon dioxide[c] + isopentenyl diphosphate[c] + phosphate[c] 		0	0	1000	P32377  	9.8	44.1154	4.1.1.33						
+Squalene	Squalene_1	3-hydroxy-3-methylglutaryl coenzyme A reductase	3-hydroxy-3-methylglutaryl-CoA[c] + 2 NADH[c] + 2 H+[c] => (R)-mevalonate[c] + coenzyme A[c] + 2 NAD[c]	mvaA	0	0	1000	Q5LL64	NA	45.41	1.1.1.88						
+Squalene	r_0163No1	alcohol dehydrogenase (ethanol to acetaldehyde) (No1)	ethanol[c] + NAD[c] => acetaldehyde[c] + H+[c] + NADH[c] 		0	0	1000	P00331  	286								
+Squalene	Squalene_2	Acetaldehyde dehydrogenase	acetaldehyde[c] + NAD[c] + coenzyme A[c] => acetoacetyl-CoA[c] + H+[c] + NADH[c]	ADA	0	0	1000	A0A0A8FFU5	NA	33.168	1.2.1.10						
+Squalene	Squalene_3	Squalene transport	squalene[c] => Squalene[e]		0	0	1000										
+Squalene	Squalene_4	Squalene exchange	Squalene[e] =>		1	0	1000										
+																	
+Tropane alkaloids (cinnamoyltropine)	r_0817No1	ornithine decarboxylase (No1)	H+[c] + ornithine[c] => carbon dioxide[c] + putrescine[c] 		0	0	1000	P08432  	8.4	52.2847	4.1.1.17	0.1			YEP	glucose	"YMR170C,YMR169C,YOR374W,YER073W,YMR110C,YLR017W"
+Tropane alkaloids (cinnamoyltropine)	r_0206No1	arginase (No1)	H2O[c] + L-arginine[c] => ornithine[c] + urea[c] 		0	0	1000	P00812  	0.54	35.6616	3.5.3.1						
+Tropane alkaloids (cinnamoyltropine)	r_0761No1	N-acteylglutamate synthase (No1)	pmet_r_0761 => coenzyme A[m] + H+[m] + N-acetyl-L-glutamate[m] 		0	0	1000	P40360  	0.44	65.6095	2.3.1.1						
+Tropane alkaloids (cinnamoyltropine)	r_0761_REVNo1	N-acteylglutamate synthase (reversible) (No1)	pmet_r_0761_REV => acetyl-CoA[m] + L-glutamate[m] 		0	0	1000	P40360	1.56	65.6095	2.3.1.1						
+Tropane alkaloids (cinnamoyltropine)	r_0929No1	polyamine oxidase (No1)	H2O[c] + N(1)-acetylspermidine[c] + oxygen[c] => 3-aminopropanal[c] + hydrogen peroxide[c] + N-acetylputrescine[c] 		0	0	1000	P50264  	78	57.8051	1.5.3.17						
+Tropane alkaloids (cinnamoyltropine)	r_0936No1	poylamine oxidase (No1)	H2O[c] + N(1)-acetylspermine[c] + oxygen[c] => 3-aminopropanal[c] + hydrogen peroxide[c] + N(1)-acetylspermidine[c] 		0	0	1000	P50264  	78	57.8051	1.5.3.17						
+Tropane alkaloids (cinnamoyltropine)	r_0937No1	poylamine oxidase (No1)	H2O[c] + oxygen[c] + spermine[c] => 3-aminopropanal[c] + hydrogen peroxide[c] + spermidine[c] 		0	0	1000	P50264  	78	57.8051	1.5.3.17						
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_1	Arginine decarboxylase	L-arginine[c] + H+[c] => Agmatine[c] + carbon dioxide[c]	ADC 	0	0	1000	P22220	9.9	66.706	4.1.1.19						
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_2	Agmatinase	Agmatine[c] + H2O[c] => putrescine[c] + urea[c]	speB 	0	0	1000	P60651	NA	33.557	3.5.3.11						
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_3	Putrescine N-methyltransferase	putrescine[c] + S-adenosyl-L-methionine[c] => S-adenosyl-L-homocysteine[c] + N-Methylputrescine[c]	AtPMT1  + DsPMT1 	0	0	1000	Q9S7W8 + Q70EW6	NA + 5.14	36.976 + 37.727	2.1.1.53						
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_4	Putative N-methyltransferase oxidase	N-Methylputrescine[c] + oxygen[c] + H2O[c] => hydrogen peroxide[c] + Ammonia[c] + 4-Methylaminobutanal[c]	MPO1 	0	0	1000	Psmolke	NA	NA	1.4.3.21						
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_5	Spontaneous reaction	4-Methylaminobutanal[c] => 1-Methylpyrrolinium[c] + H2O[c]		0	0	1000										
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_6	Pyrrolidine ketide synthase	1-Methylpyrrolinium[c] => 4-(1-methyl-2-pyrrodinyl)-3-oxobutanoic acid[c]	PYKS 	0	0	1000	A0A3G4RHW3	NA	43.267	2.3.1.74						
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_7	Tropinone synthase	4-(1-methyl-2-pyrrodinyl)-3-oxobutanoic acid[c] => Tropinone[c]	CYP82M3 	0	0	1000	A0A3G4RHY7	NA	59.479							
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_8	Tropinone reductase I	Tropinone[c] + NADPH[c] + H+[c] => Tropine[c] + NADP(+)[c]	TR1 	0	0	1000	P50162	25.6	29.617	1.1.1.206						
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_9	Phenylalanine ammonia-lyase	L-phenylalanine[c] => ammonium[c] + cinnamate[c]	PAL1 	0	0	1000	P35510	1.8	78.726	4.3.1.24						
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_10	4-coumarate:CoA ligase	cinnamate[c] + ATP[c] + coenzyme A[c] => diphosphate[c] + AMP[c] + Cinnamoyl-CoA[c]	4CL5 	0	0	1000	Q9LU36	5.880546	62.559	6.2.1.12						
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_11	Cocaine synthase	Tropine[c] + Cinnamoyl-CoA[c] => cinnamoyltropine[c]	CS 	0	0	1000	A0A059Q4T4	NA	48.753							
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_12	cinnamoyltropine trasport	cinnamoyltropine[c] => cinnamoyltropine[e]		0	0	1000										
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_13	cinnamoyltropine exchange	cinnamoyltropine[e] =>		1	0	1000										
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_14	Ammonia transport	Ammonia[c] => Ammonia[e]		0	0	1000										
+Tropane alkaloids (cinnamoyltropine)	cinnamoyltropine_15	Ammonia exchange	Ammonia[e] =>		0	0	1000										
+																	
+L-(+)-Ergothioneine	Ergothioneine_1	Ergothioneine biosynthesis protein	L-histidine[c] + 3 S-adenosyl-L-methionine[c] => 3 H+[c] + hercynine[c] + 3 S-adenosyl-L-homocysteine[c]	Egt1 	0	0	1000	Q7RX33	0.071628083	99.025	2.1.1.44	0.1			Min	glucose	
+L-(+)-Ergothioneine	Ergothioneine_2	Ergothioneine biosynthesis protein	hercynine[c] + L-cysteine[c] + oxygen[c] => H2O[c] + S-(hercyn-2-yl)-L-cysteine S-oxide[c]	Egt1 	0	0	1000	Q7RX33	0.071628083	99.025	1.4.99.51						
+L-(+)-Ergothioneine	Ergothioneine_3	¦Â-lyase	S-(hercyn-2-yl)-L-cysteine S-oxide[c] => ergothioneine[c] + pyruvate[c] + Ammonia[c]	Egt2 	0	0	1000	A0R5M7	NA	39.033	4.4.1.36						
+L-(+)-Ergothioneine	Ergothioneine_4	Ergothioneine transport	ergothioneine[c] => ergothioneine[e]		0	0	1000										
+L-(+)-Ergothioneine	Ergothioneine_5	Ergothioneine exchange	ergothioneine[e] =>		1	0	1000										
+L-(+)-Ergothioneine	Ergothioneine_6	Ammonia transport	Ammonia[c] => Ammonia[e]		0	0	1000										
+L-(+)-Ergothioneine	Ergothioneine_7	Ammonia exchange	Ammonia[e] =>		0	0	1000										
+L-(+)-Ergothioneine	r_1879_REV				0	0	1										
+L-(+)-Ergothioneine	r_1893_REV				0	0	1										
+L-(+)-Ergothioneine	r_1902_REV				0	0	1										
+L-(+)-Ergothioneine	r_2028_REV				0	0	1										
+																	
+S-adenosyl-L-methionine	r_0726No1	methionine adenosyltransferase (No1)	pmet_r_0726 => diphosphate[c] + phosphate[c] + S-adenosyl-L-methionine[c] 		0	0	1	P19358  	1.7660e-04 (Kcat*2)	42.2555	2.5.1.6	0.159			YEP	glucose	YOL052C
+S-adenosyl-L-methionine	S-adenosyl-L-methionine_1	S-adenosyl-L-methionine transport	S-adenosyl-L-methionine[c] => S-adenosyl-L-methionine[e]		0	0	1										
+S-adenosyl-L-methionine	r_2043				1	0	Inf										
+																	
+2'-Fucosyllactose	2'-Fucosyllactose_1	xylose reductase	D-xylose[c] + H+[c] + NADH[c] => xylitol[c] + NAD[c]	XYL1 	0	0	1000	P31867	27.5	35.923	1.1.1.307	0.1			YEP	xylose + lactose	"YDL236W,YPL061W"
+2'-Fucosyllactose	2'-Fucosyllactose_2	xylose reductase	D-xylose[c] + H+[c] + NADPH[c] => xylitol[c] + NADP(+)[c]	XYL1 	0	0	1000	P31867	27.5	35.923	1.1.1.307						
+2'-Fucosyllactose	2'-Fucosyllactose_3	xylulose reductase	xylitol[c] + NAD[c] => D-xylulose[c] + H+[c] + NADH[c]	XYL2 	0	0	1000	P22144	30.33	38.521	1.1.1.9						
+2'-Fucosyllactose	2'-Fucosyllactose_4	xylulokinase	ATP[c] + D-xylulose[c] => ADP[c] + D-xylulose 5-phosphate[c] + H+[c] 	XYL3 	0	0	1000	Q9P938	1.144819177	69.397	2.7.1.17						
+2'-Fucosyllactose	2'-Fucosyllactose_5	"GDP-mannose 4,6-dehydratase"	GDP-alpha-D-mannose[c] => H2O[c] + GDP-4-dehydro-6-deoxy-D-mannose[c]	Gmd 	0	0	1000	O85339	5	41.674	4.2.1.47						
+2'-Fucosyllactose	2'-Fucosyllactose_6	GDP-L-fucose synthase	GDP-4-dehydro-6-deoxy-D-mannose[c] + NADPH[c] + H+[c] => NADP(+)[c] + GDP-L-fucose[c]	WcaG 	0	0	1000	P32055	1.5	36.141	1.1.1.271						
+2'-Fucosyllactose	2'-Fucosyllactose_7	fucosyltransferase	GDP-L-fucose[c] + lactose[c] => GDP[c] + 2'-fucosyllactose[c]	WbgL 	0	0	1000	A6M9C2	3.96	34.942							
+2'-Fucosyllactose	2'-Fucosyllactose_8	2¡ä-Fucosyllactose transport	2'-fucosyllactose[c] => 2'-fucosyllactose[e]		0	0	1000										
+2'-Fucosyllactose	2'-Fucosyllactose_9	3¡ä-Fucosyllactose exchange	2'-fucosyllactose[e] =>		1	0	1000										
+2'-Fucosyllactose	2'-Fucosyllactose_10	lactose exchange	 => lactose[e]		0	0	1										
+2'-Fucosyllactose	2'-Fucosyllactose_11	lactose transport	lactose[e] => lactose[c]	Lac12	0	0	1000	P07921		65.383							
+																	
+lycopene	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 => (R)-mevalonate[c] + coenzyme A[c] + 2 NADP(+)[c] 					P12684	92.5526	115.691	1.1.1.34	0.1			YEP	glucose	"YBR020W,YBR018C,YBR019C,YLR300W"
+lycopene	lycopene_1	geranylgeranyl diphosphate synthase	farnesyl diphosphate[c] + isopentenyl diphosphate[c] => diphosphate[c] + geranylgeranyl diphosphate[c]	crtE 				Q9ZPM3	3.3	42.572	2.5.1.29						
+lycopene	lycopene_2	Bifunctional lycopene cyclase/phytoene synthase	2 geranylgeranyl diphosphate[c] => 2 diphosphate[c] + phytoene[c]	crtB 				D5KXJ0	NA	32.786	2.5.1.32						
+lycopene	lycopene_3	Phytoene desaturase	phytoene[c] => neurosporene[c]	crtI 				Q5BTY7	NA	66.46	1.3.99.28						
+lycopene	lycopene_4	Phytoene desaturase	neurosporene[c] + oxygen[c] => 2 H2O[c] + lycopene[c]	crtI 				Q5BTY7	NA	66.46	1.3.99.28						
+lycopene	r_0163No1	alcohol dehydrogenase (ethanol to acetaldehyde) (No1)	ethanol[c] + NAD[c] => acetaldehyde[c] + H+[c] + NADH[c] 					P00331	286								
+lycopene	r_0173No1	"aldehyde dehydrogenase (acetaldehyde, NADP) (No1)"	acetaldehyde[c] + H2O[c] + NADP(+)[c] => acetate[c] + 2 H+[c] + NADPH[c] 					P54115	43.9999	54.4134							
+lycopene	r_0177No1	"aldehyde dehydrogenase (indole-3-acetaldehyde, NADP) (No1)"	H2O[c] + indol-3-ylacetaldehyde[c] + NADP(+)[c] => 2 H+[c] + indole-3-acetate[c] + NADPH[c] 					P54115	43.9999	54.4134							
+lycopene	lycopene_5	acetyl-CoA synthetase	acetate[c] + ATP[c] + coenzyme A[c] => acetyl-CoA[c] + AMP[c] + diphosphate[c]	ACS 				Q8ZKF6	9400	72.153	6.2.1.1						
+lycopene	r_0766No3	NAD kinase (No3)	pmet_r_0766 => ADP[m] + H+[m] + NADP(+)[m] 					Q06892	1.68	46.2464							
+lycopene	r_0772No3	NADH kinase mitochondrial (No3)	pmet_r_0772 => ADP[m] + H+[m] + NADPH[m] 					Q06892	32.2	46.2464							
+lycopene	r_2344No1	"PA phosphatase (1-16:0, 2-16:1), ER membrane (No1)"	"H2O[er membrane] + phosphatidate (1-16:0, 2-16:1)[er membrane]=> phosphate[er membrane] + diglyceride (1-16:0, 2-16:1)[er membrane] "					P32567	23.1467	95.03							
+lycopene	r_2345No1	"PA phosphatase (1-16:0, 2-18:1), ER membrane (No1)"	"H2O[er membrane] + phosphatidate (1-16:0, 2-18:1)[er membrane] => phosphate[er membrane] + diglyceride (1-16:0, 2-18:1)[er membrane] "					P32567	23.1467	95.03							
+lycopene	r_2346No1	"PA phosphatase (1-16:1, 2-16:1), ER membrane (No1)"	"H2O[er membrane] + phosphatidate (1-16:1, 2-16:1)[er membrane] => phosphate[er membrane] + diglyceride (1-16:1, 2-16:1)[er membrane] "					P32567	23.1467	95.03							
+lycopene	r_2347No1	"PA phosphatase (1-16:1, 2-18:1), ER membrane (No1)"	"H2O[er membrane] + phosphatidate (1-16:1, 2-18:1)[er membrane] => phosphate[er membrane] + diglyceride (1-16:1, 2-18:1)[er membrane] "					P32567	23.1467	95.03							
+lycopene	r_2348No1	"PA phosphatase (1-18:0, 2-16:1), ER membrane (No1)"	"H2O[er membrane] + phosphatidate (1-18:0, 2-16:1)[er membrane] => phosphate[er membrane] + diglyceride (1-18:0, 2-16:1)[er membrane] "					P32567	23.1467	95.03							
+lycopene	r_2349No1	"PA phosphatase (1-18:0, 2-18:1), ER membrane (No1)"	"H2O[er membrane] + phosphatidate (1-18:0, 2-18:1)[er membrane] => phosphate[er membrane] + diglyceride (1-18:0, 2-18:1)[er membrane] "					P32567	23.1467	95.03							
+lycopene	r_2350No1	"PA phosphatase (1-18:1, 2-16:1), ER membrane (No1)"	"H2O[er membrane] + phosphatidate (1-18:1, 2-16:1)[er membrane] => phosphate[er membrane] + diglyceride (1-18:1, 2-16:1)[er membrane] "					P32567	23.1467	95.03							
+lycopene	r_2351No1	"PA phosphatase (1-18:1, 2-18:1), ER membrane (No1)"	"H2O[er membrane] + phosphatidate (1-18:1, 2-18:1)[er membrane] => phosphate[er membrane] + diglyceride (1-18:1, 2-18:1)[er membrane] "					P32567	23.1467	95.03							
+lycopene	r_0109No1	"acetyl-CoA carboxylase, reaction (No1)"	acetyl-CoA[c] + ATP[c] + bicarbonate[c] => ADP[c] + H+[c] + malonyl-CoA[c] + phosphate[c] 					Q00955	65.3426								
+lycopene	r_2182No1	"palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA), ER membrane (No1)"	H+[er membrane] + palmitoyl-CoA[er membrane] + oxygen[er membrane] + NADH[er membrane] => 2 H2O[er membrane] + palmitoleoyl-CoA(4-)[er membrane] + NAD[er membrane] 					P21147	1	58.4023							
+lycopene	r_2183No1	"stearoyl-CoA desaturase (n-C18:0CoA -> n-C18:1CoA), ER membrane (No1)"	H+[er membrane] + stearoyl-CoA[er membrane] + oxygen[er membrane] + NADH[er membrane] => 2 H2O[er membrane] + NAD[er membrane] + oleoyl-CoA[er membrane] 					P21147	0.7	58.4023							
+lycopene	lycopene_6	lycopene transport	lycopene[c] => lycopene[e]														
+lycopene	lycopene_7	lycopene exchange	lycopene[e] =>														
 																	
 Ergosterol												0.1			Min	glucose	
 Glycine												0.1			Min	glucose	
