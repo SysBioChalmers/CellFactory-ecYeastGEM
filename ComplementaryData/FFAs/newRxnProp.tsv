@@ -1,0 +1,21 @@
+rxnID	rev	GPR	rxn_name_seed	EC	rxnID_kegg	MNX_ID								
+newRxn1	0		FFAs Biosyntheis											
+newRxn2	0		FFAs exchange											
+newRxn3	0		malic enzyme	1.1.1.38	R00214 	MNXR101446								
+newRxn4	0		ATP:citrate lyase	2.3.3.8	R00352 	MNXR95268								
+newRxn5	0		fatty acid synthase (C16:0)		R05190	MNXR109385								
+newRxn6	0		fatty acid synthase (C18:0)		R05190	MNXR109385								
+newRxn7	0		fatty acid synthase (C14:0)		R05190	MNXR109385								
+newRxn8	0		fatty acid synthase (C12:0)		R05190	MNXR109385								
+newRxn9	0		fatty acid synthase (C10:0)		R05190	MNXR109385								
+newRxn10	0		thioesterase (C16:0)	3.1.2.2	R01274	MNXR99131								
+newRxn11	0		thioesterase (C18:0)	3.1.2.2	R08174	MNXR99133								
+newRxn12	0		thioesterase (C18:1)	3.1.2.2	R08176	MNXR111750								
+newRxn13	0		thioesterase (C10:0)	3.1.2.2		MNXR122908								
+newRxn14	0		thioesterase (C12:0)	3.1.2.2		MNXR99128								
+newRxn15	0		thioesterase (C14:0)	3.1.2.2		MNXR99129								
+newRxn16	0		thioesterase (C16:1)	3.1.2.2		MNXR116444								
+newRxn17	0		draw_prot_Q91V92											
+newRxn18	0		draw_prot_A0A2Z6EZ44											
+newRxn19	0		draw_prot_A0A2Z6EYW1											
+newRxn20	0		draw_prot_P0ADA1											

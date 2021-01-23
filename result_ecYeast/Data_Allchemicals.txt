@@ -1,0 +1,624 @@
+Chemicals	RxnID	Description	Reaction	Gene	Protein	Enzyme	Kcat (1/s)	MW (KDa)	s.a.(µmol/min/mg)	Similar species	_ (h-1)	product yield in vivo	in silico	Medium	OE	deletion	Ref
+Lactic acid	1	L-lactate dehydrogenase	s_1399 + s_1203 + s_0794 + 3.95999e-05 prot_P19858 -> s_0063 + s_1198	LDHA (Bos taurus)	P19858	1.1.1.27	7.0146	36.598	11.5		0.29	0.89 g/g	0.77 g/g	YEP		"GPD1,CYB2,PDC1,ADH1, ALD6"	Introduction of a bacterial acetyl-CoA synthesis pathway improves lactic acid production in Saccharomyces cerevisiae
+	2	acetaldehyde dehydrogenase	s_0359 + s_0529 + s_1198 + 1.76929e-05 prot_P77445 -> s_0373 + s_1203 + s_0794	EutE (E.coli)	P77445	1.2.1.10	15.7	49.022									
+	3	draw_prot_P19858	36.598 prot_pool  -> prot_P19858 														
+	4	draw_prot_P77445	49.022 prot_pool  -> prot_P77445 														
+	5	L-lactate transport	s_0063 -> s_0064														
+	6	L-lactate exchange	s_0064 ->														
+																	
+Malate	r_0958No1	pyruvate carboxylase (No1)	pmet_r_0958 + 0.000534188 prot_P32327  -> s_0394 + s_0794 + s_1271 + s_1322 				0.52	130.166	0.24		0.1	0.42 mol/mol	0.95 mol/mol	Min	PYC2	"PDC1,5,6, MDH3"	"Malic Acid Production by Saccharomyces cerevisiae: Engineering of Pyruvate Carboxylation, Oxaloacetate Reduction, and Malate Export"
+	r_0958No2	pyruvate carboxylase (No2)	pmet_r_0958 + 0.000534188 prot_P11154  -> s_0394 + s_0794 + s_1271 + s_1322 					130.098							PYC2		
+	r_0714_REVNo1	"malate dehydrogenase, cytoplasmic (reversible) (No1)"	s_0794 + s_1203 + s_1271 + 1.34162e-05 prot_P22133  -> s_0066 + s_1198 				20.70467083	40.7305	30.5						MDH2		
+	r_1901_REV	L-malate transport (reversible)	s_0066  + prot_P50537 -> s_0067 	mae1 (Schizosaccharomyces pombe)	P50537	2.A.16.2.1Ê		49.304									
+	1	draw_prot_P50537	49.304 prot_pool  -> prot_P50537 														
+																	
+"cis,cis-muconic acid"	1	dehydroshikimate dehydratase	s_0211 + 2.28737e-06 prot_3DSD -> s_4211 + s_0803	Pa_5_5120 (Podospora anserina)	3DSD	4.2.1.118	121.44	40.48	180		0.1	0.0039 g/g	0.0903 g/g	YEP		"ARO3, ARO4, ZWF1"	Metabolic engineering of muconic acid production inÊSaccharomyces cerevisiae
+	2	protocatechuic acid decarboxylase	s_4211 + s_0794 + 3.08642e-06 prot_A0A0H3CJN8 -> s_0456 + s_4212	ECL_01944 (Enterobacter cloacae)	A0A0H3CJN8	4.1.1.63	90	53.541		Sedimentibacter hydroxybenzoicus							
+	3	"catechol 1,2-dioxygenase"	s_4212 + s_1275 + 1.7611e-06 prot_P86029 -> 2 s_0794 + s_4213	HQD2 (Candida albicans)	P86029	1.13.11.1	157.7333333	33.8	280								
+	4	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	s_0551 + s_0803 + s_1360 + 0.0033548 prot_P32449ly  -> s_0349 + s_1322 	ARO4K229L (S. cerevisiae)	P32449ly	2.5.1.54	0.082809792	39.7487	0.125								Alleviation of feedback inhibition in Saccharomyces cerevisiae aromatic amino acid biosynthesis: Quantification of metabolic impact
+	5	draw_prot_3DSD	40.48 prot_pool  -> prot_3DSD														
+	6	draw_prot_A0A0H3CJN8	53.541 prot_pool  -> prot_A0A0H3CJN8														
+	7	draw_prot_P86029	33.8 prot_pool  -> prot_P86029			 											
+	8	draw_prot_P32449ly	39.7487 prot_pool  -> prot_P32449ly														
+	9	"cis,cis-muconic acid transport"	s_4213 -> s_4214														
+	10	"cis,cis-muconic acid exchange"	s_4214 ->														
+																	
+Resveratrol	1	tyrosine ammonia-lyase	s_1051 + 0.00365497 prot_A9B0P2 -> s_0419 + s_4215	Haur_4629	A9B0P2	4.3.1.23	0.076	56.397			0.15	0.0021 g/g	0.0025 g/g	Min			De novo production of resveratrol from glucose or ethanol by engineered Saccharomyces cerevisiae
+	2	4-coumaryl-CoAÊligase	s_4215 + s_0434 + s_0529 + 2.18389e-05 prot_Q42524 -> s_0423 + s_0633 + s_4216	4CL1	Q42524	6.2.1.12	12.719375	61.053	12.5								
+	3	resveratrolÊsynthase	3 s_0794 + s_4216 + 3 s_1101 + 0.0925926 prot_P28343 -> 4 s_0529 + 4 s_0456 + s_4217	VST1	P28343	2.3.1.95	0.003	42.84									
+	4	draw_prot_A9B0P2	56.397 prot_pool  -> prot_A9B0P2														
+	5	draw_prot_Q42524	61.053 prot_pool  -> prot_Q42524														
+	6	draw_prot_P28343	42.84 prot_pool  -> prot_P28343														
+	7	resveratrol transport	s_4217 -> s_4218														
+	8	resveratrol exchange	s_4218 ->														
+																	
+"Flavonoids (genistein, kaempferol, quercetin)"	1	Phenylalanine ammonia-lyase	s_1032 + 1.26263e-05 prot_P45730 -> s_0419 + s_4219	PAL (Populus trichocarpa)	P45730	4.3.1.24	22	77.919		Petroselinum crispum	0.1	NA	Quercetin 0.00074 g/g	YEP			Metabolic engineering of the complete pathway leading to heterologous biosynthesis of various flavonoids and stilbenoids in Saccharomyces cerevisiae
+	2	Cinnamate-4-hydroxylase	s_0794 + s_1275 + s_4219 + s_1212 + 1.7168e-06 prot_C0LUU6 -> s_0803 + s_1207 + s_4215	C4H (Glycine max)	C0LUU6	1.14.13.11	161.8	58.011		Ruta graveolens			Kaempferol 0.00070 g/g				
+	3	4-coumarate:CoA ligase	s_4215 + s_0434 + s_0529 + 0.00273242 prot_C0LUU7 -> s_0633 + s_0423 + s_4216	4CL (Glycine max)	C0LUU7	6.2.1.12	0.101656667	60.994	0.1				Genistein 0.00049 g/g				Synthesis of p-coumaroyl coenzyme a with a partially purified p-coumarate:CoA ligase from cell suspension cultures of soybean (Glycine max)
+	4	Isoflavone synthase	s_4221 + prot_Q9M6D6 -> 3 s_0794 + s_4222	IFS (Glycine max)	Q9M6D6	1.14.14.87	NA	58.93									
+	5	Chalcone synthase	2 s_0794 + s_4216 + 3 s_1101 + 0.0462963 prot_Q6X0M9 -> 4 s_0529 + 3 s_0456 + s_4223	CHS (Glycine max)	Q6X0M9	2.3.1.74	0.006019133	42.488	0.0085								
+	6	Chalcone isomerase	s_0794 + s_4223 + 1.98629e-06 prot_C0LUV0 -> s_4221	CHI (Glycine max)	C0LUV0	5.5.1.6	139.8476667	24.679	340								
+	7	Flavanone 3-hydroxylase	s_4221 + s_1275 + s_0180 + prot_Q53B69 -> s_0456 + s_1458 + s_4224	F3H (Glycine max)	Q53B69	1.14.11.9	NA	42.673									
+	8	Flavonoid 3'-hydroxylase	s_0794 + s_1275 + s_1212 + s_4224 + 2.22222e-05 prot_Q8W3Y5 -> s_4225 + s_0803 + s_1207	F3'H (Glycine max)	Q8W3Y5	1.14.13.21	12.5	56.982		Tagetes erecta							
+	9	Flavonol synthase	s_4224 + s_0180 + s_1275 + 4.20875e-05 prot_C0LUV3 -> s_0794 + s_0456 + s_0803 + s_1458 + s_4226	FLS (Solanum tuberosum)	C0LUV3	1.14.11.23	6.6	40.041		Zea mays							
+	10	Flavonol synthase	s_4225 + s_0180 + s_1275 + 7.12251e-05 prot_C0LUV3 -> s_0794 + s_0456 + s_0803 + s_1458 + s_4227	FLS (Solanum tuberosum)	C0LUV3	1.14.11.23	3.9	40.041		Zea mays							
+	11	draw_prot_P45730	77.919 prot_pool  -> prot_P45730														
+	12	draw_prot_C0LUU6	58.011 prot_pool  -> prot_C0LUU6														
+	13	draw_prot_C0LUU7	60.994 prot_pool  -> prot_C0LUU7														
+	14	draw_prot_Q9M6D6	58.93 prot_pool  -> prot_Q9M6D6														
+	15	draw_prot_Q6X0M9	42.488 prot_pool  -> prot_Q6X0M9														
+	16	draw_prot_C0LUV0	24.679 prot_pool  -> prot_C0LUV0														
+	17	draw_prot_Q53B69	42.673 prot_pool  -> prot_Q53B69														
+	18	draw_prot_Q8W3Y5	56.982 prot_pool  -> prot_Q8W3Y5														
+	19	draw_prot_C0LUV3	40.041 prot_pool  -> prot_C0LUV3														
+	20	quercetin trasport	s_4227 -> s_4228														
+	21	quercetin exchange	s_4228 ->														
+	22	kaempferol transport	s_4226 -> s_4229														
+	23	kaempferol exchange	s_4229 ->														
+	24	genisteinl transport	s_4222 -> s_4230														
+	25	genistein exchange	s_4230 ->														
+																	
+Trans-cinnamate	1	phenylalanine ammonia-lyase	s_1032 + 1.08085e-05 prot_P11544 -> s_0419 + s_4219	PAL (Rhodosporidium toruloides)	P11544	4.3.1.24	25.7	76.88		Rhodotorula glutinis	0.1	5 _mol/g cell	0.2080 g/g	YEP			Metabolic Engineering of the Phenylpropanoid Pathway in Saccharomyces cerevisiae
+	2	draw_prot_P11544	76.88 prot_pool  -> prot_P11544														
+	3	cinnamate transport	s_4219 -> s_4220														
+	4	cinnamate exchange	s_4220 ->														
+																	
+p-coumaric acid	1	tyrosine ammonia-lyase	s_1051 + 0.0120773 prot_A5FKY3 -> s_0419 + s_4231	TAL (Flavobacterium johnsoniae)	A5FKY3	4.3.1.23	0.023	56.649			0.1		0.0245 g/g	YEP		"ARO10, PDC5"	Establishment of a yeast platform strain for production of p-coumaric acid through metabolic engineering of aromatic amino acid biosynthesis
+	2	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	s_0551 + s_0803 + s_1360 + 0.00129019 prot_P32449ly  -> s_0349 + s_1322 	ARO4K229L (S. cerevisiae)	P32449ly	2.5.1.54	0.215305458	39.7487	0.325								
+	3	chorismate mutase	s_0515 + 0.00207452 prot_P32178ly  -> s_1377 	ARO7G141S (S. cerevisiae)	P32178ly	5.4.99.5	0.1338606	29.7468	0.27								
+	4	shikimate kinase	s_0434 + s_1429 + 8.70277e-06 prot_P0A6E1  -> s_0261 + s_0394 + s_0794 	aroL (Escherichia coli)	P0A6E1	2.7.1.71	31.91833333	19.151	100								
+	5	draw_prot_A5FKY3	56.649 prot_pool  -> prot_A5FKY3														
+	6	draw_prot_P32449ly	39.7487 prot_pool  -> prot_P32449ly														
+	7	draw_prot_P32178ly	29.7468 prot_pool  -> prot_P32178ly														
+	8	draw_prot_P0A6E1	19.151 prot_pool  -> prot_P0A6E1														
+	9	p-coumaric acid transport	s_4231 -> s_4232														
+	10	p-coumaric acid exchange	s_4232 ->														
+																	
+Artemisinic acid	1	amorphadiene synthase	s_0190 + 0.00149343 prot_Q9AR04 -> s_0633 + s_4233	ADS (Artemisia annua)	Q9AR04	4.2.3.24	0.186	63.933			0.1		0.0650 g/g	YEP			Production of the antimalarial drug precursor artemisinic acid in engineered yeast
+	2	"Amorpha-4,11-diene 12-monooxygenase"	2 s_0794 + s_4233 + 3 s_1275 + 3 s_1212 + 3.58886e-05 prot_Q1PS23 -> 4 s_0803 + 3 s_1207 + s_4234	CYP71AV1 (Artemisia annua)	Q1PS23	1.14.14.114	7.74	55.725									
+	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 + 3.0013e-06 prot_P12684  -> s_0028 + s_0529 + 2 s_1207 			1.1.1.34	92.5526 (Kcat*2)	115.691							HMG1		
+	r_0558No2	hydroxymethylglutaryl CoA reductase (No2)	pmet_r_0558 + 3.00302e-06 prot_P12683  -> s_0028 + s_0529 + 2 s_1207 			1.1.1.34	92.4996 (Kcat*2)	115.624							HMG2		
+	r_1012No1	squalene synthase (No1)	2 s_0190 + s_0794 + s_1212 + 0.0003367 prot_P29704  -> 2 s_0633 + s_1207 + s_1447 			2.5.1.21	0.825 (Kcat/2)	51.7193							ERG9: downregulation		
+	3	draw_prot_Q9AR04	63.933 prot_pool  -> prot_Q9AR04														
+	4	draw_prot_Q1PS23	55.725 prot_pool  -> prot_Q1PS23														
+	5	artemisinic acid transport	s_4234 -> s_4235														
+	6	artemisinic acid exchange	s_4235 ->														
+			 														
+_-Carotene	1	geranylgeranyl diphosphate synthase	s_0190 + s_0943 + 3.30688e-05 prot_Q1L6K3 -> s_0633 + s_0189	crtE (Xanthophyllomyces dendrorhous)	Q1L6K3	2.5.1.29	8.4	42.153		Saccharomyces cerevisiae	0.1	5.9 mg/g dry weight	3.7 mg/g dry weight	YEP			High-Level Production of Beta-Carotene in Saccharomyces cerevisiae by Successive Transformation with Carotenogenic Genes from Xanthophyllomyces dendrorhous
+	2	Bifunctional lycopene cyclase/phytoene synthase	2 s_0189 + 0.00332827 prot_Q7Z859 -> 2 s_0633 + s_4236	crtYB (Xanthophyllomyces dendrorhous)	Q7Z859	2.5.1.32	0.0834552	74.736	0.067			0.00015 mmol/gDCW/h	0.00069 mmol/gDCW/h				
+	3	Phytoene desaturase	s_4236 + 0.925926 prot_Q7Z858 -> s_4237	crtI (Xanthophyllomyces dendrorhous)	Q7Z858	1.3.99.28	0.000314486	65.066	0.00029								
+	4	Phytoene desaturase	s_4237 + s_1275 + 0.925926 prot_Q7Z858 -> 2 s_0803 + s_4238	crtI (Xanthophyllomyces dendrorhous)	Q7Z858	1.3.99.28	0.000314486	65.066	0.00029								
+	5	Bifunctional lycopene cyclase/phytoene synthase	s_4238 + 0.000626472  prot_Q7Z859 -> s_4239	crtYB (Xanthophyllomyces dendrorhous)	Q7Z859	5.5.1.19	0.4434336	74.736	0.356								
+	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 + 3.0013e-06 prot_P12684  -> s_0028 + s_0529 + 2 s_1207 			1.1.1.34	92.5526 (Kcat*2)	115.691							HMG1		
+	6	draw_prot_Q1L6K3	42.153 prot_pool  -> prot_Q1L6K3														
+	7	draw_prot_Q7Z859	74.736 prot_pool  -> prot_Q7Z859														
+	8	draw_prot_Q7Z858	65.066 prot_pool  -> prot_Q7Z858														
+	9	_-carotene transport	s_4239 -> s_4240														
+	10	_-carotene exchange	s_4240 ->														
+																	
+Linalool + Limonene														Min			Engineered protein degradation of farnesyl pyrophosphate synthase is an effective regulatory mechanism to increase monoterpene production in Saccharomyces cerevisiae
+	r_0462No1	geranyltranstransferase (No1)	s_0745 + s_0943 + 0.000505051 prot_P08524  -> s_0190 + s_0633 				0.55 (Kcat/2)	40.4829			Linalool: 0.09 Limonene: 0.1		"Linalool: 0.0250 g/g, Limonene: 0.0412 g/g"		downregulation		
+	1	monoterpene synthase	s_0745 + s_0803 + 0.00631313 prot_H9M5U5 -> s_0633 + s_4241	NES1 (Actinidia chinensis)	H9M5U5	4.2.3.25	0.044	65.381		Actinidia arguta							
+	2	Limonene synthase 	s_0745 + 0.00149343 prot_Q8L5K3 -> s_0633 + s_4243	ClLIS1 (Citrus limon)	Q8L5K3	4.2.3.20	0.186	70.348		Citrus sinensis							
+	3	draw_prot_H9M5U5	65.381 prot_pool  -> prot_H9M5U5														
+	4	draw_prot_Q8L5K3	70.348 prot_pool  -> prot_Q8L5K3														
+	5	linalool transport	s_4241 -> s_4242														
+	6	linalool exchange	s_4242 ->														
+	7	limonene transport	s_4243 -> s_4244														
+	8	limonene exchange	s_4244 ->														
+																	
+4-hydroxymandelic + mandelic	1	hydroxymandelate synthase	s_0204 + s_1275 + 7.50751e-05 prot_Q5J1Q8 -> s_0456 + s_4245	hmaS (Nocardia uniformis)	Q5J1Q8	1.13.11.46	3.7	36.597		Amycolatopsis orientalis	0.1	"4-hydroxymandelic: 0.064 g/g, mandelic: 0.017g/g"	"4-hydroxymandelic: 0.2213 g/g, mandelic: 0.1749g/g"	Min		"4-hydroxymandelic: PHA2, TRP2, ARO10, PDC5, ARO8; mandelic: TYR1, TRP2, ARO10, PDC5, ARO8"	Engineering of hydroxymandelate synthases and the aromatic amino acid pathway enables de novo biosynthesis of mandelic and 4-hydroxymandelic acid with Saccharomyces cerevisiae
+	2	hydroxymandelate synthase	s_0951 + s_1275 + 0.000315657 prot_Q5J1Q8 -> s_0456 + s_4246 + s_0794	hmaS (Nocardia uniformis)	Q5J1Q8	1.13.11.46	0.88	36.597		Streptomyces coelicolor							
+	r_0997No1	shikimate dehydrogenase	s_0434 + s_1429 + 2.31481e-06 prot_P08566  -> s_0261 + s_0394 + s_0794 				120 (Kcat*2)	174.753							ARO1		
+	3	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	s_0551 + s_0803 + s_1360 + 0.00129019 prot_P32449ly  -> s_0349 + s_1322 	ARO4K229L (S. cerevisiae)	P32449ly	2.5.1.54	0.215305458	39.7487	0.325								
+	4	4-hydroxymandelic transport	s_4245 -> s_4247														
+	5	4-hydroxymandelic exchange	s_4247 ->														
+	6	mandelic transport	s_4246 -> s_4248														
+	7	mandelic exchange	s_4248 ->														
+	8	draw_prot_Q5J1Q8	36.597 prot_pool  -> prot_Q5J1Q8														
+	9	draw_prot_P32449ly	39.7487 prot_pool  -> prot_P32449ly														
+																	
+Oleanolic acid	1	Beta-amyrin synthase	s_0037 + 0.00036075 prot_Q9MB42 -> s_4250	GgbAS1 (Glycyrrhiza glabra)	Q9MB42	5.4.99.39	0.77	87.516		Euphorbia tirucalli	0.1	0.016 g/g DCW	6.8505 g/g DCW	YEP		"GAL1, GAL80"	Enhancing oleanolic acid production in engineered Saccharomyces cerevisiae 
+	2	Beta-amyrin 28-monooxygenase	2 s_0794 + s_4250 + 3 s_1275 + 3 s_1212 + prot_Q2MJ20 -> 4 s_0803 + s_4251 + 3 s_1207	CYP716A12 (Medicago truncatula)	Q2MJ20	1.14.13.201		54.713				0.00024 mmol/gDCW/h	0.0015 mmol/gDCW/h				
+	3	draw_prot_Q9MB42	87.516 prot_pool  -> prot_Q9MB42														
+	4	draw_prot_Q2MJ20	54.713 prot_pool  -> prot_Q2MJ20														
+	5	oleanolic acid transport	s_4251 -> s_4252														
+	6	oleanolic acid exchange	s_4252 ->														
+	r_0558No2	hydroxymethylglutaryl CoA reductase (No2)	pmet_r_0558 + 3.00302e-06 prot_P12683  -> s_0028 + s_0529 + 2 s_1207 				92.4996 (Kcat*2)								HMG1		
+	r_1010No1	squalene epoxidase (NAD) (No1)	s_0795 + s_1204 + s_1276 + s_1448 + 0.00182749  prot_P32476  -> s_0038 + s_0804 + s_1199 				0.152 (Kcat*2)								ERG1		
+	r_1011No1	squalene epoxidase (NADP) (No1)	s_0795 + s_1213 + s_1276 + s_1448 + 0.00182749  prot_P32476  -> s_0038 + s_0804 + s_1208 				0.152 (Kcat*2)								ERG1		
+	r_1012No1	squalene synthase (No1)	2 s_0190 + s_0794 + s_1212 + 8.41751e-05 prot_P29704  -> 2 s_0633 + s_1207 + s_1447 				3.3 (Kcat*2)								ERG9		
+																	
+Fumaric acid	1	malate dehydrogenase	s_0794 + s_1203 + s_1271 +  1.15613e-05 prot_D6R7B7  -> s_0066 + s_1198 	RoMDH (Rhizopus oryzae)	D6R7B7	1.1.1.37	24.026625	35.595	40.5		0.1	0.122-0.197 mol/mol	0.8107 mol/mol	Min		block r_0714_REVNo1 (Mdh2p is known to be subject to glucose catabolite inactivation)	Reconstruction of cytosolic fumaric acid biosynthetic pathways in Saccharomyces cerevisiae
+	r_0958No1	pyruvate carboxylase (No1)	pmet_r_0958 + 3.83244e-06 prot_P32327  -> s_0394 + s_0794 + s_1271 + s_1322 				72.48055072	130.166	33.4099						PYC2 (increased specific activity by 20.8%)		
+	r_0958No2	pyruvate carboxylase (No2)	pmet_r_0958 + 3.83245e-06 prot_P11154  -> s_0394 + s_0794 + s_1271 + s_1322 				72.48041459	130.098	33.4273						PYC2 (increased specific activity by 20.8%)		
+	2	draw_prot_D6R7B7	35.595 prot_pool  -> prot_D6R7B7														
+																	
+Pyruvate	1	NADH oxidase	s_1275 + 3 s_0794 + s_1203 + 4.83726e-06 prot_A2RIB7 -> 2 s_0803 + s_1198	noxE(Lactococcus lactis)	A2RIB7	1.6.99.3	57.4246	48.872	70.5		0.2	0.63 g/g	0.97 g/g	YEP		"PDC1,5,6"	"Production of pyruvate in Saccharomyces cerevisiae through adaptive evolution
+and rational cofactor metabolic engineering;Directed evolution of pyruvate decarboxylase-negative Saccharomyces cerevisiae, yielding a C2-independent, glucose-tolerant, and pyruvate-hyperproducing yeast"
+	2	transhydrogenase	s_1207 + s_1203 + 1.65442e-06 prot_P27306 -> s_1212 + s_1198	udhA(Escherichia coli)	P27306	1.6.1.1	167.9	51.56									
+	2_REV	transhydrogenase	s_1212 + s_1198 + 3.04234e-05 prot_P27306 -> s_1207 + s_1203	udhA(Escherichia coli)	P27306	1.6.1.1	9.1304	51.56	"10.625 (The udhA Gene of Escherichia coli Encodes a Soluble Pyridine
+Nucleotide Transhydrogenase)"								
+	3	draw_prot_A2RIB7	48.872 prot_pool  -> prot_A2RIB7														
+	4	draw_prot_P27306	51.56 prot_pool  -> prot_P27306														
+																	
+Adipic acid (based on eccis_Muconate model)	11	enoate reductase	s_4213 + s_1203 + 3 s_0794 + 3.31635e-05 prot_G2TQU6 -> s_4253 + s_1198	ERBC(Bacillus coagulans)	G2TQU6	1.3.1.31	8.376025	72.835	6.9	Clostridium sp.	0.1		0.0977 g/g	YEP			Biocatalytic production of adipic acid from glucose using engineered Saccharomyces cerevisiae
+	12	draw_prot_G2TQU6	72.835 prot_pool  -> prot_G2TQU6														
+	13	adipic acid transport	s_4253 -> s_4254														
+	14	adipic acid exchange	s_4254 ->														
+																	
+Isobutanol	r_0016No1	2-aceto-2-hydroxybutanoate synthase (No1)	pmet_r_0016 + 1.72533e-05 prot_P25605 + 8.62664e-06 prot_P07342  -> s_0039 + s_0460 				32.2 (Kcat*2)				0.1	0.0073 g/g	0.0174 g/g	YEP	ILV2	"ALD6, BAT1"	Metabolic engineering of Saccharomyces cerevisiae for the production of isobutanol and 3-methyl-1-butanol
+	r_0016No2	2-aceto-2-hydroxybutanoate synthase (No2)	pmet_r_0016 + 8.62664e-06 prot_P07342  -> s_0039 + s_0460 				32.2 (Kcat*2)								ILV2		
+	r_0097No1	acetolactate synthase (No1)	3.45066e-05 prot_P25605 + 1.72533e-05  prot_P07342 + pmet_r_0097  -> s_0146 + s_0460 				16.1 (Kcat*2)								ILV2		
+	r_0097No2	acetolactate synthase (No2)	1.72533e-05  prot_P07342 + pmet_r_0097  -> s_0146 + s_0460 				16.1 (Kcat*2)								ILV2		
+	r_0352No1	"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate) (No1)"	s_0016 + 5.55556e-06 prot_P39522  -> s_0233 + s_0807 				50 (Kcat*2)								ILV3		
+	r_0353No1	"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate) (No1)"	s_0008 + 5.55556e-06 prot_P39522  -> s_0060 + s_0807 				50 (Kcat*2)								ILV3		
+	r_0096No1	acetohydroxy acid isomeroreductase (No1)	s_0146 + s_0799 + s_1214 + 7.58956e-06  prot_P06168  -> s_0016 + s_1210 				36.6 (Kcat*2)								ILV5		
+	r_0669No1	ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate) (No1)	s_0039 + s_0799 + s_1214 + 0.000141723 prot_P06168  -> s_0008 + s_1210 				1.96 (Kcat*2)								ILV5		
+	r_0854No1	phenylpyruvate decarboxylase (No1)	s_0794 + s_0951 + 2.43665e-07 prot_Q06408  -> s_0456 + s_1318 				1140 (Kcat*2)								ARO10		
+	r_0163No1	alcohol dehydrogenase (ethanol to acetaldehyde) (No1)	s_0680 + s_1198 + 9.71251e-07 prot_P00331  -> s_0359 + s_0794 + s_1203 				286 (Kcat*2)								ADH2		
+																	
+3-Methyl-1-Butanol (based on ecIsobutanol model)	r_0024No1	2-isopropylmalate synthase (No1)	pmet_r_0024 + 1.00717e-05 prot_P06208  -> s_0162 + s_0529 + s_0794 				27.58 (Kcat*2)				0.1	0.0077 g/g	0.3165 g/g	YEP	LEU4		Metabolic engineering of Saccharomyces cerevisiae for the production of isobutanol and 3-methyl-1-butanol
+	r_0025No1	2-isopropylmalate synthase (No1)	s_0233 + s_0376 + s_0807 + 1.00717e-05 prot_P06208  -> s_0164 + s_0532 + s_0799 				27.58 (Kcat*2)								LEU4		
+																	
+Naringenin	1	Phenylalanine ammonia-lyase	s_1032 + 0.000154321 prot_P35510 -> s_0419 + s_4219	PAL1 (Arabidopsis thaliana)	P35510	4.3.1.24	1.8	78.726			0.2	0.006 g/g	0.0002 g/g	Min		"ARO3, ARO4, ARO10, PDC5, PDC6"	De novo production of the flavonoid naringenin in engineered Saccharomyces cerevisiae
+	2	Cinnamate-4-hydroxylase	s_0794 + s_1275 + s_4219 + s_1212 + 0.000161499 prot_P92994 -> s_0803 + s_1207 + s_4215	C4H (Arabidopsis thaliana)	P92994	1.14.13.11	1.72	57.792									
+	3	Chalcone isomerase	s_0794 + s_4223 + prot_Q8VZW3 -> s_4221	CHI1 (Arabidopsis thaliana)	Q8VZW3	5.5.1.6	NA	23.332									
+	4	Chalcone synthase	2 s_0794 + s_4216 + 3 s_1101 + 0.277778 prot_P13114 -> 4 s_0529 + 3 s_0456 + s_4223	CHS3 (Arabidopsis thaliana)	P13114	2.3.1.74	0.001	43.116									
+	5	4-coumarate:CoA ligase	s_4215 + s_0434 + s_0529 + 0.000330688 prot_Q9S777 -> s_0633 + s_0423 + s_4216	4CL3 (Arabidopsis thaliana)	Q9S777	6.2.1.12	0.84	61.311									
+	6	tyrosine ammonia-lyase	s_1051 + 1.00281e-05 prot_A0A1M4NET9 -> s_0419 + s_4215	TAL (Rhodobacter capsulatus)	A0A1M4NET9	4.3.1.23	27.7	55.539									
+	7	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	s_0551 + s_0803 + s_1360 + 3.51617e-05 prot_P32449ly  -> s_0349 + s_1322 	ARO4G226S (S. cerevisiae)	P32449ly	2.5.1.54	7.9	39.7487									
+	8	draw_prot_P35510	78.726 prot_pool  -> prot_P35510														
+	9	draw_prot_P92994	57.792 prot_pool  -> prot_P92994														
+	10	draw_prot_Q8VZW3	23.332 prot_pool  -> prot_Q8VZW3														
+	11	draw_prot_P13114	43.116 prot_pool  -> prot_P13114														
+	12	draw_prot_Q9S777	61.311 prot_pool  -> prot_Q9S777														
+	13	draw_prot_A0A1M4NET9	55.539 prot_pool  -> prot_A0A1M4NET9														
+	14	draw_prot_P32449ly	39.7487 prot_pool  -> prot_P32449ly														
+	15	naringenin transport	s_4221 -> s_4255														
+	16	naringenin exchange	s_4255 ->														
+																	
+Catechin	1	Phenylalanine ammonia-lyase	s_1032 + 8.68056e-05 prot_P45724 -> s_0419 + s_4219	PAL2 (Arabidopsis thaliana)	P45724	4.3.1.24	3.2	77.86			0.1		0.0006 g/g	Min			De novo biosynthesis of anthocyanins in Saccharomyces cerevisiae
+	2	Cinnamate-4-hydroxylase	s_0794 + s_1275 + s_4219 + s_1212 + 0.000161499 prot_Q84TQ4 -> s_0803 + s_1207 + s_4215	C4H (Ammi majus)	Q84TQ4	1.14.13.11	1.72	57.937		Arabidopsis thaliana							
+	3	Chalcone isomerase	s_0794 + s_4223 + 4.13976e-10 prot_P28012 -> s_4221	CHI (Medicago sativa)	P28012Ê	5.5.1.6	671000	23.826									
+	4	Chalcone synthase	2 s_0794 + s_4216 + 3 s_1101 +  0.00661376 prot_Q9FUB7 -> 4 s_0529 + 3 s_0456 + s_4223	CHS (Hypericum androsaemum)	Q9FUB7	2.3.1.74	0.042	42.713									
+	5	4-coumarate:CoA ligase	s_4215 + s_0434 + s_0529 + 9.25926e-05 prot_Q9S725 -> s_0633 + s_0423 + s_4216	4CL2 (Arabidopsis thaliana)	Q9S725	6.2.1.12	3	60.842									
+	6	flavonoid-3'-hydroxylase	s_0794 + s_1275 + s_4221 + s_1212 + 1.63399e-05 prot_Q9SBQ9 -> s_4256 + s_0803 + s_1207 	F3'H (Petunia x hybrida)	Q9SBQ9	1.14.14.82	17	56.936		Tagetes erecta							
+	7	flavanone-3-hydroxylase	s_4256 + s_0180 + s_1275 + prot_Q06942 -> s_4257 + s_1458 + s_0456	F3H (Malus x domestica)	Q06942	1.14.11.9	NA	40.771									
+	8	dihydroflavonol-4-reductase	s_4257 + s_1212 + s_0794 + 1.00625e-05 prot_B9GRL5 -> s_4258 + s_1207	DFR (Populus trichocarpa)	B9GRL5	1.1.1.219	27.60528667	38.699	42.8	Camellia sinensis							
+	9	leucoanthocyanidin reductase	s_4258 + s_1212 + s_0794 + 0.0042735 prot_Q4W2K4 -> s_4259 + s_1207 + s_0803	LAR (Vitis vinifera)	Q4W2K4	1.17.1.3	0.065	38.019									
+	10	draw_prot_P45724	77.86 prot_pool  -> prot_P45724														
+	11	draw_prot_Q84TQ4	57.937 prot_pool  -> prot_Q84TQ4														
+	12	draw_prot_P28012Ê	23.826 prot_pool  -> prot_P28012Ê														
+	13	draw_prot_Q9FUB7	42.713 prot_pool  -> prot_Q9FUB7														
+	14	draw_prot_Q9S725	60.842 prot_pool  -> prot_Q9S725														
+	15	draw_prot_Q9SBQ9	56.936 prot_pool  -> prot_Q9SBQ9														
+	16	draw_prot_Q06942	40.771 prot_pool  -> prot_Q06942														
+	17	draw_prot_B9GRL5	38.699 prot_pool  -> prot_B9GRL5														
+	18	draw_prot_Q4W2K4	38.019 prot_pool  -> prot_Q4W2K4														
+	19	catechin transport	s_4259 -> s_4260														
+	20	catechin exchange	s_4260 ->														
+																	
+Amorphadiene	1	amorphadiene synthase	s_0190 + 0.000536251 pro_Q9AR04 -> s_4261 + s_0633	ADS (Artemisia annua)	Q9AR04	4.2.3.24	0.518	63.933			0.1	0.0323 Cmol	0.17 Cmol	Min		"GAL1,7,10"	"Production of amorphadiene in yeast, and its
+conversion to dihydroartemisinic acid, precursor
+to the antimalarial agent artemisinin
+"
+	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 + 3.0013e-06 prot_P12684  -> s_0028 + s_0529 + 2 s_1207 			1.1.1.34	92.5526 (Kcat*2)	115.691							HMG1		
+	r_0904No1	phosphomevalonate kinase (No1)	s_0019 + s_0434 + 4.08497e-05 prot_P24521  -> s_0018 + s_0394 			2.7.4.2	6.8 (Kcat*2)	50.4544							ERG8		
+	r_0103No1	acetyl-CoA C-acetyltransferase (No1)	2 s_0373 + 1.54321e-07 prot_P41338  -> s_0367 + s_0529 			2.3.1.9	1800 (Kcat*2)	41.7282							ERG10		
+	r_0104No1	acetyl-CoA C-acetyltransferase (No1)	2 s_0376 + 1.54321e-07 prot_P41338  -> s_0370 + s_0532 			2.3.1.9	1800 (Kcat*2)	41.7282							ERG10		
+	r_0103_REVNo1	acetyl-CoA C-acetyltransferase (reversible) (No1)	s_0367 + s_0529 + 2.77778e-11 pprot_P41338  -> 2 s_0373 			2.3.1.9	10000000 (Kcat*2)	41.7282							ERG10		
+	r_0104_REVNo1	acetyl-CoA C-acetyltransferase (reversible) (No1)	s_0370 + s_0532 + 2.77778e-11 pprot_P41338  -> 2 s_0376 			2.3.1.9	10000000 (Kcat*2)	41.7282							ERG10		
+	r_0735No1	mevalonate kinase (atp) (No1)	s_0028 + s_0434 + 6.34194e-06 prot_P07277  -> s_0019 + s_0394 + s_0794 			2.7.1.36	43.8001 (Kcat*2)	48.459							ERG12		
+	r_0736No1	mevalonate kinase (ctp) (No1)	s_0028 + s_0539 + 6.34194e-06 prot_P07277  -> s_0019 + s_0467 + s_0794 			2.7.1.36	43.8001 (Kcat*2)	48.459							ERG12		
+	r_0737No1	mevalonate kinase (gtp) (No1)	s_0028 + s_0785 + 6.34194e-06 prot_P07277  -> s_0019 + s_0739 + s_0794 			2.7.1.36	43.8001 (Kcat*2)	48.459							ERG12		
+	r_0738No1	mevalonate kinase (UTP) (No1)	s_0028 + s_1559 + 6.34194e-06 prot_P07277  -> s_0019 + s_0794 + s_1538 			2.7.1.36	43.8001 (Kcat*2)	48.459							ERG12		
+	r_0559No1	hydroxymethylglutaryl CoA synthase (No1)	s_0367 + s_0373 + s_0803 + 0.000334672 prot_P54839  -> s_0218 + s_0529 + s_0794 			2.3.3.10	0.83 (Kcat*2)	55.0128							ERG13		
+	r_0560No1	hydroxymethylglutaryl CoA synthase (No1)	s_0370 + s_0376 + s_0807 + 0.000334672 prot_P54839  -> s_0221 + s_0532 + s_0799 			2.3.3.10	0.83 (Kcat*2)	55.0128							ERG13		
+	r_0739No1	mevalonate pyrophoshate decarboxylase (No1)	s_0018 + s_0434 + 2.83447e-05 prot_P32377  -> s_0394 + s_0456 + s_0943 + s_1322 			4.1.1.33	9.8 (Kcat*2)	44.1154							ERG19		
+	r_0355No1	dimethylallyltranstransferase (No1)	s_0943 + s_1376 + 0.000126263 prot_P08524  -> s_0633 + s_0745 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_0462No1	geranyltranstransferase (No1)	s_0745 + s_0943 + 0.000126263 prot_P08524  -> s_0190 + s_0633 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_0667No1	isopentenyl-diphosphate D-isomerase (No1)	s_0943 + 4.64511e-09 prot_P15496  -> s_1376 			5.3.3.2	59800 (Kcat*2)	33.3511							IDI1		
+	r_0667_REVNo1	isopentenyl-diphosphate D-isomerase (reversible) (No1)	s_1376 + 0.0022919 prot_P15496  -> s_0943 			5.3.3.2	0.1212 (Kcat*2)	33.3511							IDI1		
+	r_1012No1	squalene synthase (No1)	2 s_0190 + s_0794 + s_1212 + 0.0003367 prot_P29704  -> 2 s_0633 + s_1207 + s_1447 			2.5.1.21	0.825 (Kcat/2)	51.7193							ERG9: downregulation		
+	2	draw_prot_Q9AR04	63.933 prot_pool  -> prot_Q9AR04														
+	3	amorphadiene transport	s_4261 -> s_4262														
+	4	amorphadiene exchange	s_4262 ->														
+																	
+Ginsenosides (protopanaxadiol)	1	dammarenediol-II synthase	s_0037 + s_0803 + prot_Q08IT1 -> s_4263	DDS (Panax ginseng)	Q08IT1	4.2.1.125	NA	88.343			0.1	8.4 mg/gDCW		Min			Metabolic engineering of Saccharomyces cerevisiae for production of ginsenosides
+	2	protopanaxadiol synthase	s_0794 + s_1275 + s_4263 + s_1212 + prot_H2DH16 -> s_4264 + s_0803 + s_1207	PPDS (Panax ginseng)	H2DH16	1.14.14.120	NA	55.356				0.00019 mmol/gDCW/h	0.00054 mmol/gDCW/h				
+	3	draw_prot_Q08IT1	88.343 prot_pool  -> prot_Q08IT1														
+	4	draw_prot_H2DH16	55.356 prot_pool  -> prot_H2DH16														
+	5	protopanaxadiol transport	s_4264 -> s_4265														
+	6	protopanaxadiol exchange	s_4265 ->														
+	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 + 3.0013e-06 prot_P12684  -> s_0028 + s_0529 + 2 s_1207 			1.1.1.34	92.5526 (Kcat*2)	115.691							HMG1		
+	r_1010No1	squalene epoxidase (NAD) (No1)	s_0795 + s_1204 + s_1276 + s_1448 + 0.00182749 prot_P32476  -> s_0038 + s_0804 + s_1199 			1.14.14.17	0.152 (Kcat*2)	55.1254							ERG1		
+	r_1011No1	squalene epoxidase (NADP) (No1)	s_0795 + s_1213 + s_1276 + s_1448 + 0.00182749 prot_P32476  -> s_0038 + s_0804 + s_1208 			1.14.14.17	0.152 (Kcat*2)	55.1254							ERG1		
+	r_1012No1	squalene synthase (No1)	2 s_0190 + s_0794 + s_1212 + 8.41751e-05 prot_P29704  -> 2 s_0633 + s_1207 + s_1447 			2.5.1.21	3.3 (Kcat*2)	51.7193							ERG9		
+	r_0355No1	dimethylallyltranstransferase (No1)	s_0943 + s_1376 + 0.000126263 prot_P08524  -> s_0633 + s_0745 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_0462No1	geranyltranstransferase (No1)	s_0745 + s_0943 + 0.000126263 prot_P08524  -> s_0190 + s_0633 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+																	
+Monoterpenoids (geraniol)	1	geraniol synthase	s_0745 + s_0803 + 0.000277778 prot_J9PZR5 -> s_4266 + s_0633	GES (Catharanthus roseus)	J9PZR5	3.1.7.11	1	67.728		Ocimum basilicum	0.31		0.0177 g/g	YEP		GAL80	"Manipulation of GES and ERG20 for geraniol overproduction in
+Saccharomyces cerevisiae"
+	2	draw_prot_J9PZR5	67.728 prot_pool  -> prot_J9PZR5														
+	3	protopanaxadiol transport	s_4266 -> s_4267														
+	4	protopanaxadiol exchange	s_4267 ->														
+	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 + 3.0013e-06 prot_P12684  -> s_0028 + s_0529 + 2 s_1207 			1.1.1.34	92.5526 (Kcat*2)	115.691							HMG1		
+	r_0667No1	isopentenyl-diphosphate D-isomerase (No1)	s_0943 + 4.64511e-09 prot_P15496  -> s_1376 			5.3.3.2	59800 (Kcat*2)	33.3511							IDI1		
+	r_0667_REVNo1	isopentenyl-diphosphate D-isomerase (reversible) (No1)	s_1376 + 0.0022919 prot_P15496  -> s_0943 			5.3.3.2	0.1212 (Kcat*2)	33.3511							IDI1		
+	r_0355No1	dimethylallyltranstransferase (No1)	s_0943 + s_1376 + 0.000126263 prot_P08524  -> s_0633 + s_0745 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_0462No1	geranyltranstransferase (No1)	s_0745 + s_0943 + 0.000126263 prot_P08524  -> s_0190 + s_0633 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+																	
+Sesquiterpenoids (patchoulol)	1	patchoulol synthase	s_0190 + s_0803 + 0.645995 prot_Q49SP3 -> s_4268 + s_0633	PTS (Pogostemon cablin)	Q49SP3	4.2.3.70	0.00043	64.199			0.1		0.00057 g/g	YEP		GAL80	Significantly Enhanced Production of Patchoulol in Metabolically Engineered Saccharomyces cerevisiae
+	2	draw_prot_Q49SP3	64.199 prot_pool  -> prot_Q49SP3														
+	3	patchoulol transport	s_4268 -> s_4269														
+	4	patchoulol exchange	s_4269 ->														
+	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 + 3.0013e-06 prot_P12684  -> s_0028 + s_0529 + 2 s_1207 			1.1.1.34	92.5526 (Kcat*2)	115.691							HMG1		
+	r_0667No1	isopentenyl-diphosphate D-isomerase (No1)	s_0943 + 4.64511e-09 prot_P15496  -> s_1376 			5.3.3.2	59800 (Kcat*2)	33.3511							IDI1		
+	r_0667_REVNo1	isopentenyl-diphosphate D-isomerase (reversible) (No1)	s_1376 + 0.0022919 prot_P15496  -> s_0943 			5.3.3.2	0.1212 (Kcat*2)	33.3511							IDI1		
+	r_0355No1	dimethylallyltranstransferase (No1)	s_0943 + s_1376 + 0.000126263 prot_P08524  -> s_0633 + s_0745 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_0462No1	geranyltranstransferase (No1)	s_0745 + s_0943 + 0.000126263 prot_P08524  -> s_0190 + s_0633 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_1012No1	squalene synthase (No1)	2 s_0190 + s_0794 + s_1212 + 0.0003367 prot_P29704  -> 2 s_0633 + s_1207 + s_1447 			2.5.1.21	0.825 (Kcat/2)	51.7193							ERG9: downregulation		
+																	
+Triterpenoids (lupeol)	1	lupeol synthase	s_0037 + prot_A0A3B1EU92 -> s_4270	LUP (Taraxacum kok-saghyz)	A0A3B1EU92	5.4.99.41	NA	86.705			0.1		0.00041 g/g	Min		ROX1	"Upregulating the mevalonate pathway and repressing sterol synthesis
+in Saccharomyces cerevisiae enhances the production of triterpenes"
+	2	draw_prot_A0A3B1EU92	86.705 prot_pool  -> prot_A0A3B1EU92														
+	3	lupeol transport	s_4270 -> s_4271														
+	4	lupeol exchange	s_4271 ->														
+	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 + 3.0013e-06 prot_P12684  -> s_0028 + s_0529 + 2 s_1207 			1.1.1.34	92.5526 (Kcat*2)	115.691							HMG1		
+	r_0559No1	hydroxymethylglutaryl CoA synthase (No1)	s_0367 + s_0373 + s_0803 + 0.000334672 prot_P54839  -> s_0218 + s_0529 + s_0794 			2.3.3.10	0.83 (Kcat*2)	55.0128							ERG13		
+	r_0560No1	hydroxymethylglutaryl CoA synthase (No1)	s_0370 + s_0376 + s_0807 + 0.000334672 prot_P54839  -> s_0221 + s_0532 + s_0799 			2.3.3.10	0.83 (Kcat*2)	55.0128							ERG13		
+	r_0698No1	lanosterol synthase (No1)	s_0037 + 0.000136286 prot_P38604  -> s_1059 			5.4.99.7	2.0382 (Kcat/2)	83.4594							ERG7: downregulation		
+																	
+_-Amyrin	1	_-amyrin synthase	s_0037 + 0.00036075 prot_Q9MB42 -> s_4272	bAS (Glycyrrhiza glabra)	Q9MB42	5.4.99.39	0.77	87.516		Euphorbia tirucalli	0.1	0.00465 g/g	0.05821 g/g	YEP			Refactoring b-Amyrin Synthesis in Saccharomyces cerevisiae
+	2	squalene epoxidase (NAD) (No1)	s_0795 + s_1204 + s_1276 + s_1448 + prot_Q92206  -> s_0038 + s_0804 + s_1199 	CaERG1 (Candida albicans)	Q92206	1.14.14.17	NA	55.298									
+	3	squalene epoxidase (NADP) (No1)	s_0795 + s_1213 + s_1276 + s_1448 + prot_Q92206  -> s_0038 + s_0804 + s_1208 	CaERG1 (Candida albicans)	Q92206	1.14.14.17	NA	55.298									
+	4	pyrophosphate isomerase	s_0943 + prot_Q46822  -> s_1376 	EcIDI (E.coli)	Q46822	5.3.3.2	NA	20.508									
+	5	pyrophosphate isomerase	s_1376 + prot_Q46822  -> s_0943 	EcIDI (E.coli)	Q46822	5.3.3.2	NA	20.508									
+	r_1012No1	squalene synthase (No1)	2 s_0190 + s_0794 + s_1212 + 8.41751e-05 prot_P29704  -> 2 s_0633 + s_1207 + s_1447 			2.5.1.21	3.3 (Kcat*2)	51.7193							ERG9		
+	r_0355No1	dimethylallyltranstransferase (No1)	s_0943 + s_1376 + 0.000126263 prot_P08524  -> s_0633 + s_0745 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_0462No1	geranyltranstransferase (No1)	s_0745 + s_0943 + 0.000126263 prot_P08524  -> s_0190 + s_0633 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	6	draw_prot_Q9MB42	87.516 prot_pool  -> prot_Q9MB42														
+	7	draw_prot_Q92206	55.298 prot_pool  -> prot_Q92206														
+	8	draw_prot_Q46822	20.508 prot_pool  -> prot_Q46822														
+	9	_-Amyrin transport	s_4272 -> s_4273														
+	10	_-Amyrin exchange	s_4273 ->														
+																	
+Carotenoids (astaxanthin) (based on ecbeta_Carotene model)	11	_-carotenoid ketolase	s_4239 + s_1275 + prot_Q39982 -> s_4276 + s_0803	bkt (Haematococcus pluvialis)	Q39982	1.14.99.63	NA	35.989			0.1	4.7 mg/gDCW		YEP		GAL80	"Highly efficient biosynthesis of astaxanthin in Saccharomyces
+cerevisiae by integration and tuning of algal crtZ and bkt"
+	12	_-carotenoid ketolase	s_4276 + s_1275 + prot_Q39982 -> s_4277 + s_0803	bkt (Haematococcus pluvialis)	Q39982	1.14.99.63	NA	35.989				0.0000937 mmol/gDCW/h	0.00032611 mmol/gDCW/h				
+	13	_-carotenoid hydroxylase	s_0794 + s_1203 + s_4277 + s_1275 + prot_A0A0K0P8J8 -> s_0803 + s_4278 + s_1198	crtZ (Haematococcus pluvialis)	A0A0K0P8J8	1.14.15.24	NA	32.017									
+	14	_-carotenoid hydroxylase	s_0794 + s_1203 + s_4278 + s_1275 + prot_A0A0K0P8J8 -> s_0803 + s_4279 + s_1198	crtZ (Haematococcus pluvialis)	A0A0K0P8J8	1.14.15.24	NA	32.017									
+	15	draw_prot_Q39982	35.989 prot_pool  -> prot_Q39982														
+	16	draw_prot_A0A0K0P8J8	32.017 prot_pool  -> prot_A0A0K0P8J8														
+	17	astaxanthin transport	s_4279 -> s_4280														
+	18	astaxanthin exchange	s_4280 ->														
+																	
+Farnesene + Santalene	1	farnesene synthase	s_0190 + 0.00453145 prot_Q84LB2 -> s_4281 + s_0633	AFS (Malus domestica)	Q84LB2	4.2.3.46	0.0613	66.183			Farnesene:0.043 + Santalene:0.05	Farnesene:0.015 g/gDCW + Santalene:0.0052 Cmol	Farnesene:0.1914 mmol/gDCW/h + Santalene:0.1435 Cmol	Min		"LPP1,DPP1,GDH1"	Production of farnesene and santalene by Saccharomyces cerevisiae using fed-batch cultivations with RQ-controlled feed
+	2	draw_prot_Q84LB2	66.183 prot_pool  -> prot_Q84LB2														
+	3	farnesene transport	s_4281 -> s_4282														
+	4	farnesene exchange	s_4282 ->														
+	5	santalene synthase	s_0190 + 0.0037037 prot_E5LLI1 -> s_4283 + s_0633	SAS (Clausena lansium)	E5LLI1	4.2.3.82	0.075	63.937									"Combined metabolic engineering of precursor
+and co-factor supply to increase _-santalene
+production by Saccharomyces cerevisiae"
+	6	draw_prot_E5LLI1	63.937 prot_pool  -> prot_E5LLI1														
+	7	farnesene transport	s_4283 -> s_4284														
+	8	farnesene exchange	s_4284 ->														
+	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 + 3.0013e-06 prot_P12684  -> s_0028 + s_0529 + 2 s_1207 			1.1.1.34	92.5526 (Kcat*2)	115.691							HMG1		
+	r_0355No1	dimethylallyltranstransferase (No1)	s_0943 + s_1376 + 0.000126263 prot_P08524  -> s_0633 + s_0745 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_0462No1	geranyltranstransferase (No1)	s_0745 + s_0943 + 0.000126263 prot_P08524  -> s_0190 + s_0633 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_1012No1	squalene synthase (No1)	2 s_0190 + s_0794 + s_1212 + 0.0003367 prot_P29704  -> 2 s_0633 + s_1207 + s_1447 			2.5.1.21	0.825 (Kcat/2)	51.7193							ERG9: downregulation		
+	r_0470No1	glutamate dehydrogenase (NAD) (No1)	s_0803 + s_0991 + s_1198 + 5.78705e-06 prot_P33327  -> s_0180 + s_0419 + s_0794 + s_1203 			1.4.1.2	47.9999 (Kcat*2)	124.331							GDH2		
+																	
+lactase	1	production of lactase	2.01 s_0785 + 0.6516 s_0955 + 0.2643 s_0965 + 0.5013 s_0969 + 0.4921 s_0973 + 0.0547 s_0981 + 0.4375 s_0991 + 0.2552 s_0999 + 0.9114 s_1003 + 0.1276 s_1006 + 0.4466 s_1016 + 0.8567 s_1021 + 0.4192 s_1025 + 0.0638 s_1029 + 0.3645 s_1032 + 0.4921 s_1035 + 0.8567 s_1039 + 0.7109 s_1045 + 0.1823 s_1048 + 0.5377 s_1051 + 0.5559 s_1056  -> 2.01 s_0739 + 2.01 s_1322 + s_4285	lacA (Aspergillus niger)	A2QAN3	3.2.1.23	214.9	109.712			0.18		0.0414 mol/mol	YEP			"Development of Stable Flocculent Saccharomyces cerevisiae Strain
+for Continuous Aspergillus niger _-Galactosidase Production"
+	2	lactase transport	s_4285 -> s_4286														
+	3	lactase exchange	s_4286 ->														
+																	
+L-ornithine 	1	Amino-acid acetyltransferase	s_0373 + s_0991 + 2.54728e-06 prot_P0A6C5 -> s_0529 + s_4173	argA (E. coli)	P0A6C5	2.3.1.1	109.0489167	49.195	133		0.1	0.067 g/g	0.124 g/g	Min		CAR2	"Modular pathway rewiring of Saccharomyces
+cerevisiae enables high-level production of
+L-ornithine"
+	2	Acetylglutamate kinase	s_0434 + s_4173 + 0.00113638 prot_P0A6C8 -> s_0394 + s_4288	argB (E. coli)	P0A6C8	2.7.2.8	0.24444	27.16	0.54								
+	3	N-acetyl-gamma-glutamyl-phosphate reductase	s_4288 + s_1212 + s_0794 + prot_Q59279 -> s_1207 + s_1322 + s_4289	argC (Corynebacterium glutamicum)	Q59279	1.2.1.38	NA	35.888									
+	4	acetylornithine aminotransferase	s_4289 + s_0991 + prot_Q59282 -> s_4290 + s_0180	argD (Corynebacterium glutamicum)	Q59282	2.6.1.11	NA	41.206									
+	5	glutamate N-acetyltransferase	s_4290 + s_0991 + 0.0279778 prot_Q59280 -> s_1266 + s_4173	argJ (Corynebacterium glutamicum)	Q59280	2.3.1.35	0.0099285	39.714	0.015								
+	r_1237 (update)	ornithine transport	s_0794 + s_1268 + 0.00152961 prot_Q12375 -> s_0799 + s_1266 	ORT1	Q12375		0.1816 (Kcat*2)	31.52	0.1728						ORT1		
+	r_1118 (update)	aspartate-glutamate transporter	s_0975 + s_0991 + 0.0210757 prot_Q12482 -> s_0973 + s_0993 	AGC1	Q12482Ê		0.01318 (Kcat*2) Identification and metabolic role of the mitochondrial aspartate-glutamate transporter in Saccharomyces cerevisiae	104.304							AGC1		
+	r_0471No2	glutamate dehydrogenase (NADP) (No2)	pmet_r_0471 + 2.60433e-06 prot_P07262  -> s_0803 + s_0991 + s_1207 	GDH1			106.66 (Kcat*2)								GDH1		
+	r_0816No1	ornithine carbamoyltransferase (No1)	s_0455 + s_1266 + 6.77507e-06 prot_P05150  -> s_0794 + s_0979 + s_1322 	ARG3			41 (Kcat/2)								ARG3: downregulation		
+	6	draw_prot_P0A6C5	49.195 prot_pool  -> prot_P0A6C5														
+	7	draw_prot_P0A6C8	27.16 prot_pool  -> prot_P0A6C8														
+	8	draw_prot_Q59279	35.888 prot_pool  -> prot_Q59279														
+	9	draw_prot_Q59282	41.206 prot_pool  -> prot_Q59282														
+	10	draw_prot_Q59280	39.714 prot_pool  -> prot_Q59280														
+	11	draw_prot_Q12375	31.52 prot_pool  -> prot_Q12375														
+	12	draw_prot_Q12482Ê	104.304 prot_pool  -> prot_Q12482Ê														
+																	
+(S)-reticuline	1	tyrosine hydroxylase	s_1275 + 2 s_1051 + prot_I3PFJ5 -> 2 s_4291	CYP76AD1 (Beta vulgaris)	I3PFJ5	1.14.18.1	NA	56.212			0.1		0.000424 g/g	YEP			An enzyme-coupled biosensor enables (S)-reticuline production in yeast from glucose
+	2	"L-3,4-dihydroxyphenylalanine decarboxylase"	s_4291 + s_0794 + 0.000154321 prot_Q88JU5 -> s_0456 + s_4292	DODC (Pseudomonas putida)	Q88JU5	4.1.1.28	1.8	51.444									
+	3	4-hydroxyphenylpyruvate decarboxylase (update)	s_0204 + s_0794 + 2.52525e-05 prot_Q06408 -> s_0456 + s_4293	YDR380W (S.cerevisiae)	Q06408	4.1.1.80	11_Characterization of a thiamin diphosphate-dependent phenylpyruvate decarboxylase from Saccharomyces cerevisiae_	71.384									
+	4	norcoclaurine synthase	s_4292 + s_4293 + 4.78927e-05 prot_B6E2Z2 -> s_0803 + s_4294	NCS (Papaver somniferum)	B6E2Z2	4.2.1.78	5.8	26.001		Corydalis chinensis							
+	5	6-O-methyltransferase	s_4294 + s_1416 + 0.00347222 prot_Q6WUC1 -> s_1413 + s_4295	6OMT (Papaver somniferum)	Q6WUC1	2.1.1.128	0.08	38.511									
+	6	coclaurine N-methyltransferase	s_4295 + s_1416 + 0.00347222 prot_Q7XB08 -> s_1413 + s_0794 + s_4296	CNMT (Papaver somniferum)	Q7XB08	2.1.1.140	0.000478707	41.032	0.0007	Corydalis vaginans							
+	7	N-methylcoclaurine hydroxylase	s_4296 + s_0794 + s_1275 + s_1212 + prot_O64899 -> s_0803 + s_1207 + s_4297	CYP80B1 (Eschscholzia californica)	O64899Ê	1.14.14.102	NA	54.644									
+	8	4_-O-methyltransferase	s_4297 + s_1416 + 0.003865 prot_Q7XB11 -> s_1413 + s_0794 + s_4298	4'OMT (Papaver somniferum)	Q7XB11	2.1.1.116	0.071869248	39.402	"0.10944 (Comparative macroarray analysis of morphine containing Papaver
+somniferum and eight morphine free Papaver species identifies
+an O-methyltransferase involved in benzylisoquinoline biosynthesis)"								
+	9	draw_prot_I3PFJ5	56.212 prot_pool  -> prot_I3PFJ5														
+	10	draw_prot_Q88JU5	51.444 prot_pool  -> prot_Q88JU5														
+	11	draw_prot_Q06408	71.384 prot_pool  -> prot_Q06408														
+	12	draw_prot_B6E2Z2	26.001 prot_pool  -> prot_B6E2Z2														
+	13	draw_prot_Q6WUC1	38.511 prot_pool  -> prot_Q6WUC1														
+	14	draw_prot_Q7XB08	41.032 prot_pool  -> prot_Q7XB08														
+	15	draw_prot_O64899Ê	54.644 prot_pool  -> prot_O64899Ê														
+	16	draw_prot_Q7XB11	39.402 prot_pool  -> prot_Q7XB11Ê														
+	17	(S)-Reticuline transport	s_4298 -> s_4299														
+	18	(S)-Reticuline exchange	s_4299 -> 														
+																	
+_-ionone	1	Bifunctional lycopene cyclase/phytoene synthase	2 s_0189 + 0.00332827 prot_Q7Z859 -> 2 s_0633 + s_4236	crtYB (Xanthophyllomyces dendrorhous)	Q7Z859	2.5.1.32	0.0834552	74.736	0.067		0.106	0.0001042 mmol/gDCW/h	0.00090664 mmol/gDCW/h	YEP		"DPP1, LPP1"	"Production of __ionone by combined
+expression of carotenogenic and plant CCD1
+genes in Saccharomyces cerevisiae"
+	2	Phytoene desaturase	s_4236 + 0.925926 prot_Q7Z858 -> s_4237	crtI (Xanthophyllomyces dendrorhous)	Q7Z858	1.3.99.28	0.000314486	65.066	0.00029								
+	3	Phytoene desaturase	s_4237 + s_1275 + 0.925926 prot_Q7Z858 -> 2 s_0803 + s_4238	crtI (Xanthophyllomyces dendrorhous)	Q7Z858	1.3.99.28	0.000314486	65.066	0.00029								
+	4	Bifunctional lycopene cyclase/phytoene synthase	s_4238 + 0.000626472 prot_Q7Z859 -> s_4239	crtYB (Xanthophyllomyces dendrorhous)	Q7Z859	5.5.1.19	0.4434336	74.736	0.356								
+	5	carotenoid cleavage dioxigenase	s_4239 + 2 s_1275 + prot_Q6E4P3 -> s_4300 + 2 s_4301	CCD1 (Petunia hybrida)	Q6E4P3	1.13.11	NA	61.311									
+	r_0355No1	dimethylallyltranstransferase (No1)	s_0943 + s_1376 + 0.000126263 prot_P08524  -> s_0633 + s_0745 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_0462No1	geranyltranstransferase (No1)	s_0745 + s_0943 + 0.000126263 prot_P08524  -> s_0190 + s_0633 			2.5.1.1	2.2 (Kcat*2)	40.4829							ERG20		
+	r_1012No1	squalene synthase (No1)	2 s_0190 + s_0794 + s_1212 + 0.0003367 prot_P29704  -> 2 s_0633 + s_1207 + s_1447 			2.5.1.21	0.825 (Kcat/2)	51.7193							ERG9: downregulation		
+	r_0558No1	hydroxymethylglutaryl CoA reductase (No1)	pmet_r_0558 + 3.0013e-06 prot_P12684 -> s_0028 + s_0529 + 2 s_1207 			1.1.1.34	92.5526 (Kcat*2)	115.691							HMG1		
+	r_0373No1	farnesyltranstransferase (No1)	s_0190 + s_0943 + 4.20875e-05 prot_Q12051 -> s_0189 + s_0633 				6.6 (Kcat*2)								BTS1		
+	6	draw_prot_Q7Z859	74.736 prot_pool  -> prot_Q7Z859														
+	7	draw_prot_Q7Z858	65.066 prot_pool  -> prot_Q7Z858														
+	8	draw_prot_Q6E4P3	61.311 prot_pool  -> prot_Q6E4P3														
+	9	_-ionone transport	s_4301 -> s_4302														
+	10	_-ionone exchange	s_4302 -> 														
+																	
+Xanthone	1	benzoic acid exchange	 -> s_4304								0.1		0.0004407 g/g	YEP			"Engineering Yeast for Production of Benzophenones and Xanthones as Precursors of Polycyclic Polyprenylated Acylphloroglucinols
+
+"
+	2	benzoic acid transport	s_4304 -> s_4305														
+	3	benzoate:CoA ligase	s_4305 + s_0529 + s_0434 + 3.47222e-05 prot_Q53005 -> s_0633 + s_0423 + s_4306	BZL (Rhodopseudomonas palustris)	Q53005	6.2.1.25	8	58.93									
+	4	benzophenone synthase	3 s_1101 + s_4306 + 0.00505051 prot_A4ZYX5 -> 4 s_0529 + 3 s_0456 + s_4307	BPS (Hypericum perforatum)	A4ZYX5	2.3.1.220	0.055	43.039		Hypericum androsaemum							
+	5	xanthone synthase	2 s_0794 + s_4307 + 2 s_1275 + 2 s_1212 + prot_A0A161I263 -> 2 s_0803 + 2 s_1207 + s_4308	TXS (Hypericum perforatum)	A0A161I263	NA	NA	57.849									
+	6	xanthone transport	s_4308 -> s_4309														
+	7	xanthone exchange	s_4309 -> 														
+	8	draw_prot_Q53005	58.93 prot_pool  -> prot_Q53005														
+	9	draw_prot_A4ZYX5	43.039 prot_pool  -> prot_A4ZYX5														
+	10	draw_prot_A0A161I263	57.849 prot_pool  -> prot_A0A161I263														
+	r_0355No1	dimethylallyltranstransferase (No1)	s_0943 + s_1376 + 0.000505051 prot_P08524  -> s_0633 + s_0745 			2.5.1.1	0.55 (Kcat*2)	40.4829							ERG20: downregulation		
+	r_0462No1	geranyltranstransferase (No1)	s_0745 + s_0943 + 0.000505051 prot_P08524  -> s_0190 + s_0633 			2.5.1.1	0.55 (Kcat*2)	40.4829							ERG20: downregulation		
+																	
+tyrosine	1	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	s_0551 + s_0803 + s_1360 + 0.0033548 prot_P32449ly  -> s_0349 + s_1322 	ARO4K229L (S. cerevisiae)	P32449ly	2.5.1.54	0.082809792	39.7487	0.125		0.089	0.01733 mmol/gDCW/h	0.6225 mmol/gDCW/h	YEP		"ARO3, ARO4, ARO10, Zwf1"	Metabolic engineering of a tyrosine-overproducing yeast platform using targeted metabolomics
+	2	tyrosine ammonia-lyase	s_1051 + 0.000308642 prot_Q3IWB0 -> s_0419 + s_4215	TAL (Rhodobacter sphaeroides)	Q3IWB0	4.3.1.23	0.9	54.914									
+	3	cyclohexadienyl dehydrogenase	s_1377 + s_1198 + prot_Q04983 -> s_0204 + s_0456 + s_1203	TyrC (Zymomonas mobilis)	Q04983	1.3.1.12	NA	32.051									
+	4	draw_prot_P32449ly	39.7487 prot_pool  -> prot_P32449ly														
+	5	draw_prot_Q3IWB0	54.914 prot_pool  -> prot_Q3IWB0														
+	6	draw_prot_Q04983	32.051 prot_pool  -> prot_Q04983														
+																	
+triacylglycerol	1	triacylglycerols transport	s_1524 -> s_4310								0.1	0.0055 mmol/gDCW/h _MW=639_	0.00012 mmol/gDCW/h	Min		"TGL3, 4, 5, PXA1"	"Metabolic engineering of Saccharomyces cerevisiae for overproduction of
+triacylglycerols"
+	2	triacylglycerols exchange	s_4310 -> 														
+	r_0109No1	"acetyl-CoA carboxylase, reaction (No1)"	s_0373 + s_0434 + s_0445 + 6.17284e-10 prot_P48445 + 4.2511e-06 prot_Q00955  -> s_0394 + s_0794 + s_1101 + s_1322 				65.3426 (Kcat*2)								ACC1		
+	r_2344No1	"PA phosphatase (1-16:0, 2-16:1), ER membrane (No1)"	s_2808 + s_2954 + 2.40015e-05 prot_P32567  -> s_2966 + s_2967 				23.1467 (Kcat*2)								PAH1		
+	r_2345No1	"PA phosphatase (1-16:0, 2-18:1), ER membrane (No1)"	s_2808 + s_2955 + 2.40015e-05 prot_P32567  -> s_2966 + s_2968 				23.1467 (Kcat*2)								PAH1		
+	r_2346No1	"PA phosphatase (1-16:1, 2-16:1), ER membrane (No1)"	s_2808 + s_2956 + 2.40015e-05 prot_P32567  -> s_2966 + s_2969 				23.1467 (Kcat*2)								PAH1		
+	r_2347No1	"PA phosphatase (1-16:1, 2-18:1), ER membrane (No1)"	s_2808 + s_2957 + 2.40015e-05 prot_P32567  -> s_2966 + s_2970 				23.1467 (Kcat*2)								PAH1		
+	r_2348No1	"PA phosphatase (1-18:0, 2-16:1), ER membrane (No1)"	s_2808 + s_2958 + 2.40015e-05 prot_P32567  -> s_2966 + s_2971 				23.1467 (Kcat*2)								PAH1		
+	r_2349No1	"PA phosphatase (1-18:0, 2-18:1), ER membrane (No1)"	s_2808 + s_2959 + 2.40015e-05 prot_P32567  -> s_2966 + s_2972 				23.1467 (Kcat*2)								PAH1		
+	r_2350No1	"PA phosphatase (1-18:1, 2-16:1), ER membrane (No1)"	s_2808 + s_2960 + 2.40015e-05 prot_P32567  -> s_2966 + s_2973 				23.1467 (Kcat*2)								PAH1		
+	r_2351No1	"PA phosphatase (1-18:1, 2-18:1), ER membrane (No1)"	s_2808 + s_2961 + 2.40015e-05 prot_P32567  -> s_2966 + s_2974 				23.1467 (Kcat*2)								PAH1		
+																	
+"very-long-chain polyunsaturated
+fatty acids (VLC-PUFAs)"	1	Delta9-desaturase	s_2783 + s_2791 + s_2817 + s_2818 + prot_D5KSD1  -> 2 s_2808 + s_2820 + s_2821 	D9D (Mortierella alpina)	D5KSD1	1.14.19.1	NA	50.809			0.1		ARA: 0.00011 g/g; EPA: 0.000089 g/g; DHA: 0.000097 g/g	Min			"Metabolic Engineering of Saccharomyces cerevisiae for Production of
+Eicosapentaenoic Acid, Using a Novel  5-Desaturase from
+Paramecium tetraurelia "
+	2	Delta12-desaturase	s_2783 + s_2821 + s_2817 + s_2818 + prot_Q9Y8H5  -> 2 s_2808 + s_2820 + s_4311 	D12D (Mortierella alpina)	Q9Y8H5	1.14.19.6	NA	46.001									
+	3	Omega-3 desaturase	s_4311 + s_2821 + s_2817 + s_2818 + prot_D5KSD6  -> 2 s_2808 + s_2820 + s_4312 	FAD3 (Saccharomyces kluyveri)	D5KSD6	1.14.19.-	NA	47.718									
+	4	Delta6-desaturase 	s_4311 + s_2821 + s_2817 + s_2818 + prot_A0A1Y5I9G7  -> 2 s_2808 + s_2820 + s_4313 	D6D (Ostreococcus tauri)	A0A1Y5I9G7	1.14.19.3	NA	51.674									
+	5	Delta6-desaturase 	s_4312 + s_2821 + s_2817 + s_2818 + prot_A0A1Y5I9G7  -> 2 s_2808 + s_2820 + s_4314	D6D (Ostreococcus tauri)	A0A1Y5I9G7	1.14.19.3	NA	51.674									
+	6	Delta6-elongase	s_4313 + 2 s_2799 + s_2782 + 3 s_2783 + prot_D5KSD4 -> s_2785 + s_2784 + s_2808 + s_2800 + s_4315	D6E (Mortierella alpina)	D5KSD4	2.3.1.199	NA	36.746									
+	7	Delta6-elongase	s_4314 + 2 s_2799 + s_2782 + 3 s_2783 + prot_D5KSD4 -> s_2785 + s_2784 + s_2808 + s_2800 + s_4316	D6E (Mortierella alpina)	D5KSD4	2.3.1.199	NA	36.746									
+	8	Delta-5 desaturase	s_4315 + s_2821 + s_2817 + s_2818 + prot_HQ678517  -> 2 s_2808 + s_2820 + s_4317	D5D (Paramecium tetraurelia)	HQ678517	1.14.19.44	NA	59.89									
+	9	Delta-5 desaturase	s_4316 + s_2821 + s_2817 + s_2818 + prot_HQ678517  -> 2 s_2808 + s_2820 + s_4318	D5D (Paramecium tetraurelia)	HQ678517	1.14.19.44	NA	59.89									
+For ARA	10	ARA-CoA transport	s_4317 -> s_4319			3.1.2.2											
+	11	peroxisomal acyl-CoA thioesterase	s_4319 + s_0809 + prot_P41903 -> s_0801 + s_0534 + s_4320														
+	12	ARA transport	s_4320 -> s_4321														
+	13	ARA exchange	s_4321 ->														
+For EPA	14	EPA-CoA transport	s_4318 -> s_4322														
+	15	peroxisomal acyl-CoA thioesterase	s_4322 + s_0809 + prot_P41903 -> s_0801 + s_0534 + s_4323			3.1.2.2											
+	16	EPA transport	s_4323 -> s_4324														
+	17	EPA exchange	s_4324 ->														
+	18	draw_prot_D5KSD1	50.809 prot_pool  -> prot_D5KSD1														
+	19	draw_prot_Q9Y8H5	46.001 prot_pool  -> prot_Q9Y8H5														
+	20	draw_prot_D5KSD6	47.718 prot_pool  -> prot_D5KSD6														
+	21	draw_prot_A0A1Y5I9G7	51.674 prot_pool  -> prot_A0A1Y5I9G7														
+	22	draw_prot_D5KSD4	36.746 prot_pool  -> prot_D5KSD4														
+	23	draw_prot_HQ678517	59.89 prot_pool  -> prot_HQ678517														
+For DHA	24	Delta5-elongase	s_4318 + 2 s_2799 + s_2782 + 3 s_2783 -> s_2785 + s_2784 + s_2808 + s_2800 + s_4325														
+	25	Delta-4 desaturase	s_4325 + s_2821 + s_2817 + s_2818 -> 2 s_2808 + s_2820 + s_4326														
+	26	EPA-CoA transport	s_4326 -> s_4327														
+	27	peroxisomal acyl-CoA thioesterase	s_4327 + s_0809 + prot_P41903 -> s_0801 + s_0534 + s_4328			3.1.2.2											
+	28	EPA transport	s_4328 -> s_4329														
+	29	EPA exchange	s_4329 ->														
+																	
+n-butanol	1	Citramalate synthase	s_1401 + s_0376 + 1.49343e-05 prot_A0FDH8 -> s_4333	cimA (Leptospira interrogans)	A0FDH8	2.3.1.182	18.6 (Kcat*2)	47.186			0.1	0.0525 g/g	0.1734 g/g	YEP	cimA	ADH1	Metabolic engineering of a synergistic pathway for n-butanol production in Saccharomyces cerevisiae
+	2	citraconate hydratase	s_4333 + s_0807 + 1.49826e-05 prot_P07264ly -> s_4334	LEU1m (Saccharomyces cerevisiae)	P07264ly	4.2.1.35	18.54 (Kcat*2)	85.794							LEU1m		
+	3	2-methylmaleate hydratase	s_4334 + s_0807 + 1.49826e-05 prot_P07264ly -> s_4335	LEU1m (Saccharomyces cerevisiae)	P07264ly	4.2.1.35	18.54 (Kcat*2)	85.794							LEU1m		
+	4	3-isopropylmalate dehydrogenase	s_4335 + s_1200 + 1.53468e-05 prot_P04173ly -> s_0179 + s_1205 + s_0799 + s_0460	LEU2m (Saccharomyces cerevisiae)	P04173ly	1.1.1.85	18.1 (Kcat*2)	38.953							LEU2m		
+	5	2-ethylmalate synthase	s_0179 + s_0807 + s_0376 + 1.00717e-05 prot_P06208ly -> s_0532 + s_4336	LEU4m (Saccharomyces cerevisiae)	P06208ly	2.3.3.6	27.58 (Kcat*2)	68.409							LEU4m		
+	6	NA	s_4336 + 1.49826e-05 prot_P07264ly -> s_4337	LEU1m (Saccharomyces cerevisiae)	P07264ly	4.2.1.35	18.54 (Kcat*2)	85.794							LEU1m		
+	7	NA	s_4337 + s_1200 + 1.53468e-05 prot_P04173ly -> s_1205 + s_0799 + s_4338	LEU2m (Saccharomyces cerevisiae)	P04173ly	1.1.1.85	18.1(Kcat*2)	38.953							LEU2m		
+	8	NA	s_4338 + s_0799 + 1.53468e-05 prot_P04173ly -> s_0460 + s_4339	LEU2m (Saccharomyces cerevisiae)	P04173ly	1.1.1.85	18.1 (Kcat*2)	38.953							LEU2m		
+	9	2-ethylmalate transport	s_4336 -> s_4340														
+	10	alpha-ketovalerate transport	s_4339 -> s_4341														
+	11	NA	s_4340 + 1.49826e-05 prot_P07264 -> s_4342	LEU1 (Saccharomyces cerevisiae)	P07264	4.2.1.35	18.54 (Kcat*2)	85.794							LEU1		
+	12	NA	s_4342 + s_1198 + 1.53468e-05 prot_P04173 -> s_1203 + s_0794 + s_4343	LEU2 (Saccharomyces cerevisiae)	P04173	1.1.1.85	18.1(Kcat*2)	38.953							LEU2		
+	13	NA	s_4343 + s_0794 + 1.53468e-05 prot_P04173 -> s_0456 + s_4341	LEU2 (Saccharomyces cerevisiae)	P04173	1.1.1.85	18.1 (Kcat*2)	38.953							LEU2		
+	14	keto-acid decarboxylase	s_4341 + 2.67094e-05 prot_Q06408 -> s_4344 + s_0456	ARO10 (Saccharomyces cerevisiae)	Q06408	4.1.1.43	10.4 (Kcat*2)	71.384							ARO10		
+	15	alcohol dehydrogenase	s_4344 + s_1203 + s_0794 + 3.34044e-05 prot_P25377 -> s_1198 + s_4345	ADH7 (Saccharomyces cerevisiae)	P25377	1.1.1.2	8.3156 (Kcat*2)	39.348	6.34						ADH7		
+	16	n-butanol transport	s_4345 -> s_4346														
+	17	n-butanol exchange	s_4346														
+	r_1129 (update)	coenzyme A transport	s_0529 + prot_P38702 -> s_0532 	LEU5 (Saccharomyces cerevisiae)	P38702	2.A.29.12.4	NA	40.825							LEU5		
+	r_4173No1	L-cysteine:sulfur-acceptor sulfurtransferase (No1)	s_3784 + s_3785 + 0.000159642 prot_P25374  -> s_0957 + s_3786 				1.74 (Kcat*2)								NFS1		
+	r_4173_REVNo1	L-cysteine:sulfur-acceptor sulfurtransferase (reversible) (No1)	s_0957 + s_3786 + 1.01305e-06 prot_P25374  -> s_3784 + s_3785 				274.1995 (Kcat*2)								NFS1		
+	18	draw_prot_A0FDH8	47.186 prot_pool  -> prot_A0FDH8														
+	19	draw_prot_P07264ly	85.794 prot_pool  -> prot_P07264ly														
+	20	draw_prot_P04173ly	38.953 prot_pool  -> prot_P04173ly														
+	21	draw_prot_P06208ly	68.409 prot_pool  -> prot_P06208ly														
+	22	draw_prot_P38702	40.825 prot_pool  -> prot_P38702														
+																	
+Ergosterol											0.1		0.02928 g/g	Min			Review: Outline of the biosynthesis and regulation of ergosterol in yeast
+																	
+2-phenylethanol	1	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	s_0551 + s_0803 + s_1360 + 0.00129019 prot_P32449ly  -> s_0349 + s_1322 	ARO4K229L (S. cerevisiae)	P32449ly	2.5.1.54	0.215305458	39.7487	0.325		0.1	0.113 mol/mol	0.059 mol/mol	Min		"ARO3, ARO4, ARO7, ARO8"	Connecting central carbon and aromatic amino acid metabolisms to improve de novo 2-phenylethanol production in Saccharomyces cerevisiae
+	2	chorismate mutase	s_0515 + 0.00448029 prot_P32178ly  -> s_1377 	ARO7T226I (S. cerevisiae)	P32178ly	5.4.99.5	0.0619725	29.7468	0.125								A Single Point Mutation Results in a Constitutively Activated and Feedback-Resistant Chorismate Mutase of Saccharomyces cerevisiae
+	r_0279No1	chorismate synthase (No1)	s_0324 + 0.000159642 prot_P28777  -> s_0515 + s_1322 				1.74 (Kcat*2)								ARO2		
+	r_0026No4	2-keto-4-methylthiobutyrate transamination (No4)	pmet_r_0026 + 9.01876e-08 prot_P38840  -> s_0180 + s_1029 				3080 (Kcat*2)								ARO9		
+	r_2117No1	phenylalanine transaminase (No1)	s_1032 + s_1399 + 1.15741e-07 prot_P38840  -> s_0951 + s_0955 				2400 (Kcat*2)								ARO9		
+	r_2118No1	tryptophan transaminase (No1)	s_0951 + s_1048 + 3.96826e-07 prot_P38840  -> s_0855 + s_1032 				699.9998 (Kcat*2)								ARO9		
+	r_2119No1	tyrosine transaminase (No1)	s_0204 + s_0955 + 9.01876e-08 prot_P38840  -> s_1051 + s_1399 				3080 (Kcat*2)								ARO9		
+	r_2117_REVNo1	phenylalanine transaminase (reversible) (No1)	s_0951 + s_0955 + 9.01876e-08 prot_P38840  -> s_1032 + s_1399 				3080 (Kcat*2)								ARO9		
+	r_2119_REVNo1	tyrosine transaminase (reversible) (No1)	s_1051 + s_1399 + 2.77778e-07 prot_P38840  -> s_0204 + s_0955 				999.9992 (Kcat*2)								ARO9		
+	r_0938No1	prephenate dehydratase (No1)	s_0794 + s_1377 + 7.18887e-08 prot_P32452  -> s_0456 + s_0803 + s_0951 				3864 (Kcat*2)								PHA2		
+	r_1049No2	transketolase 1 (No2)	pmet_r_1049 + 2.01288e-06 prot_P23254  -> s_0764 + s_1427 				138.0002 (Kcat*2)								TKL1		
+	r_1050No2	transketolase 2 (No2)	2.01288e-06 prot_P23254 + pmet_r_1050  -> s_0557 + s_0764 				138.0002 (Kcat*2)								TKL1		
+	r_1049_REVNo2	transketolase 1 (reversible) (No2)	2.01288e-06 prot_P23254 + pmet_r_1049_REV  -> s_0581 + s_1408 				138.0002 (Kcat*2)								TKL1		
+	r_1050_REVNo2	transketolase 2 (reversible) (No2)	2.01288e-06 prot_P23254 + pmet_r_1050_REV  -> s_0551 + s_0581 				138.0002 (Kcat*2)								TKL1		
+	r_0962No1	pyruvate kinase (No1)	pmet_r_0962 + 2.39464e-06 prot_P00549  -> s_0434 + s_1399 				115.9998 (Kcat/2)								PYK1 (downregulation)		
+	r_0854No1	phenylpyruvate decarboxylase (No1)	s_0794 + s_0951 + 1.21832e-07 prot_Q06408  -> s_0456 + s_1318 				2280 (Kcat*2)								ARO10		
+	r_0939No1	prephenate dehydrogenase (NADP) (No1)	s_1207 + s_1377 + 1.05619e-05 prot_P20049  -> s_0204 + s_0456 + s_1212 				13.15 (Kcat/2)								TYR1 (downregulation)		
+	3	Shikimate kinase	s_1429 + s_0434 + 2.12263e-06 prot_P0A6E1 -> s_0261 + s_0794 + s_0394	aroL (E.coli)	P0A6E1	2.7.1.71	130.8651667	19.151	410								
+	4	draw_prot_P32449ly	39.7487 prot_pool  -> prot_P32449ly														
+	5	draw_prot_P32178ly	29.7468 prot_pool  -> prot_P32178ly														
+	6	draw_prot_P0A6E1	19.151 prot_pool  -> prot_P0A6E1														
+																	
+docosanol	1	Fatty acyl-CoA reductase	s_2880 + 2 s_0794 + 2 s_1212 + prot_Q39152 -> s_4347 + s_0529 + 2 s_1207	FAR1 (Arabidopsis thaliana)	Q39152	1.2.1.84	NA	55.481			0.1		0.0005 g/g	Min		"ARE1, Dga1, ARE2, Lro1, pox1, ELO3, GAL1"	Metabolic engineering of Saccharomyces cerevisiae for production of very long chain fatty acid-derived chemicals
+	2	fatty acid synthase 	s_0373 + 21 s_0794 + 7 s_1101 + 14 s_1212 + 0.000135899 prot_K0V149  -> 7 s_0456 + 7 s_0529 + 7 s_0803 + 14 s_1207 + s_1302 	FAS (Mycolicibacterium vaccae)	K0V149	2.3.1.86	2.04404375	327.047	0.375	Mycolicibacterium phlei							
+	3	fatty acid synthase	s_0373 + 24 s_0794 + 8 s_1101 + 16 s_1212 + 0.000135899 prot_K0V149  -> 8 s_0456 + 8 s_0529 + 8 s_0803 + 16 s_1207 + s_1454 	FAS (Mycolicibacterium vaccae)	K0V149	2.3.1.86	2.04404375	327.047	0.375	Mycolicibacterium phlei							
+	4	acyl carrier protein synthase	s_0529 + s_0803 + prot_K0V045 -> s_0390 + 2 s_0794 + s_1307	Acps (Mycolicibacterium vaccae)	K0V045	2.7.8.7	NA	14.161									
+	5	fatty acid elongase	s_1101 + s_1302 + s_0794 + 0.000135899 prot_K0V149 -> s_0529 + s_1454 + s_0456	FAS (Mycolicibacterium vaccae)	K0V149	2.3.1.86	2.04404375	327.047	0.375	Mycolicibacterium phlei							
+	6	fatty acid elongase	s_1101 + s_1454 + s_0794 + 0.000135899 prot_K0V149 -> s_0529 + s_2878 + s_0456	FAS (Mycolicibacterium vaccae)	K0V149	2.3.1.86	2.04404375	327.047	0.375	Mycolicibacterium phlei							
+	7	fatty acid elongase	s_1101 + s_2878 + s_0794 + 0.000135899 prot_K0V149 -> s_0529 + s_2880 + s_0456	FAS (Mycolicibacterium vaccae)	K0V149	2.3.1.86	2.04404375	327.047	0.375	Mycolicibacterium phlei							
+	8	docosanol transport	s_4347 -> s_4348														
+	9	docosanol exchange	s_4348														
+	10	draw_prot_Q39152	55.481 prot_pool  -> prot_Q39152														
+	11	draw_prot_K0V149	327.047 prot_pool  -> prot_K0V149														
+	12	draw_prot_K0V045	14.161 prot_pool  -> prot_K0V045														
+	r_2154No1	elongase I (3-oxotetradecanoyl-CoA) (No1)	s_2781 + s_2782 + s_2783 + 5.14403e-05 prot_P39540  -> s_2784 + s_2785 + s_2786 				5.4 (Kcat*2)								ELO1		
+	r_2155No1	elongase I (3-oxopalmitoyl-CoA) (No1)	s_2782 + s_2783 + s_2787 + 1.00644e-05 prot_P39540  -> s_2784 + s_2785 + s_2788 				27.6 (Kcat*2)								ELO1		
+	r_2156No1	elongase II (3-oxooctadecanoyl-CoA) (No1)	s_2782 + s_2783 + s_2789 + 5.14403e-05 prot_P25358  -> s_2784 + s_2785 + s_2790 				5.4 (Kcat*2)								ELO2		
+	r_2157No1	elongase II or III (3-oxoicosanoyl-CoA) (No1)	5.14403e-05 prot_P25358 + pmet_r_2157  -> s_2784 + s_2785 + s_2792 				5.4 (Kcat*2)								ELO2		
+	r_2158No1	elongase II or III (3-oxodocosanoyl-CoA) (No1)	5.14403e-05 prot_P25358 + pmet_r_2158  -> s_2784 + s_2785 + s_2794 				5.4 (Kcat*2)								ELO2		
+	r_2159No1	elongase II or III (3-oxotetracosanoyl-CoA) (No1)	5.14403e-05 prot_P25358 + pmet_r_2159  -> s_2784 + s_2785 + s_2796 				5.4 (Kcat*2)								ELO2		
+	r_0109No1	"acetyl-CoA carboxylase, reaction (No1)"	s_0373 + s_0434 + s_0445 + 6.17284e-10 prot_P48445 + 4.2511e-06 prot_Q00955  -> s_0394 + s_0794 + s_1101 + s_1322 				65.3426 (Kcat*2)								ACC1		
+																	
+Itaconic acid	1	cis-aconitic acid decarboxylase	s_0516 + s_0794 + 0.00114406 prot_B3IUN8 -> s_0456 + s_4349	CAD (Aspergillus terreus)	B3IUN8	4.1.1.6	0.242756323	52.754	0.2761		0.1		0.19 g/g	YEP		"ade3, bna2, tes1"	"Metabolic engineering of Saccharomyces cerevisiae for itaconic
+acid production"
+	2	itaconic acid transport	s_4349 -> s_4350														
+	3	itaconic acid exchange	s_4350														
+	4	draw_prot_B3IUN8	52.754 prot_pool  -> prot_B3IUN8														
+																	
+GlutathioneÊ	1	gamma-glutamylcysteine synthetase	s_0434 + s_0981 + s_0991 + 2.37895e-07 prot_D4N892  -> s_0394 + s_0794 + s_0988 + s_1322 	GshF (Actinobacillus pleuropneumoniae)	D4N892	6.3.2.2	1167.652667	85.438	820		0.1		0.24 g/g	YEP			Three-pathway combination for glutathione biosynthesis inÊSaccharomyces cerevisiae
+	2	glutathione synthetase (No1)	s_0434 + s_0988 + s_1003 + 2.51708e-07 prot_D4N892  -> s_0394 + s_0750 + s_0794 + s_1322 	GshF (Actinobacillus pleuropneumoniae)	D4N892	6.3.2.3	1103.574167	85.438	775								
+	r_0460No1	gamma-glutamylcysteine synthetase (No1)	s_0434 + s_0981 + s_0991 + 1.36299e-08 prot_P32477  -> s_0394 + s_0794 + s_0988 + s_1322 				20380 (Kcat*2)								gsh1		
+	r_0485No1	glutathione synthetase (No1)	s_0434 + s_0988 + s_1003 + 1.06838e-05 prot_Q08220  -> s_0394 + s_0750 + s_0794 + s_1322 				26 (Kcat*2)								gsh2		
+	r_0468No1	glutamate 5-kinase (No1)	s_0434 + s_0991 + 1.20616e-05 prot_P32264  -> s_0394 + s_0986 				23.03 (Kcat*2)								pro1		
+	3	glutathione synthetase (No1)	s_0434 + s_0988 + s_1003 + 1.83959e-06 prot_P04425  -> s_0394 + s_0750 + s_0794 + s_1322 	gshB (E.coli)	P04425	6.3.2.3	151	35.561									
+	4	draw_prot_D4N892	85.438 prot_pool  -> prot_D4N892														
+	5	draw_prot_P04425	35.561 prot_pool  -> prot_P04425														
+	6	glutathione transport	s_0750  -> s_0751 														
+																	
+Ethylene	1	ethylene forming enzyme	s_0180 + 2 s_0794 + s_1275 + 0.000555556 prot_Q9Z3T0 -> s_0803 + 3 s_0456 + s_4351	efe (Pseudomonas syringae)	Q9Z3T0	1.13.12.19	0.5	38.064			0.24	0.89 mg/g	22.37 mg/g	Min			Ethylene production by metabolic engineering of the yeast Saccharomyces cerevisiae
+	2	ethylene transport	s_4351 -> s_4352														
+	3	ethylene exchange	s_4352														
+	4	draw_prot_Q9Z3T0	38.064 prot_pool  -> prot_Q9Z3T0														
+																	
+Human Serum Albumin (HSA)	1	production of HAS	"0.8928 s_0955 + 0.4032 s_0965 + 0.2448 s_0969 + 0.5184 s_0973 + 0.504 s_0981 + 0.288 s_0991 + 0.8928 s_0999 +
+0.1872 s_1003 + 0.2304 s_1006 + 0.1296 s_1016 + 0.9216 s_1021 + 0.864 s_1025 + 0.1008 s_1029 + 0.504 s_1032 +
+0.3456 s_1035 + 0.4032 s_1039 + 0.4176 s_1045 + 0.0288 s_1048 + 0.2736 s_1051 + 0.6192 s_1056 + 1.22 s_0785 -> s_4353
++ 1.22 s_0739 + 1.22 s_1322"	ALB (Homo sapiens)	P02768			69.443			0.22 (qO2=4.6 mmol/gDCW/h)	0.125 g/gDCW/h	18.896 g/gDCW/h	Min			"Genome-scale metabolic model of methylotrophic yeast
+Pichia pastoris and its use for in silico analysis of heterologous
+protein production"
+	2	HSA transport	s_4353 -> s_4354														
+	3	HSA exchange	s_4354														
+																	
+_-Amylase	1	production of _-Amylase	"0.7663 s_0955 + 0.1825 s_0965 + 0.4744 s_0969 + 0.7663 s_0973 + 0.1642 s_0981 + 0.2189 s_0991 + 0.3649 s_0999 +
+0.7846 s_1003 + 0.1277 s_1006 + 0.5109 s_1016 + 0.6751 s_1021 + 0.3649 s_1025 + 0.2007 s_1029 + 0.2737 s_1032 +
+0.4014 s_1035 + 0.6751 s_1039 + 0.7298 s_1045 + 0.2189 s_1048 + 0.6386 s_1051 + 0.5656 s_1056 + s_0785 -> s_4287
++ s_0739 + s_1322"	amy1 (Aspergillus oryzae)	P0C1B3						0.2		0.0229 mol/mol	Min			Engineering the protein secretory pathway of Saccharomyces cerevisiae enables improved protein production
+	2	_-Amylase transport	s_4287 -> s_4355														
+	3	_-Amylase exchange	s_4355														
+																	
+Hemoglobin	1	heme o transport	s_0812 -> s_4356								0.25			Min			Balanced globin protein expression and heme biosynthesis improve production of human hemoglobin in Saccharomyces cerevisiae
+	2	production of globin	"1.1532 s_0955 + 0.1922 s_0965 + 0.3203 s_0969 + 0.4805 s_0973 + 0.0961 s_0981 + 0.3844 s_0991 + 0.1281 s_0999 +
+0.6407 s_1003 + 0.6087 s_1006 + 1.1532 s_1021 + 0.7048 s_1025 + 0.1602 s_1029 + 0.4805 s_1032 +
+0.4485 s_1035 + 0.5125 s_1039 + 0.5125 s_1045 + 0.0961 s_1048 + 0.1922 s_1051 + 0.9931 s_1056 + 1.16 s_0785 -> s_4357
++ 1.16 s_0739 + 1.16 s_1322"		P69905 + P68871			62.512									
+	3	production of hemoglobin	s_4357 + 4 s_4356 -> s_4358														
+	4	hemoglobin transport	s_4358 -> s_4359														
+	5	hemoglobin exchange	s_4359														
+	r_0557No1	hydroxymethylbilane synthase (No1)	s_0803 + 4 s_1372 + 0.00222222 prot_P28789  -> 4 s_0419 + s_1378 				0.125 (Kcat*2)						0.00039 mol/mol		HEM3		
+																	
+Glucagon	1	production of glucagon	"0.6223 s_0955 + 0.7659 s_0965 + 0.3829 s_0969 + 0.7659 s_0973 + 0.6223 s_0991 + 0.4787 s_0999 +
+0.4308 s_1003 + 0.1915 s_1006 + 0.3829 s_1016 + 0.5744 s_1021 + 0.4787 s_1025 + 0.2393 s_1029 + 0.5265 s_1032 +
+0.1436 s_1035 + 0.8137 s_1039 + 0.4308 s_1045 + 0.1915 s_1048 + 0.1915 s_1051 + 0.3829 s_1056 + 0.36 s_0785 -> s_4360
++ 0.36 s_0739 + 0.36 s_1322"	GCG (Homo sapiens)	P01275						0.1		0.0612 mol/mol	YEP		YPS1	Yield improvement of heterologous peptides expressed inÊyps1-disruptedÊSaccharomyces cerevisiaeÊstrains
+	2	glucagon transport	s_4360 -> s_4361														
+	3	glucagon exchange	s_4361														
+																	
+Glycolate	1	glycolate transport	s_3997 -> s_4362								0.1		1.5313 mol/mol	Min			
+	2	glycolate exchange	s_4362 ->														
+																	
+Glycine											0.1		0.5812 mol/mol	Min			
+Alanine											0.1		1.8634 mol/mol	Min			
+Arginine											0.1		0.1749 mol/mol	Min			
+Asparagine											0.1		0.3164 mol/mol	Min			
+Aspartate											0.1		1.0281 mol/mol	Min			
+Cysteine											0.1		0.3046 mol/mol	Min			
+Glutamate											0.1		0.9466 mol/mol	Min			
+Glutamine											0.1		0.6988 mol/mol	Min			
+Histidine											0.1		0.1119 mol/mol	Min			
+Isoleucine											0.1		0.2666 mol/mol	Min			
+Leucine											0.1		0.5575 mol/mol	Min			
+Lysine											0.1		0.1852 mol/mol	Min			
+Methionine											0.1		0.1842 mol/mol	Min			
+Phenylalanine											0.1		0.2306 mol/mol	Min			
+Proline											0.1		0.5629 mol/mol	Min			
+Serine											0.1		0.8909 mol/mol	Min			
+Threonine											0.1		0.4926 mol/mol	Min			
+Tryptophan											0.1		0.0747 mol/mol	Min			
+Valine											0.1		0.8740 mol/mol	Min			
+Xanthine											0.1		0.0653 mol/mol	Min			
+Urea											0.1		0.1822 mol/mol	Min			
+Thymidine											0.1		0.1016 mol/mol	Min			
+Putrescine											0.1		0.3448 mol/mol	Min			
+Hypoxanthine											0.1		0.0940 mol/mol	Min			
+Hexanoate											0.1		0.0118 mol/mol	Min			
+Homoserine											0.1		0.6837 mol/mol	Min			
+Guanine											0.1		0.0653 mol/mol	Min			
+Glycerol											0.1		0.9091 mol/mol	Min			
+Citrate											0.1		0.5617 mol/mol	Min			
+Oxoglutarate											0.1		0.7301 mol/mol	Min			
+Acetaldehyde											0.1		1.9598 mol/mol	Min			
+Acetate											0.1		1.9187 mol/mol	Min			
+"R,R-2,3-butanediol"											0.1		0.9874 mol/mol	Min			
+Citrulline											0.1		0.2301 mol/mol	Min			
+Oleate											0.1		0.0370 mol.mol	Min			
+Spermine											0.1		0.0470 mol/mol	Min			
+Palmitoleate											0.1		0.0429 mol/mol	Min			
+Laurate											0.1		0.0465 mol/mol	Min			
+Choline											0.1		0.0238 mol/mol	Min			
+																	
+L-phenylacetylcarbinol	1	benzaldehyde exchange	 -> s_4363								0.13 (ATP=1;qO2=2;qbenzaldehyde=1;qbenzylalcohol=0.22)	0.33 mmol/gDCW/h	1 mmol/gDCW/h	YEP			Improving l-phenylacetylcarbinol production in Saccharomyces cerevisiae by in silico aided metabolic engineering
+	2	benzaldehyde transport	s_4363 -> s_3800														
+	3	pyruvate decarboxylase (arm)	s_1399 + s_3800 -> pmet_r_3														
+	4	pyruvate decarboxylase (No1)	4.48029e-06 prot_P26263 + pmet_r_3  -> s_4364 + s_0456 	YGR087C			62										
+	5	pyruvate decarboxylase (No2)	1.91571e-06 prot_P06169 + pmet_r_3  -> s_4364 + s_0456 	YLR044C			144.9999										
+	6	pyruvate decarboxylase (No3)	4.48029e-06 prot_P16467 + pmet_r_3  -> s_4364 + s_0456 	YLR134W			62										
+	7	L-PAC transport	s_4364-> s_4365														
+	8	L-PAC exchange	s_4365 ->														
+	9	Alcohol dehydrogenase 1	s_3800 + s_1203 + prot_P00330 -> s_4366 + s_1198	YOL086C			NA										
+	10	benzylalcohol transport	s_4366 -> s_4367														
+	11	benzylalcohol exchange	s_4367 ->														
+	12	Benzaldehyde oxidase	s_3800 + s_1275 -> s_4368														
+	13	Benzoic Acid transport	s_4368 -> s_4369														
+	14	Benzoic Acid exchange	s_4369 ->														

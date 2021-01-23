@@ -1,0 +1,44 @@
+Chemicals	_	qO2	ATP	Medium	Carbon source	deletion
+(S)-reticuline	0.1			YEP	D-glucose	
+2-phenylethanol	0.1			Min	D-glucose	"YDR035W,YBR249C,YPR060C,YGL202W"
+3-hydroxypropanoate-asp	0.1			Min	D-glucose	
+3-hydroxypropanoate-malcoa	0.1			Min	D-glucose	
+3-methylbutanol	0.1			YEP	D-glucose	"YPL061W,YHR208W"
+4-hydroxymandelic_acid	0.1			YEP	D-glucose	"YNL316C,YER090W,YDR380W,YLR134W,YGL202W"
+n-butanol	0.1			YEP	D-glucose	YOL086C
+Naringenin	0.2			Min	D-glucose	"YDR035W,YBR249C,YDR380W,YLR134W,YGR087C"
+Nicotianamine	0.1			YEP	D-glucose	YGL125W
+Oleanolic acid	0.1			YEP	D-glucose	YBR020W
+Oleate	0.1			Min	D-glucose	
+Oxoglutarate	0.1			Min	D-glucose	
+p-coumaric acid	0.1			YEP	D-glucose	"YDR380W,YLR134W"
+Palmitoleate	0.1			Min	D-glucose	
+Patchoulol	0.1			YEP	D-glucose	
+Phenylalanine	0.1			Min	D-glucose	
+Proline	0.1			Min	D-glucose	
+Protopanaxadiol	0.1			Min	D-glucose	
+Psilocybin	0.1			Min	D-glucose	YBR249C
+Putrescine	0.1			Min	D-glucose	
+Pyruvate	0.2			YEP	D-glucose	"YLR044C,YLR134W,YGR087C"
+Quercetin	0.1			YEP	D-glucose	
+"R,R-2,3-butanediol"	0.1			Min	D-glucose	
+Resveratrol	0.15			Min	D-glucose	
+Santalene	0.05			Min	D-glucose	"YDR503C,YDR284C,YOR375C"
+Serine	0.1			Min	D-glucose	
+Spermine	0.1			Min	D-glucose	
+Succinic acid	0.25			Min	D-glucose	"YLR044C,YLR134W,YGR087C,YPL262W,YER065C,YNL117W"
+Threonine	0.1			Min	D-glucose	
+Thymidine	0.1			Min	D-glucose	
+Trans-cinnamate	0.1			YEP	D-glucose	
+triacylglycerol	0.1			Min	D-glucose	"YMR313C,YKR089C,YOR081C,YPL147W"
+Tryptophan	0.1			Min	D-glucose	
+tyrosine	0.089			YEP	D-glucose	"YDR035W,YBR249C,YDR380W,Zwf1"
+Urea	0.1			Min	D-glucose	
+Valine	0.1			Min	D-glucose	
+vanillin-_-glucoside	0.3			Min	D-glucose	"YMR318C,YLR300W"
+Xanthine	0.1			Min	D-glucose	
+Xanthone	0.1			YEP	D-glucose	
+_-Amylase	0.2			Min	D-glucose	
+_-Amyrin	0.1			YEP	D-glucose	
+_-Carotene	0.1			YEP	D-glucose	
+_-ionone	0.106			YEP	D-glucose	"YDR284C,YDR503C"

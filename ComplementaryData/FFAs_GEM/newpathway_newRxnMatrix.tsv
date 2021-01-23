@@ -1,0 +1,10 @@
+rxnID	coefficient	Metabolite standard name	Metabolite_type	compartment
+FFAs biosynthesis	1	decanoate	reactant	extracellular
+FFAs biosynthesis	1	laurate	reactant	extracellular
+FFAs biosynthesis	1	myristate	reactant	extracellular
+FFAs biosynthesis	1	palmitate	reactant	extracellular
+FFAs biosynthesis	1	palmitoleate	reactant	extracellular
+FFAs biosynthesis	1	stearate	reactant	extracellular
+FFAs biosynthesis	1	oleate	reactant	extracellular
+FFAs biosynthesis	1	Free fatty acid	product	extracellular
+FFAs exchange	1	Free fatty acid	reactant	extracellular

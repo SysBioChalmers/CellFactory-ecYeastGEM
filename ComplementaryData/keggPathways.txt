@@ -1,0 +1,78 @@
+Metabolic_group_paper	pathway	KEGGcode	code
+amino acids	"Alanine, aspartate and glutamate metabolism"	sce00250	AA
+amino acids	"Glycine, serine and threonine metabolism"	sce00260	AA
+amino acids	Cysteine and methionine metabolism	sce00270	AA
+amino acids	"Valine, leucine and isoleucine degradation"	sce00280	AA
+amino acids	"Valine, leucine and isoleucine biosynthesis"	sce00290	AA
+amino acids	Lysine biosynthesis	sce00300	AA
+amino acids	Lysine degradation	sce00310	AA
+amino acids	Arginine biosynthesis	sce00220	AA
+amino acids	Arginine and proline metabolism	sce00330	AA
+amino acids	Histidine metabolism	sce00340	AA
+amino acids	Tyrosine metabolism	sce00350	AA
+amino acids	Phenylalanine metabolism	sce00360	AA
+amino acids	Tryptophan metabolism	sce00380	AA
+amino acids	"Phenylalanine, tyrosine and tryptophan biosynthesis"	sce00400	AA
+amino acids	beta-Alanine metabolism	sce00410	AA
+amino acids	Taurine and hypotaurine metabolism	sce00430	AA
+amino acids	Phosphonate and phosphinate metabolism	sce00440	AA
+amino acids	Selenocompound metabolism	sce00450	AA
+amino acids	Cyanoamino acid metabolism	sce00460	AA
+amino acids	D-Glutamine and D-glutamate metabolism	sce00471	AA
+amino acids	D-Arginine and D-ornithine metabolism	sce00472	AA
+amino acids	D-Alanine metabolism	sce00473	AA
+amino acids	Glutathione metabolism	sce00480	AA
+nucleotides	Purine metabolism	sce00230	NUC
+nucleotides	Pyrimidine metabolism	sce00240	NUC
+Carbohydrates and energy	Glycolysis / Gluconeogenesis	sce00010	CEM
+Carbohydrates and energy	Citrate cycle (TCA cycle)	sce00020	CEM
+Carbohydrates and energy	Pentose phosphate pathway	sce00030	CEM
+Carbohydrates and energy	Pentose and glucuronate interconversions	sce00040	CEM
+Carbohydrates and energy	Fructose and mannose metabolism	sce00051	CEM
+Carbohydrates and energy	Galactose metabolism	sce00052	CEM
+Carbohydrates and energy	Ascorbate and aldarate metabolism	sce00053	CEM
+Carbohydrates and energy	Starch and sucrose metabolism	sce00500	CEM
+Carbohydrates and energy	Amino sugar and nucleotide sugar metabolism	sce00520	CEM
+Carbohydrates and energy	Pyruvate metabolism	sce00620	CEM
+Carbohydrates and energy	Glyoxylate and dicarboxylate metabolism	sce00630	CEM
+Carbohydrates and energy	Propanoate metabolism	sce00640	CEM
+Carbohydrates and energy	Butanoate metabolism	sce00650	CEM
+Carbohydrates and energy	C5-Branched dibasic acid metabolism	sce00660	CEM
+Carbohydrates and energy	Inositol phosphate metabolism	sce00562	CEM
+Carbohydrates and energy	Oxidative phosphorylation	sce00190	CEM
+Carbohydrates and energy	Photosynthesis	sce00195	CEM
+Carbohydrates and energy	Photosynthesis - antenna proteins	sce00196	CEM
+Carbohydrates and energy	Carbon fixation in photosynthetic organisms	sce00710	CEM
+Carbohydrates and energy	Carbon fixation pathways in prokaryotes	sce00720	CEM
+Carbohydrates and energy	Methane metabolism	sce00680	CEM
+Carbohydrates and energy	Nitrogen metabolism	sce00910	CEM
+Carbohydrates and energy	Sulfur metabolism	sce00920	CEM
+Cofactors and vitamins	Thiamine metabolism	sce00730	CofVit
+Cofactors and vitamins	Riboflavin metabolism	sce00740	CofVit
+Cofactors and vitamins	Vitamin B6 metabolism	sce00750	CofVit
+Cofactors and vitamins	Nicotinate and nicotinamide metabolism	sce00760	CofVit
+Cofactors and vitamins	Pantothenate and CoA biosynthesis	sce00770	CofVit
+Cofactors and vitamins	Biotin metabolism	sce00780	CofVit
+Cofactors and vitamins	Lipoic acid metabolism	sce00785	CofVit
+Cofactors and vitamins	Folate biosynthesis	sce00790	CofVit
+Cofactors and vitamins	One carbon pool by folate	sce00670	CofVit
+Cofactors and vitamins	Retinol metabolism	sce00830	CofVit
+Cofactors and vitamins	Porphyrin and chlorophyll metabolism	sce00860	CofVit
+Cofactors and vitamins	Ubiquinone and other terpenoid-quinone biosynthesis	sce00130	CofVit
+Lipids	Fatty acid biosynthesis	sce00061	Lip
+Lipids	Fatty acid elongation	sce00062	Lip
+Lipids	Fatty acid degradation	sce00071	Lip
+Lipids	Synthesis and degradation of ketone bodies	sce00072	Lip
+Lipids	"Cutin, suberine and wax biosynthesis"	sce00073	Lip
+Lipids	Steroid biosynthesis	sce00100	Lip
+Lipids	Primary bile acid biosynthesis	sce00120	Lip
+Lipids	Secondary bile acid biosynthesis	sce00121	Lip
+Lipids	Steroid hormone biosynthesis	sce00140	Lip
+Lipids	Glycerolipid metabolism	sce00561	Lip
+Lipids	Glycerophospholipid metabolism	sce00564	Lip
+Lipids	Ether lipid metabolism	sce00565	Lip
+Lipids	Sphingolipid metabolism	sce00600	Lip
+Lipids	Arachidonic acid metabolism	sce00590	Lip
+Lipids	Linoleic acid metabolism	sce00591	Lip
+Lipids	alpha-Linolenic acid metabolism	sce00592	Lip
+Lipids	Biosynthesis of unsaturated fatty acids	sce01040	Lip

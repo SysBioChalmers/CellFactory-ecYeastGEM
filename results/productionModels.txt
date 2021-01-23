@@ -1,0 +1,97 @@
+models	objectives	objIdx
+ec(S)-reticuline.mat	newRxn18	8040
+ec2-phenylethanol.mat	2-phenylethanol exchange	337
+ec3-methylbutanol.mat	3-methylbutanal exchange	343
+ec3HP-asp.mat	newRxn3	8030
+ec3HP-malcoa.mat	newRxn3	8026
+ec4-hydroxymandelic_acid.mat	newRxn5	8027
+ecARA.mat	newRxn13	8035
+ecAcetaldehyde.mat	acetaldehyde exchange	370
+ecAcetate.mat	acetate exchange	373
+ecAdipic_acid.mat	newRxn14	8036
+ecAlanine.mat	L-alanine exchange	572
+ecAmorphadiene.mat	newRxn4	8026
+ecArginine.mat	L-arginine exchange	578
+ecArtemisinic_acid.mat	newRxn6	8028
+ecAsparagine.mat	L-asparagine exchange	579
+ecAspartate.mat	L-aspartate exchange	580
+ecAstaxanthin.mat	newRxn18	8040
+ecCatechin.mat	newRxn20	8042
+ecCinnamate.mat	newRxn4	8026
+ecCitrate.mat	citrate exchange	416
+ecCitrulline.mat	L-citrulline exchange	1557
+ecCoumaric_acid.mat	newRxn10	8032
+ecCysteine.mat	L-cysteine exchange	582
+ecDHA.mat	newRxn29	8051
+ecDocosanol.mat	newRxn9	8031
+ecEPA.mat	newRxn17	8039
+ecErgosterol.mat	ergosterol exchange	476
+ecEthylene.mat	newRxn3	8025
+ecFFAs.mat	newRxn2	8024
+ecFarnesene.mat	newRxn4	8026
+ecFumaric_acid.mat	fumarate exchange	501
+ecGenistein.mat	newRxn25	8047
+ecGeraniol.mat	newRxn4	8026
+ecGlucagon.mat	newRxn3	8025
+ecGlutamate.mat	L-glutamate exchange	587
+ecGlutathione.mat	glutathione exchange	508
+ecGlycerol.mat	glycerol exchange	509
+ecGlycine.mat	L-glycine exchange	511
+ecGlycolate.mat	newRxn2	8024
+ecGuanine.mat	guanine exchange	519
+ecHSA.mat	newRxn3	8025
+ecHemoglobin.mat	newRxn5	8027
+ecHexanoate.mat	hexanoate exchange	765
+ecHistidine.mat	L-histidine exchange	591
+ecHomoserine.mat	L-homoserine exchange	593
+ecHypoxanthine.mat	hypoxanthine exchange	540
+ecIsobutanol.mat	isobutanol exchange	565
+ecIsoleucine.mat	L-isoleucine exchange	594
+ecItaconic_acid.mat	newRxn3	8025
+ecKaempferol.mat	newRxn23	8045
+ecLactase.mat	newRxn3	8024
+ecLactate.mat	newRxn6	8028
+ecLaurate.mat	laurate exchange	613
+ecLeucine.mat	L-leucine exchange	596
+ecLimonene.mat	newRxn8	8030
+ecLinalool.mat	newRxn6	8028
+ecLupeol.mat	newRxn4	8026
+ecLysine.mat	L-lysine exchange	597
+ecMalate.mat	(S)-malate exchange	310
+ecMethionine.mat	L-methionine exchange	599
+ecNarinrenin.mat	newRxn16	8038
+ecOleanolate.mat	newRxn6	8028
+ecOleate.mat	oleate exchange	766
+ecOrnithine.mat	ornithine exchange	660
+ecOxoglutarate.mat	2-oxoglutarate exchange	334
+ecPalmitoleate.mat	palmitoleate exchange	667
+ecPatchoulol.mat	newRxn4	8026
+ecPhenylalanine.mat	L-phenylalanine exchange	600
+ecProline.mat	L-proline exchange	601
+ecProtopanaxadiol.mat	newRxn6	8028
+ecPutrescine.mat	putrescine exchange	683
+ecPyruvate.mat	pyruvate exchange	690
+ecQuercetin.mat	newRxn21	8043
+ecR,R-2,3-butanediol.mat	(R,R)-2,3-butanediol exchange	307
+ecResveratrol.mat	newRxn8	8030
+ecSantalene.mat	newRxn8	8030
+ecSerine.mat	L-serine exchange	603
+ecSpermine.mat	spermine exchange	705
+ecSuc-reTCA.mat	succinate exchange	709
+ecThreonine.mat	L-threonine exchange	608
+ecThymidine.mat	thymidine exchange	724
+ecTryptophan.mat	L-tryptophan exchange	609
+ecTyrosine.mat	L-tyrosine exchange	610
+ecUrea.mat	urea exchange	736
+ecValine.mat	L-valine exchange	611
+ecXanthine.mat	9H-xanthine exchange	369
+ecXanthone.mat	newRxn7	8029
+ecalpha_Amylase.mat	newRxn3	8025
+ecbeta_Amyrin.mat	newRxn10	8032
+ecbeta_Carotene.mat	newRxn10	8032
+ecbeta_Ionone.mat	newRxn10	8032
+eccis_Muconate.mat	newRxn10	8032
+ecglutamine.mat	L-glutamine exchange	589
+ecmandelic_acid.mat	newRxn7	8029
+ecn-Butanol.mat	newRxn17	8039
+ectriacylglycerol.mat	newRxn2	8024

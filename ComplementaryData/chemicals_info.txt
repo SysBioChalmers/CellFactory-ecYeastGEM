@@ -1,0 +1,106 @@
+Name	Formula	KEGG ID	CHEBI ID	MW	Group	class	ecModel
+"(R,R)-2,3-butanediol "	C4H10O2	C03044	16982	90.121	native	alcohol	"ecR,R-2,3-butanediol.mat"
+2-phenylethanol 	C8H10O	C05853	49000	122.1644	native	alcohol	ec2-phenylethanol.mat
+glycerol 	C3H8O3	C00116	17754	92.09382	native	alcohol	ecGlycerol.mat
+isoamylol 	C5H12O	C07328	15837	88.14818	native	alcohol	ec3-methylbutanol.mat
+isobutanol 	C4H10O	C14710	46645	74.1216	native	alcohol	ecIsobutanol.mat
+choline 	C5H14NO	C00114	15354	104.1708	native	alkaloid	ecCholine.mat
+hypoxanthine 	C5H4N4O	C00262	17368	136.11162	native	alkaloid	ecHypoxanthine.mat
+xanthine 	C5H4N4O2	C00385	17712	152.11102	native	alkaloid	ecXanthine.mat
+glutathione 	C10H17N3O6S	C00051	16856	307.32	native	amino acid	ecGlutathione.mat
+L-alanine 	C3H7NO2	C00041	16977	89.09322	native	amino acid	ecAlanine.mat
+L-arginine 	C6H14N4O2	C00062	16467	174.201	native	amino acid	ecArginine.mat
+L-asparagine 	C4H8N2O3	C00152	17196	132.118001	native	amino acid	ecAsparagine.mat
+L-aspartate 	C4H7NO4	C00049	17053	133.1027	native	amino acid	ecAspartate.mat
+L-citrulline 	C6H13N3O3	C00327	16349	175.18584	native	amino acid	ecCitrulline.mat
+L-cysteine 	C3H7NO2S	C00097	17561	121.158	native	amino acid	ecCysteine.mat
+L-glutamate 	C5H8NO4	C00025	29985	146.12136	native	amino acid	ecGlutamate.mat
+L-glutamine 	C5H10N2O3	C00064	18050	146.14458	native	amino acid	ecGlutamine.mat
+L-glycine 	C2H5NO2	C00037	15428	75.06664	native	amino acid	ecGlycine.mat
+L-histidine 	C6H9N3O2	C00135	15971	155.15468	native	amino acid	ecHistidine.mat
+L-homoserine 	C4H9NO3	C00263	15699	119.1192	native	amino acid	ecHomoserine.mat
+L-isoleucine 	C6H13NO2	C00407	17191	131.175	native	amino acid	ecIsoleucine.mat
+L-leucine 	C6H13NO2	C00123	15603	131.17296	native	amino acid	ecLeucine.mat
+L-lysine 	C6H15N2O2	C00047	32551	147.19558	native	amino acid	ecLysine.mat
+L-methionine 	C5H11NO2S	C00073	16643	149.21238	native	amino acid	ecMethionine.mat
+L-phenylalanine 	C9H11NO2	C00079	17295	165.18918	native	amino acid	ecPhenylalanine.mat
+L-proline 	C5H9NO2	C00148	17203	115.1305	native	amino acid	ecProline.mat
+L-serine 	C3H7NO3	C00065	17115	105.09262	native	amino acid	ecSerine.mat
+L-threonine 	C4H9NO3	C00188	16857	119.1192	native	amino acid	ecThreonine.mat
+L-tryptophan 	C11H12N2O2	C00078	16828	204.22526	native	amino acid	ecTryptophan.mat
+L-tyrosine 	C9H11NO3	C00082	17895	181.18858	native	amino acid	ecTyrosine.mat
+L-valine 	C5H11NO2	C00183	16414	117.14638	native	amino acid	ecValine.mat
+ornithine 	C5H13N2O2	C01602	46912	133.169	native	amino acid	ecOrnithine.mat
+putrescine 	C4H14N2	C00134	326268	90.1674	native	bioamine	ecPutrescine.mat
+spermine 	C10H30N4	C00750	45725	206.372	native	bioamine	ecSpermine.mat
+Free fatty acids				396.64836	native	fatty acids and lipids	ecFFAs.mat
+laurate 	C12H23O2	C02679	18262	199.31	native	fatty acids and lipids	ecLaurate.mat
+oleate 	C18H34O2	C00712	16196	282.4614	native	fatty acids and lipids	ecOleate.mat
+palmitoleate 	C16H29O2	C08362	32372	253.40026	native	fatty acids and lipids	ecPalmitoleate.mat
+succinate 	C4H4O4	C00042	30031	116.07216	native	fatty acids and lipids	ecSuc-reTCA.mat
+triacylglycerol 	C6H5O6R3	C00422	17855	173.1003	native	fatty acids and lipids	ectriacylglycerol.mat
+guanine 	C5H5N5O	C00242	16235	151.126	native	nucleic acid	ecGuanine.mat
+thymidine 	C10H14N2O5	C00214	17748	242.2286	native	nucleic acid	ecThymidine.mat
+(S)-lactate 	C3H6O3	C00186	16651	89.07	native	organic acid	ecLactate.mat
+(S)-malate 	C4H6O5	C00149	15589	132.07156	native	organic acid	ecMalate.mat
+2-oxoglutarate 	C5H6O5	C00026	16810	144.08226	native	organic acid	ecOxoglutarate.mat
+acetate 	C2H4O2	C00033	15366	60.052	native	organic acid	ecAcetate.mat
+citrate 	C6H8O7	C00158	16947	189.0997	native	organic acid	ecCitrate.mat
+fumarate 	C4H4O4	C00122	18012	116.0722	native	organic acid	ecFumaric_acid.mat
+glycolate 	C2H4O3	C00160	17497	76.05136	native	organic acid	ecGlycolate.mat
+hexanoate 	C6H12O2	C01585	17120	115.15034	native	organic acid	ecHexanoate.mat
+pyruvate 	C3H3O3	C00022	15361	87.05412	native	organic acid	ecPyruvate.mat
+acetaldehyde 	C2H4O	C00084	15343	44.05256	native	other	ecAcetaldehyde.mat
+urea 	CH4N2O	C00086	16199	60.05534	native	other	ecUrea.mat
+ergosterol 	C28H44O	C01694 	16933	396.64836	native	other	ecErgosterol.mat
+L-phenylacetylcarbinol 	C9H10O2			1	heterologous	alcohol	ecL_PAC.mat
+n-butanol 	C4H10O	C06142	28885	1	heterologous	alcohol	ecn-Butanol.mat
+(S)-Reticuline 	C19H23NO4	C02105	16718	1	heterologous	alkaloid	ec(S)-reticuline.mat
+psilocybin 	C12H17N2O4P	C07576	8614	284.248101	heterologous	alkaloid	ecPsilocybin.mat
+Nicotianamine 	C12H21N3O6	C05324	17721	1	heterologous	amino acid	ecNicotianamine.mat
+4-hydroxymandelic 	C8H8O4	C11527	16388	1	heterologous	aromatic	ec4-hydroxymandelic_acid.mat
+cinnamate 	C9H8O2	C00423	15669Ê	1	heterologous	aromatic	ecCinnamate.mat
+mandelic 	C8H8O3	C01984	17756	1	heterologous	aromatic	ecmandelic_acid.mat
+p-coumaric acid 	C9H8O3	C00811	32374	1	heterologous	aromatic	ecCoumaric_acid.mat
+rosmarinate 	C18H16O8	C01850	50371	1	heterologous	aromatic	ecRosmarinic_acid.mat
+Salidroside 	C14H20O7	C06046	9009	1	heterologous	aromatic	ecSalidroside.mat
+Tyrosol 	C8H10O2	C06044	1879	1	heterologous	aromatic	ecTyrosol.mat
+vanillinbetaglucoside				1	heterologous	aromatic	ecvanillin_beta_glucoside.mat
+ARA 	C20H32O2	C00219Ê	15843	1	heterologous	fatty acids and lipids	ecARA.mat
+DHA 	C22H32O2	C06429	28125	1	heterologous	fatty acids and lipids	ecDHA.mat
+EPA 	C20H30O2	C06428	28364	1	heterologous	fatty acids and lipids	ecEPA.mat
+docosanol 	C22H46O	D03884	31000	1	heterologous	alcohol	ecDocosanol.mat
+catechin 	C15H14O6	C06562	15600	1	heterologous	flavonoid	ecCatechin.mat
+genistein 	C15H10O5	C06563	28088	1	heterologous	flavonoid	ecGenistein.mat
+kaempferol 	C15H10O6	C05903	28499	1	heterologous	flavonoid	ecKaempferol.mat
+naringenin 	C15H12O5	C00509	17846	1	heterologous	flavonoid	ecNaringenin.mat
+quercetin 	C15H10O7	C00389	16243	1	heterologous	flavonoid	ecQuercetin.mat
+astaxanthin 	C40H52O4	C08580	40968	1	heterologous	terpene	ecAstaxanthin.mat
+betaxanthin 	C18H18N2O7	C08565	8341	1	heterologous	terpene	ecBetaxanthin.mat
+_-carotene 	C40H56	C02094	17579	1	heterologous	terpene	ecbeta_Carotene.mat
+artemisinic acid 	C15H22O2	C20309	63749	1	heterologous	terpene	ecArtemisinic_acid.mat
+3-hydroxypropanoate 	C3H6O3	C01013	16510	1	heterologous	organic acid	ec3HP-asp.mat
+3-hydroxypropanoate 	C3H6O3	C01013	16510	1	heterologous	organic acid	ec3HP-malcoa.mat
+Adipic acid 	C6H10O4	D08839Ê	30832	1	heterologous	organic acid	ecAdipic_acid.mat
+"cis,cis-muconate "	C6H6O4	C02480	16508	1	heterologous	organic acid	eccis_Muconate.mat
+Itaconic acid 	C5H6O4	C00490	17240	1	heterologous	organic acid	ecItaconic_acid.mat
+Ethylene 	C2H4	C06547	18153	1	heterologous	other	ecEthylene.mat
+"1,3,5-trihydroxyxanthone "	C13H8O5	C10094	514	1	heterologous	other	ecXanthone.mat
+glucagon 	C153H225N43O49S	C01501	5391	1	heterologous	protein	ecGlucagon.mat
+Human Serum Albumin				1	heterologous	protein	ecHSA.mat
+hemoglobin 		C01708Ê	5656	1	heterologous	protein	ecHemoglobin.mat
+lactase 		EC 3.2.1.23		1	heterologous	protein	ecLactase.mat
+_-Amylase 	-	ECÊ3.2.1.1	-	1	heterologous	protein	ecalpha_Amylase.mat
+resveratrol 	C14H12O3	C03582	27881	1	heterologous	other	ecResveratrol.mat
+alpha-Farnesene 	C15H24	C09665	10280	1	heterologous	terpene	ecFarnesene.mat
+amorphadiene 	C15H24	C16028	52026	1	heterologous	terpene	ecAmorphadiene.mat
+Geraniol 	C10H18O	C01500	17447	1	heterologous	terpene	ecGeraniol.mat
+Limonene 	C10H16	C06078	15384	1	heterologous	terpene	ecLimonene.mat
+linalool 	C10H18O	C03985	17580	1	heterologous	terpene	ecLinalool.mat
+lupeol 	C30H50O	C08628	6570	1	heterologous	terpene	ecLupeol.mat
+Oleanolic acid 	C30H48O3	C17148	37659	1	heterologous	terpene	ecOleanolate.mat
+patchoulol 	C15H26O	C19755	7940	1	heterologous	terpene	ecPatchoulol.mat
+protopanaxadiol 	C30H52O3	C20715Ê	75950	1	heterologous	terpene	ecProtopanaxadiol.mat
+Santalene 	C15H24	C19736		1	heterologous	terpene	ecSantalene.mat
+_-Amyrin 	C30H50O	C08616	10352	1	heterologous	terpene	ecbeta_Amyrin.mat
+_-ionone 	C13H20O	C12287	32325	1	heterologous	terpene	ecbeta_Ionone.mat
