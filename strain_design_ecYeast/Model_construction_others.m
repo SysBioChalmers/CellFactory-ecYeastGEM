@@ -3487,9 +3487,8 @@ model.metComps(4164)=1;
 model.metComps(4165)=1;
 model.metComps(4166)=1;
 model.metComps(4167)=1;
-model.metComps(4168)=1;
+model.metComps(4168)=3;
 model.metComps(4169)=3;
-model.metComps(4170)=3;
 cd ../../strain_design_ecYeast
 c_sourceID = 'D-glucose exchange (reversible)';
 model = lychangeMedia_batch(model,c_sourceID,'YEP');
