@@ -31,7 +31,7 @@ if (exists("RStudio.Version")){
   setwd(getSrcDirectory()[1])
 }
 
-
+# check the input!!!!!!!!
 # merge all the ECC result together
 # datafile
 ECC_dir <- "../results/ECC/"
