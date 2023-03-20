@@ -1,103 +1,103 @@
-Name	Formula	KEGG_ID	CHEBI_ID	MW	Group	class	cFlux_l	Pburden
-L-phenylacetylcarbinol 	C9H10O2	NA	NA	150.174	heterologous	alcohol	1.000001	0.014792885
-n-butanol 	C4H10O	C06142	28885	74.23	heterologous	alcohol	1.000001	0.103616368
-docosanol 	C22H46O	D03884	31000	326.61	heterologous	alcohol	1.000001	0.103616368
-"(R,R)-2,3-butanediol "	C4H10O2	C03044	16982	90.121	native	alcohol	1.000001	0.015256105
-2-phenylethanol 	C8H10O	C05853	49000	122.1644	native	alcohol	1.000001	0.022914826
-glycerol 	C3H8O3	C00116	17754	92.09382	native	alcohol	1.000001	0.020257565
-isoamylol 	C5H12O	C07328	15837	88.14818	native	alcohol	1.000001	0.021304922
-isobutanol 	C4H10O	C14710	46645	74.1216	native	alcohol	1.000001	0.019170236
-(S)-Reticuline 	C19H23NO4	C02105	16718	329.39	heterologous	alkaloid	1.000001	0.103616368
-psilocybin 	C12H17N2O4P	C07576	8614	284.248101	heterologous	alkaloid	1.000001	0.103616368
-cinnamoyltropine	C17H22ClNO2	NA	NA	307.82	heterologous	alkaloid	1.000001	0.103616368
-choline 	C5H14NO	C00114	15354	104.1708	native	alkaloid	1.000001	0.103616368
-hypoxanthine 	C5H4N4O	C00262	17368	136.11162	native	alkaloid	1.000001	0.060841956
-xanthine 	C5H4N4O2	C00385	17712	152.11102	native	alkaloid	1.000001	0.081692813
-Nicotianamine 	C12H21N3O6	C05324	17721	303.3116	heterologous	amino acid	1.000001	0.103616368
-ergothioneine	C9H15N3O2S	C05570	4828	229.3	heterologous	amino acid	1.000001	0.103616368
-glutathione 	C10H17N3O6S	C00051	16856	307.32	native	amino acid	1.000001	0.023403737
-L-alanine 	C3H7NO2	C00041	16977	89.09322	native	amino acid	0.880975979	0.017627512
-L-arginine 	C6H14N4O2	C00062	16467	174.201	native	amino acid	0.75213194	0.022961154
-L-asparagine 	C4H8N2O3	C00152	17196	132.118001	native	amino acid	0.763536609	0.023552966
-L-aspartate 	C4H7NO4	C00049	17053	133.1027	native	amino acid	0.888393414	0.018069622
-L-citrulline 	C6H13N3O3	C00327	16349	175.18584	native	amino acid	0.796355311	0.023728228
-L-cysteine 	C3H7NO2S	C00097	17561	121.158	native	amino acid	1.000001	0.027979229
-L-glutamate 	C5H8NO4	C00025	29985	146.12136	native	amino acid	1.000001	0.016975572
-L-glutamine 	C5H10N2O3	C00064	18050	146.14458	native	amino acid	0.831964624	0.017874115
-L-glycine 	C2H5NO2	C00037	15428	75.06664	native	amino acid	0.744306619	0.019059889
-L-histidine 	C6H9N3O2	C00135	15971	155.15468	native	amino acid	0.819683561	0.032433725
-L-homoserine 	C4H9NO3	C00263	15699	119.1192	native	amino acid	1.000001	0.021067794
-L-isoleucine 	C6H13NO2	C00407	17191	131.175	native	amino acid	1.000001	0.025930672
-L-leucine 	C6H13NO2	C00123	15603	131.17296	native	amino acid	1.000001	0.02035329
-L-lysine 	C6H15N2O2	C00047	32551	147.19558	native	amino acid	0.990642426	0.032483046
-L-methionine 	C5H11NO2S	C00073	16643	149.21238	native	amino acid	1.000001	0.028524166
-L-phenylalanine 	C9H11NO2	C00079	17295	165.18918	native	amino acid	1.000001	0.023058753
-L-proline 	C5H9NO2	C00148	17203	115.1305	native	amino acid	1.000001	0.027624857
-L-serine 	C3H7NO3	C00065	17115	105.09262	native	amino acid	0.868257425	0.020570532
-L-threonine 	C4H9NO3	C00188	16857	119.1192	native	amino acid	1.000001	0.022329668
-L-tryptophan 	C11H12N2O2	C00078	16828	204.22526	native	amino acid	1.000001	0.044631916
-L-tyrosine 	C9H11NO3	C00082	17895	181.18858	native	amino acid	1.000001	0.023313159
-L-valine 	C5H11NO2	C00183	16414	117.14638	native	amino acid	1.000001	0.019042726
-ornithine 	C5H13N2O2	C01602	46912	133.169	native	amino acid	1.000001	0.051974524
-4-hydroxymandelic 	C8H8O4	C11527	16388	168.148	heterologous	aromatic	1.000001	0.024121638
-cinnamate 	C9H8O2	C00423	15669	148.1586	heterologous	aromatic	1.000001	0.023282418
-mandelic acid	C8H8O3	C01984	17756	152.1473	heterologous	aromatic	1.000001	0.026285042
-p-coumaric acid 	C9H8O3	C00811	32374	164.0473	heterologous	aromatic	1.000001	0.103616368
-rosmarinate 	C18H16O8	C01850	50371	360.31	heterologous	aromatic	1.000001	0.103616368
-Salidroside 	C14H20O7	C06046	9009	300.307	heterologous	aromatic	1.000001	0.103616368
-Tyrosol 	C8H10O2	C06044	1879	138.164	heterologous	aromatic	1.000001	0.103616368
-vanillinbetaglucoside		NA	NA	314.29	heterologous	aromatic	1.000001	0.103616368
-beta-ionone 	C13H20O	C12287	32325	192.3	heterologous	aromatic	1.000001	0.103616368
-putrescine 	C4H14N2	C00134	326268	90.1674	native	bioamine	1.000001	0.029361615
-spermine 	C10H30N4	C00750	45725	206.372	native	bioamine	1.000001	0.05759381
-ARA 	C20H32O2	C00219�	15843	304.474	heterologous	fatty acids and lipids	1.000001	0.103616368
-DHA 	C22H32O2	C06429	28125	328.488	heterologous	fatty acids and lipids	1.000001	0.103616368
-EPA 	C20H30O2	C06428	28364	302.451	heterologous	fatty acids and lipids	1.000001	0.103616368
-Free fatty acids	NA	NA	NA	396.64836	native	fatty acids and lipids	1.000001	0.033327747
-laurate 	C12H23O2	C02679	18262	199.31	native	fatty acids and lipids	1.000001	0.103616368
-oleate 	C18H34O2	C00712	16196	282.4614	native	fatty acids and lipids	1.000001	0.041204227
-palmitoleate 	C16H29O2	C08362	32372	253.40026	native	fatty acids and lipids	1.000001	0.040900845
-triacylglycerol 	C6H5O6R3	C00422	17855	173.1003	native	fatty acids and lipids	1.000001	0.032817429
-ergosterol 	C28H44O	C01694 	16933	396.64836	native	fatty acids and lipids	1.000001	0.063064889
-catechin 	C15H14O6	C06562	15600	290.26	heterologous	flavonoid	1.000001	0.103616368
-genistein 	C15H10O5	C06563	28088	270.241	heterologous	flavonoid	1.000001	0.103616368
-kaempferol 	C15H10O6	C05903	28499	286.23	heterologous	flavonoid	1.000001	0.103616368
-naringenin 	C15H12O5	C00509	17846	272.257	heterologous	flavonoid	1.000001	0.103616368
-quercetin 	C15H10O7	C00389	16243	302.236	heterologous	flavonoid	1.000001	0.103616368
-Adipic acid 	C6H10O4	D08839�	30832	146.14	heterologous	organic acid	1.000001	0.019650363
-"cis,cis-muconate"	C6H6O4	C02480	16508	142.11	heterologous	organic acid	1.000001	0.018355383
-Itaconic acid 	C5H6O4	C00490	17240	130.1	heterologous	organic acid	1.000001	0.053438727
-caffeicacid	NA	NA	NA	180.16	heterologous	organic acid	1.000001	0.103616368
-succinate 	NA	NA	NA	118.09	native	organic acid	1.000001	0.023136357
-(S)-lactate 	C3H6O3	C00186	16651	89.07	native	organic acid	1.000001	0.017223147
-(S)-malate 	C4H6O5	C00149	15589	132.07156	native	organic acid	1.000001	0.023326227
-2-oxoglutarate 	C5H6O5	C00026	16810	144.08226	native	organic acid	1.000001	0.017167332
-acetate 	C2H4O2	C00033	15366	60.052	native	organic acid	1.000001	0.016120555
-citrate 	C6H8O7	C00158	16947	189.0997	native	organic acid	1.000001	0.02067829
-fumarate 	C4H4O4	C00122	18012	116.0722	native	organic acid	1.000001	0.023338619
-glycolate 	C2H4O3	C00160	17497	76.05136	native	organic acid	1.000001	0.026281894
-hexanoate 	C6H12O2	C01585	17120	115.15034	native	organic acid	1.000001	0.103616368
-pyruvate 	C3H3O3	C00022	15361	87.05412	native	organic acid	1.000001	0.035660753
-resveratrol 	C14H12O3	C03582	27881	228.25	heterologous	stilbenoids	1.000001	0.103616368
-astaxanthin 	C40H52O4	C08580	40968	596.841	heterologous	terpene	1.000001	0.103616368
-betaxanthin 	C18H18N2O7	C08565	8341	358.3	heterologous	terpene	1.000001	0.103616368
-beta-carotene 	C40H56	C02094	17579	536.8726	heterologous	terpene	1.000001	0.103616368
-artemisinic acid 	C15H22O2	C20309	63749	234.33	heterologous	terpene	1.000001	0.047282247
-alpha-Farnesene 	C15H24	C09665	10280	204.36	heterologous	terpene	1.000001	0.073988322
-amorphadiene 	C15H24	C16028	52026	204.351	heterologous	terpene	1.000001	0.041114597
-Geraniol 	C10H18O	C01500	17447	154.25	heterologous	terpene	1.000001	0.039731506
-Limonene 	C10H16	C06078	15384	136.24	heterologous	terpene	1.000001	0.055742533
-linalool 	C10H18O	C03985	17580	154.25	heterologous	terpene	1.000001	0.103616368
-lupeol 	C30H50O	C08628	6570	426.72	heterologous	terpene	1.000001	0.103616368
-Oleanolic acid 	C30H48O3	C17148	37659	456.7	heterologous	terpene	1.000001	0.103616368
-patchoulol 	C15H26O	C19755	7940	222.36	heterologous	terpene	1.000001	0.103616368
-protopanaxadiol 	C30H52O3	C20715�	75950	460.73	heterologous	terpene	1.000001	0.103616368
-Santalene 	C15H24	C19736	NA	204.35	heterologous	terpene	1.000001	0.066178806
-beta-Amyrin 	C30H50O	C08616	10352	426.72	heterologous	terpene	1.000001	0.051198918
-glycyrrhetinic_acid	NA	NA	NA	470.7	heterologous	terpene	1.000001	0.103616368
-lycopene	NA	NA	NA	536.873	heterologous	terpene	1.000001	0.103616368
-miltiradiene	NA	NA	NA	272.5	heterologous	terpene	1.000001	0.103616368
-nootkatone	NA	NA	NA	218.33	heterologous	terpene	1.000001	0.103616368
-squalene	NA	NA	NA	410.73	heterologous	terpene	1.000001	0.103616368
-taxadien-5alphayl-acetate	NA	NA	NA	330.5	heterologous	terpene	1.000001	0.103616368
-valencene	NA	NA	NA	204.35	heterologous	terpene	1.000001	0.103616368
+Name	Formula	KEGG_ID	CHEBI_ID	MW	Group	class	cFlux_l	Pburden	ecModel	internal_ids
+L-phenylacetylcarbinol 	C9H10O2	NA	NA	150.174	heterologous	alcohol	1.000001	0.014792885	ecL_PAC.mat	l_pac
+n-butanol 	C4H10O	C06142	28885	74.23	heterologous	alcohol	1.000001	0.103616368	ecn-Butanol.mat	n_butanol
+docosanol 	C22H46O	D03884	31000	326.61	heterologous	alcohol	1.000001	0.103616368	ecDocosanol.mat	docosanol
+"(R,R)-2,3-butanediol "	C4H10O2	C03044	16982	90.121	native	alcohol	1.000001	0.015256105	"ecR,R-2,3-butanediol.mat"	rrbutanediol
+2-phenylethanol 	C8H10O	C05853	49000	122.1644	native	alcohol	1.000001	0.022914826	ec2-phenylethanol.mat	phenylethanol
+glycerol 	C3H8O3	C00116	17754	92.09382	native	alcohol	1.000001	0.020257565	ecGlycerol.mat	glycerol
+isoamylol 	C5H12O	C07328	15837	88.14818	native	alcohol	1.000001	0.021304922	ec3-methylbutanol.mat	methylbutanol
+isobutanol 	C4H10O	C14710	46645	74.1216	native	alcohol	1.000001	0.019170236	ecIsobutanol.mat	isobutanol
+(S)-Reticuline 	C19H23NO4	C02105	16718	329.39	heterologous	alkaloid	1.000001	0.103616368	ecS_reticuline.mat	s_reticuline
+psilocybin 	C12H17N2O4P	C07576	8614	284.248101	heterologous	alkaloid	1.000001	0.103616368	ecPsilocybin.mat	psilocybin
+cinnamoyltropine	C17H22ClNO2	NA	NA	307.82	heterologous	alkaloid	1.000001	0.103616368	ecCinnamoyltropine.mat	cinnamoyltropine
+choline 	C5H14NO	C00114	15354	104.1708	native	alkaloid	1.000001	0.103616368	ecCholine.mat	choline
+hypoxanthine 	C5H4N4O	C00262	17368	136.11162	native	alkaloid	1.000001	0.060841956	ecHypoxanthine.mat	hypoxanthine
+xanthine 	C5H4N4O2	C00385	17712	152.11102	native	alkaloid	1.000001	0.081692813	ecXanthine.mat	xanthine
+Nicotianamine 	C12H21N3O6	C05324	17721	303.3116	heterologous	amino acid	1.000001	0.103616368	ecNicotianamine.mat	nicotianamine
+ergothioneine	C9H15N3O2S	C05570	4828	229.3	heterologous	amino acid	1.000001	0.103616368	ecErgothioneine.mat	ergothioneine
+glutathione 	C10H17N3O6S	C00051	16856	307.32	native	amino acid	1.000001	0.023403737	ecGlutathione.mat	glutathione
+L-alanine 	C3H7NO2	C00041	16977	89.09322	native	amino acid	0.880975979	0.017627512	ecAlanine.mat	alanine
+L-arginine 	C6H14N4O2	C00062	16467	174.201	native	amino acid	0.75213194	0.022961154	ecArginine.mat	arginine
+L-asparagine 	C4H8N2O3	C00152	17196	132.118001	native	amino acid	0.763536609	0.023552966	ecAsparagine.mat	asparagine
+L-aspartate 	C4H7NO4	C00049	17053	133.1027	native	amino acid	0.888393414	0.018069622	ecAspartate.mat	aspartate
+L-citrulline 	C6H13N3O3	C00327	16349	175.18584	native	amino acid	0.796355311	0.023728228	ecCitrulline.mat	citrulline
+L-cysteine 	C3H7NO2S	C00097	17561	121.158	native	amino acid	1.000001	0.027979229	ecCysteine.mat	cysteine
+L-glutamate 	C5H8NO4	C00025	29985	146.12136	native	amino acid	1.000001	0.016975572	ecGlutamate.mat	glutamate
+L-glutamine 	C5H10N2O3	C00064	18050	146.14458	native	amino acid	0.831964624	0.017874115	ecglutamine.mat	glutamine
+L-glycine 	C2H5NO2	C00037	15428	75.06664	native	amino acid	0.744306619	0.019059889	ecGlycine.mat	glycine
+L-histidine 	C6H9N3O2	C00135	15971	155.15468	native	amino acid	0.819683561	0.032433725	ecHistidine.mat	histidine
+L-homoserine 	C4H9NO3	C00263	15699	119.1192	native	amino acid	1.000001	0.021067794	ecHomoserine.mat	homoserine
+L-isoleucine 	C6H13NO2	C00407	17191	131.175	native	amino acid	1.000001	0.025930672	ecIsoleucine.mat	isoleucine
+L-leucine 	C6H13NO2	C00123	15603	131.17296	native	amino acid	1.000001	0.02035329	ecLeucine.mat	leucine
+L-lysine 	C6H15N2O2	C00047	32551	147.19558	native	amino acid	0.990642426	0.032483046	ecLysine.mat	lysine
+L-methionine 	C5H11NO2S	C00073	16643	149.21238	native	amino acid	1.000001	0.028524166	ecMethionine.mat	methionine
+L-phenylalanine 	C9H11NO2	C00079	17295	165.18918	native	amino acid	1.000001	0.023058753	ecPhenylalanine.mat	phenylalanine
+L-proline 	C5H9NO2	C00148	17203	115.1305	native	amino acid	1.000001	0.027624857	ecProline.mat	proline
+L-serine 	C3H7NO3	C00065	17115	105.09262	native	amino acid	0.868257425	0.020570532	ecSerine.mat	serine
+L-threonine 	C4H9NO3	C00188	16857	119.1192	native	amino acid	1.000001	0.022329668	ecThreonine.mat	threonine
+L-tryptophan 	C11H12N2O2	C00078	16828	204.22526	native	amino acid	1.000001	0.044631916	ecTryptophan.mat	tryptophan
+L-tyrosine 	C9H11NO3	C00082	17895	181.18858	native	amino acid	1.000001	0.023313159	ecTyrosine.mat	tyrosine
+L-valine 	C5H11NO2	C00183	16414	117.14638	native	amino acid	1.000001	0.019042726	ecValine.mat	valine
+ornithine 	C5H13N2O2	C01602	46912	133.169	native	amino acid	1.000001	0.051974524	ecOrnithine.mat	ornithine
+4-hydroxymandelic 	C8H8O4	C11527	16388	168.148	heterologous	aromatic	1.000001	0.024121638	ec4-hydroxymandelic_acid.mat	hydroxymandelic_acid
+cinnamate 	C9H8O2	C00423	15669	148.1586	heterologous	aromatic	1.000001	0.023282418	ecCinnamate.mat	cinnamate
+mandelic acid	C8H8O3	C01984	17756	152.1473	heterologous	aromatic	1.000001	0.026285042	ecmandelic_acid.mat	mandelic_acid
+p-coumaric acid 	C9H8O3	C00811	32374	164.0473	heterologous	aromatic	1.000001	0.103616368	ecCoumaric_acid.mat	coumaric_acid
+rosmarinate 	C18H16O8	C01850	50371	360.31	heterologous	aromatic	1.000001	0.103616368	ecRosmarinic_acid.mat	rosmarinic_acid
+Salidroside 	C14H20O7	C06046	9009	300.307	heterologous	aromatic	1.000001	0.103616368	ecSalidroside.mat	salidroside
+Tyrosol 	C8H10O2	C06044	1879	138.164	heterologous	aromatic	1.000001	0.103616368	ecTyrosol.mat	tyrosol
+vanillinbetaglucoside		NA	NA	314.29	heterologous	aromatic	1.000001	0.103616368	ecVanillin_beta_glucoside.mat	vanillin_beta_glucoside
+beta-ionone 	C13H20O	C12287	32325	192.3	heterologous	aromatic	1.000001	0.103616368	ecbeta_Ionone.mat	beta_ionone
+putrescine 	C4H14N2	C00134	326268	90.1674	native	bioamine	1.000001	0.029361615	ecPutrescine.mat	putrescine
+spermine 	C10H30N4	C00750	45725	206.372	native	bioamine	1.000001	0.05759381	ecSpermine.mat	spermine
+ARA 	C20H32O2	C00219�	15843	304.474	heterologous	fatty acids and lipids	1.000001	0.103616368	ecARA.mat	ara
+DHA 	C22H32O2	C06429	28125	328.488	heterologous	fatty acids and lipids	1.000001	0.103616368	ecDHA.mat	dha
+EPA 	C20H30O2	C06428	28364	302.451	heterologous	fatty acids and lipids	1.000001	0.103616368	ecEPA.mat	epa
+Free fatty acids	NA	NA	NA	396.64836	native	fatty acids and lipids	1.000001	0.033327747	ecFFAs.mat	ffas
+laurate 	C12H23O2	C02679	18262	199.31	native	fatty acids and lipids	1.000001	0.103616368	ecLaurate.mat	laurate
+oleate 	C18H34O2	C00712	16196	282.4614	native	fatty acids and lipids	1.000001	0.041204227	ecOleate.mat	oleate
+palmitoleate 	C16H29O2	C08362	32372	253.40026	native	fatty acids and lipids	1.000001	0.040900845	ecPalmitoleate.mat	palmitoleate
+triacylglycerol 	C6H5O6R3	C00422	17855	173.1003	native	fatty acids and lipids	1.000001	0.032817429	ectriacylglycerol.mat	triacylglycerol
+ergosterol 	C28H44O	C01694 	16933	396.64836	native	fatty acids and lipids	1.000001	0.063064889	ecErgosterol.mat	ergosterol
+catechin 	C15H14O6	C06562	15600	290.26	heterologous	flavonoid	1.000001	0.103616368	ecCatechin.mat	catechin
+genistein 	C15H10O5	C06563	28088	270.241	heterologous	flavonoid	1.000001	0.103616368	ecGenistein.mat	genistein
+kaempferol 	C15H10O6	C05903	28499	286.23	heterologous	flavonoid	1.000001	0.103616368	ecKaempferol.mat	kaempferol
+naringenin 	C15H12O5	C00509	17846	272.257	heterologous	flavonoid	1.000001	0.103616368	ecNaringenin.mat	naringenin
+quercetin 	C15H10O7	C00389	16243	302.236	heterologous	flavonoid	1.000001	0.103616368	ecQuercetin.mat	quercetin
+Adipic acid 	C6H10O4	D08839�	30832	146.14	heterologous	organic acid	1.000001	0.019650363	ecAdipic_acid.mat	adipic_acid
+"cis,cis-muconate"	C6H6O4	C02480	16508	142.11	heterologous	organic acid	1.000001	0.018355383	eccis_Muconate.mat	cis_muconate
+Itaconic acid 	C5H6O4	C00490	17240	130.1	heterologous	organic acid	1.000001	0.053438727	ecItaconic_acid.mat	itaconic_acid
+caffeicacid	NA	NA	NA	180.16	heterologous	organic acid	1.000001	0.103616368	ecCaffeic_acid.mat	caffeic_acid
+succinate 	NA	NA	NA	118.09	native	organic acid	1.000001	0.023136357	ecSuccinate.mat	succinate
+(S)-lactate 	C3H6O3	C00186	16651	89.07	native	organic acid	1.000001	0.017223147	ecLactate.mat	lactate
+(S)-malate 	C4H6O5	C00149	15589	132.07156	native	organic acid	1.000001	0.023326227	ecMalate.mat	malate
+2-oxoglutarate 	C5H6O5	C00026	16810	144.08226	native	organic acid	1.000001	0.017167332	ecOxoglutarate.mat	oxoglutarate
+acetate 	C2H4O2	C00033	15366	60.052	native	organic acid	1.000001	0.016120555	ecAcetate.mat	acetate
+citrate 	C6H8O7	C00158	16947	189.0997	native	organic acid	1.000001	0.02067829	ecCitrate.mat	citrate
+fumarate 	C4H4O4	C00122	18012	116.0722	native	organic acid	1.000001	0.023338619	ecFumaric_acid.mat	fumaric_acid
+glycolate 	C2H4O3	C00160	17497	76.05136	native	organic acid	1.000001	0.026281894	ecGlycolate.mat	glycolate
+hexanoate 	C6H12O2	C01585	17120	115.15034	native	organic acid	1.000001	0.103616368	ecHexanoate.mat	hexanoate
+pyruvate 	C3H3O3	C00022	15361	87.05412	native	organic acid	1.000001	0.035660753	ecPyruvate.mat	pyruvate
+resveratrol 	C14H12O3	C03582	27881	228.25	heterologous	stilbenoids	1.000001	0.103616368	ecResveratrol.mat	resveratrol
+astaxanthin 	C40H52O4	C08580	40968	596.841	heterologous	terpene	1.000001	0.103616368	ecAstaxanthin.mat	astaxanthin
+betaxanthin 	C18H18N2O7	C08565	8341	358.3	heterologous	terpene	1.000001	0.103616368	ecBetaxanthin.mat	betaxanthin
+beta-carotene 	C40H56	C02094	17579	536.8726	heterologous	terpene	1.000001	0.103616368	ecbeta_Carotene.mat	beta_carotene
+artemisinic acid 	C15H22O2	C20309	63749	234.33	heterologous	terpene	1.000001	0.047282247	ecArtemisinic_acid.mat	artemisinic_acid
+alpha-Farnesene 	C15H24	C09665	10280	204.36	heterologous	terpene	1.000001	0.073988322	ecFarnesene.mat	farnesene
+amorphadiene 	C15H24	C16028	52026	204.351	heterologous	terpene	1.000001	0.041114597	ecAmorphadiene.mat	amorphadiene
+Geraniol 	C10H18O	C01500	17447	154.25	heterologous	terpene	1.000001	0.039731506	ecGeraniol.mat	geraniol
+Limonene 	C10H16	C06078	15384	136.24	heterologous	terpene	1.000001	0.055742533	ecLimonene.mat	limonene
+linalool 	C10H18O	C03985	17580	154.25	heterologous	terpene	1.000001	0.103616368	ecLinalool.mat	linalool
+lupeol 	C30H50O	C08628	6570	426.72	heterologous	terpene	1.000001	0.103616368	ecLupeol.mat	lupeol
+Oleanolic acid 	C30H48O3	C17148	37659	456.7	heterologous	terpene	1.000001	0.103616368	ecOleanolate.mat	oleanolate
+patchoulol 	C15H26O	C19755	7940	222.36	heterologous	terpene	1.000001	0.103616368	ecPatchoulol.mat	patchoulol
+protopanaxadiol 	C30H52O3	C20715�	75950	460.73	heterologous	terpene	1.000001	0.103616368	ecProtopanaxadiol.mat	protopanaxadiol
+Santalene 	C15H24	C19736	NA	204.35	heterologous	terpene	1.000001	0.066178806	ecSantalene.mat	santalene
+beta-Amyrin 	C30H50O	C08616	10352	426.72	heterologous	terpene	1.000001	0.051198918	ecbeta_Amyrin.mat	beta_amyrin
+glycyrrhetinic_acid	NA	NA	NA	470.7	heterologous	terpene	1.000001	0.103616368	ecGlycyrrhetinic_acid.mat	glycyrrhetinic_acid
+lycopene	NA	NA	NA	536.873	heterologous	terpene	1.000001	0.103616368	ecLycopene.mat	lycopene
+miltiradiene	NA	NA	NA	272.5	heterologous	terpene	1.000001	0.103616368	ecMiltiradiene.mat	miltiradiene
+nootkatone	NA	NA	NA	218.33	heterologous	terpene	1.000001	0.103616368	ecNootkatone.mat	nootkatone
+squalene	NA	NA	NA	410.73	heterologous	terpene	1.000001	0.103616368	ecSqualene.mat	squalene
+taxadien-5alphayl-acetate	NA	NA	NA	330.5	heterologous	terpene	1.000001	0.103616368	ecTaxadien_5alpha_yl_acetate.mat	taxadien_alpha_yl_acetate
+valencene	NA	NA	NA	204.35	heterologous	terpene	1.000001	0.103616368	ecValencene.mat	valencene
