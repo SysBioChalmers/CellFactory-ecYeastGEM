@@ -99,7 +99,10 @@ data2 <- cbind(rownames(data2),data2)
 colnames(data2)[1] <- 'Chemical'
 data2 <- data2[order(data2$Chemical),] 
 #data2 <- data2[3:nrow(data2),]
-clusters <- read.csv('../data/product_clusters.txt',sep='\t',stringsAsFactors = TRUE)
+clusters <- read.csv('../results/cluster_strains/product_clusters.txt',sep='\t',stringsAsFactors = TRUE)
+data2$cluster <- clusters$cluster
+write.table(data2,'../results/prec_mTO_clusters.txt',sep='\t')
+
 
 chem_origin <- read.csv('../results/production_targets/chemicals_origin.txt',sep='\t',stringsAsFactors = FALSE)
 chem_origin <- chem_origin[order(chem_origin$b1),]

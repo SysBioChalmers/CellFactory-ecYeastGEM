@@ -35,7 +35,7 @@ chemicals_info$ecModel<- gsub(',','_',chemicals_info$ecModel)
 #chemicals_info$ecModel<- gsub('.mat','',chemicals_info$ecModel)
 
 #load targets matrix
-allTargetsMat <- read.csv('../results/production_targets/targetsMatrix_L2_discrete.txt',sep='\t',stringsAsFactors = TRUE)
+allTargetsMat <- read.csv('../results/production_targets/targetsMatrix_L3.txt',sep='\t',stringsAsFactors = TRUE)
 targetsMat    <- allTargetsMat
 cases <- ncol(targetsMat) - 4
 
@@ -74,14 +74,14 @@ p <- p+theme_minimal()+
   theme(axis.text.x = element_text(angle = 90, vjust = 1, 
                                    size = 28, hjust = 1),
         axis.text.y = element_text(size = 28))
-plotTitle <- paste('../results/plots/targets_ALL_distMat_L2_discrete.png',sep='')
+plotTitle <- paste('../results/plots/targets_ALL_distMat_L3_discrete.png',sep='')
 png(plotTitle,width = 6000, height = 6000)
 plot(p)
 dev.off()
 #Plot histogram of distances
 p <- ggplot(temp, aes(x=value)) + geom_histogram(binwidth=0.1,fill='grey')
 p <-  p + theme_bw(base_size = 2*12)+xlab('Gene expression distance') + ylab('Frequency')
-plotTitle <- paste('../results/plots/histogram_targetsSimilarity_L2_discrete.png',sep='')
+plotTitle <- paste('../results/plots/histogram_targetsSimilarity_L3_discrete.png',sep='')
 png(plotTitle,width = 600, height = 600)
 plot(p)
 dev.off()
@@ -95,7 +95,7 @@ p <- p+theme_minimal()+
   theme(axis.text.x = element_text(angle = 90, vjust = 1, 
                                    size = 28, hjust = 1),
         axis.text.y = element_text(size = 28))
-plotTitle <- paste('../results/plots/targets_ALL_distMat_simp_L2_discrete.png',sep='')
+plotTitle <- paste('../results/plots/targets_ALL_distMat_simp_L3.png',sep='')
 png(plotTitle,width = 6000, height = 6000)
 plot(p)
 dev.off()
@@ -108,7 +108,7 @@ targets.dist<- targets.dist %>% separate(variable, c("variable", "fam2"), "_fam_
 targets.dist$value <- targets.dist$value/max(targets.dist$value)
 #targets.dist$value <- 1-targets.dist$value
 #open fluxDist_dist matrix
-filename  <- paste('../results/fluxDist_distance_allChemicals_noProt.txt',sep='')
+filename  <- paste('../results/fluxDist_distance_allChemicals_noBio.txt',sep='')
 flux.dist <- read.csv(filename,sep='\t',stringsAsFactors = FALSE)
 rownames(flux.dist) <- flux.dist$Row
 flux.dist <- flux.dist[,2:ncol(flux.dist )]
@@ -141,19 +141,19 @@ newMatrix$related <- rep('No',nrow(newMatrix))
 newMatrix$related[indexes] <- 'Yes'
 newMatrix$distStoich <- newMatrix$distStoich/max(newMatrix$distStoich)
 #newMatrix$distStoich <- 1-newMatrix$distStoich 
-newMatrix <- newMatrix[newMatrix$distStoich<=0.25,]
+#newMatrix <- newMatrix[newMatrix$distStoich<=0.25,]
 
 p <- ggplot(newMatrix, aes(x=distStoich, y=distTargets,color=related)) +
   geom_point(size=1) +scale_color_manual(values=c(rgb(0.65,0.65,0.65,0.25),rgb(0.7,0,0.2,0.6))) + 
   theme_bw(base_size = 32) +
   xlab('Flux distance') + ylab('Gene expression distance') +geom_smooth(aes(group = 1),se=TRUE, fullrange=TRUE)
-plotName <- '../results/plots/gDist_vs_fDist_L2_discrete.pdf'
+plotName <- '../results/plots/gDist_vs_fDist_L3.pdf'
 pdf(plotName,width = 10, height = 7.5)
 plot(p)
 dev.off()
 distance.lm = lm(distStoich ~ distTargets, data=newMatrix)
 summary(distance.lm)$r.squared 
-#dev.off()
+dev.off()
 
 
 
