@@ -1,4 +1,4 @@
-function [bioYield,prod_yield, prod_rate,fluxDist,cFlux_l,cFlux_h,prot_yield] = calculate_potential(model,growthPos,targetIndex,CS_index,CS_MW,biomass,prot)
+function results = calculate_potential(model,growthPos,targetIndex,CS_index,CS_MW,biomass,prot)
 if nargin<7
     prot = false;
 if nargin<6
@@ -24,7 +24,6 @@ end
 %Get biomass yield for a unit glucose uptake rate
 solution  = solveLP(tempModel);
 bioYield  = abs(solution.x(growthPos)/(solution.x(CS_index)*CS_MW));
-%disp(['The maximum biomass yield is ' num2str(bioYield) '[g biomass/g carbon source]']);
 %fix suboptimal growth
 if biomass
     tempModel = setParam(tempModel,'lb',growthPos,0.5*solution.x(growthPos));
@@ -39,7 +38,6 @@ fluxDist   = table(tempModel.rxns,solution.x,'VariableNames',{'rxns' 'flux'});
 prod_yield = abs(solution.x(targetIndex)/(solution.x(CS_index)));
 prot_yield = abs(solution.x(protIndex)/(solution.x(CS_index)));
 cFlux_l    = solution.x(CS_index);
-%disp(['The maximum product yield is ' num2str(prod_yield) '[mol product/mol carbon source]']);
 %Get product max. rate for a unconstrained glucose uptake rate
 if isfield(model,'enzymes')
     tempModel = setParam(tempModel,'ub',CS_index,1000);
@@ -51,5 +49,12 @@ end
 solution  = solveLP(tempModel);
 prod_rate = solution.x(targetIndex);
 cFlux_h     = solution.x(CS_index);
-%disp(['The maximum production rate is ' num2str(prod_rate) '[mmol/gDW h]']);
+
+results.bioYield   = bioYield;
+results.prod_yield = prod_yield;
+results.prod_rate  = prod_rate;
+results.fluxDist   = fluxDist;
+results.cFlux_l    = cFlux_l;
+results.cFlux_h    = cFlux_h;
+results.prot_yield = prot_yield;
 end
