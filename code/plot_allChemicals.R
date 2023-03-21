@@ -63,7 +63,7 @@ pie <- p + coord_polar("y", start=0,direction=1)
 pie <- pie + blank_theme 
 pie <- pie +scale_fill_manual(values = getPalette(colourCount))#scale_fill_viridis(discrete = T, option = "E")
 pie <- pie + labs(fill = 'Chemical families')
-png('../results/plots/chemicalFamilies.png',width = 800, height = 800)
+pdf('../results/plots/chemicalFamilies.pdf',width = 8, height = 8)
 plot(pie)
 dev.off()
 

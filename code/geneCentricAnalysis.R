@@ -37,7 +37,7 @@ blank_theme <- theme_minimal()+
   )
 
 #load matrix indicating the relation between gene targets and chemical products
-allTargetsMat <- read.csv('../results/production_targets/targetsMatrix_L3_discrete.txt',sep='\t',stringsAsFactors = TRUE)
+allTargetsMat <- read.csv('../results/production_targets/targetsMatrix_L3.txt',sep='\t',stringsAsFactors = TRUE)
 prot_lims <- read.csv('../results/production_capabilities/proteinLimitations_allChemicals.txt',sep='\t',stringsAsFactors = TRUE)
 #scatter plot for prot limitations
 p <- ggplot(prot_lims, aes(x=prot_lims$Prod_FC, y=prot_lims$Prot_cost)) +
@@ -144,21 +144,22 @@ for (fam in families){
       p <- ggplot(topGenesDF, aes(fill=Family, x=(geneNames))) + 
         geom_bar(colour = 'black',position="stack", stat="count") + theme_bw(base_size = 2*12)+
         xlab('') + ylab('Number of chemicals') + scale_fill_manual(values = getPalette(colourCount))
-      png(paste('../results/gene_centric/topGenes_chemFam_',action,'_',fam,'.png',sep=''),width = 920, height = 600)
+      pdf(paste('../results/gene_centric/topGenes_chemFam_',action,'_',fam,'.pdf',sep=''),width = 12, height = 6)
       plot(p)
       dev.off()
     }
     #Get histogram for product-gene specificity
     if (fam=='ALL'){
-      #matrix  <- targetsMat[,5:ncol(targetsMat)]
-      sumas   <- rowSums(matrix)[rowSums(matrix)>0]
+      #matrix  <- targetsMat[,5:ncol(targetsMat)
+      nonZ <- rowSums(matrix[,1:(ncol(matrix)-1)])>0
+      sumas   <- rowSums(matrix[,1:(ncol(matrix)-1)])[nonZ]
     #  sumas   <- rowSums(matrix)#[rowSums(matrix)>0]
       geneNmr <- c()
-      newDF <- data.frame(chemicals = rownames(matrix)[rowSums(matrix)>0],productNmr =sumas)
+      newDF <- data.frame(chemicals = rownames(matrix)[nonZ],productNmr =sumas)
       p <- ggplot(newDF, aes(x=productNmr)) + geom_histogram(binwidth=1,fill=barColor)
       p <-  p + theme_bw(base_size = 2*12)+xlab('Number of products') + ylab('Number of gene targets')
       #p <-  p + xlim(c(1,100))
-      png(paste('../results/gene_centric/target_specificity_',action,'.png',sep=''),width = 650, height = 600)
+      pdf(paste('../results/gene_centric/target_specificity_',action,'.pdf',sep=''),width = 6.5, height = 6)
       plot(p)
       dev.off()
     }
@@ -179,8 +180,8 @@ commonTargets <- as.data.frame(commonTargets,stringsAsFactors = FALSE)
 #plot spider plot
 colors_border = c(rgb(0.8,0.6,0,0.8), rgb(0.4,0.4,0.40,0.8),rgb(0.1,0,0.8,0.8))
 colors_in     = c(rgb(0.8,0.6,0,0.2), rgb(0.4,0.4,0.40,0.2),rgb(0.1,0,0.8,0.2))
-plotName <- '../results/plots/panGenes_by_chemFam.png'
-png(plotName,width = 550, height = 500)
+plotName <- '../results/plots/panGenes_by_chemFam.pdf'
+pdf(plotName,width = 5.5, height = 5)
 radarchart( commonTargets , axistype=1 , 
             #custom polygon
             pcol=colors_border , pfcol=colors_in , plwd=4 , plty=1,
@@ -188,7 +189,7 @@ radarchart( commonTargets , axistype=1 ,
             cglcol="grey", cglty=1, axislabcol="black", caxislabels=seq(minLim,maxLim*100,(maxLim-minLim)/4), cglwd=1.5,
             #custom labels
             vlcex=2, calcex = 1.5)
-plot(p)
+#plot(p)
 legend(x=1.1, y=1.1, legend = rows, bty = "n", pch=20 , col=colors_in , text.col = "black", cex=1.5, pt.cex=3)
 dev.off()
 

@@ -67,7 +67,7 @@ for (j in 1:length(families)){
    targets_summary <- targets_summary[targets_summary$chemClass==chemClass,]
   }
   nCompounds <- nrow(targets_summary)
-  if (nCompounds>=1){
+  if (nrow(targets_summary)>=1){
     
     vector1 <- c(targets_summary$cand_1_OE,targets_summary$cand_2_OE,targets_summary$cand_3_OE)
     vector2 <- c(rep('Lvl1',nCompounds),rep('Lvl2',nCompounds),rep('Lvl3',nCompounds))
@@ -106,8 +106,8 @@ for (j in 1:length(families)){
     p <- p + theme_bw(base_size = 2*12) + xlab('') +
     ylab('# of targets')+ylim(c(0,100))+labs(fill = 'Modification') +
     scale_fill_manual(values = c(colors[11],colors[6],colors[3]))
-    plotTitle <- paste('../results/plots/targetsNumber/targetDistributions',famCode,'.png',sep='')
-    png(plotTitle,width = 600, height = 600)
+    plotTitle <- paste('../results/plots/targetsNumber/targetDistributions',famCode,'.pdf',sep='')
+    pdf(plotTitle,width = 8, height = 6)
     plot(p)
     dev.off()
     medianTargets <- rbind(medianTargets,OErow,KDrow,KOrow)

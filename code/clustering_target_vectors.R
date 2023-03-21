@@ -87,12 +87,13 @@ duplicates <- newDF[duplicates,]
 newDF <- newDF[idxs,]
 #load origin data
 chem_origin <- read.csv('../results/production_targets/chemicals_origin.txt',sep='\t',stringsAsFactors = FALSE)
+chem_origin <- chem_origin[order(chem_origin$b1),]
 origin <- chem_origin$b3 == 'native'
 origin <- as.numeric(origin)
 
 prodCap <- read.csv('../results/production_capabilities/prodCapabilities_allChemicals.txt',sep='\t',stringsAsFactors = FALSE)
-
-idxs <- which(prodCap$cFlux_l>= 0.99)
+prodCap <- prodCap[order(prodCap$compound),]
+idxs <- which(prodCap$cFlux_l>= 0.95)
 Plim <- rep(1,nrow(prodCap))
 Plim[idxs] <- 0
 
@@ -114,8 +115,8 @@ for (i in 1:nrow(newDF)){
 origin <- origin[idxs]
 Plim <- Plim[idxM]
 #Add product family info
-origin<-origin[order(newDF$family)]
-newDF <- newDF[order(newDF$family),]
+#origin<-origin[order(newDF$family)]
+#newDF <- newDF[order(newDF$family),]
 famLvls <- as.numeric(unique(factor(newDF$family)))
 famLvls <- (unique(factor(newDF$family)))
 famLvls <- famLvls[order(famLvls)]
@@ -123,8 +124,8 @@ newDF$family <- factor(newDF$family,levels = famLvls)
 orgStr <- as.character(origin)
 orgStr[orgStr=='1']<-'N'
 orgStr[orgStr=='0']<-'H'
-Plim[Plim==0] <- 5
-Plim[Plim==1] <- 10
+Plim[Plim==0] <- 8
+Plim[Plim==1] <- 12
 newDF$Plim <- factor(Plim,levels = unique(Plim))
 newDF$origin <- factor(orgStr,levels = unique(orgStr))
 #PCA
@@ -140,7 +141,7 @@ for (i in 1:25)
 {
 set.seed(18) # Set a seed if you want reproducible results
 perplxty <- i
-tsne_out <- Rtsne(newDF[,1:(ncol(newDF)-4)],dims=2,perplexity=perplxty, max_iter = 100000,theta=0.1) # Run TSNE
+tsne_out <- Rtsne(newDF[,1:(ncol(newDF)-4)],dims=2,perplexity=perplxty, max_iter = 10000,theta=0.1) # Run TSNE
 tsne_plot <- data.frame(x = tsne_out$Y[,1], y = tsne_out$Y[,2],newDF$chemical,newDF$family,newDF$origin,newDF$origin)
 #Define color pallete
 colourCount2 <- length(unique(tsne_plot$family))
@@ -150,7 +151,7 @@ colnames(tsne_plot)[(ncol(tsne_plot)-1)]<- 'Plim'
 colnames(tsne_plot)[(ncol(tsne_plot))]<- 'origin'
 p <- plot_ly(tsne_plot,x=~x, y=~y, text =~newDF.chemical, type="scatter", mode="markers",symbol=~origin,symbols=c(8,20), color=~family,colors = getPalette2(colourCount),size=Plim)%>% 
 layout(title= list(text = paste('tsne_',i,'_perplexity')))
-plotTitle <- paste('../results/plots/cluster_analysis/tSNE_allTargets_',i,'.pdf',sep='')
+#plotTitle <- paste('../results/plots/cluster_analysis/tSNE_allTargets_',i,'.pdf',sep='')
 #orca(p, plotTitle,width=900,height=600)
 name <-paste("../results/plots/tsne/tsne_",i,".html",sep = '')
 saveWidget(p, name, selfcontained = F, libdir = "lib")
