@@ -1,4 +1,4 @@
-b1	b2	b3
+chemical	class	native
 acetate	8	native
 adipic_acid	8	heterologous
 alanine	3	native

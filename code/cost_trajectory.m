@@ -1,3 +1,4 @@
+function cost_trajectory
 clear
 current = pwd;
 %subSystems_GEM = mapEnzymeSubSystems(ecModel_batch.enzymes,ecModel_batch);
@@ -11,6 +12,7 @@ biomass_prod = false;
 mkdir('../results/production_capabilities/yieldPlots')
 products = [{'Psilocybin'};{'Miltiradiene'};{'Valencene'}];
 MW = [0.28425, 0.2725, 0.20435];
+
 for i = 1:length(products)
     
     prod = products{i};
@@ -73,3 +75,4 @@ for i = 1:length(products)
 end
 prod_capabilities.Properties.VariableNames = {'product' 'OEf' 'Pcost' 'Ccost' 'c_uptake' 'p_rate' 'O2_in'};
 writetable(prod_capabilities,'../results/production_capabilities/mutant_costs.txt','Delimiter','\t','QuoteStrings',false)
+end

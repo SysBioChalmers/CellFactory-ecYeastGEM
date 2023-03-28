@@ -1,3 +1,4 @@
+function comparativeYieldPlots
 clear
 current = pwd;
 %subSystems_GEM = mapEnzymeSubSystems(ecModel_batch.enzymes,ecModel_batch);
@@ -134,4 +135,5 @@ for i=1:height(chemicals_info)
         sprintf(['GEM file for: ' compound ' not found.\n'])
         failed = [failed; {compound}];
     end
+end
 end

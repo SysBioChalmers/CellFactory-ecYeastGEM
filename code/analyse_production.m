@@ -1,3 +1,4 @@
+function analyse_production
 clear
 current = pwd;
 chemicals_info = readtable('../data/chemicals_info.txt','Delimiter','\t');
@@ -213,4 +214,4 @@ distMat.Properties.RowNames = fluxes.Properties.VariableNames(2:end);
 writetable(fluxes,file4,'QuoteStrings',false,'WriteRowNames',true,'WriteVariableNames',true,'Delimiter','\t')
 writetable(prec_mTO,file5,'QuoteStrings',false,'WriteRowNames',true,'WriteVariableNames',true,'Delimiter','\t')
 writetable(distMat,file3,'QuoteStrings',false,'WriteRowNames',true,'WriteVariableNames',true,'Delimiter','\t')
-    
+end    

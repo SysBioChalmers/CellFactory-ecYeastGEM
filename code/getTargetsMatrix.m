@@ -1,4 +1,4 @@
-current = pwd;
+function getTargetsMatrix
 load('../ModelFiles/ecYeastGEM_batch.mat')
 [presence,iB] = ismember(ecModel_batch.genes,ecModel_batch.enzGenes);
 genesTable = table(ecModel_batch.genes,ecModel_batch.geneShortNames,'VariableNames',{'genes' 'shortNames'});
@@ -11,7 +11,10 @@ emptyCells = cellfun(@isempty,newCol);
 subSystems(emptyCells) = {''};
 genesTable.enzymes(presence) = ecModel_batch.enzymes(iB(iB~=0));
 genesTable.subSystems(presence) = subSystems(iB(iB~=0));
-origin = table();
+chemical = {};
+class    = {}; 
+native   = {};
+origin = table(chemical,class,native);
 %retrieve chemical classes info
 chemicals_info = readtable('../data/chemicals_info.txt','Delimiter','\t');
 comp_classes   = unique(chemicals_info.class);
@@ -70,7 +73,9 @@ for counter = 1:numel(resultFiles)
                 dRegs=candidates.genes(candidates.k_scores>0.05 & candidates.k_scores<=0.5);
                 [~,iA]=ismember(dRegs,genesTable.genes);
                 eval(['genesTable.' newStr '(iA(iA>0)) = 0.25;'])
-                origin = [origin;[chemical {class} native]];
+                if ~ismember(chemical,origin.chemical)
+                    origin = [origin;[chemical {class} native]];
+                end
                 %         catch
                 %            disp(chemical)
                 %         end
@@ -79,4 +84,7 @@ for counter = 1:numel(resultFiles)
     end
     writetable(genesTable,resultFiles{counter},'delimiter','\t','QuoteStrings',false)      
 end
-writetable(origin,'../results/production_targets/chemicals_origin.txt','delimiter','\t','QuoteStrings',false)
+writetable(origin,'../results/processed_results/chemicals_origin.txt','delimiter','\t','QuoteStrings',false)
+clear
+clc
+end

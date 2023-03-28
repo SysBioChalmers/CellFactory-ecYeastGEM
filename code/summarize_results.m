@@ -1,3 +1,4 @@
+function summarize_results
 cand_1_total = [];
 cand_1_OE    = [];
 cand_1_del   = [];
@@ -137,13 +138,13 @@ for i=1:length(nameFolds)
 end
 models = strrep(models,'_targets','');
 t = table(models,chemClass,cand_1_total,cand_1_OE,cand_1_dR,cand_1_del,cand_2_total,cand_2_OE,cand_2_dR,cand_2_del,cand_3_total,cand_3_OE,cand_3_dR,cand_3_del);
-writetable(t,'../results/production_targets/targets_summary.txt','delimiter','\t');
+writetable(t,'../results/processed_results/targets_summary.txt','delimiter','\t');
 
 t = table(del_genes,del_targets,subSystems_del,chem_class_del,chem_comp_del);
-writetable(t,'../results/production_targets/all_deletions.txt','delimiter','\t','QuoteStrings',false);
+writetable(t,'../results/processed_results/all_deletions.txt','delimiter','\t','QuoteStrings',false);
 
 t = table(dR_genes,dR_targets,subSystems_dR,chem_class_dR,chem_comp_dR);
-writetable(t,'../results/production_targets/all_downRegs.txt','delimiter','\t','QuoteStrings',false);
+writetable(t,'../results/processed_results/all_downRegs.txt','delimiter','\t','QuoteStrings',false);
 
 expression = '(\w+)''';
 OE_targets = regexprep(OE_targets,expression,'_');
@@ -153,4 +154,5 @@ OE_genes = strrep(OE_genes,'4"OMT','4_OMT');
 OE_genes = strrep(OE_genes,'F3"H','F3_H');
 
 t = table(OE_genes,OE_targets,subSystems_OE,chem_class_OE,chem_comp_OE);
-writetable(t,'../results/production_targets/all_OEs.txt','delimiter','\t','QuoteStrings',false);
+writetable(t,'../results/processed_results/all_OEs.txt','delimiter','\t','QuoteStrings',false);
+end
