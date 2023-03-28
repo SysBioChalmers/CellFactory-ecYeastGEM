@@ -167,9 +167,9 @@ end
 %
 mkdir('../results/production_capabilities')
 if mainPrec
-    file5 = '../results/production_capabilities/met_precursors_turnovers_allChemicals';
+    file5 = '../results/met_turnover/met_precursors_turnovers_allChemicals';
 else
-    file5 = '../results/production_capabilities/met_cofactors_turnovers_allChemicals';
+    file5 = '../results/met_turnover/met_cofactors_turnovers_allChemicals';
 end
 
 if biomass_prod
