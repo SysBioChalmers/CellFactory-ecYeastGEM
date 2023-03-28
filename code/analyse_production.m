@@ -14,7 +14,7 @@ fluxes             = table(rxns);
 families           = [];
 biomass_prod       = true;
 protFree           = false;
-mainPrec           = true;
+mainPrec           = false;
 Prot_cost          = []; 
 
 %list of 12  main metabolic precursors
