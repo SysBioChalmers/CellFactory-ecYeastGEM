@@ -1,40 +1,38 @@
 clear
 current = pwd;
 chemicals_info = readtable('../data/chemicals_info.txt','Delimiter','\t');
-clusters_info = readtable('../results/cluster_strains/product_clusters.txt','Delimiter','\t');
+clusters_info  = readtable('../results/cluster_strains/product_clusters.txt','Delimiter','\t');
 
 d    = dir('../results');
 isub = [d(:).isdir]; %# returns logical vector
 %load model files
-load('../ModelFiles/ecYeastGEM_batch.mat')
-load('../ModelFiles/yeastGEM.mat')
-%convert GEM to RAVEN format (for easy accession of grRules
-GEM  = ravenCobraWrapper(model);
+load('../ModelFiles/ecYeastGEM_batch.mat');
 %initialize variables
 prod_capabilities  = table();
 rxns               = ecModel_batch.rxns;
 fluxes             = table(rxns);
 families           = [];
 biomass_prod       = true;
-protFree           = true;
+protFree           = false;
+mainPrec           = true;
 Prot_cost          = []; 
+
 %list of 12  main metabolic precursors
-precursors = {'D-glucose 6-phosphate' 'D-fructose 6-phosphate' ...
-              'ribose-5-phosphate' 'D-erythrose 4-phosphate' ...
-              'glyceraldehyde 3-phosphate' '3-phosphonato-D-glycerate(3-)' ...
-              'phosphoenolpyruvate' 'pyruvate' ...
-              'acetyl-CoA' '2-oxoglutarate' ...
-              'succinyl-CoA' 'oxaloacetate'}; 
-compartments = [1 1 1 1 1 1 1 1 1 1 9 1];  
-%list of other relevant intracellular molecules to track         
-precursors = {'ATP' 'NADH' 'NADPH' 'coenzyme A' 'oxygen'}; 
+if mainPrec
+    precursors = {'D-glucose 6-phosphate' 'D-fructose 6-phosphate' ...
+                'ribose-5-phosphate' 'D-erythrose 4-phosphate' ...
+             	'glyceraldehyde 3-phosphate' '3-phosphonato-D-glycerate(3-)' ...
+                'phosphoenolpyruvate' 'pyruvate' ...
+                'acetyl-CoA' '2-oxoglutarate' ...
+                'succinyl-CoA' 'oxaloacetate'};   
+%list of other relevant intracellular molecules to track 
+else
+    precursors = {'ATP' 'NADH' 'NADPH' 'coenzyme A' 'oxygen'}; 
+end
+compartments = [1 1 1 1 1 1 1 1 1 1 9 1];
 prec_mTO   = table(precursors');
-
-
 %create directory for generation of yield plots
 mkdir('../results/production_capabilities/yieldPlots')
-
-% metTOsWT = [];
 ecModelWT = changeMedia_batch(ecModel_batch,'D-glucose exchange (reversible)','Min',1);
 growthPos = find(strcmpi(ecModelWT.rxnNames,'growth'));
 CS_index  = find(strcmpi(ecModelWT.rxnNames,'D-glucose exchange (reversible)'));
@@ -168,33 +166,36 @@ for i=1:height(chemicals_info)
 end
 %
 mkdir('../results/production_capabilities')
+if mainPrec
+    file5 = '../results/production_capabilities/met_precursors_turnovers_allChemicals';
+else
+    file5 = '../results/production_capabilities/met_cofactors_turnovers_allChemicals';
+end
+
 if biomass_prod
     file1 = '../results/production_capabilities/prodCapabilities_allChemicals_wBio.txt';
     file2 = '../results/production_capabilities/proteinLimitations_allChemicals_wBio.txt';
-    file3 = '../results/ecM.fluxDist_distance_allChemicals_wBio.txt';
-    file4 = '../results/ecM.fluxDistributions_allChemicals_wBio.txt';
-    file5 = '../results/met_precursors_turnovers_allChemicals_wBio.txt';
-    file5 = '../results/met_cofactors_turnovers_allChemicals_wBio.txt';
+    file3 = '../results/production_capabilities/fluxDist_distance_allChemicals_wBio.txt';
+    file4 = '../results/production_capabilities/fluxDistributions_allChemicals_wBio.txt';
+    file5 = [file5 '_wBio.txt'];
 
 elseif biomass_prod==false
     file1 = '../results/production_capabilities/prodCapabilities_allChemicals_noBio.txt';
     file2 = '../results/production_capabilities/proteinLimitations_allChemicals_noBio.txt';
-    file3 = '../results/ecM.fluxDist_distance_allChemicals_noBio.txt';
-    file4 = '../results/ecM.fluxDistributions_allChemicals_noBio.txt';
-    file5 = '../results/met_precursors_turnovers_allChemicals_noBio.txt';
-    %file5 = '../results/met_cofactors_turnovers_allChemicals_noBio.txt';
+    file3 = '../results/production_capabilities/fluxDist_distance_allChemicals_noBio.txt';
+    file4 = '../results/production_capabilities/fluxDistributions_allChemicals_noBio.txt';
+    file5 = [file5 '_noBio.txt'];
 
 elseif protFree
-    file1 = '../results/production_capabilities/prodCapabilities_allChemicals.txt';
-    file2 = '../results/production_capabilities/proteinLimitations_allChemicals.txt';
-    file3 = '../results/ecM.fluxDist_distance_allChemicals_noProt.txt';
-    file4 = '../results/ecM.fluxDistributions_allChemicals.txt';
-    file5 = '../results/met_cofactors_turnovers_allChemicals.txt';
-    %file5 = '../results/met_precursors_turnovers_allChemicals.txt';
+    file1 = '../results/production_capabilities/prodCapabilities_allChemicals_noProt.txt';
+    file2 = '../results/production_capabilities/proteinLimitations_allChemicals_noProt.txt';
+    file3 = '../results/production_capabilities/fluxDist_distance_allChemicals_noProt.txt';
+    file4 = '../results/production_capabilities/fluxDistributions_allChemicals_noProt.txt';
+    file5 = [file5 '_noProt.txt']
 
 end
     
-prod_capabilities.Properties.VariableNames = {'compound' 'type' 'family' 'MW' 'bioYield_gem' 'prodYield_gem' 'prodRate_gem' 'bioYield_ec' 'prodYield_ec' 'prodecM.prod_rate' 'cFlux_l' 'ecM.cFlux_h' 'Pburden' 'CCMratio' 'protScaled'};
+prod_capabilities.Properties.VariableNames = {'compound' 'type' 'family' 'MW' 'bioYield_gem' 'prodYield_gem' 'prodRate_gem' 'bioYield_ec' 'prodYield_ec' 'prod_rate_ec' 'cFlux_l_ec' 'cFlux_h_ec' 'Pburden' 'CCMratio' 'protScaled'};
 writetable(prod_capabilities,file1,'QuoteStrings',false,'WriteRowNames',true,'WriteVariableNames',true,'Delimiter','\t')
 %calculate euclidean distance matrix (flux distributions)
 [m,n]   = size(fluxes);

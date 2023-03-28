@@ -1,6 +1,6 @@
-function results = calculate_potential(model,growthPos,targetIndex,CS_index,CS_MW,biomass,prot)
+function results = calculate_potential(model,growthPos,targetIndex,CS_index,CS_MW,biomass,protFree)
 if nargin<7
-    prot = false;
+    protFree = false;
 if nargin<6
     biomass = true;
 end
@@ -28,7 +28,7 @@ bioYield  = abs(solution.x(growthPos)/(solution.x(CS_index)*CS_MW));
 if biomass
     tempModel = setParam(tempModel,'lb',growthPos,0.5*solution.x(growthPos));
 end
-if prot
+if protFree
     tempModel = setParam(tempModel,'ub',find(contains(model.rxns,'prot_pool_exchange')),1000);
 end
 %get max. product yield
