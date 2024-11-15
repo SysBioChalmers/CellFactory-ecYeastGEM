@@ -31,7 +31,7 @@ chemicals_info <- read_delim(filename,"\t", escape_double = FALSE, na = "NA",tri
 #reformat
 #chemicals_info$ecModel<- gsub('-','_',chemicals_info$ecModel)
 #chemicals_info$ecModel<- gsub('(S)_reticuline','S_reticuline',chemicals_info$ecModel)
-chemicals_info$ecModel<- gsub(',','_',chemicals_info$ecModel)
+#chemicals_info$ecModel<- gsub(',','_',chemicals_info$ecModel)
 #chemicals_info$ecModel<- gsub('ecGlutamate.mat','ecGlutamate',chemicals_info$ecModel)
 #chemicals_info$ecModel<- gsub('.mat','',chemicals_info$ecModel)
 # data <- read.csv('../results/met_cofactors_turnovers_allChemicals.txt',sep='\t',stringsAsFactors = TRUE)
@@ -59,25 +59,6 @@ chemicals <- c('G6P','R5P','G3P','PEP','CoA','SUC','F6P','E4P','3PG','PYR','OXO'
 rownames(data) <- chemicals
 #Isolate numeric values
 t.data <- t(data)
-#get a heatmap
-colores <- cividis(100)
-plotName <- '../results/met_turnover/cof_turnover_heatmap.pdf'
-plotName <- '../results/met_turnover/met_turnover_heatmap.pdf'
-
-pdf(plotName,width = 6, height = 20)
-
-pheatmap(t.data,
-                  method = c("pearson"),
-                  clustering_method = "complete",
-                  cluster_row = T,
-                  cluster_col = T,
-                  show_rownames = T,
-                  show_colnames = T,
-                  legend = T,
-                  fontsize = 12,
-                  color = colores)
-
-dev.off()
 df <- t(data)
 #t.data <- t.data[,2:ncol(t.data)]
 PCAdata   <- prcomp(t.data, center = FALSE,scale = FALSE,retx=TRUE)

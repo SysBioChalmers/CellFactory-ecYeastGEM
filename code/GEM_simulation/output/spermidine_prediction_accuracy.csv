@@ -1,0 +1,6 @@
+method,accuracy,targets number,hit validated targets number
+optForce,0.04,125,5
+FSEOF,0.102803738317757,107,11
+ecFactory L1,0.10975609756097561,82,9
+ecFactory L2,0.175,40,7
+ecFactory L3,0.25,24,6

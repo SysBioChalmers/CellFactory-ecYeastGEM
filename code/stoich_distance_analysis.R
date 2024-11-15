@@ -35,7 +35,7 @@ chemicals_info$ecModel<- gsub(',','_',chemicals_info$ecModel)
 #chemicals_info$ecModel<- gsub('.mat','',chemicals_info$ecModel)
 
 #load targets matrix
-allTargetsMat <- read.csv('../results/production_targets/targetsMatrix_L2_discrete.txt',sep='\t',stringsAsFactors = TRUE)
+allTargetsMat <- read.csv('../results/production_targets/targetsMatrix_L2.txt',sep='\t',stringsAsFactors = TRUE)
 targetsMat    <- allTargetsMat
 cases <- ncol(targetsMat) - 4
 
