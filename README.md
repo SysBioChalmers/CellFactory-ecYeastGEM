@@ -140,8 +140,6 @@ This repository contains the data and scripts necessary for _in silico_ strain d
 Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/CellFactory-yeast-GEM/blob/master/.github/CONTRIBUTING.md) to get started.
   
 ## Contributors
-
-* [Feiran Li](https://www.sysbio.se/people/feiran-li) ([@feiranl](https://github.com/feiranl)), Chalmers University of Technology, Gothenburg Sweden
 * [Hongzhong Lu](https://www.sysbio.se/people/hongzhong-lu) ([@hongzhonglu](https://github.com/hongzhonglu)), Chalmers University of Technology, Gothenburg Sweden
 * [Ivan Domenzain](https://github.com/IVANDOMENZAIN) ([@IVANDOMENZAIN](https://github.com/IVANDOMENZAIN)), Chalmers University of Technology, Gothenburg Sweden
 * [Yao Lu](hhttps://www.sysbio.se/people/yao-lu), Chalmers University of Technology, Gothenburg Sweden
