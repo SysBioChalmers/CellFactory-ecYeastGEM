@@ -1,0 +1,10 @@
+rxn_IDs	rxnNames	K_score	grRules	rxn_formula
+r_1574_REV	2-isopropylmalate transport (reversible)	0.269590342403813	YKL120W	2-isopropylmalate[m] => 2-isopropylmalate[c]
+r_1260_REV	spermidine transport (reversible)	1000.0	YBR132C or YHL016C or YKR039W or YLL028W or YOR273C or YPL274W	H+[e] + spermidine[c] => H+[c] + spermidine[e]
+r_1237	ornithine transport	9.46777024363706	YOR130C	H+[c] + ornithine[m] => H+[m] + ornithine[c]
+r_1112_REV	AKG transporter, mitochonrial (reversible)	0.0	YMR241W	2-oxoglutarate[m] + citrate[c] => 2-oxoglutarate[c] + citrate[m]
+r_1115	ammonia transport	1.92839126137055	YDR384C or YGR121C or YNL142W or YPR138C	ammonium[e] => ammonium[c]
+r_1194	L-glutamate transport	6.82536751065409	YPR021C	L-glutamate[c] => L-glutamate[m]
+r_2034	pyruvate transport	0.275984919890105	(YGL080W and YGR243W) or (YGL080W and YHR162W)	H+[c] + pyruvate[c] => H+[m] + pyruvate[m]
+r_1244	phosphate transport	57.8510430835296	YBR296C or YCR037C or YJL198W or YML123C or YNR013C	H+[e] + phosphate[e] => H+[c] + phosphate[c]
+r_1129	coenzyme A transport	0.269590342403813	YHR002W	coenzyme A[c] => coenzyme A[m]

@@ -114,6 +114,59 @@ for (j in 1:length(families)){
     medianTargets <- rbind(medianTargets,OErow,KDrow,KOrow)
   } 
 }
+# plot the total families
+targets_summary <- targetsDF
+nCompounds <- nrow(targets_summary)
+famCode   <- 'all_chem'
+
+vector1 <- c(targets_summary$cand_1_OE,targets_summary$cand_2_OE,targets_summary$cand_3_OE)
+vector2 <- c(rep('Lvl1',nCompounds),rep('Lvl2',nCompounds),rep('Lvl3',nCompounds))
+vector3 <- c(rep('OE',length(vector1)))
+df      <- data.frame(vector1,vector2,vector3)
+values  <- cbind(mean(targets_summary$cand_1_OE),mean(targets_summary$cand_2_OE),mean(targets_summary$cand_3_OE))
+values  <- round(values,2)
+str     <- 'all_chem'
+type    <- 'OE'
+OErow   <- data.frame(str,values,type)
+
+vector1 <- c(targets_summary$cand_1_dR,targets_summary$cand_2_dR,targets_summary$cand_3_dR)
+vector2 <- c(rep('Lvl1',nCompounds),rep('Lvl2',nCompounds),rep('Lvl3',nCompounds))
+vector3 <- c(rep('KD',length(vector1)))
+df2     <- data.frame(vector1,vector2,vector3)
+values  <- cbind(mean(targets_summary$cand_1_dR),mean(targets_summary$cand_2_dR),mean(targets_summary$cand_3_dR))
+values  <- round(values,2)
+str     <- 'all_chem'
+type <- 'KD'
+KDrow   <- data.frame(str,values,type)
+
+vector1 <- c(targets_summary$cand_1_del,targets_summary$cand_2_del,targets_summary$cand_3_del)
+vector2 <- c(rep('Lvl1',nCompounds),rep('Lvl2',nCompounds),rep('Lvl3',nCompounds))
+vector3 <- c(rep('KO',length(vector1)))
+df3     <- data.frame(vector1,vector2,vector3)
+df      <- rbind(df,df2,df3)
+values  <- cbind(mean(targets_summary$cand_1_del),mean(targets_summary$cand_2_del),mean(targets_summary$cand_3_del))
+values  <- round(values,2)
+str     <- 'all_chem'
+type <- 'KO'
+KOrow   <- data.frame(str,values,type)
+
+colors <- cividis(11)
+#Generate box plots with all targets (KOs, KDs and OEs)
+p <-ggplot(df, aes(x=vector2, y=vector1, fill=vector3)) + geom_boxplot()
+p <- p + theme_bw(base_size = 2*12) + xlab('') +
+  ylab('# of targets')+ylim(c(0,100))+labs(fill = 'Modification') +
+  scale_fill_manual(values = c(colors[11],colors[6],colors[3]))
+# check if directory doesn't exist, create it
+if (!dir.exists("../results/plots/targetsNumber")) {
+  dir.create("../results/plots/targetsNumber")
+}
+plotTitle <- paste('../results/plots/targetsNumber/targetDistributions',famCode,'.png',sep='')
+png(plotTitle,width = 600, height = 600)
+plot(p)
+dev.off()
+medianTargets <- rbind(medianTargets,OErow,KDrow,KOrow)
+
+
 colnames(medianTargets) <- c('family','Lvl1','Lvl2','LVl3','type')
 
 actions <- c('OE','KD','KO')
