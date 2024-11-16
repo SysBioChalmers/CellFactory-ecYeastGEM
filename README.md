@@ -12,6 +12,10 @@ This repository contains the data and scripts necessary for _in silico_ strain d
 
 ## Product list:
 
+* Note:
+The predicted gene targets for the following bioproducts can be found in https://github.com/SysBioChalmers/CellFactory-ecYeastGEM/tree/dev/results/production_targets. For each bioproduct, the gene targets could be divided into three levels- L1, L2, and L3 based on the filtration steps in ecFactory (https://github.com/SysBioChalmers/ecFactory).”
+
+
 | Name | Formula | KEGG ID | CHEBI ID | Group | class | Gene target |
 |:-------:|:--------------:|:---------:|:----------:|:-----:|:-----:|:-----:|
 | (R,R)-2,3-butanediol  | C4H10O2 | C03044 | 16982 | native | alcohol | Link |
