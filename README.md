@@ -8,7 +8,7 @@ This repository contains the data and scripts necessary for _in silico_ strain d
 
 **Category:** Constraint-based methods; **Utilisation:** predictive simulation, _in silico_ strain design; **Field:** cell factory _in silico_ design; Metabolic engineering **Model Source:** [yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM),[ecYeastGEM](https://github.com/SysBioChalmers/ecModels); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; enzyme constraints.
 
-* Last update: 2021-04-21
+* Last update: 2025-02-12
 
 ## Product list:
 
