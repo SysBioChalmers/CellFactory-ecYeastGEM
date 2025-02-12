@@ -2,7 +2,7 @@
 
 * Brief Model Description:
 
-This repository contains the data and scripts necessary for _in silico_ strain design for enhanced production of +100 chemicals using an enzyme-constrained model of *S. cerevisiae's* metabolism.
+This repository contains the data and scripts necessary for _in silico_ strain design for enhanced production of +103 chemicals using an enzyme-constrained model of *S. cerevisiae's* metabolism.
 
 * KeyWords:
 
